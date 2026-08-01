@@ -1,0 +1,21 @@
+From: Mia Chen <mia.chen@pinehavenmotion.example>
+To: Internal Audit <internal.audit@pinehavenmotion.example>
+Date: Wed, 17 Jun 2026 08:48:00 +0000
+Subject: ERP access review evidence
+Message-ID: <pinehaven-2026-06-17-024@pinehavenmotion.example>
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Internal Audit,
+
+Business users should be mapped to approved application roles; direct databas=
+e access remains restricted to designated ERP platform administrators. Please=
+ retain the role report and exception approvals.
+
+Please identify the owner and completion date for anything that remains open.
+
+Thanks,
+Mia Chen
+Controller
+Pinehaven Motion Systems

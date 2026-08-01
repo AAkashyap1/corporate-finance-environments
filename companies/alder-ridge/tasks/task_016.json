@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_016",
+  "slug": "june-close-cross-ledger-controls",
+  "title": "June close cross-ledger control reconciliation",
+  "workflow": "controllership",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Perform the June 30 close-control reconciliation across cash, AR, AP, debt, and the proposed WIP close.\n\nBegin with the close-status note and controller requests in `Requests/`. Identify the current cash forecast, AR roll-forward, AP cutoff workpaper, debt schedule, WIP policy, PM consolidation, commercial log/support packets, board plan, and flash-review materials. Several nearby files are prior-period, stale, or submitted Q1 versions; determine their permitted use from cutoff and in-file status.\n\nUse the contractor-accounting MCP trial balance and subledgers as the authority for posted actuals. Reconcile each workpaper population, then carry the independently rebuilt proposed WIP adjustment into pro-forma June operating income. Posted and pro-forma values must remain separately labeled.\n\nReport each system/workpaper balance and its control delta, plus the proposed WIP adjustment and pro-forma operating income. Do not edit files or post entries.\n\nReturn only one JSON object in your final response with exactly these keys: `system_cash`, `cash_workpaper`, `cash_delta`, `system_ar`, `ar_workpaper`, `ar_delta`, `system_ap`, `ap_workpaper`, `ap_delta`, `system_debt`, `debt_schedule`, `debt_delta`, `proposed_wip_adjustment`, `pro_forma_operating_income`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_016",
+    "agent_visible": false
+  }
+}

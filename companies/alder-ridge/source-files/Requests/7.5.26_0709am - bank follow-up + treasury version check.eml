@@ -1,0 +1,11 @@
+From: Daniel Cho <dcho@alderridgemech.example>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.example>
+Cc: treasury@alderridgemech.example; project.accounting@alderridgemech.example
+Date: Sun, 5 Jul 2026 06:18:00 -0700
+Subject: bank follow-up + treasury version check
+
+The bank follow-up did not change the executed covenant thresholds or our treasury policy. Use the dated controller-tied support book for forecasts and the portal extract for settlements; retain the v6 copy only to understand the change history. Existing hedges stay designated, the operating cash floor is not investable, and revolver draws occur only after pre-financing cash is calculated.
+
+Please keep expected-cost recommendations separate from downside-policy compliance and show the binding credit or liquidity constraint where one applies. For the new work, interest and unused fees feed back into weekly cash before draws, FX compliance is tested by exposure, and same-day liquidity uses settlement eligibility and policy value factors.
+
+Daniel

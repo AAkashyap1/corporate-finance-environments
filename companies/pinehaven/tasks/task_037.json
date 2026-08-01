@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_037",
+  "slug": "product-family-margin-bridge",
+  "title": "Build the product-family margin bridge",
+  "workflow": "commercial-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet",
+    "target_path": "Deliverables/product-family-margin-bridge.xlsx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Build the product-family margin bridge**.\n\nUse ERP invoice, shipment, customer, item/site standard-cost, BOM, and routing data. Reconcile to the customer/product profitability and standard-cost rollup workbooks and the pricing/margin review email.\n\nAuthoritative reconciliation source set:\n- `ERP customer/product profitability reports`\n- `Finance/Analyses/Customer Profitability.xlsx`\n- `Finance/Analyses/Product Family Profitability.xlsx`\n- `Communications/2026-06-15 - Product family margin review.eml`\n\nCalculation basis: Use posted customer-invoice lines from 2026-01-01 through 2026-06-30 and current item/site standard cost.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"group_by\": \"product_family\"\n}\n```\n\nRequired bridge: Include all five product-family rows and a formula-driven revenue-to-standard-cost-to-gross-profit bridge. Show family margin and ranking and reconcile the family schedule to company totals.\n\n\nCreate exactly this deliverable: `Deliverables/product-family-margin-bridge.xlsx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"revenue\", \"standard_cost\", \"gross_profit\", \"gross_margin\", \"units\", \"group_count\", \"top_group\", \"top_group_revenue\", \"lowest_margin_group\", \"lowest_margin\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nWorkbook contract:\n- Include sheets named `Read Me`, `Inputs`, `Analysis`, and `Control`.\n- Preserve source lineage in Inputs with source object/file, date or version, and extraction cutoff.\n- Put scenario assumptions in visibly distinct input cells. Drive Analysis and Control by formulas; do not hard-code calculated results.\n- Include a decision-ready summary, the requested detail/bridge, and at least one useful native chart that clarifies a KPI, comparison, trend, composition, or control result.\n- Include zero-difference controls tying every central metric to an independent authoritative total; a pass-through reference is not a control.\n- Use professional number formats, frozen headers, filters where useful, readable widths, and no formula errors. Wrap or widen populated text cells so labels, dates, and source notes are not clipped by adjacent values.\n- Round monetary controls to cents before evaluating zero/tolerance or PASS/FAIL results.\n- Normalize dates to a common date type before comparing them; do not compare mixed text and date representations.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/product-family-margin-bridge.xlsx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_037",
+    "agent_visible": false
+  }
+}

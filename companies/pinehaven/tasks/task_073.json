@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_073",
+  "slug": "abl-borrowing-base-availability",
+  "title": "ABL borrowing-base availability",
+  "workflow": "treasury",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **ABL borrowing-base availability**.\n\nUse ERP cash, debt register, AR/AP aging, inventory, P&L, balance sheet, and fixed assets together with the treasury framework and executed debt summaries. Keep posted balances distinct from forecast assumptions.\n\nAuthoritative reconciliation source set:\n- `ERP open-AR, inventory, reserve, and revolver reports`\n- `Finance/Analyses/Cash and Debt.xlsx`\n- `Corporate Memos/Treasury and Liquidity Framework.docx`\n- `Treasury/2022 Sponsor Term Loan Summary.pdf`\n- `Treasury/2025 ABL Facility Summary.pdf`\n- `Treasury/Equipment Facility Summary.pdf`\n- `Communications/2026-02-12 - ABL availability package.eml`\n\nCalculation basis: Treat positive open AR and positive on-hand inventory as the gross and eligible collateral pools. Report those pools before advance rates in `eligible_ar` and `eligible_inventory`; apply the stated rates only when calculating the gross `borrowing_base`. Use the commitment and outstanding principal from the Active Revolver. Calculate `availability = max(0, min(borrowing_base, revolver_commitment) - revolver_outstanding)`; availability may never exceed undrawn committed capacity.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"ar_advance_rate\": 0.85,\n  \"inventory_advance_rate\": 0.55\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"gross_open_ar\", \"eligible_ar\", \"gross_inventory\", \"eligible_inventory\", \"ar_advance_rate\", \"inventory_advance_rate\", \"borrowing_base\", \"revolver_commitment\", \"revolver_outstanding\", \"availability\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_073",
+    "agent_visible": false
+  }
+}

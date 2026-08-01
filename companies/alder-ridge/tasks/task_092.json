@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_092",
+  "slug": "create-acquisition-financing-ic-memo",
+  "title": "Create the Pioneer financing and downside IC memo",
+  "workflow": "corporate-development",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "document_create",
+    "target_path": "Deliverables/Pioneer acquisition financing IC memorandum - 7.6.docx"
+  },
+  "prompt": "Create this file:\n`Deliverables/Pioneer acquisition financing IC memorandum - 7.6.docx`\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: determine which controller-tied workpapers and operating extracts are current, use prior versions only for permitted comparison, and resolve conflicts from dates, approvals, document status, and the management correspondence. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Build the deliverable from the shared company sources and do not copy an output produced by another task.\n\nCreate a concise investment-committee memorandum with `Executive Recommendation`, `Sources and Uses`, `Financing Economics`, `Base Case`, `Downside Case`, `Covenants and Liquidity`, `Decision Conditions`, and `Appendix: Source Reconciliation`. Add actual-funded financing fees to closing uses and fund them in approved source priority without exceeding commitments; do not deduct funded fees from ending cash twice. Include MCP-posted existing funded debt in gross leverage. Apply fees, interest, and amortization to actual funded amounts; debt-service coverage uses documented acquisition debt service because no existing-note service schedule is supplied. Test leverage, debt-service coverage, and minimum cash independently. Use a real Word table for Base/Downside metrics and clearly reject or condition any structure with a funding or guardrail failure.\n\nAlso include interest-rate stress, Year-2 amortization and working-capital burn, revolver backstop, and stressed approval conditions. Show the original-rate Downside case separately from the rate-stressed Downside case, including original-rate Downside cash headroom. Report original-rate Downside closing gross leverage before Year-1 amortization separately from any post-Year-1-amortization leverage view. Apply each annual amortization percent to the facility's original actual-funded closing principal in both years, capped at remaining principal; it is not a declining-balance percentage. Roll stressed Downside Year-1 ending cash into Year 2 and calculate Year-2 stressed interest on opening Year-2 principal after Year-1 amortization. Explicitly report Year-2 ending acquisition debt after scheduled amortization, excluding existing Alder Ridge debt and the revolver backstop, separately from Year-2 ending gross funded debt. Also report Year-2 stressed gross leverage, debt-service coverage, and cash headroom to the minimum, and include all three in the stressed compliance conclusion.\n\nDocument the controlling sources inside the deliverable. Recalculate or render as appropriate and save to the exact target path. The file is graded.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_092",
+    "agent_visible": false
+  }
+}

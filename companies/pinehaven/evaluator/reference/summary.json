@@ -1,0 +1,13 @@
+{
+  "output_modes": {
+    "console": 52,
+    "document": 10,
+    "erp": 8,
+    "presentation": 6,
+    "spreadsheet": 24
+  },
+  "schema_version": 1,
+  "sha256": "155cab344744eb3acb8a1cdaee5cd718c073a8fa9aaea2c224a639d494c918fd",
+  "tasks": 100,
+  "value_fields": 937
+}

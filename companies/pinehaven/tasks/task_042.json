@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_042",
+  "slug": "packaging-supplier-delivery-and-quality",
+  "title": "Packaging supplier delivery and quality",
+  "workflow": "procurement-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Packaging supplier delivery and quality**.\n\nUse ERP purchase orders, receipts, vendor invoices, standard material cost, supplier performance, quality status, and open commitments. Reconcile to the PPV and supplier-scorecard workbooks and match policy.\n\nAuthoritative reconciliation source set:\n- `ERP supplier-performance and receipt reports`\n- `Supply Chain/Analyses/Supplier Scorecard.xlsx`\n- `Corporate Memos/Supplier Risk Review.docx`\n- `Communications/2026-02-03 - Supplier delivery recovery.eml`\n\nCalculation basis: Use distinct receipts dated from 2026-01-01 through 2026-06-30. `vendor_count` is the number of distinct vendors with at least one qualifying receipt, and `receipt_count` is the number of distinct qualifying receipt IDs. `on_time_percent` is the pooled on-time receipt count divided by pooled `receipt_count`; `accepted_percent` is the pooled Accepted receipt count divided by pooled `receipt_count`—do not average vendor percentages. `receipt_value` is the sum of receipt-line quantity times receipt-line unit price. A receipt is on time only when it was received on or before the PO expected date. For each vendor, calculate `supplier_score = 0.5 * (on_time_receipts / vendor_receipts) + 0.5 * (accepted_receipts / vendor_receipts)` from unrounded count ratios. Select the lowest score, break an exact tie by ascending vendor ID, and return that decimal ratio rounded to 6 decimals in `worst_vendor_score`. Preserve supplier category exactly as recorded.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"category\": \"Packaging\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"vendor_count\", \"receipt_count\", \"on_time_percent\", \"accepted_percent\", \"receipt_value\", \"worst_vendor\", \"worst_vendor_score\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_042",
+    "agent_visible": false
+  }
+}

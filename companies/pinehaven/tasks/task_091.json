@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_091",
+  "slug": "integrated-june-executive-scorecard",
+  "title": "Integrated June executive scorecard",
+  "workflow": "executive-synthesis",
+  "difficulty": "expert",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Integrated June executive scorecard**.\n\nUse the full ERP and the June pre-close source package. Reconcile every headline KPI to its authoritative module, label assumptions and cutoffs, and keep May-closed versus June-pre-close status explicit.\n\nAuthoritative reconciliation source set:\n- `ERP authoritative June 30 and YTD reports across all modules`\n- `Presentations/2026-06 Preclose Operating Review.pptx`\n- `Communications/2026-06-29 - June 30 executive package.eml`\n\nCalculation basis: Use authoritative June 30/YTD modules, not stale presentation figures. For production variance, invoke the authoritative report with `settled_only=true`. For backlog, PPV, and production variance, use each report's exact scope totals, which aggregate atomic values before rounding once; do not sum displayed rounded detail rows. Return `period_start` as `2026-01-01`, `period_end` as `2026-06-30`, and `status` as `June pre-close`; do not imply that June is closed.\n\nNo additional management case inputs.\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"period_start\", \"period_end\", \"status\", \"ytd_revenue\", \"ytd_gross_profit\", \"ytd_gross_margin\", \"ytd_operating_income\", \"inventory\", \"wip\", \"backlog\", \"cash\", \"total_debt\", \"total_liquidity\", \"ytd_ppv\", \"ytd_production_variance\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_091",
+    "agent_visible": false
+  }
+}

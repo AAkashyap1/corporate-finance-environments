@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_029",
+  "slug": "executive-s-op-decision-deck",
+  "title": "Create the executive S&OP decision deck",
+  "workflow": "sop-reforecast",
+  "difficulty": "expert",
+  "output": {
+    "mode": "presentation",
+    "target_path": "Deliverables/executive-s-op-decision-deck.pptx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Create the executive S&OP decision deck**.\n\nUse the approved `2026-06-SOP` demand and planned-order version, current sales backlog, production orders, routings, work-center calendar, MRP action workbook, S&OP charter, and consensus demand plan.\n\nAuthoritative reconciliation source set:\n- `ERP forecast, backlog, planned-order, and capacity reports`\n- `Supply Chain/Analyses/Consensus Demand Plan.xlsx`\n- `Corporate Memos/S&OP Governance Charter.docx`\n\nCalculation basis: Use approved forecast version 2026-06-SOP for July through December 2026. Use the demand report's exact scope totals, which aggregate raw forecast rows before rounding; `item_count` is the distinct forecast item count, not the number of displayed month/site/family groups.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"capacity_recovery_plan_days\": 10\n}\n```\n\nDecision-deck scope: Bridge the approved consensus demand to company backlog, strict past-due backlog, the Dayton and Greenville Q3 work-center constraints, and the explicit MRP action-message population. The Decision and Actions slides must treat consensus demand as a planning baseline, not unconstrained supply, and assign owners and the supplied capacity-recovery timing. Forecast-only approval is insufficient.\n\n\nCreate exactly this deliverable: `Deliverables/executive-s-op-decision-deck.pptx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"forecast_units\", \"forecast_revenue\", \"forecast_months\", \"item_count\", \"average_price\", \"top_month\", \"top_month_revenue\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nPresentation contract:\n- Exactly 5 slides titled `Decision`, `Evidence`, `Economics`, `Risks`, and `Actions`.\n- Include exact central metrics, one native editable chart, one native editable table, a clear decision, named owners, timing, and source footnotes.\n- Use a coherent executive visual hierarchy; no screenshots of tables, overlapping objects, clipped text, placeholders, or unsupported claims.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/executive-s-op-decision-deck.pptx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_029",
+    "agent_visible": false
+  }
+}

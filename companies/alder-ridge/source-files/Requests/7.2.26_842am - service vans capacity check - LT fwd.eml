@@ -1,0 +1,11 @@
+From: Sofia Alvarez <salvarez@alderridgemech.example>
+To: Senior FP&A Analyst <finance.analysis@alderridgemech.example>
+Cc: Daniel Cho <dcho@alderridgemech.example>; service.operations@alderridgemech.example
+Date: Thu, 2 Jul 2026 08:42:31 -0700
+Subject: service vans capacity check - LT fwd
+
+Before we release the vans, please quantify what three staffed units could add at a 90% ramp using the current Q2 technician averages. Start with completed dispatch work orders and reconcile the service KPI extracts; Lisa's callback/pricing note controls the first-time-fix and operating-value definitions. Tie the technician population to active employees and check the fleet file and capital approval status.
+
+Keep labor-plus-material value labeled as an operating proxy, not GAAP revenue, and hold the current first-time-fix rate constant in the sensitivity. The latest ops review has context on callbacks and units out of service but is not the transaction source.
+
+Sofia

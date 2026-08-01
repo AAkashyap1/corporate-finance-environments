@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_089",
+  "slug": "carveout-standalone-tsa",
+  "title": "Carve-out standalone, TSA, and stranded-cost analysis",
+  "workflow": "corporate-development",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Rebuild the Service Division as a standalone carve-out and separate buyer, seller, and TSA economics.\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nReplace historical parent allocations with functional standalone cost estimates, calculate TSA fees only for covered months at contractual markup, keep seller stranded cost separate, probability-weight buyer cost takeout, and derive year-one after-tax cash flow after TSA and separation costs.\n\nDo not modify files or post transactions. Also apply readiness-based TSA exits, exit fees, stranded-cost remediation, savings, and a monthly buyer cash-recovery schedule. Keep the original Year-1 TSA output capped at twelve months, but calculate readiness-based TSA fees and savings against each function's full contractual term, including terms beyond month 12. Charge an exit fee only when readiness ends the TSA before that full term; model avoided fees only in the months actually avoided and do not annualize one-time savings.\n\nReturn only one JSON object with exactly these keys: `historical_allocations_removed`, `standalone_run_rate_cost`, `standalone_pro_forma_ebitda`, `seller_stranded_cost`, `year_1_tsa_fees`, `one_time_separation_cost`, `risk_adjusted_buyer_cost_takeout`, `year_1_after_tax_cash_flow_after_separation`, `buyer_cost_takeout_value`, `readiness_based_tsa_fees`, `tsa_early_exit_fees`, `tsa_cash_savings_vs_contract_maximum`, `seller_stranded_cost_remediated`, `seller_stranded_cost_remaining`, `buyer_separation_cash_recovery_month`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_089",
+    "agent_visible": false
+  }
+}

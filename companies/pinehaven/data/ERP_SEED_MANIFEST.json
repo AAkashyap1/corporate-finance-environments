@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven-motion-data-v1",
+  "snapshot": "2026-06-30-pre-close",
+  "database": {
+    "path": "company/seed/erp_seed.db",
+    "bytes": 107003904,
+    "sha256": "ff48615fc03fba57a0acf76a344bac45b31a822dde32f36e1e0c35133638250c",
+    "sqlite_quick_check": "ok",
+    "sqlite_page_count": 26124,
+    "sqlite_page_size": 4096
+  },
+  "transport": {
+    "format": "xz",
+    "part_bytes": 524288,
+    "archive_bytes": 10054324,
+    "archive_sha256": "2d1f481e9430b4ada8bba10e75a97a422443283693a80c123a110cc6452bd653",
+    "parts": [
+      {
+        "path": "transport/erp-0000.part",
+        "bytes": 524288,
+        "sha256": "61d1e89ed2b3aaab4ea252533b040340015478a32484d2d2081cea0b13739695"
+      },
+      {
+        "path": "transport/erp-0001.part",
+        "bytes": 524288,
+        "sha256": "462e90a172282a96f48f8311a8184d7a50d1af7b3768fae201ff641c1bf0c29f"
+      },
+      {
+        "path": "transport/erp-0002.part",
+        "bytes": 524288,
+        "sha256": "b875a5e5baba25c88fdcec948d14b5507eba8bb0377eccaddc4151332c669032"
+      },
+      {
+        "path": "transport/erp-0003.part",
+        "bytes": 524288,
+        "sha256": "70a715308e86053374e8024de7c1c32327db48ba7496e2f9ffcaf1a81eec5a03"
+      },
+      {
+        "path": "transport/erp-0004.part",
+        "bytes": 524288,
+        "sha256": "ca7dd8a762e3181ecbd0351175e4edea822ca55afd9e30741c226b5743f2624c"
+      },
+      {
+        "path": "transport/erp-0005.part",
+        "bytes": 524288,
+        "sha256": "20fc7da93f9a2f96081b61ca3fa6f756996c21bad822a05f196e47a6e9a6346d"
+      },
+      {
+        "path": "transport/erp-0006.part",
+        "bytes": 524288,
+        "sha256": "ee5d24f5b3d82ce0d0bac6a97c26254af8b40d7e9b9de41390bc23f97622fc49"
+      },
+      {
+        "path": "transport/erp-0007.part",
+        "bytes": 524288,
+        "sha256": "ddd34c9dc3e692584ab6c45bf87454731f3e0026700d621563add82f4a4f45a3"
+      },
+      {
+        "path": "transport/erp-0008.part",
+        "bytes": 524288,
+        "sha256": "6586bcb8ee3d80964b928422c84963c3bbcf60b2ac144845b2ca2a4f9240caac"
+      },
+      {
+        "path": "transport/erp-0009.part",
+        "bytes": 524288,
+        "sha256": "3cb10fc0bc4462885b534e47714469770977bfb0dd07d8bc85d7780d6e86fc89"
+      },
+      {
+        "path": "transport/erp-0010.part",
+        "bytes": 524288,
+        "sha256": "6b10b8d7b584e88a12c0b0282a32810e040f684ff05d80d2f81deeeb38e1554b"
+      },
+      {
+        "path": "transport/erp-0011.part",
+        "bytes": 524288,
+        "sha256": "9dbdb2f2d27026a119cec00717624b5a81848e59646fa6427353d045cd702f83"
+      },
+      {
+        "path": "transport/erp-0012.part",
+        "bytes": 524288,
+        "sha256": "aff37feb8c6b6531b603324d48fa94de45ca29c60eb9d77b6ce33378849f8ea5"
+      },
+      {
+        "path": "transport/erp-0013.part",
+        "bytes": 524288,
+        "sha256": "8489b27b05bb014b646a0203a6ab7a39683f0db42feb1e5d3a7a7f20c00abf85"
+      },
+      {
+        "path": "transport/erp-0014.part",
+        "bytes": 524288,
+        "sha256": "daf3e73edc6e4c8b05ab3c93e4d7b33996e9f648c7c609552f09ff51e48e4423"
+      },
+      {
+        "path": "transport/erp-0015.part",
+        "bytes": 524288,
+        "sha256": "b587b298dec343317fa2322e313aaa2da90969787c262853e8dfa346906bae30"
+      },
+      {
+        "path": "transport/erp-0016.part",
+        "bytes": 524288,
+        "sha256": "ab03b5bcf5513d1128bfe34367f9cb268bdf053470e142e46f088ce154a0e8a4"
+      },
+      {
+        "path": "transport/erp-0017.part",
+        "bytes": 524288,
+        "sha256": "c8afd68cff1df6613d000f82080948a2d6a90a223e0b34a0c1a016c018334e88"
+      },
+      {
+        "path": "transport/erp-0018.part",
+        "bytes": 524288,
+        "sha256": "bc1c206e050a67046e184a6463aa74ebf4a3e1d6ccc186c079119ffb4a3d4b36"
+      },
+      {
+        "path": "transport/erp-0019.part",
+        "bytes": 92852,
+        "sha256": "34e456a2426388a5901dfea474163501716835dcba4280aa6a1f5253178b6f04"
+      }
+    ]
+  }
+}

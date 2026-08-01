@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_021",
+  "slug": "fixed-assets-debt-capex-proforma",
+  "title": "Fixed-assets, debt, and approved-capex pro forma",
+  "workflow": "treasury-capital",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Build a June 30 fixed-asset and debt bridge, followed by a narrowly defined approved-capex pro forma.\n\nBegin with the labor/capital request in `Requests/`. Locate the current fixed-asset/CIP roll-forward, debt schedule, capex request schedule and committee memo, fleet support, indicative equipment-line proposal, and posted accounting balances. Use the contractor-accounting MCP fixed-asset register, cash, and trial balance as the posted authority and reconcile the workpapers.\n\nBuild the pro forma from documented approvals and permitted financing only. Assume all three documented approved requests are acquired at approved amount, the vans receive the permitted financing, and the remaining approved spend is paid in cash. Ignore fees because the indicative proposal does not quantify them.\n\nReport historical cost, accumulated depreciation, NBV, debt classification, cash/net debt, and all pro-forma asset/cash/debt balances. Negative net debt means net cash.\n\nReturn only one JSON object in your final response with exactly these keys: `gross_fixed_assets`, `accumulated_depreciation`, `net_book_value`, `funded_debt`, `current_debt`, `long_term_debt`, `cash`, `net_debt`, `approved_capex`, `equipment_line_proceeds`, `cash_required`, `pro_forma_gross_fixed_assets`, `pro_forma_cash`, `pro_forma_funded_debt`, `pro_forma_net_debt`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_021",
+    "agent_visible": false
+  }
+}

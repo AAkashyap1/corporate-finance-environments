@@ -1,0 +1,584 @@
+f32312a07213d5c208a0a188cfac84cb9f72a864401d48b2ab0a1685854e6e19  ./.gitattributes
+b9d8daf151a18081618b53f2a2a3710b9c3cf8f0de762f5fab8c0ec9eb3b2e5f  ./.gitignore
+7719ed98cc00784db44c63437d1791ccb11b5f7e03a5c5549af142f1bbc44cd3  ./LICENSE
+1c8b68bb5685b6248fecd003d4c52df4607e46a9a003efc37d08728ac60928e3  ./README.md
+06d989e3b2a2033ed02addb91ee41f1ac6cda7cf40732150d00961d105c9d794  ./catalog.json
+37ac05aeea74d1380a479b3e77ca0140cf560bcca74d00e48bd981e0a9e774b8  ./companies/alder-ridge/.dockerignore
+e3f673f6dd80b4efb778129da3ee8be8d9c7fb51e7f3bd61e98c96094f4dc5b6  ./companies/alder-ridge/Dockerfile
+688402cbed8f1639bb3fc65f72982694e831d694bb312c5068e54d986695f40f  ./companies/alder-ridge/README.md
+f043746084b321d25c8cfd4dd5aa2cf36ae7e355b5cc566cca933ecce2fc48a7  ./companies/alder-ridge/company.json
+dedebb90c790b8f811ad9a332fee0b31c00d5ca56a5d07d7cb46d363cafa4b71  ./companies/alder-ridge/data/accounting_seed.db
+10309e8056166a51d10b47338e3cc4d3d5a37072bebeb5c80a8ca398f492acdf  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
+9d2d5ddccb6e69f803443d99753086f9f4a6c359322c452c5722acc4f61bb8c7  ./companies/alder-ridge/data/control/corporate_finance_source_map.json
+b987fecbbfb05000fa287efb857af9fa8c2df03eead39f257b71a9f513134279  ./companies/alder-ridge/data/control/corporate_finance_template_inputs.json
+ca77e0601d1a77cf2efe5f35f86a61d14a843723ce2995994968f143fe7487cc  ./companies/alder-ridge/data/control/fact_registry.json
+b0a852d089248fbd778f0516e30bb32fb0edf3ded6d0ce845d7566737b0d637c  ./companies/alder-ridge/data/control/file_registry.json
+bb2fbf64c63993050edc0db61a4d77feb29b744f409c93d66e09006b58342133  ./companies/alder-ridge/data/control/task_source_dependencies.json
+1802a9e40fd71de68e9776d79efda3d3e1a49688a743e93ed31e2167f67e55af  ./companies/alder-ridge/data/control/task_support.json
+c257d7f23d8f69232613f991bbeb418047925326010341f14df7a30f67bb8bd2  ./companies/alder-ridge/data/source_manifest.json
+3766cd3e8e59d2d2fc228e450fca42a77072dcfc89c19a48998ec90080d2c8ff  ./companies/alder-ridge/evaluator/__init__.py
+0547f0eb4c4398870d0a49547a58f92db9121a6f99af6129d9efe3b1289f305b  ./companies/alder-ridge/evaluator/common.py
+812dbc89a6dd02e50dc8db75520b9dc0e0d88127d163f7261c6af8c967329cd2  ./companies/alder-ridge/evaluator/corporate_finance.py
+7f374ba210b0fe2e27349ad879a292ce3a8c3a1437c56cfa1c54d5c6c2aff4c1  ./companies/alder-ridge/evaluator/hybrid_semantic.py
+cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/alder-ridge/evaluator/integrity.py
+33e77b9db4232a9ee14a4d941c4a8b7b4d7528f477b418b2f0b2804e12503810  ./companies/alder-ridge/evaluator/production_semantic.py
+83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
+21664fe74a8d7071f8d99046b087bdff015cd4d4e926d47d8abda0d2afe60ee5  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
+83dd83a2b9e900ab17990de960bf7198347c2a874c57b93c38403612f5e1357c  ./companies/alder-ridge/evaluator/rubric.py
+f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
+26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
+df65f8eab8194955e61cf83217c70a0ade8d30c9a99d5be9ea5f58e831d690de  ./companies/alder-ridge/runtime/alder_ridge_company/__init__.py
+befa85b422ced735c1dcc2ff9fd01a9f5d3374520a1308a1e58aa84bfeb5a684  ./companies/alder-ridge/runtime/alder_ridge_company/accounting.py
+2e2f776008257fdaded873aeb5e257076438ab6f2cfbe443b42bbf7f0bc70044  ./companies/alder-ridge/runtime/alder_ridge_company/mcp_server.py
+06c681bca3ac633233bc44d7cb65e288776a58b15b22977883576b944af1f40a  ./companies/alder-ridge/runtime/alder_ridge_company/paths.py
+2e3962d4a7fe3e25515edc8089b7bf0655f82fd23b5bf188e195720feefa0a7c  ./companies/alder-ridge/runtime/alder_ridge_company/reset.py
+272b130524e7f48a308992f5472186dfe2aa8dbb6e37309d10a4c61eec856882  ./companies/alder-ridge/runtime/alder_ridge_company/workspace_security.py
+3e6c55ff5fab962607d385ff236599f3ac4682d75db9eae253d04ccc8a626cd3  ./companies/alder-ridge/runtime/env.py
+3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
+4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
+891305e810681d5d490ef598414527ddc8220811abb322316bcf8897a33ebebc  ./companies/alder-ridge/runtime/task_catalog.py
+a4e0dff2824a20267f349a581d0c2cfc50a1a0eb0229d4bf657898320eed1dae  ./companies/alder-ridge/runtime/task_templates.py
+56b6986c62d647180dd9d3a09c20fac65aa882d9b5d6e91fca61230a5ef35ffa  ./companies/alder-ridge/runtime/tasks.py
+3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
+eddad61a79db5261c31ae0d44d43cb8fd716f2fa84a26be149050ca066fa9224  ./companies/alder-ridge/source-files/Requests/7.1.26_822am - Fwd_ wip close need today.eml
+571958964020731db19c32d40b0b9c4539f9c86700297350595ff14304ec3f47  ./companies/alder-ridge/source-files/Requests/7.1.26_904am - cash refresh + Fri deck.eml
+b398dab68ee2acd512f953869ddf1366fc14bc6d9cf7dc607cda4ce99d057fa1  ./companies/alder-ridge/source-files/Requests/7.2.26_1027am - Q2 bank compliance package.eml
+05e644590cad7c918433192d2798d91723eefb5d6fb1442c58316f636fadedac  ./companies/alder-ridge/source-files/Requests/7.2.26_1103am - CFO close decision note - internal only.eml
+653cc9572d865817a16fb1503022f022a1cd89c67b6bd834e1411e36b70f3284  ./companies/alder-ridge/source-files/Requests/7.2.26_611am - June ops review deck + notes.eml
+768adc58b3d2f26580c1cf59695c65eeb34440b03edf40f209da728a911993aa  ./companies/alder-ridge/source-files/Requests/7.2.26_736am - FW_ wc cleanup + backlog coverage.eml
+6c15c6ad155b95cf241755473014422e9349a029aeff081fa8a068f7dd3cc960  ./companies/alder-ridge/source-files/Requests/7.2.26_805am - payroll bridge + capex before noon.eml
+edd6a6eee3e84faa52aa9c8dd48cc5c731433a041b32f8b0abc83d39c5df5ad5  ./companies/alder-ridge/source-files/Requests/7.2.26_842am - service vans capacity check - LT fwd.eml
+a11e7397582605eb0101cb484ae843f567c594f1f5f8c7935b5cb80f577fd78a  ./companies/alder-ridge/source-files/Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml
+5f5c0cbe7a4a33a824a4cc2ace32fb6ca838882ba478379bee002590ab83a99e  ./companies/alder-ridge/source-files/Requests/7.4.26_0838am - capital committee + five year plan.eml
+f95d98c951e6563a01b4394804ee3910295509936685eab5bbba7efbdd964c5d  ./companies/alder-ridge/source-files/Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml
+171f71bf5d3a28c6b6b038697e0ef63d033d60c12a494904d7a00130d2bd99d3  ./companies/alder-ridge/source-files/Requests/7.4.26_1106am - corp dev IC workstream status.eml
+386ff0c1e667f44f564d54ebe8c384e0949785c74d6bad493c25bc72ce43a803  ./companies/alder-ridge/source-files/Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml
+ab1c852eb41898d53562be795e6be32d86931e696090186baf6879bf481bbf5a  ./companies/alder-ridge/source-files/Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml
+3b8bcbbd8eeacd93a39d31e02edb1e27c4b21bd78ac4005b5c72171b59308bc5  ./companies/alder-ridge/source-files/Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml
+90427d33cf66239984aa801548e59129c0b9d5a518bc19fd12fb49b58e58594f  ./companies/alder-ridge/source-files/Requests/7.5.26_0642am - capital cases after committee review.eml
+07ac43c78b64a71ac23087cf00f2972a07090bcb57caa428d277dcb35aa27132  ./companies/alder-ridge/source-files/Requests/7.5.26_0709am - bank follow-up + treasury version check.eml
+54db9e90721ac95a942ec0ad169b30ede79aab758b940cba4878e8b152d9716e  ./companies/alder-ridge/source-files/Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml
+4d5e3f11160f221bf70a4acec6a4bb363586524dfe094919d063364730c35491  ./companies/alder-ridge/source-files/Requests/7.5.26_0751am - tax review comments + close version.eml
+a320606ee794627e98f50dada43c678bace14da737f36eb1fde64f8715ef7203  ./companies/alder-ridge/source-files/Requests/7.5.26_0812am - board review changes + source tie.eml
+9b12b0d4aa05579ef4956a7d029dcd52c9f8bf098b265138dfe8c8f6d7d9a89a  ./companies/alder-ridge/source-files/Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf
+dffffe2aa2181b3cd400259df9e0bcf7ad37ae790a294a87dc380d70ffbff0b5  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/05 May/4_WIP/WIP 5.31.26_FINAL_v7_revised NB.xlsx
+29c76723ca4c0b1f474ab28d0a11e10b5a813259ef97f0af2f7f5328b493f56b  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/1 close mgmt/June close tracker - working - upd 7.1 810am.xlsx
+592676480f2e35a9fd056e7663a3ccd86c4aa3ce25158f48f6ffba09b5842e1e  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/1 close mgmt/READ ME - where we are 7.1 810am.txt
+e4be682828eea46c837f88eb6174a612b2cdcccbbe2bd1a3787230363a064dcc  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx
+bf74cf03714d36bb0a3e1b17ce5ff0b9212494ca5b143e01b146443b4d07958d  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/2 reconciliations/TB rec_6.30 prelim - NB v4.xlsx
+6155d9165bda54f740dd2002ee24ce2aeabcd5fa1377d4098a6bcc35ea42fd18  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/2 reconciliations/bank recs 6.30 - MP working.xlsx
+e96a3dd296b936acda29734f140e6ffc5da4af65c8461fb5f228c6b50d6d62cc  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx
+e4dd0835ef3f4d28e18d7c184fbbd95b72cebaac11d1f2bf59480d83418da5ad  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/3 accruals/payroll accrual 6.30 - FINAL? v3.xlsx
+aff9acf6b5fe75405f797b203ac0f53f175c16ae55479a3966560be56b9f24e8  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/3 accruals/prepaids_amort sched FY26 - copy.xlsx
+5b51d824adf1c1ce42bc35b159866c1d18ed03ec4313406eed220149ecd4030e  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx
+bd7c1dc8cbaea27cc29156a7e2d43c870e972d24c1e540285c8274c21c0b41f9  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/5 fixed assets/FA + CIP rollforward_June26 rev2.xlsx
+2343e866a3f8ecb3b5f91b8e569d6087e056098a7e7b7ceddabc292eb17a5d15  ./companies/alder-ridge/source-files/Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf
+f38eed507a249ca49efa8941cb3efad6ae97bc2dab0b28eda21c8c994cdd40d4  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx
+ee8f8cad04dcefdf5556161078c4c39b648363ba62a1a6ae8b459d8159403c0e  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx
+92579174f8639dd176f4e3d24f863b568995cac5fdef4868471b6e28d375a587  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx
+9a663926cbe57e5fc41e26b50a2a9b6e9d7a4714ad0563a9a30e295e91132a55  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf
+49a3b0a7113a3f00304f536aaf2c3458b6de3266e018b7974b4673a355e09050  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv
+a38c949d85be8626e3597fcfc7edfa104d0839aa8311b6591c21e771a3e0a2a2  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx
+b2364b05fd1cc2edbaeb4833cac9d7ae066c53c3dd8c9296dae2a54009fa899b  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx
+7420b603202cf0cb5c1e870500817e40c6c0ac15184160a3dc01545dc2a5af38  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Backlog/backlog burn + award pipeline_6.30 v6.xlsx
+43a4d7600057ee1f4a8cb53ce1cdb43fc5ae2dee5d45befbc991cc96ec0f3bf0  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx
+e3a8e430a11d0a1fe726620881dceac6098f523aeec82d9a6b7df5f80bfd0f01  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx
+692e78f7db957944ccb4e6598b8f834a1b787fc66bd3c35ca2cad2624602a770  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx
+a343602eec8aacf00861914257bd0cb5854e0e671adca830e295cf8592e5d713  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx
+af52aadb93a221ef583d9aa00caf938fe956184aa324e2c7248c3bc591f85039  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx
+637dddc8e52bbc182d4da7be3d40f816c2ce6cc527923260742a78dc7bd23847  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY26 plan + reforecast/department reforecast inputs - June pull.xlsx
+868b03da794a6242330664132b7ff1d070b262f4aae9c09e2962e44801eebbc9  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 EBITDA scenarios - WORKING.xlsx
+9ad4aa9d1169868b3ea235349241759747395e225e0c6aa166e766af8399ff53  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 field workforce plan - WORKING.xlsx
+0be5183126b6d4e4a569f844f0dc31193971ed491eb8f71301a6dcee713dff01  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx
+9299186c9290fde74d4e8a79119d6eed7a6aea3ff843b1266bb85cc071ef760e  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx
+a53580da3c3bffc7799aa3b40a5f957ab25ea44bf8b4e8bb756ada937103a394  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf
+c571eb95e5e5fc30f39a1193e4353b18af1deb59ce454674b69dabda2917d65b  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx
+dcafebced0d934738606a38dba6695d410af0ff71beb5dcf5058a5fcc64e3e2c  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Labor/2026 field labor loaded rate build - est copy.xlsx
+40f788059f543e57143d6e03d2811b24e6f3b187fe30850e9bd2960f16cb783e  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Labor/HC + field labor productivity Q2 working.xlsx
+1dcf58ffab2165d5fe201cebff82c2f29b9d9fa5f9c67c5557d6eaff4bbb9889  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf
+805c3698b6d19541ef3ff9cfc48a73dc1335d0d5e7b60bdb9b38923d96b8b5c5  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx
+d45a10d16317ba42de48e83f284d18570fe1bc37d8f7020abb234a4d562cb849  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx
+783b327341ef9c6b6a2b078e1962d82323180bed4a5222d0473801b1b300b387  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf
+abeb50bfc1875a0305fce3e579027a3400cc7363c8673073144697bebbebd5a5  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv
+73609b1adc76198037864e76fc3df86ce0cf0779b16ecc829e84c833b10d1096  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx
+cf3c4d14c2b0dc454b33070928a447884e69514e3cc3924c7272573065a5e186  ./companies/alder-ridge/source-files/Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf
+c49153203328e857d098661bf057a859a17761f932877aa7694e70f430e0605e  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/05 May/May Ops Review - 6.5 mtg - FINAL_v4.pptx
+07a6f1f06237d80d3e40f0eefc6173b36912c94f7d26c66bc03df0daead02873  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/05 May/notes from 6.5 ops mtg - dc.docx
+0f4cc0867b13f4778e62a18119f5c64d17cc33fc71e7e0a06e9932da18989af5  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx
+71f93680405d6c9e46389edf51f37a933c3f559a03ce76fd41b446fc4d0cec83  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/June flash - CFO scratch v2 7.2.pptx
+2bd1efaa5af554077b1fa946261ec4d52b599f6c13ed0f0ee8800130bb7dc999  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx
+c5300ad9d1b927989545441cfdeaf829462c4d93b8db25d6844a8a3dac4b5dd0  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx
+ce64f8c96fbe60ec471681171bea87eadcbe5802883f04be426cbdb76bf9e5fd  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx
+b380925bebb2932a94cce88d84e46f56bbb282b3a4c258e290fb99f37d0ecb39  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv
+4f2581836bad3161f54d3319f03d3747e7fd83b6626c9e312bc09378e77da761  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx
+9ade4fa388cabf9670c93c4ec2b8d27e05bc3cc2ca06009beb20125a1c60f908  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx
+d5833bba0c2daead046a3de58f3fba38394f104836247e3778c5707ab85bc222  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx
+88c287a3e52f81b69cd50e7019a5e7b34b6c2ef2f9b71fe35d220387d0b68e9a  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/Board/Q2 2026/Board performance dashboard - WORKING.xlsx
+45c0f82f70f3702484983796b6d07196afc6430c6db304220eb0894b05f300ed  ./companies/alder-ridge/source-files/Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx
+ecb189ea84374ac06abdbc1901a886333aeed44111ff22d67ea21be0c42bdeb7  ./companies/alder-ridge/source-files/Shared/Finance/Risk + Insurance/2026 renewal exposure notes - broker call followup.docx
+be69bdbd60b1e93bdb2edaf5896b83690192d977161612ee425e8a34c19ecb46  ./companies/alder-ridge/source-files/Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf
+26472578f3be58e43e3993014c549865e70a2b2a9c6ce6196f8284efd6784356  ./companies/alder-ridge/source-files/Shared/Finance/Risk + Insurance/bonding insurance schedule 2026 - renewal working.xlsx
+1f01ae3adb1db51f4b3cba04763a8b7ba825d9bed233d8116eee893e897039bc  ./companies/alder-ridge/source-files/Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx
+4bedad0b56e82efecde983e021765999fc8e1294569961866d5c84531638ee46  ./companies/alder-ridge/source-files/Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx
+07f6a163232d4d0234133a2afa08bf84b5d8509395081d27c67f98b612140bd8  ./companies/alder-ridge/source-files/Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx
+637ef3268b51a5e69b03380cf7ff7c69e05395c87dcaabf07958d11b6fc57607  ./companies/alder-ridge/source-files/Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf
+ff42c91549485a2fdc295eb23c6cf868c6d69d8e5625e2f118a8adce515b59e8  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx
+c2bbff685d103594b76db9868737ffd0c88aacb80a162caf0e1dd828dc99fa4c  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx
+6aa8c43da94c4a686e2ae3e852100c067729e905a1bb4433de1d67518f80611a  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv
+139fe732d975ddc32cc46208ea5bca11d5f533e2331cb3deaf390885a2fbf878  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx
+9f4ebf1899dfec525779240f8d28b328fc8bed22771f246cf00e7c826db123fe  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx
+30881e6fa95703a7af532f8104629da39943d64e6b1564c19abb1be6ae694446  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026/FY26 tax provision - WORKING.xlsx
+d56382d476de8ddc750463032e509616ed337303df34d0f702d7aa959f2d17ff  ./companies/alder-ridge/source-files/Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf
+89fb71f97a37fba166f26bdc739fde795df72c91a233124377bcc8d6719742b6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx
+828ca4614351c373bc3e19566b32c1dff645389b8ab06c08912cf192dbb9ded3  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx
+060f3847ebaed62a089370338d6bdc33f9c3a7512f5a0fbf3079556bb6a0d816  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx
+43e8b22c5fede9f3f6cfc9540784348c86187315bc86aa1e0fc1050111a04357  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/Q1 2026 compliance pkg - submitted 4.28.26.pdf
+42d3fbd6c8c8000dd5a27091c17e558a4c92bb082f824d0b1cb0c127902212cd  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/covenant summary - old 2024 (use agreement).pdf
+9dcc1f24ab0e153b21d2613f44db2a0eefa67b1ae1fd91f4923b1ada7e2eda0d  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q1 submitted/lender + surety update Q1 - submitted copy.pptx
+54dd0ed1913e3009687f3c22abef130caa78ee6f20673f15e5bb594f55abbcb8  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 covenant headroom - lender review working.xlsx
+295d682e6ca0a25f7fe7dc8ae8955269073567fc43ebf8e44b2eb875f3763dc6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx
+37237cb34990407a635bbabe20372acb811322b26137778797cdb8683e6b5b57  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf
+7f5ecc930f690c2926eee41216ea5094b281041def46838363d74f1d853be124  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf
+b36f1fc74dc383ce3a75ef75beffb5a26208f67137cd29198ffea08fef661922  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx
+5fdab1830a88eb1e4c5001f68f52608097daffc20753a66110e6b6a5c734c930  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Cash positioning/July daily cash position - WORKING.xlsx
+c5e00c543474b7bd0d46db8dadbd39f3a069fadcae7ab181d1959e7ed1c690eb  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv
+f3ee4a488e34799d7980b5606c07aef84df79156046506853ef8aab984179be0  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx
+8810ac6933e748e517a3cb3dd8a35e66219735b37580266dc018f784b169e1e6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf
+d3da75ac396c6f3b1ddd063ae342c5d7dc17a9b59c6b4b3fca0f7b5eaf79c206  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx
+eb512ab3a9c9fbf7a2d2bcd9da29b1b93049e134fba45c1cc07e5f1b66c79fb6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx
+60ff9789d9ffce610d1654d58ff902f6ee8e3450387af848b4e9ebbf1a6db83c  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx
+4a80c379390260ab8af45b37212a6a40e215c97da7864ede520e7be8db48bfd2  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf
+b92bdd4fc970d9dc29918e91aa5a2d4ab8d5070f3a671de1e18aa1fdb1aae6a3  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf
+f1953bf990445e5758986c81bb84b06887ff56d49f3c39f5ca958dbaf03b7dec  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf
+c0ff6f1546f2267e74f36013a0153b3a2dd0aab2d3917ec4ec12bdba10a9073f  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf
+67ac65966ed79b1d427c1c87404cad29f6f81cc0379adde7df171a85da6b51c6  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx
+c43381173a7c1814cc34648a25be94f9bfa6e913fc233b529db3c87ee28882ba  ./companies/alder-ridge/source-files/Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx
+2a70fe68f7c33305ef81dc09fdd32de8edb65b8da0b06c7b5e0bbcbd66560710  ./companies/alder-ridge/source-files/Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv
+d3cd0948eafc562b1ead187c86e9d8f1bbe27e2d44a31897efb77443d57ff525  ./companies/alder-ridge/source-files/Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx
+a22752e26c5f96c8e780375e4d1de1af7903316955ad2de510844ba9717b3335  ./companies/alder-ridge/source-files/Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx
+f5a73d56c553f828093512dbf96cedf13909cb80449667177e590a419730cfca  ./companies/alder-ridge/source-files/Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx
+ef27d77d78bce96640f7638cd717800af0a16b87163194078218cf72880fa051  ./companies/alder-ridge/source-files/Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx
+fc436153f8a7d2cc2840ce7800752772e6c16c45c58c93198ef32967e4fa87c4  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx
+3c4c11129e0c78cb1c10cee1e0985aa855fe920e6bcaeefc16f70a86433665cf  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx
+608c73e84f0a5bb4a67e9c913536bfc4522710a2903586c85c8080677ba2f518  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx
+26b643ebfa0b51a7c9714545de6c8e05e832d4bd3ba335af42fdc581b6a17321  ./companies/alder-ridge/tasks/hud-taskset.json
+b840b9b5cd649355e7a68488b62a46fcba3fe9e816aa664bbdd838c359281821  ./companies/alder-ridge/tasks/index.json
+b59040ce891f039742e6d72d63af1ffa5e1d59d956b460a4a3896ce43075b3cb  ./companies/alder-ridge/tasks/task_001.json
+21b5231cc0de8679182bc92b433f4e6d3ccdf6fea0c8a3549dfae6ea5744ab07  ./companies/alder-ridge/tasks/task_002.json
+40741b1a863dc0e3e9c2c41261997d4668649be90f13515c7102baffa31a6d45  ./companies/alder-ridge/tasks/task_003.json
+c425764e2eeec489ada35c3ecdbe7deed98d2005f9f186ff297a8848a2e52879  ./companies/alder-ridge/tasks/task_004.json
+cdc61731d10e32ea55824eb212c788dfcc76ee04575df71c70054e985ada2145  ./companies/alder-ridge/tasks/task_005.json
+be60f7cf83c4d1bf1c949f7f75bcff243bf790841640c8f4aed26057332065e9  ./companies/alder-ridge/tasks/task_006.json
+1982512b685bdf886e461a189be296f29f06397b9657e685f0063388e1bd2363  ./companies/alder-ridge/tasks/task_007.json
+d2406137bcc79d05bca65d6b0a91b3673538b69ac5a2bc669e90b85a8025ca45  ./companies/alder-ridge/tasks/task_008.json
+428e2a59f5f043fcb8d1ddaa69331cf2deed5ba405ac7d7a24575d47fdcdcffd  ./companies/alder-ridge/tasks/task_009.json
+712e4a0e4ed518f1cee7c010897916cea734f043e467b8d02525e4009490745c  ./companies/alder-ridge/tasks/task_010.json
+6aef4402ade7caf3e82e77772191b0ed8757798a9df78d9917e544359c576f8c  ./companies/alder-ridge/tasks/task_011.json
+4ff8ac2ad6d99709d09c1bac5316137ca7ce1e5e1421886afe9f9381e75b09db  ./companies/alder-ridge/tasks/task_012.json
+5310bc115e53b62ed388ad43177725134ef0bd46b0b4391c50144da6aebb3331  ./companies/alder-ridge/tasks/task_013.json
+5940af50b870f97159eec46c5ef2cc48d9df1c70119df78afd813ee531a8ad26  ./companies/alder-ridge/tasks/task_014.json
+a1efce4767b6d0d91b33281b975952a9d199736cb79e144851b0d68d818fc08c  ./companies/alder-ridge/tasks/task_015.json
+ff66d54fa5039379ac65c282fdc686c8ab8644dfffe1ea6b25a0fc9c8dc58cfd  ./companies/alder-ridge/tasks/task_016.json
+f74ed744b65845f9fd9660eec2103fb779b10cb9c4f21bddbd9ecddec3a72fc3  ./companies/alder-ridge/tasks/task_017.json
+f1cc6aa2011333ba74299611b5bfbe2539fd344aaacf61dcff161509becb2988  ./companies/alder-ridge/tasks/task_018.json
+a40e106bca0802a84f3903b95b9ea2ad5efe7b74f01d29b8457a368f47a933fb  ./companies/alder-ridge/tasks/task_019.json
+db43ecb9446a63e4a9358f0552422ec5a7fd274ede1fe17f67b90c6690a8b641  ./companies/alder-ridge/tasks/task_020.json
+3021cd328da6fb89d7d7157f33073c75a8eb5eaf86fc30b2e9c99af161fa0540  ./companies/alder-ridge/tasks/task_021.json
+9f2275bc23df4f63f7bb9ef304569c5defc8c094824821ffc71ddd0de5d6eabf  ./companies/alder-ridge/tasks/task_022.json
+048c16b6a4be243c35437f0966d376ca9297bbdd2fc0bc9880b54761a7e54e8c  ./companies/alder-ridge/tasks/task_023.json
+2a8199a9e0ce61b9cd793c4f4242bb74830207a11bda78cb96b90b5dfe53645d  ./companies/alder-ridge/tasks/task_024.json
+79d8f04121e74aa1e56f281c5561ac79953917e3a9c315170d9b9a374f3ea537  ./companies/alder-ridge/tasks/task_025.json
+45ec471f55ab82f23c87df76a90e0b45e576fd05151e68857b3d1ec7997fc04e  ./companies/alder-ridge/tasks/task_026.json
+082132fab2dd0dbe4086d722cd630d0b6dc4e20dfae57c09f731bc48fa531bd1  ./companies/alder-ridge/tasks/task_027.json
+5b48182d4b4b171488db29d38b521c96329f2df59a69543b3b33aa89ddbe632c  ./companies/alder-ridge/tasks/task_028.json
+4e71620486456c1f122b49f5c3754e28206cc054af4cc53cc62230d85c5e9983  ./companies/alder-ridge/tasks/task_029.json
+583f528f2e73f2b1c8367cbfc301acf4f5e73336edfe6310130ebef8b746bae0  ./companies/alder-ridge/tasks/task_030.json
+da2397bf4adcdab09c3f2a3add8a185b92e0c521a92aa26c22f79717faab703d  ./companies/alder-ridge/tasks/task_031.json
+bf1334822c3d11478f230d2c68d4accdbf83ecad900b75cf631d44d74dde6f0c  ./companies/alder-ridge/tasks/task_032.json
+838bced0d08a2723e6aef6617a239884e39c294219ffc15b1416c8e815315e4a  ./companies/alder-ridge/tasks/task_033.json
+55d083505c33922bb52d583fc9a83e03f9b35a2ccb360e5af9e648e7df662c95  ./companies/alder-ridge/tasks/task_034.json
+a63df61abfc4fb616ff5a7e126fbc6ed57458b95cbcaf4c0c2f1ae3a73edd2a0  ./companies/alder-ridge/tasks/task_035.json
+9356221d4fdde0aa3ef12cfc67e316b81eba2ef46bd930aaf8a649be5a04e3c0  ./companies/alder-ridge/tasks/task_036.json
+b8c75aabace2913c2567b8bdc50579f6cd0adc525e5866d5bc8f5b3558f8e266  ./companies/alder-ridge/tasks/task_037.json
+26f943c5b09410967007d7d509b44f0ba567dad205cfec3cf3884ea23c828019  ./companies/alder-ridge/tasks/task_038.json
+08561231a5390bdcaa2af7dfd25afba501bae30a6cc01f0fe01f3978a9d6fb49  ./companies/alder-ridge/tasks/task_039.json
+af8e16afaca8269bffa9d5b332eab906ed6a7212b0caa74d7a667d8b94867c8a  ./companies/alder-ridge/tasks/task_040.json
+108db9855529adfd06bbdd48c7cd3aef3ccc2317824c20feb92ad804a8efedbf  ./companies/alder-ridge/tasks/task_041.json
+28b5c0add8bda77535c3a0a1ea889920aaa5e10e2d352c239384ce21a15e8cdd  ./companies/alder-ridge/tasks/task_042.json
+f714121e5d98d9b5f033e6a25a21ce54d6a46f073b00dc4349b9d791641c1129  ./companies/alder-ridge/tasks/task_043.json
+4aa629d2d1d72e87ee1f5a1109f5f2ff653418db44dfbbf0eef5769ae567718c  ./companies/alder-ridge/tasks/task_044.json
+4474c7e54e8b74951a14911ef4ceb65589972d95f0ad6edeec40fadf3ed97707  ./companies/alder-ridge/tasks/task_045.json
+1109762c491f1b78d6a7c8d6f87ade94d2db47c5c130a3763247b6f0a3e86335  ./companies/alder-ridge/tasks/task_046.json
+ec4ae189996865141e6f4e5ecfd2533e89f8a7d1ec8c0daab45359f3290903ff  ./companies/alder-ridge/tasks/task_047.json
+ea5fca534d74074e1386f8732a8e22670b054121c94fadefe6549e7583cdbd76  ./companies/alder-ridge/tasks/task_048.json
+c9f9d95de9dbb120c47e1b1a41fa44b6638e5a67416e50b24c6e8a3b316aad6c  ./companies/alder-ridge/tasks/task_049.json
+421878624d13aedcfc309d3ea504a22cc2e2baa1737b11c09a5a3fec4c715de4  ./companies/alder-ridge/tasks/task_050.json
+5b90b8d7b7706461a7f28c1b34f95ad5385a3af49da9db0e7575393ef146138a  ./companies/alder-ridge/tasks/task_051.json
+78f8a04186a6fc5dcf7d25f13aa2c834f09082859b9b2f0bbbf87a2b2a6b530b  ./companies/alder-ridge/tasks/task_052.json
+49f20e1ef1f66936b6668021785b676401263a1b1e5f690d497a9fd86984c342  ./companies/alder-ridge/tasks/task_053.json
+02bc1d71612deb82b66cabb1cf3b75bf14e6269d403c5f97d54e194a47f07df7  ./companies/alder-ridge/tasks/task_054.json
+3147dfeb199fd778cb082925f2b75657f28d916366acd51b886fc116aa086813  ./companies/alder-ridge/tasks/task_055.json
+56c87a3b54ea9d73ee85c900313a9e28ad18c676675b3932994e0f224e56ba2e  ./companies/alder-ridge/tasks/task_056.json
+a31a703e3936d9bd968138be609a7b4c3a0edad9a1d9858bf62afaec96672cb6  ./companies/alder-ridge/tasks/task_057.json
+2fd640d97d36d8c32af2be727a816d40f5c8daaf85f63c8071c10b7f2d9302e5  ./companies/alder-ridge/tasks/task_058.json
+c36ec4b707421c0a30bd4d76073d1c7ddc3f8dae72e4f6aceeb196afff7d735e  ./companies/alder-ridge/tasks/task_059.json
+6b354c3471e1c51be460fc9ba88ce9fc21d27c138ffdb50b75c3e11fa56bf68e  ./companies/alder-ridge/tasks/task_060.json
+d4c94c2ed924ad87cdf956b7b858d241c3f6799f90548ebb8c7c8b27b0e3c5e1  ./companies/alder-ridge/tasks/task_061.json
+616882e54cc7fbd548f6cd705db70f13a1dcd50d6f9ffe94c22df9c030a0393a  ./companies/alder-ridge/tasks/task_062.json
+2ccd33b30b3a9a155a09399c2de2a0362e8daef04f197dc11e402ee173318033  ./companies/alder-ridge/tasks/task_063.json
+b538172a8c3e737d700c52f9475077700706e198ebf6fb917be9b104fd941054  ./companies/alder-ridge/tasks/task_064.json
+e74f4cbdbf471386f40b6eaa6b77fe7c2cee450bc9089d83ba565484b6319e5e  ./companies/alder-ridge/tasks/task_065.json
+6a8b63de440df6ada0e8ec528a021ee39ab97f7464f59a6a734924d108fa6d2f  ./companies/alder-ridge/tasks/task_066.json
+0e18316f9712c7e21ccbd449f3270640cd64416188f29b76fe72ada3379708d3  ./companies/alder-ridge/tasks/task_067.json
+2307fd1a2bed148bd541d57dace956014fa042a6ff925f10c8a4d522656961bb  ./companies/alder-ridge/tasks/task_068.json
+cb8d0f71dc723868c8d5cc96673084cf697e6fb79539af6b02d6b841eead3a27  ./companies/alder-ridge/tasks/task_069.json
+d5a1e897f290a677c4449fc009574f11dd923fc47dde3ec15d4c69342c536f9c  ./companies/alder-ridge/tasks/task_070.json
+72cad9db385eacaf8fa9af08cc8854067978902db52787024afb634e5bfb2412  ./companies/alder-ridge/tasks/task_071.json
+e2c088ae0c79d653c4a02ba24e60465751c5b2fa7f01252daf99db3e827ece06  ./companies/alder-ridge/tasks/task_072.json
+66a1742943e6f556aa3889540e5dbd8c86a229df463bd986bfa0ad6c2ed2e80e  ./companies/alder-ridge/tasks/task_073.json
+a471ab7d9993af96b55f62d7f481a27ac5ad0126ffbf74d5ee05509e0fe0e57c  ./companies/alder-ridge/tasks/task_074.json
+a481f4dd950338b522c994327c960b77f47a402808b650f9496faa490a82014f  ./companies/alder-ridge/tasks/task_075.json
+a1c1f67b864779899f0dbaa36140e929e27bfc58e409d9d89436c3998baa9750  ./companies/alder-ridge/tasks/task_076.json
+0d6889bb214a8ce1288cff90c833a7ba0a829994d9ac8ee41d957326342b7e4d  ./companies/alder-ridge/tasks/task_077.json
+7fa39ebcbc7b7d5373a84c36d7793571180c2c8c267afd3ace04976ae91ac782  ./companies/alder-ridge/tasks/task_078.json
+c3e13c675b40003643c0707845e040a9ade16eb6befd34998b224b0c6880eddf  ./companies/alder-ridge/tasks/task_079.json
+718e595b16d6a0e1c2874298d7efeba9315769cfc598c1427db69ce0110c57a4  ./companies/alder-ridge/tasks/task_080.json
+b0b14086304b90823e10e5a0c302dca10a17cc121e50843cd50f5e77adbfca33  ./companies/alder-ridge/tasks/task_081.json
+208003eccd3580fe9c04c084af6038f13001aaa0619a1d20fe2b4b00d1af12b7  ./companies/alder-ridge/tasks/task_082.json
+a00fc636a963fe998fa0dab562c6b588c07addbdd7e81b2282b5c3d1c3740af6  ./companies/alder-ridge/tasks/task_083.json
+c240afafc1e37618ef8d6d40cf85db176ea02e167ee9b007b088b828145d26ed  ./companies/alder-ridge/tasks/task_084.json
+a952ce4337df885b8fc32f2565f8a0639a1778160ae375217f72d8b9c292dbe7  ./companies/alder-ridge/tasks/task_085.json
+d1b2b783716175ac82616443cd3ed4f34830d36f7fc5066d97beeb7cfaf57b4c  ./companies/alder-ridge/tasks/task_086.json
+a426663ce5227a3cb31771a7119d75e39357c4212bdbaaae7e62294ca93236ac  ./companies/alder-ridge/tasks/task_087.json
+43befd2ec0ff54f5b0450fc27b4ee81883b3514bd0ace5ea8923452c11ce59e0  ./companies/alder-ridge/tasks/task_088.json
+e33861d5d556298f20061cedfcd4c30b69c0a0f6f158538251dfdcb2dd46b93f  ./companies/alder-ridge/tasks/task_089.json
+a1b3187b66f258e82da754ec492338096b6dafa444abd86071ac97e3b5a48029  ./companies/alder-ridge/tasks/task_090.json
+0d917f34798fecbf2d203b3a2b708bd6c455641736799e9bff847c1b18dc02b5  ./companies/alder-ridge/tasks/task_091.json
+194d7c4708bd9f5c706498f9f79454504b33c29e572359f8b735313b1be012b4  ./companies/alder-ridge/tasks/task_092.json
+7fee7a4955642da37c0f45604ed4854d8cc58aef42f4c3c81d1099dd4d788121  ./companies/alder-ridge/tasks/task_093.json
+3e7709fe1e59f71ad8f2c77c98fb97f6090711754f7cedb57b022bb950e8760f  ./companies/alder-ridge/tasks/task_094.json
+a09885b1784164b6002a2ab873ae25b33eafdd827dc79b02a8d4f8c79c537d21  ./companies/alder-ridge/tasks/task_095.json
+5dfcf1382ae6e694f1f263c0b5a9651c7c5143e97e04e5c7b48c15c5be425089  ./companies/alder-ridge/tasks/task_096.json
+59368dedece5892b9338a85fa5376f9729d939e93703a228ca04847b3cd4c902  ./companies/alder-ridge/tasks/task_097.json
+398cfab8d99ebb00c3942e552b2c360ab2e4e953a0f050960617e13417efc579  ./companies/alder-ridge/tasks/task_098.json
+18bdbb65a2271683d4527c97ec650201b51f57f97bde0b920c4eed72d205275d  ./companies/alder-ridge/tasks/task_099.json
+404a6a1073cc2a4c187069fc0d15dde1fa4018ec521b5c84b07962355f992520  ./companies/alder-ridge/tasks/task_100.json
+37ac05aeea74d1380a479b3e77ca0140cf560bcca74d00e48bd981e0a9e774b8  ./companies/pinehaven/.dockerignore
+232ce35e51660ced556b5c04b48ca4dda6bfc6404b5ab0ae02d09dbf5b30707e  ./companies/pinehaven/Dockerfile
+5efe75292572c12bd26467ab2e3c9c125203aafef7ce27b2b8e0cd48ec3e491e  ./companies/pinehaven/README.md
+5df1ff1f893e1ba67c21a38b0b264d2f147d1aca19497ab1359c4f5d2e5003ab  ./companies/pinehaven/company.json
+45f5cb65f0bc7b02bb7cec5deef03f5732c59ef5a99faabb7ff892a609ac4479  ./companies/pinehaven/data/ERP_SEED_MANIFEST.json
+3161d71957dd1b785d9951086f9506a5663219215e7cb7cd82120cfd99402e6a  ./companies/pinehaven/data/SOURCE_MANIFEST.json
+b8c23f2ecbd6d513c60469f10c8e2a8849927abf8ec4a1ad932eb07d51e84517  ./companies/pinehaven/data/control/canonical_company_model.json
+9d83f1795b8a87238c6240ac7da4ca554535a6c69689582be37e83f1b875abf2  ./companies/pinehaven/data/control/generation_summary.json
+61d1e89ed2b3aaab4ea252533b040340015478a32484d2d2081cea0b13739695  ./companies/pinehaven/data/transport/erp-0000.part
+462e90a172282a96f48f8311a8184d7a50d1af7b3768fae201ff641c1bf0c29f  ./companies/pinehaven/data/transport/erp-0001.part
+b875a5e5baba25c88fdcec948d14b5507eba8bb0377eccaddc4151332c669032  ./companies/pinehaven/data/transport/erp-0002.part
+70a715308e86053374e8024de7c1c32327db48ba7496e2f9ffcaf1a81eec5a03  ./companies/pinehaven/data/transport/erp-0003.part
+ca7dd8a762e3181ecbd0351175e4edea822ca55afd9e30741c226b5743f2624c  ./companies/pinehaven/data/transport/erp-0004.part
+20fc7da93f9a2f96081b61ca3fa6f756996c21bad822a05f196e47a6e9a6346d  ./companies/pinehaven/data/transport/erp-0005.part
+ee5d24f5b3d82ce0d0bac6a97c26254af8b40d7e9b9de41390bc23f97622fc49  ./companies/pinehaven/data/transport/erp-0006.part
+ddd34c9dc3e692584ab6c45bf87454731f3e0026700d621563add82f4a4f45a3  ./companies/pinehaven/data/transport/erp-0007.part
+6586bcb8ee3d80964b928422c84963c3bbcf60b2ac144845b2ca2a4f9240caac  ./companies/pinehaven/data/transport/erp-0008.part
+3cb10fc0bc4462885b534e47714469770977bfb0dd07d8bc85d7780d6e86fc89  ./companies/pinehaven/data/transport/erp-0009.part
+6b10b8d7b584e88a12c0b0282a32810e040f684ff05d80d2f81deeeb38e1554b  ./companies/pinehaven/data/transport/erp-0010.part
+9dbdb2f2d27026a119cec00717624b5a81848e59646fa6427353d045cd702f83  ./companies/pinehaven/data/transport/erp-0011.part
+aff37feb8c6b6531b603324d48fa94de45ca29c60eb9d77b6ce33378849f8ea5  ./companies/pinehaven/data/transport/erp-0012.part
+8489b27b05bb014b646a0203a6ab7a39683f0db42feb1e5d3a7a7f20c00abf85  ./companies/pinehaven/data/transport/erp-0013.part
+daf3e73edc6e4c8b05ab3c93e4d7b33996e9f648c7c609552f09ff51e48e4423  ./companies/pinehaven/data/transport/erp-0014.part
+b587b298dec343317fa2322e313aaa2da90969787c262853e8dfa346906bae30  ./companies/pinehaven/data/transport/erp-0015.part
+ab03b5bcf5513d1128bfe34367f9cb268bdf053470e142e46f088ce154a0e8a4  ./companies/pinehaven/data/transport/erp-0016.part
+c8afd68cff1df6613d000f82080948a2d6a90a223e0b34a0c1a016c018334e88  ./companies/pinehaven/data/transport/erp-0017.part
+bc1c206e050a67046e184a6463aa74ebf4a3e1d6ccc186c079119ffb4a3d4b36  ./companies/pinehaven/data/transport/erp-0018.part
+34e456a2426388a5901dfea474163501716835dcba4280aa6a1f5253178b6f04  ./companies/pinehaven/data/transport/erp-0019.part
+f971a45ed053f1749bbf840a2cd1cc011406fe9062de38c07981eed19a0614b4  ./companies/pinehaven/evaluator/__init__.py
+b4c534c5a0bb0333c7524e9e6626648dcf0eefe24a339371e153dfb270f33dce  ./companies/pinehaven/evaluator/integrity.py
+7139aae9f738af2ca6d9c94509435179325bb47c58833947b8e6c26d8d767a58  ./companies/pinehaven/evaluator/native_artifacts.py
+aad6b908e5d5ed5f59fa3422d3abed45bf6e3985d6368013b249d94ad6a7288e  ./companies/pinehaven/evaluator/production_semantic.py
+d30617150006ed4b3640a803dbd6919a670074d51c2f04ba07bd2a7c3dbb5c91  ./companies/pinehaven/evaluator/reference/summary.json
+73d5f64e008fc3a4d5be0566401519f5fe632641575cecc3fe1b10e1520b7563  ./companies/pinehaven/evaluator/reference/tasks.json
+d3dea000aa6cb6adbabfeb5efd80e7a78ee6bb711b7f0d1b45674322b7000833  ./companies/pinehaven/evaluator/rubric.py
+eff0bf25846e8e80ffa8d642bb2e06bf5768550cc1d0b362f4b27df4a0062de3  ./companies/pinehaven/evaluator/task_grader.py
+a1b8fef52cd307fb0cc72c7000ef756b6e04334e25ac635b4c0d390934f76e65  ./companies/pinehaven/runtime/env.py
+c0cfa874e1bcd71e0e1e1f6d5fc30fc32cbf81e599c644c836fe24a600f2dd3e  ./companies/pinehaven/runtime/pinehaven_company/__init__.py
+8b0101c3f97124de3a8e1b9fe2ec614ed5b8d6262db54e8bc67f39db3493b5ed  ./companies/pinehaven/runtime/pinehaven_company/erp.py
+3a474c8837197c6434cffe152fd8661889fddf17afbd18c088ddeae62e039bd1  ./companies/pinehaven/runtime/pinehaven_company/mcp_server.py
+30f47ffdb51e54d7749883aa65cdc0e3d4fdd3dd51d2ec0ad6d7b999e5663265  ./companies/pinehaven/runtime/pinehaven_company/paths.py
+bee4bf353bda1a3c1fcafde0034d7d912142750aba29b6f6556eb902eb43e880  ./companies/pinehaven/runtime/pinehaven_company/reset.py
+24e4defc4151e70c7069def39444fae6f1e6e012ffa6d714a6a11debfee471c8  ./companies/pinehaven/runtime/pinehaven_company/schema.py
+944a48915861d5c8832fdbe52e56ccb3dcf4991ff45b5bf79767fb296406f0ac  ./companies/pinehaven/runtime/pinehaven_company/seed_archive.py
+c38a2802de5c83f6baee9f237c0a8aa40f5dc0cf9a7adf572e1530808885f0e4  ./companies/pinehaven/runtime/pinehaven_company/workspace_archive.py
+a1539fc01e46e63fa7feb3c37dd7cd945401d38f5793b1ca53d8d0d71ce9e5ee  ./companies/pinehaven/runtime/pinehaven_company/workspace_security.py
+ef7d09592af0aacd32f04cce85d4ebefa3ca1bb5ab5cec224084bcc3ad3fb280  ./companies/pinehaven/runtime/pyproject.toml
+c0286cac51c6afe84455ccd2b0d3fbbd17b59d19b8d976b0f7cfa4c54bcbe150  ./companies/pinehaven/runtime/scripts/prepare_agent_runtime.py
+508f3d2564d252b5f6b9f6b3f6d1c7303e6e342561c6499e6829b899d4672cfe  ./companies/pinehaven/runtime/task_blueprints.py
+fa022b51016b06dc940e3d52fb8a2b9f7aeeb19c11c8b4cf06d7050f3bea4885  ./companies/pinehaven/runtime/task_catalog.py
+2d38a54cd7bf78d28212fd0ab0a578e414c2a3f1b6f75cdb960160636b428b58  ./companies/pinehaven/runtime/task_templates.py
+e14e77fbcf0df3586e0ff6680cdbf96296a642c710827d148088ba28bd38c70c  ./companies/pinehaven/runtime/tasks.py
+cd2dcd80a9a6af33aeee9597d72b6546b4209bbabd92f90b6d2e04bbc33d5231  ./companies/pinehaven/runtime/uv.lock
+98369c4f274c001cad1419fd2628eb7b3a19f5dd244d93c2d948ecf31513269d  ./companies/pinehaven/source-files/Accounting Policies/Capitalization Policy.docx
+8cc6e9b10dadb0c3c16c4aa23b69aae0e3e40497722acae13454a8f656828fdf  ./companies/pinehaven/source-files/Accounting Policies/Credit and Collections Policy.docx
+e07007f284aafd9bc8623dd4b320cf64fb2625bb37feecfd2e54f27009af6706  ./companies/pinehaven/source-files/Accounting Policies/Inventory Reserve Policy.docx
+9f193d0b8dbc00927ff136b73bba16bfec955c8c5d996b8c9401f4053f6e5c25  ./companies/pinehaven/source-files/Accounting Policies/Journal Entry Policy.docx
+875022c0beeb2579c292dee4f737770a0c476473b0533fe863e902fec20647ec  ./companies/pinehaven/source-files/Accounting Policies/Monthly Close Policy.docx
+e88060d792326e745b92460ae02f386f1e02e3f8f08e87863d0b615ba2221d80  ./companies/pinehaven/source-files/Accounting Policies/Production Order Close Policy.docx
+b94af64c2bd70cc94dc85fa44ea969a4b301c92ff779e4aaa1a0999d67af25f5  ./companies/pinehaven/source-files/Accounting Policies/Purchase Price Variance Policy.docx
+25d83299ee8f139fb73a172133ebf5a3d6566b4e5e978a553f8a9941fa43a8ea  ./companies/pinehaven/source-files/Accounting Policies/Quality Hold Financial Control.docx
+e1c913d372c087296fc3c89e8782e0ef126a8e8413f11043504cbff243117b03  ./companies/pinehaven/source-files/Accounting Policies/Revenue Recognition Policy.docx
+b126cc10639032b59a4f3980013eccd7802ce4a8180a6286f1022eb9d18c0a7e  ./companies/pinehaven/source-files/Accounting Policies/Standard Cost Accounting Policy.docx
+42bc0aa4ca261bf50c657e2d0117f2bb566f4f06d8ed4b95ab5506fbd5fed18f  ./companies/pinehaven/source-files/Accounting Policies/Three Way Match Policy.docx
+d66e866398757e4444857ed46c6ea6df2d3bee27d4d7914f693655bb9291ab8e  ./companies/pinehaven/source-files/Accounting Policies/Warranty Reserve Policy.docx
+ca3c47874404bfd55e46e2293af54ac6eb4b0fb489bfa57ade72a525b8ef34c2  ./companies/pinehaven/source-files/Communications/2026-01-07 - January close kickoff.eml
+830e25c5421a2270766e852bc6c94bc0dcbac888fae624b1487641bc22e18c0f  ./companies/pinehaven/source-files/Communications/2026-01-19 - 2026 standard cost review.eml
+eb0764a58460a73d54185824fb6308dffef646f014df8b80a120beff3918d85f  ./companies/pinehaven/source-files/Communications/2026-02-03 - Supplier delivery recovery.eml
+9bf69b4f3990ecf7c406ae198a42eca80112ea97a7551605c2df33aa15d33d0b  ./companies/pinehaven/source-files/Communications/2026-02-12 - ABL availability package.eml
+d49347df02e595fe9de66ae418467a780cee37ca01bc4cf3e0ea1491ec28e266  ./companies/pinehaven/source-files/Communications/2026-02-24 - Backlog quality.eml
+ed7adfcdbf9243f057c524f64ba07c58fa3130afee6525ede9d4100928c041bd  ./companies/pinehaven/source-files/Communications/2026-03-04 - Machining capacity constraint.eml
+3b72e751400d792ca469f690cb0791b68886516dcfcd605bda291b358ec24258  ./companies/pinehaven/source-files/Communications/2026-03-15 - Open nonconformance exposure.eml
+922240bef536094c8717b476c118cc41aee55b8bc75069305c388a006d4eb411  ./companies/pinehaven/source-files/Communications/2026-03-28 - Q1 operating review.eml
+dd535212447da9d89f9d1b6167e8d466881ea532aef761b21a7a6f1a5e90c78e  ./companies/pinehaven/source-files/Communications/2026-04-05 - Preventive maintenance backlog.eml
+36999b06c7ee048085ac5fd30ebf4a488d54f814279fcedd72c723dc3737dc92  ./companies/pinehaven/source-files/Communications/2026-04-14 - April demand review inputs.eml
+108606f0dcd60b77742d24c8b2b5e8cd269563633aa4279305a5b9c2aa0fc502  ./companies/pinehaven/source-files/Communications/2026-04-22 - Quality-hold invoices.eml
+8cf2d63510b85df0f63c75a1c5c0016098dba18d8369e90fb898f9523605d8a3  ./companies/pinehaven/source-files/Communications/2026-05-02 - Past-due customer review.eml
+e4765f710029fad5de8bbdc5659c6ca6a59a99468aceabf4608192c31631103c  ./companies/pinehaven/source-files/Communications/2026-05-11 - Inventory aging review.eml
+413e84745beb1a1f845e37f39681f0f566c54dc05bedeab7f717191894e1bdc4  ./companies/pinehaven/source-files/Communications/2026-05-18 - Electronics quality and rework.eml
+cb45df25c4297b6554e822cf2701e65672c3e1e58a8b166fea5ce6eacef0008a  ./companies/pinehaven/source-files/Communications/2026-05-27 - Liquidity downside case.eml
+14ade27ef76bf40315c7d0231f5e258f789a591211450429af2d13e39a802042  ./companies/pinehaven/source-files/Communications/2026-06-01 - June pre-close priorities.eml
+64080bb22e8eb0210ed70752a661f8f0463a415982a60e04bae4f6795f3e6dde  ./companies/pinehaven/source-files/Communications/2026-06-03 - June production order hygiene.eml
+b040b39d18eca29a7544187049ade3930b4675e63fd6cc6884416b1012083070  ./companies/pinehaven/source-files/Communications/2026-06-05 - Consensus plan version.eml
+8677a2ed15d102badc0612001198b093789a9e7460ea664f544e0003717816a5  ./companies/pinehaven/source-files/Communications/2026-06-07 - Aftermarket transfer reconciliation.eml
+6b95db02e81fd61e9b737d208b16e07b7988d797b38129f518400ccd690d869f  ./companies/pinehaven/source-files/Communications/2026-06-09 - June PPV actions.eml
+cff9aff31ec91eed6d63e7d90ef8667b402a6fdb65214248335e3408c8753256  ./companies/pinehaven/source-files/Communications/2026-06-11 - Q2 provision data.eml
+bb521ced3b0bc6e3e24c38d67162cf1ffaad2d84d4996cfc2d969301d62f768b  ./companies/pinehaven/source-files/Communications/2026-06-13 - Capacity capital requests.eml
+b13ca2265ef74c706e2bc2940046c5fc10f09648c39177d914cc5ca3625ec65b  ./companies/pinehaven/source-files/Communications/2026-06-15 - Product family margin review.eml
+87e11d19f820804f652e35a9c57ebd703a76df4b761b72834ab6d285cdadce7d  ./companies/pinehaven/source-files/Communications/2026-06-17 - ERP access review evidence.eml
+a6f92742fb1a05e73e9fe4e0b1511a23a2c6d9af1773d0e943989008a7d9baaf  ./companies/pinehaven/source-files/Communications/2026-06-19 - Held inventory disposition.eml
+5d818ce809ee12cf73d80101e227dbfd6c77b027b126a3a0dbd5637e110daf1d  ./companies/pinehaven/source-files/Communications/2026-06-21 - Q2 forecast refresh.eml
+aa15bc4d9ca92616f7bac6161a270f54b38c163df9f70dfd9cbc3d4cd55cf2e1  ./companies/pinehaven/source-files/Communications/2026-06-23 - Debt classification check.eml
+8059aee290208f29f199772885597c39dd15d67dcf2c73d263b65541329e5567  ./companies/pinehaven/source-files/Communications/2026-06-25 - Inventory and WIP control totals.eml
+02564cc35013a1be623cd7220f6ac1b21a83c9858d6979dcac9938aec42d7448  ./companies/pinehaven/source-files/Communications/2026-06-27 - Final June operations actions.eml
+5619c2b9ec4cee1200b64004c0501b189f362dd1fbecc9042ee2dc57c65e49b8  ./companies/pinehaven/source-files/Communications/2026-06-29 - June 30 executive package.eml
+f5e5adde1babe6a403e71c57cdfc03f6063f936270d5fb9894a9fd1760815dc5  ./companies/pinehaven/source-files/Corporate Memos/Aftermarket Transfer Process.docx
+e42781f2ca9a20bcff6771bf03405291204fb786106457d2ad15655a3cba6460  ./companies/pinehaven/source-files/Corporate Memos/Capacity Escalation Protocol.docx
+6c051543c7f9ba5a027de2221d6b46c11ad6a1fb7d560a1a8ca84e37a20c39a8  ./companies/pinehaven/source-files/Corporate Memos/Capital Committee Charter.docx
+67272864438837e4aea558000c1ed0ec91bf1a17703b8fd98eef94a6e2799044  ./companies/pinehaven/source-files/Corporate Memos/ERP Data Dictionary.docx
+ddbec0e5a26059955e41e6ac6a426d551d82e6a6a98c73ab8676369d1f014788  ./companies/pinehaven/source-files/Corporate Memos/June 2026 Close Instructions.docx
+0757b677955811e93d21639ef09b60fadc794906c5572866942a2e47fe4add9f  ./companies/pinehaven/source-files/Corporate Memos/S&OP Governance Charter.docx
+ceb5afe826eecdd09813a5f3dfbe243fcd1cbfd5f8ac4b8e7106ab1b5fe8a68a  ./companies/pinehaven/source-files/Corporate Memos/Supplier Risk Review.docx
+ef6fe6b261f13afefdb3210bbb54d9cfee4d56a34503d11a2e7a0e0e79958629  ./companies/pinehaven/source-files/Corporate Memos/Treasury and Liquidity Framework.docx
+45b9af3062c807db6d7659993d949dc375ab92e820522acdfc6791c3190e1ac2  ./companies/pinehaven/source-files/Exports/2026-06-SOP_forecast.csv
+3e742032cd0131f3da66003c64befdb7f62703fa3093cf1dd6ad98e0b507e954  ./companies/pinehaven/source-files/Exports/2026-06-SOP_planned_orders.csv
+e4344cf04cd6e1e9039555b68e5eb76f92436cdfaf73b477bde8d3ca7467341b  ./companies/pinehaven/source-files/Exports/2026_inventory_movements.csv
+9161be38acd1b31d3e15cade4f39e6a08da4b04ee08c5b1f9463045e6ad31a10  ./companies/pinehaven/source-files/Exports/2026_production_variances.csv
+da4f610dac6f57e433be548da956c4ce53160a711c96cef7d797c4f637b0427a  ./companies/pinehaven/source-files/Exports/2026_receipts.csv
+2104f6cad79fc982234893f4b237729752ec9dc609dab023b2dcbf4688ad4597  ./companies/pinehaven/source-files/Exports/2026_shipments.csv
+7d056b7aa501d3d5df69a7ea828b4f781e21242a83b9646416eb7f9f9e9296ba  ./companies/pinehaven/source-files/Exports/active_bom_headers.csv
+01a7bffe2ab73231f60ed88206080afc360698098973ab40d7e17c58dacb39da  ./companies/pinehaven/source-files/Exports/active_bom_lines.csv
+d70e239bcd6464b9b9687474a48356216f6c346f7d67b1d5222d85522f1350b8  ./companies/pinehaven/source-files/Exports/active_routings.csv
+88703ff09bca0b555966dc7ada6d98190c24c09650454eef9f1574e99cb2c475  ./companies/pinehaven/source-files/Exports/customer_master.csv
+355d38226d5434defacebe36d7a6a58d37ac674a46485e089902d9112052c382  ./companies/pinehaven/source-files/Exports/inventory_on_hand.csv
+3797214903f33b6331d3b5c658e7df20e624262f82a068126851fd6937a9092d  ./companies/pinehaven/source-files/Exports/item_master.csv
+9f15862d89c39d141627c4baa4a5b2ca05b66e262e9800334da80f24a0856731  ./companies/pinehaven/source-files/Exports/item_site_costs.csv
+41c2424d71d3938b5780f1e3e2172f0171877c1644543ae0e7da3945b35090c1  ./companies/pinehaven/source-files/Exports/open_customer_invoices.csv
+6b25a2e95a00e12fa7e13bf917aa9a45c64d45183ef0d55fb3f81ba5e842a314  ./companies/pinehaven/source-files/Exports/open_production_orders.csv
+4d7dc8b4f45704bfb1dd5a504dc88d78f491f02f0061fcbdd5c750d82347df8b  ./companies/pinehaven/source-files/Exports/open_purchase_orders.csv
+efaf96cfac13553687d542824e25739785045b48230f14b398cb1eaeebee31a0  ./companies/pinehaven/source-files/Exports/open_sales_backlog.csv
+75bcffcaa82450fc735bafd1775e7c50ee4f3ccd83ebbb393ffae98b3c89140b  ./companies/pinehaven/source-files/Exports/open_vendor_invoices.csv
+6f43393d7393fd1cffd3f3d1fbf10813751f4434134ea3051ed19c1be678bb4c  ./companies/pinehaven/source-files/Exports/routing_operations.csv
+6147a26b7d0170af3cc5f4b2fc773d2788dd6238e2fce5e69c525c7ae33cb0a2  ./companies/pinehaven/source-files/Exports/vendor_master.csv
+248f65617fea37638513af7b4e5e747b3827c962872f147a9f5fa1a67d22feeb  ./companies/pinehaven/source-files/Finance/Analyses/AP Aging.xlsx
+fcb3802d71fd293ac44a78563bf525e58493b0321ab7ef0f4b3c5aeb148fb06e  ./companies/pinehaven/source-files/Finance/Analyses/AR Aging.xlsx
+124f6d0bbcf8cdb3583e334d87d8c94ae5cbd4384b9cded7cb9d24d6b40b14df  ./companies/pinehaven/source-files/Finance/Analyses/Capital Expenditure Pipeline.xlsx
+344ab79a596e0ea21999bc4d4261e9c5b082d35cca1619451c1cc98bbb4f7328  ./companies/pinehaven/source-files/Finance/Analyses/Cash and Debt.xlsx
+7becc53e4a91de392c253b76af9f15192e29074b9213c50a5fca87f6d2b29563  ./companies/pinehaven/source-files/Finance/Analyses/Customer Profitability.xlsx
+f564b247af979025750b5d24ef012dc898589b4deda688175b8df50abe3fae05  ./companies/pinehaven/source-files/Finance/Analyses/Debt Covenant Model.xlsx
+9ec0d1d6770a1f22f579d2b478a8e8fa00f0f8184f25427d077d7d8b55b03ab6  ./companies/pinehaven/source-files/Finance/Analyses/Fixed Asset Register.xlsx
+b6f665022061c8003690201402544e7d173f758b2ae204bb874d1f5226e8cd68  ./companies/pinehaven/source-files/Finance/Analyses/Payroll and Overtime.xlsx
+85d036b954bcda17d381e0746707b1cde211abda7bd449d03354d90af66a743a  ./companies/pinehaven/source-files/Finance/Analyses/Product Family Profitability.xlsx
+3d76c24a252049b60507131f51187a0255ac5a01a9e865a54e6be5047e89db08  ./companies/pinehaven/source-files/Finance/Analyses/Production Variance Bridge.xlsx
+b9dc2423b775ef8408d182b865469ea140cd4f769ef3390eb05093560f64c169  ./companies/pinehaven/source-files/Finance/Analyses/Standard Cost Rollup Review.xlsx
+8b45d423334da2ed1e89bb4394beb7e1a19834ecf7429d1d36d89fc8d605f15e  ./companies/pinehaven/source-files/Finance/Analyses/Tax Provision Inputs.xlsx
+708b199b69d51edc5a6b694f94943b0cc99240420bf7135cfc34f4df4313f807  ./companies/pinehaven/source-files/Finance/Analyses/Working Capital Dashboard.xlsx
+828d6c307b214485dfd868f4da4855a3a5ddd16f664bb0436b6fec7c14531b26  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-01 Close Binder.xlsx
+a76db047fc97c7e25861141e91d337d19c502fc8d7c4ffc24929642bfa606b9f  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-02 Close Binder.xlsx
+b018417d0bcbf434d3a45f77064ad7cecbf22f35ee5910ec4d36fc7c27ce509c  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-03 Close Binder.xlsx
+7ddeee737844cf12e9ac6d3b0cea6e78a9d198ff0d3701f54432a6557cacde2c  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-04 Close Binder.xlsx
+b971e275517622997f55b675db0423135d27faea55691df7cf472d713a87828d  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-05 Close Binder.xlsx
+f3fc24464c5715ba2729552406bc3c415ff4a1e45cdd6733aa618c389e779bb1  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-06 Close Binder.xlsx
+7a01e71037e96e773b3e627efa2d537bf988fb0d6fd70ba5362a22b7a4875dd2  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-07 Close Binder.xlsx
+54e1f4a42517d43ab8d65a7b0b556dd8fe44ef3138eeee48118c699bfbe20405  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-08 Close Binder.xlsx
+84a7ff400a723d7295d0ea2322a08db3d74d8477081dddcd1d20960e656fbe39  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-09 Close Binder.xlsx
+8e86bf00e105d71f92cc2ce152406d54c3a23b4f8ffa61d2c7c101149cc5157e  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-10 Close Binder.xlsx
+e72ea5edf3004d8e9e7d2374e8c3be9efd4933925e3e481646c547b4c252764a  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-11 Close Binder.xlsx
+3c12f1ba24f26d5a9264cd1894ba0d15fc4656e6bdca6422ee793a306597b335  ./companies/pinehaven/source-files/Finance/Monthly Close/2025-12 Close Binder.xlsx
+77c3013e5b11e245956d5ec3b40780d850eba0e59aa25aa4204f4e9ee2b54e01  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-01 Close Binder.xlsx
+30edf175ab33fd3b6cdd904ef005e029ffa654e9b00752fafb5bc364a2220036  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-02 Close Binder.xlsx
+a9955766793d3da07d57383cda9fda316ab69e5e5b5d875ff0776b4395b41eaf  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-03 Close Binder.xlsx
+f9af10d5da292c53c69df191cd3068442ea16f071ea39553fa3669bdf3ec6512  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-04 Close Binder.xlsx
+2f760c0e84da4424259cc4afb17c58dafad5b08c0cb9ec751a316d81ff8930da  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-05 Close Binder.xlsx
+72f62c2102f9a9f6ff502c9e9bea9533b2b08f66dcddb9fc8d5da00ca4119773  ./companies/pinehaven/source-files/Finance/Monthly Close/2026-06 Close Binder.xlsx
+faf0bd6317a5ada3e217742b603e93ad13703fdd45501fd580ccdd09810bb063  ./companies/pinehaven/source-files/Governance/Audit Committee/2026-Q1 Audit Committee Minutes.pdf
+5c2c679668a36bb456deebe0f1296d993faf942b2158df0d222df80c3716bdfe  ./companies/pinehaven/source-files/Governance/Audit Committee/2026-Q2 Preclose Agenda.pdf
+a3d7d8df4d116eede0970e84a4c97e8b012667e4defe44496cc1ba861cfa9004  ./companies/pinehaven/source-files/Governance/Board Minutes/2025-09 Board Minutes.pdf
+ab6d82d3f763a8f50cfe2012f58d1f7a3df7169e7c8a0027e8e8b310cbe67c5a  ./companies/pinehaven/source-files/Governance/Board Minutes/2025-12 Board Minutes.pdf
+a47980eaaf890cb6e82e58acc7a95ae86d479be4b533dcb7301ce5f32fdb93e3  ./companies/pinehaven/source-files/Governance/Board Minutes/2026-03 Board Minutes.pdf
+ca0b47247e5ae702ad518990287ce8c3e42500a64a7e8bb9d6ec185cd04e444a  ./companies/pinehaven/source-files/Legal/Product Liability Review.pdf
+174c8f97a679b19dc13fc75e906e5634cddca7fc98c024ef91b8cc4af7155c3d  ./companies/pinehaven/source-files/Operations/Maintenance/Preventive Maintenance Audit.pdf
+f11e3e4133d9777cecb549e46ac3e21fec1b0ff1b0202ee14fc249aa32339b2a  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-01 Plant Scorecard.xlsx
+cfdccb6be29096843067837279d0989fec826dae2da88c112ef5d54192f0a10c  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-02 Plant Scorecard.xlsx
+9006d7c79bd6818e5662f6f5eeaa5c414048f619af72e00f8be3d8f0c3cb26ee  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-03 Plant Scorecard.xlsx
+b7463335cb72f11160acf2eaefb88523de4cb52e7c324d59872361a573a991c4  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-04 Plant Scorecard.xlsx
+9fc5748f98ae1ecee404b521587078f5c6b7eb031406d4b298642f441b001bba  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-05 Plant Scorecard.xlsx
+760b596b22a083cdd5494600a9eba430769c9b5d2171c99d75cadc54e801bed8  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 100/2026-06 Plant Scorecard.xlsx
+36a0610babf5b6f3cea2a7b25e5ee991c2778c303ac08df5815898da1a301e68  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-01 Plant Scorecard.xlsx
+fd0c9cecb5bd52536a20529598ce6a36c5e8b5af85ceeb48842f429d8dd175f3  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-02 Plant Scorecard.xlsx
+e3f78428bee784334316a81367316fbe60e42b7f304b55bedda0d11c40e51aec  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-03 Plant Scorecard.xlsx
+9fbd1d4eb238129f11982cae7d1a2270d8900b4b42d477723bbc577e169cc0fa  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-04 Plant Scorecard.xlsx
+b9cff14def4f09d062ee7efd40f57e98f6f85a8c8082084eff053b9cf8c55cb5  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-05 Plant Scorecard.xlsx
+8cb0dc4c898bcb65613ba6221a3719a5976c8c150f35fcb210cf743ed19a8d94  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 200/2026-06 Plant Scorecard.xlsx
+d563f28d27a8537b3c416f850cd03cd06e364be9c85412ba0331bf7d37f1001b  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-01 Plant Scorecard.xlsx
+dd7acdf7d43a3500070a26918212588102852f510c51598b1cfecb3c835ff438  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-02 Plant Scorecard.xlsx
+d9de4f50c18828b1accc2b9fa0e24c55ba47237c3023c4cd9c81d9eff546a25a  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-03 Plant Scorecard.xlsx
+e96d88ee02fa5696e5a906134736bc7d808d7195b3439099c9ae74219726999a  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-04 Plant Scorecard.xlsx
+acebf43c6b790d4ab01d9cf1f844ad3f3de6f216baed6df39c2ef3b28614a688  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-05 Plant Scorecard.xlsx
+29c6d0393a38c5ac8ebfca61279824a8bf9bf40e0f343b1c1d22d8c97ec90b88  ./companies/pinehaven/source-files/Operations/Plant Scorecards/Site 300/2026-06 Plant Scorecard.xlsx
+80158f2ad1badbcb9abcc3fbdc1524c9c62e95f6ec7d48f67717846839c9534b  ./companies/pinehaven/source-files/Operations/Quality/Dayton Quality Audit.pdf
+b4087e22e29ab8cda01da0338d5e184072556747ec891fda5ae96217170fb1f6  ./companies/pinehaven/source-files/Operations/Quality/Greenville Quality Audit.pdf
+156ef74cb84a40e519ea6d28c03fad2913ead041c22e0114ba608b126557fe3a  ./companies/pinehaven/source-files/Presentations/2026 Q1 Board Review.pptx
+a87a09e4a470747216212e3ff780bf07bd0c9147a7cf0c3248c162b6d644f7ad  ./companies/pinehaven/source-files/Presentations/2026 S&OP Executive Review.pptx
+0a532241daeab619274636c45a64b8bb8c8cb05ccb3cabaf1ca9f194e74d4be7  ./companies/pinehaven/source-files/Presentations/2026-01 Operating Review.pptx
+fc32d09d421074be764d0083eaee01c9ae698158b4c49146e980d604a3f08cd2  ./companies/pinehaven/source-files/Presentations/2026-02 Operating Review.pptx
+2f186f7a67d68f4f31031be8a1be6e82332b20e25398ff87a4df3486a67bb39b  ./companies/pinehaven/source-files/Presentations/2026-03 Operating Review.pptx
+31fe09c1d4fff4025733f4b251c0889c0ca63019455cdd2efeb7a902cd8288b1  ./companies/pinehaven/source-files/Presentations/2026-04 Operating Review.pptx
+6befacf53e1889d52e71b5407d3d68e2e7751133f928e5ef4cd01ea3036a4b85  ./companies/pinehaven/source-files/Presentations/2026-05 Operating Review.pptx
+32f9360f9780bf780372fe6ac5c07b532170d17e38cbc87b8b33a00a4e8ed5f3  ./companies/pinehaven/source-files/Presentations/2026-06 Preclose Operating Review.pptx
+54fb60838407e7cd9b1ee198a0b6479d4de9b35610d11bd4542f28be7d4769f4  ./companies/pinehaven/source-files/Presentations/Capacity and Capex Review.pptx
+e06b4eabc1bc1acdb9da29d4544c3cca4b4964d9f7bd4d0c4a75db0cdad9e4b9  ./companies/pinehaven/source-files/Presentations/Supplier and Quality Risk Review.pptx
+455f8acd97f35414904f990b62dd6ef5b8963bac1554f027f528e8b8367827c4  ./companies/pinehaven/source-files/Risk/2026 Insurance Renewal Summary.pdf
+3161d71957dd1b785d9951086f9506a5663219215e7cb7cd82120cfd99402e6a  ./companies/pinehaven/source-files/SOURCE_MANIFEST.json
+ece5eb1b2b2333d935ec6e5c2cab0fdde9f7a254edda996506f64e5651527f68  ./companies/pinehaven/source-files/START HERE - Pinehaven Company Guide.md
+97a5b50aae21fb846da4ca6cc9c3d8d6f6fd3904328fc0da965a9c42ccddfaa9  ./companies/pinehaven/source-files/Security/ERP Access Review Summary.pdf
+870689bfaf83d8ddfa77a47bd126b41395cc542c1cfc6f0f5cbbcd3ac208ef47  ./companies/pinehaven/source-files/Signed Policies/Inventory Reserve Approval.pdf
+d68a3336b68d644377f8a8736df21ae92be70e735047285512dca35086bad940  ./companies/pinehaven/source-files/Signed Policies/Journal Authority Matrix.pdf
+e5f37698879fff7e56d6ab8195cae6bc8d46a1103b48616768f15573c9ed17a7  ./companies/pinehaven/source-files/Signed Policies/Revenue Cutoff Certification.pdf
+66d23db28237c578c0bc039fe7b4a410992ea8b5848744e6f34015eb93a0231d  ./companies/pinehaven/source-files/Signed Policies/Standard Cost Approval 2026.pdf
+0c0babf1fb5bc73934b8e56b3aa799e1edb1020067f7f9fe6e50b2af197d5af4  ./companies/pinehaven/source-files/Supply Chain/Analyses/Consensus Demand Plan.xlsx
+5be55613ff23fb58c8b084c3fc05a12abde3eab079d5d712c45a8da196ac94b8  ./companies/pinehaven/source-files/Supply Chain/Analyses/Inventory Aging and E&O Candidates.xlsx
+0a56bc773ac9452c3d9c88e664ba4ab36f6c0633a3b990ff9c508a37a538e60f  ./companies/pinehaven/source-files/Supply Chain/Analyses/Inventory Valuation by Site.xlsx
+b033fc2373772554cddd959e1484649e55c9c3939fcffd4a5b2f31fe9944018a  ./companies/pinehaven/source-files/Supply Chain/Analyses/MRP Action Messages.xlsx
+bcbf70b596fd4537b31553abdf8380c6b0368b91d73d051379f8b2af9e1f8941  ./companies/pinehaven/source-files/Supply Chain/Analyses/Maintenance Downtime.xlsx
+f9e50aba85d37030385da9394c4a34c15fbb3c50875547f9380c91c831a4a545  ./companies/pinehaven/source-files/Supply Chain/Analyses/Open Purchase Commitments.xlsx
+0b7698b3cb65318702a3f955544b3f5c01a6db2fe5c14822b127bc5309cc0b7c  ./companies/pinehaven/source-files/Supply Chain/Analyses/Purchase Price Variance.xlsx
+7403c820ccba0604c177b9e0e32564d33647328487e7449a8e983c355dd3610c  ./companies/pinehaven/source-files/Supply Chain/Analyses/Quality Exposure.xlsx
+44e2ba67b3e2154aae23333aafcb236d5b08535876f51b17db96e4d6ec76d1a2  ./companies/pinehaven/source-files/Supply Chain/Analyses/Sales Backlog.xlsx
+aed09d2751c9abcd69889c71eae6e2891c44b50b8c02adb299d4c40297f0dd98  ./companies/pinehaven/source-files/Supply Chain/Analyses/Shipment Performance.xlsx
+4e88ced3bd9a0ed5e3e9437070e8374ce12691ec71caa76795ed8e1e2940b8ff  ./companies/pinehaven/source-files/Supply Chain/Analyses/Supplier Scorecard.xlsx
+c70bace28ab89c8e4da1406624b19b87fc7f1f58f8e1f06bcd44f61cdaf4c5b7  ./companies/pinehaven/source-files/Supply Chain/Analyses/Vendor Invoice Holds.xlsx
+6b806ca940737c6d02c5cc20b4c1197a9976f7cd7a63473e71a8daf497e4efa6  ./companies/pinehaven/source-files/Supply Chain/Analyses/Work Center Capacity.xlsx
+f848e82fbcaabf07b0ce8d6e876d5a3b21dc997e36931c5669a8ed95dc1eea48  ./companies/pinehaven/source-files/Tax/2025 Federal Return Data Request.pdf
+3310e107bee80ca47aa79e0fd2036d6f7c25d4b5d9ca400de1de54f1bdb51e6f  ./companies/pinehaven/source-files/Tax/2026 Q2 Provision Calendar.pdf
+2c4f52540ca4a4992ad7a3c32e7bed523af8b6cd11f3f835f3ea35ef0a3132cf  ./companies/pinehaven/source-files/Treasury/2022 Sponsor Term Loan Summary.pdf
+fdb318562700b375413a9d567c60280d5a6d6f8daf9bcf3334d3a930d75f84ef  ./companies/pinehaven/source-files/Treasury/2025 ABL Facility Summary.pdf
+3617af55451b72a56156291e43cc7f8966692b18bb29673f932a6a33b4c28418  ./companies/pinehaven/source-files/Treasury/Equipment Facility Summary.pdf
+d888fb07fc8cde4927088bc5e67fb6a9119dd6744651431307e508a45fb7f50d  ./companies/pinehaven/tasks/hud-taskset.json
+1186973db4ae914627ce99f133ee1084e550ea286bb4827675f350ef626afcd1  ./companies/pinehaven/tasks/index.json
+972ded81f02bb62aa6af93d25b532c183600e34bc76dcf54223b6532077b072a  ./companies/pinehaven/tasks/task_001.json
+b0985599c88dec986c38e078ea70d5f660092c5d92ee45a50519da38a8531ff1  ./companies/pinehaven/tasks/task_002.json
+47bae901cbbd661fea41939313c05cd65de74c790a34686247c0608787cd386e  ./companies/pinehaven/tasks/task_003.json
+8eea30b8fa3b666601c7cffdf1028c2ff2077b09ba9f7442ce424524bf75de0c  ./companies/pinehaven/tasks/task_004.json
+a9ded76b8a06b3ec2f6c628befd1e7ae68c050b2214185f09686ad28be76bbd5  ./companies/pinehaven/tasks/task_005.json
+ae71b098c0983641df8b0d245111ac5db0c69e07536518e819b582f6b62f58d5  ./companies/pinehaven/tasks/task_006.json
+863a8ff27c5f397a87da78f9746f47b2aca4ee2f61d6c3af604a57414980fbde  ./companies/pinehaven/tasks/task_007.json
+a3c25fc8b6a5f72f7d82bb6901584b2c8209123d251d30f9e6fa200ff85c61e3  ./companies/pinehaven/tasks/task_008.json
+e5e8ab1c8ee8013c4157bc9f41c16c1db90941ecaa7a1b54815334209d7456c4  ./companies/pinehaven/tasks/task_009.json
+81aa18718dc33d5de1ecd798e91393e2574dc353954f2815d7f3958a940725da  ./companies/pinehaven/tasks/task_010.json
+3dc2ff5ca05673fc76044b1e04949022a57b3d41647fc101fcf0db736ffb952b  ./companies/pinehaven/tasks/task_011.json
+1255361afb8ee342a199daacc2b0342bab44076bd2da12009d50b443bd088a16  ./companies/pinehaven/tasks/task_012.json
+ccd5765ebb6041995841fc4ab9f432faf54063fedc183dbb4bd63dc2e38cfc24  ./companies/pinehaven/tasks/task_013.json
+a86f6959948258a6d25e759896ae4edae7aac07b3b59e7a7033ff2c08edb0f16  ./companies/pinehaven/tasks/task_014.json
+4f637e207caf439571a6b2eb142d1868526acd820e98412c2b5999ef73852726  ./companies/pinehaven/tasks/task_015.json
+5839551719db3b52b0a4afc150c538d3fddbcf9d1b116f36e3e7c7ecbced7922  ./companies/pinehaven/tasks/task_016.json
+bae2d036c614074a9789bef1faf9cb22ededfbbd9a63d59c79601452afc61fc2  ./companies/pinehaven/tasks/task_017.json
+14d9e332de26fa1caeed3e47c54c813f5b991308a634e748bc26f21fa65574b3  ./companies/pinehaven/tasks/task_018.json
+dfff47133b84c776b866e2f50be13ed7f64e40282459f4403e8a0701a1103702  ./companies/pinehaven/tasks/task_019.json
+256c73bf359e6168aff796091e8558979a9ceb110afca4c1096556fcb3e0a49c  ./companies/pinehaven/tasks/task_020.json
+5a66a5ed1b65d05b367726eaf5a65b401330f56d491d6bfb9ca7b7b714b5e1b5  ./companies/pinehaven/tasks/task_021.json
+249f540d0cc3d37daa3aa5563d979f13e192953c2fa07bb7f7380a7c35145963  ./companies/pinehaven/tasks/task_022.json
+6e86afcac3ae04682197991b9efc9a23ef62a421dff0466379efcdea7aaedc3e  ./companies/pinehaven/tasks/task_023.json
+5348ccedaac472d7fe4a31c14d6e28cf1c4d11e0775b130dccc521802d531b1e  ./companies/pinehaven/tasks/task_024.json
+9e99e3befffcb8eab0ba9f6fc5f4549f27c890a22a051a83eea91809e243ab6c  ./companies/pinehaven/tasks/task_025.json
+a50c935feca9f79df3cf1d73b1a6ab9cfe3ed97e7ee5f37f8e4b5dd7e73b0fef  ./companies/pinehaven/tasks/task_026.json
+010695f6c486db4fd612462a1851624851f559080d7e14e42719400866c1771e  ./companies/pinehaven/tasks/task_027.json
+7d964b5d3e831d12965f9c99a89f374d9c384c8802e7c538a71af5ae03ad4872  ./companies/pinehaven/tasks/task_028.json
+c0c6aeadf55a294dfcddb6d2b01d36a79666ed08067168a184905a6587ad4d37  ./companies/pinehaven/tasks/task_029.json
+a3374bb104ff812ed4d5f15066a18419f640d679ec131cab15e7414e77412592  ./companies/pinehaven/tasks/task_030.json
+cd45f14bb0dedf75f0751d2dfa8bdedaa269352740b71e9a1d8453ec2c50a9e7  ./companies/pinehaven/tasks/task_031.json
+183967ac56c3d18c923ac47888d0c0263d572f64a8e97e7300bd1ba1ce8f49b1  ./companies/pinehaven/tasks/task_032.json
+db92004d5085943239f6bfef0c822c1743936f6495a81d8a05b8ff75d43fd36b  ./companies/pinehaven/tasks/task_033.json
+139faeebc63c7ad6b01e2e9620bc6b27fe9ff172e6f89d406dd14cba31790e47  ./companies/pinehaven/tasks/task_034.json
+5281517a8ccbf60c79aa99fb61bcc5c43d6944cc863ad4dd2a2dd6f33fd7786e  ./companies/pinehaven/tasks/task_035.json
+b7ddb75b9848ff58522b39e9a38773871a69a241f11726575181834d9b84988b  ./companies/pinehaven/tasks/task_036.json
+6ca15c8329b0ec9cb3e1c4de79af4f7ef5c0006224fa7ad1a5f6661dfae7b3fc  ./companies/pinehaven/tasks/task_037.json
+56d6c7bf968d34d005833f8a8d4556d48a362b945257d5a6bdae1d21007e10f3  ./companies/pinehaven/tasks/task_038.json
+8ecceb13e327b37f5e5bfb3a27bf0ebb8c6f6466ee06a8bcdabd8cf8e8c32ff7  ./companies/pinehaven/tasks/task_039.json
+b48fc1a894b7908e47d463e493d9471e1e8f20e7c8d93e350df0d2153e5e07aa  ./companies/pinehaven/tasks/task_040.json
+05d442c2a881c4e941f38d7e25107af9497f07951c5633409d227d195401f4e4  ./companies/pinehaven/tasks/task_041.json
+2d6480019e8102aa43c209e07f33a606861222933c7416694e8f502f5d4dfd3f  ./companies/pinehaven/tasks/task_042.json
+7a2e465ead62b654c52989545dc6ffe068a3e934b2011ee40434fef5d6ac3b07  ./companies/pinehaven/tasks/task_043.json
+e09c0c16e7b050f5a5336ab456659c85ae24a1169c10b3e66fec31df5a066ea1  ./companies/pinehaven/tasks/task_044.json
+8442889f376624d0277df2bfcba693aa6c8e882b151de0f4ca5b065ed5797a9b  ./companies/pinehaven/tasks/task_045.json
+388f5bf19194fa49572b0532bbebdb69f6daeba8ed3ec4ba4803ff677614fd44  ./companies/pinehaven/tasks/task_046.json
+117168f3f7c4fdf45257986c7d508fda6800129e05eda5c12626d3bf6b524d35  ./companies/pinehaven/tasks/task_047.json
+048933b3a026b43e6c6bebbe59d8e16fc78cbe74465a2f967122cf4d6dc02bdf  ./companies/pinehaven/tasks/task_048.json
+e2f5502cfd6711ea619b018d37ccbda4842cc4417f6a5c40e19ef88aa28d19ee  ./companies/pinehaven/tasks/task_049.json
+8abf2b125067dd004106aa8f1b70977aaac3c8041e83367d448936c9a9cb3ce2  ./companies/pinehaven/tasks/task_050.json
+07703b0e2ca373d1835a844a5d497af395ae3f3b21cf5d012c2aba55e9ff42be  ./companies/pinehaven/tasks/task_051.json
+3c877e8f8f6e37b6bddf9b760078604e1704a26244a3639182ccf76b5197b84a  ./companies/pinehaven/tasks/task_052.json
+2257268661c7203f2e9c57082af7594b40eb076a321bf844892938ad6499981b  ./companies/pinehaven/tasks/task_053.json
+2cfdc41058c4c40c9f395e38f211ff0817f8ad2ddc2b6244fd14fb02885ccdbd  ./companies/pinehaven/tasks/task_054.json
+c0b870436c71e1c386b26145e076fd7459202c3273bc349c3c8f2c18bf6de9b9  ./companies/pinehaven/tasks/task_055.json
+292807e3a6978c2e7b6d0b48860d6e6fba2d612d8cbb069d84105bbc1442ca3b  ./companies/pinehaven/tasks/task_056.json
+3b1c6099928b0d8a1164da34b0415b684a48fdceb11b540d0b4d3cbed00db9b6  ./companies/pinehaven/tasks/task_057.json
+eab14f83b57799e0759e6ad262806deee45debd04ff6c887061e33b2ab407878  ./companies/pinehaven/tasks/task_058.json
+ac9fd2e8223ea103fc0b44bb74df9ecbc9fddbd1f397ea144a56fb0ba574f902  ./companies/pinehaven/tasks/task_059.json
+1c938d92da71ac4734c88a596e6809cff6a0ffb46563356fa65e9aaf44c25290  ./companies/pinehaven/tasks/task_060.json
+577133a9f0a47ff018c5c6dbb2337e80a31cfd7af5e5f30f789b26cff8f7b1dc  ./companies/pinehaven/tasks/task_061.json
+978d2d6ec2d62113933984248f4e640b00d4ffbfc313c1dced060fa4706879fb  ./companies/pinehaven/tasks/task_062.json
+84b553008ee798b5c56d51c7805f357a65742c50149656c778e0818cc1f1e2e2  ./companies/pinehaven/tasks/task_063.json
+cd138f91176a1deba67ddf98cd4f1f02824ff9941264837b1562b9fa73302fe8  ./companies/pinehaven/tasks/task_064.json
+035de2f0469a7a58dc935fa984f766469343748bf34436352f6e8f649ce8e88b  ./companies/pinehaven/tasks/task_065.json
+80fa4435dfa5984272ad8d0d29a75b30ca9b7d517a6eeec35e9a7b1ed9d2e04e  ./companies/pinehaven/tasks/task_066.json
+f97b9a38fe63450db3f8b17d6f86c26c761eb6d373d55d994a7020a5d05e0239  ./companies/pinehaven/tasks/task_067.json
+838157a28003cbe323d462f69cd140b670ff82c7b55ce0a85788d6bfa01cf101  ./companies/pinehaven/tasks/task_068.json
+75044f0335b3a169d1f36d214d4c00814a9e50ba9b1bb0f95ebf08c5a89fe512  ./companies/pinehaven/tasks/task_069.json
+58d05cd8372e482ab3fdc588d8d87cd622658d90804957bf72f3984bec277e10  ./companies/pinehaven/tasks/task_070.json
+8b03df75b9b0645429db29e723e952d77a4ba61f535114fd6428ec9c9875d0d0  ./companies/pinehaven/tasks/task_071.json
+a80fa93d4db465fc3b2d4921c83904defe9b1e288581bc5d61a0e2a45712bdcf  ./companies/pinehaven/tasks/task_072.json
+a2082005ea81b07aa5075f5813c29b1404327e0f373813b1f314ff97cfb45f49  ./companies/pinehaven/tasks/task_073.json
+0d78c1f3b5d5527dc341178faf22576584a81fbca437a1e4a1fb31c65f98c39f  ./companies/pinehaven/tasks/task_074.json
+a36f19bee59693a0f22655152da490b4834176ca909c8bbe9ab8138501e02cf2  ./companies/pinehaven/tasks/task_075.json
+9ec0aca94dffab431f8f8206184e020039c4ecb9a3b710a3b627a5475ca311cd  ./companies/pinehaven/tasks/task_076.json
+d8f9fd377801dcf1216a13ad34dd7d16f8e2f41d1e75c06c9223973b04ce3a19  ./companies/pinehaven/tasks/task_077.json
+f8bd27162f6813e5da608faf1e38e4228462f2c4c33a6f7c064c5b53b08f31f4  ./companies/pinehaven/tasks/task_078.json
+740f6d40bca7d4c2bcbf32905bb455b7dff9a4f671059b8d9dbeddecdd6f859f  ./companies/pinehaven/tasks/task_079.json
+60540c2bcd65a7956d0e4a712e4471a6433f9b5bdd91c89d59971214df282e93  ./companies/pinehaven/tasks/task_080.json
+1f7dd67023f1cc01d5509b9519759b909af34ae31f5ac17923d73c0e33a888ad  ./companies/pinehaven/tasks/task_081.json
+9eab8f7a050bff235b5e0b8f004c1e9dfe33af62acb77609587d2349a4e914b0  ./companies/pinehaven/tasks/task_082.json
+057b0936683be75b73ce4f25d3222a24a4a0e8cdb38305554c339c578ee8945e  ./companies/pinehaven/tasks/task_083.json
+616903830a1b546fd6826584ef4dfb623c552b93cdef47c195d43028311c8a73  ./companies/pinehaven/tasks/task_084.json
+8538c38e0b87a25e1aa7cf61682dab0dce75af8497db095cb83fdc334d63a444  ./companies/pinehaven/tasks/task_085.json
+25a5858da5dd23f6dc7a1aaf16f4fc74e2b68b5b614aebb721eee4df44b84e24  ./companies/pinehaven/tasks/task_086.json
+3856001a7d413cb0f7109a52225f84a91c888f647c2aa25cb066033dd76121dc  ./companies/pinehaven/tasks/task_087.json
+da019c81515eb32c090ac299713838532f10d3514e386460617bea0d9ed86bd3  ./companies/pinehaven/tasks/task_088.json
+fb90e3a74eec3d724e60eaa4b366077dce5daba5fb7c3e12b3cef714a1c95549  ./companies/pinehaven/tasks/task_089.json
+e993ca27bdba66bc577173709e3c74857232cfe2f30fd8e14cb2c798122948b5  ./companies/pinehaven/tasks/task_090.json
+1e61a53b72c2d2daf94ac9a80e79caf32a27f2fef5ceca31b1734fd3c78a27e3  ./companies/pinehaven/tasks/task_091.json
+b9c9ae984f66e8ebdb9ddb5f2de3437bf2e0b8b6294b2668088e2f631f3842fd  ./companies/pinehaven/tasks/task_092.json
+55057f812dd19b7ae460712acbb354cd2d5174a032a97171e31f54b1bac1336a  ./companies/pinehaven/tasks/task_093.json
+492fb738bd87505d8e7a4478d01da58f4ee3eeadae2055625100baaf0a66a95b  ./companies/pinehaven/tasks/task_094.json
+e42fe153008571e6fd1868ab6a9ab300322edb42c84d2724f2daa4a1e7f04b31  ./companies/pinehaven/tasks/task_095.json
+872bdd3ad37095fc7456c28f048c2886b8ea75334ec820d1facd025161da7775  ./companies/pinehaven/tasks/task_096.json
+01623aa6add42c6d9175da2daebc75dcf4426d5304ba556b94315fc68efbcb92  ./companies/pinehaven/tasks/task_097.json
+f6c86ea85ecfd652b0e52a611e0ff7af2b9fd5b738431be17e27e5c4571c3670  ./companies/pinehaven/tasks/task_098.json
+e7a9637a664ef8f372e422dcc8756b9e0154191eb3d22ef1af204793d90f80a2  ./companies/pinehaven/tasks/task_099.json
+6f747be1ac6b6847697f2c5dc83d1f7e2deb79fc2ad7eca7cdd06e12868715c0  ./companies/pinehaven/tasks/task_100.json

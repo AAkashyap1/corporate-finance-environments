@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_073",
+  "slug": "credit-metrics-debt-capacity",
+  "title": "Credit metrics and incremental debt capacity",
+  "workflow": "treasury-investor-relations",
+  "difficulty": "advanced-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Calculate Alder Ridge's current credit metrics and incremental funded-debt capacity.\n\nBegin with the July liquidity, banking, and covenant-outlook thread in `Requests/`, including the bank follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nReconcile LTM covenant EBITDA, funded debt, interest, fixed charges, and tangible net worth to the executed credit agreement and accounting MCP. Calculate leverage, net leverage, interest coverage, fixed-charge coverage, and tangible-net-worth headroom. Solve for incremental debt capacity under every applicable covenant and the internal ratings guardrail, then select the most restrictive amount after including the annual interest from the new debt.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `ltm_covenant_ebitda`, `funded_debt`, `net_leverage`, `interest_coverage`, `fixed_charge_coverage`, `tangible_net_worth_headroom`, `leverage_debt_capacity`, `fixed_charge_debt_capacity`, `ratings_guardrail_debt_capacity`, `maximum_incremental_debt`, `binding_constraint`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_073",
+    "agent_visible": false
+  }
+}

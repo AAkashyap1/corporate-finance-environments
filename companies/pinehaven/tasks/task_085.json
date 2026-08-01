@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_085",
+  "slug": "pinehaven-operating-return-on-invested-capital",
+  "title": "Pinehaven operating return on invested capital",
+  "workflow": "tax-corpdev",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Pinehaven operating return on invested capital**.\n\nUse posted ERP financials, fixed assets, payroll, transfers, quality, maintenance, and debt. Clearly separate management scenarios and valuation assumptions from posted company results.\n\nAuthoritative reconciliation source set:\n- `ERP LTM P&L and June 30 balance-sheet reports`\n- `Finance/Analyses/Debt Covenant Model.xlsx`\n- `Finance/Analyses/Fixed Asset Register.xlsx`\n- `Finance/Analyses/Working Capital Dashboard.xlsx`\n\nCalculation basis: Use LTM operating income and `nopat = operating_income * (1 - tax_rate)`. At 2026-06-30, calculate `total_assets` as posted debits minus credits across every balance-sheet Asset account, so credit-balance contra assets reduce the total; include Work in Process Inventory account 1210. Cash is accounts 1000, 1010, and 1020. Calculate `invested_capital = total_assets - cash - accounts_payable_account_2000 - accrued_payroll_account_2010`; accrued payroll is an operating liability and must be subtracted. Calculate `roic = nopat / invested_capital`.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"tax_rate\": 0.255\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"revenue\", \"operating_income\", \"tax_rate\", \"nopat\", \"invested_capital\", \"roic\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_085",
+    "agent_visible": false
+  }
+}

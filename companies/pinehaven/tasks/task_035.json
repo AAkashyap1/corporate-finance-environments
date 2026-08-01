@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_035",
+  "slug": "drv-price-and-material-cost-sensitivity",
+  "title": "DRV price and material-cost sensitivity",
+  "workflow": "commercial-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **DRV price and material-cost sensitivity**.\n\nUse ERP invoice, shipment, customer, item/site standard-cost, BOM, and routing data. Reconcile to the customer/product profitability and standard-cost rollup workbooks and the pricing/margin review email.\n\nAuthoritative reconciliation source set:\n- `ERP product-family profitability and standard-cost reports`\n- `Finance/Analyses/Product Family Profitability.xlsx`\n- `Finance/Analyses/Standard Cost Rollup Review.xlsx`\n- `Communications/2026-06-15 - Product family margin review.eml`\n\nCalculation basis: Use the requested product-family row from the YTD profitability report. Its `units` and `material_cost` are exact invoice-line scope inputs. Calculate `scenario_standard_cost = baseline_standard_cost + material_cost * cost_change`, then apply only the stated price and material-cost shocks. Calculate the break-even price change once to preserve baseline gross-profit dollars and separately once to preserve baseline gross-margin percentage.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"cost_change\": 0.04,\n  \"price_change\": 0.02,\n  \"product_family\": \"DRV\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"baseline_revenue\", \"baseline_standard_cost\", \"baseline_material_cost\", \"baseline_gross_profit\", \"baseline_margin\", \"price_change\", \"cost_change\", \"scenario_revenue\", \"scenario_standard_cost\", \"scenario_gross_profit\", \"scenario_margin\", \"gross_profit_change\", \"required_price_change_for_gp\", \"required_price_change_for_margin\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_035",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_018",
+  "slug": "inventory-reserve-waterfall",
+  "title": "Build the inventory reserve waterfall",
+  "workflow": "inventory-working-capital",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet",
+    "target_path": "Deliverables/inventory-reserve-waterfall.xlsx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Build the inventory reserve waterfall**.\n\nUse ERP on-hand, valuation, aging, movement, and financial reports. Reconcile to the Inventory Aging and E&O workbook, inventory reserve policy, aftermarket transfer process, and June inventory-control email.\n\nAuthoritative reconciliation source set:\n- `ERP inventory on-hand, valuation, aging, and movement reports`\n- `Supply Chain/Analyses/Inventory Aging and E&O Candidates.xlsx`\n- `Accounting Policies/Inventory Reserve Policy.docx`\n\nCalculation basis: Build an item/site-specific candidate reserve-exposure waterfall at 2026-06-30. Start with full positive on-hand inventory value. The aged layer is full item/site value with strict `age_days > 365`; the Phase Out layer contributes only item/site value not already in the aged layer; and the quality-hold layer contributes only held value from rows not already aged or Phase Out. Show the aged/Phase Out overlap explicitly and do not double count it. Deduct only the supplied supported-recovery value. `recommended_reserve` is gross reserve exposure less that supported recovery, never below zero. Rank the top exposure at item/site level, not by item across sites. Label the result as a June pre-close candidate requiring Controller approval, not a booked reserve.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"days\": 365,\n  \"supported_recovery_value\": 0.0\n}\n```\n\n\nCreate exactly this deliverable: `Deliverables/inventory-reserve-waterfall.xlsx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"inventory_value\", \"aged_over_365_value\", \"phase_out_value\", \"aged_phase_out_overlap\", \"incremental_phase_out_overlay\", \"quality_hold_value\", \"incremental_quality_hold_overlay\", \"gross_reserve_exposure\", \"supported_recovery_value\", \"recommended_reserve\", \"reserve_percent\", \"top_item_site\", \"top_item_site_exposure\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nWorkbook contract:\n- Include sheets named `Read Me`, `Inputs`, `Analysis`, and `Control`.\n- Preserve source lineage in Inputs with source object/file, date or version, and extraction cutoff.\n- Put scenario assumptions in visibly distinct input cells. Drive Analysis and Control by formulas; do not hard-code calculated results.\n- Include a decision-ready summary, the requested detail/bridge, and at least one useful native chart that clarifies a KPI, comparison, trend, composition, or control result.\n- Include zero-difference controls tying every central metric to an independent authoritative total; a pass-through reference is not a control.\n- Use professional number formats, frozen headers, filters where useful, readable widths, and no formula errors. Wrap or widen populated text cells so labels, dates, and source notes are not clipped by adjacent values.\n- Round monetary controls to cents before evaluating zero/tolerance or PASS/FAIL results.\n- Normalize dates to a common date type before comparing them; do not compare mixed text and date representations.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/inventory-reserve-waterfall.xlsx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_018",
+    "agent_visible": false
+  }
+}

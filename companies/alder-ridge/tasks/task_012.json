@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_012",
+  "slug": "complete-june-flash-bridge",
+  "title": "Complete the June flash bridge and chart",
+  "workflow": "fpa",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet_edit",
+    "target_path": "Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx"
+  },
+  "prompt": "Edit this workbook in place:\n`Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx`\n\nBegin with the June-flash request in `Requests/`. Locate the CFO/controller review notes, current posted accounting actuals, board-approved monthly plan, WIP-close request and policy, PM/commercial evidence, and the target review workbook. Populate `Source Pull` with June posted accounting actuals, the independently rebuilt proposed WIP adjustment, pro-forma actuals, and June board-approved plan. Complete the Revenue, Gross Profit, and Operating Income rows on `Variance Bridge` with formulas for posted actual, WIP adjustment, pro-forma actual, plan, and dollar variance. For the final column, calculate revenue variance divided by plan revenue, pro-forma gross-margin rate minus plan gross-margin rate, and operating-income variance divided by plan operating income, respectively. Add one clustered-column chart comparing pro-forma actual and plan for the three metrics.\n\nPreserve the existing instructions, source labels, sheet names, and formatting. Recalculate with LibreOffice or Excel and save to the same path. The workbook is graded.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_012",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,3083 @@
+{
+  "company_id": "alder-ridge-mechanical-v2",
+  "snapshot": "2026-06-30-pre-close",
+  "control_only_not_agent_visible": true,
+  "purpose": "Minimum independently useful sources required by task design; evaluator do not reward opening files by count.",
+  "tasks": {
+    "task_001": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "posted project balances",
+        "PM ETC",
+        "commercial status",
+        "policy treatment"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_002": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "posted project balances",
+        "PM ETC",
+        "owner directive",
+        "policy treatment"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_003": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Finance/Close/2026/05 May/4_WIP/WIP 5.31.26_FINAL_v7_revised NB.xlsx",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
+        "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx"
+      ],
+      "independent_fact_groups": [
+        "16-project actuals",
+        "forecast ETC",
+        "commercial adjustments",
+        "gross WIP policy"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_004": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "system inputs",
+        "PM inputs",
+        "policy overlays",
+        "formula outputs"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_005": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx"
+      ],
+      "independent_fact_groups": [
+        "opening cash",
+        "open-item timing",
+        "recurring cash conventions"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_006": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
+        "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
+        "Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf"
+      ],
+      "independent_fact_groups": [
+        "base schedule",
+        "customer delays",
+        "PO acceleration",
+        "insurance deposit",
+        "financing mechanics"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_007": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
+        "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx"
+      ],
+      "independent_fact_groups": [
+        "invoice population",
+        "named customers",
+        "retainage treatment"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_008": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
+        "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
+        "Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf"
+      ],
+      "independent_fact_groups": [
+        "base schedule",
+        "scenario amounts",
+        "weekly formulas",
+        "chart"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_009": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_611am - June ops review deck + notes.eml",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "posted P&L",
+        "board plan",
+        "proposed WIP",
+        "variance bridge"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_010": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
+        "Shared/Finance/FP&A/Labor/2026 field labor loaded rate build - est copy.xlsx"
+      ],
+      "independent_fact_groups": [
+        "approved timecards",
+        "rework coding",
+        "loaded rate"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_011": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_842am - service vans capacity check - LT fwd.eml",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
+        "Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx",
+        "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx",
+        "Shared/Finance/Reporting/2026/05 May/May Ops Review - 6.5 mtg - FINAL_v4.pptx"
+      ],
+      "independent_fact_groups": [
+        "completed population",
+        "callback definition",
+        "operating proxy",
+        "review reconciliation"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_012": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_611am - June ops review deck + notes.eml",
+        "Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "posted P&L",
+        "WIP close",
+        "board plan",
+        "formula bridge",
+        "chart"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_013": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf"
+      ],
+      "independent_fact_groups": [
+        "invoice aging",
+        "eligibility exclusions",
+        "concentration cap",
+        "advance rate"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_014": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "funded debt",
+        "LTM EBITDA",
+        "proposed WIP",
+        "FCCR",
+        "tangible net worth"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_015": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+        "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "posted covenants",
+        "pro-forma covenants",
+        "thresholds",
+        "slide structure"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_016": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Shared/Finance/Close/2026/06 June/1 close mgmt/June close tracker - working - upd 7.1 810am.xlsx",
+        "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
+        "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf",
+        "Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
+        "Shared/Finance/Reporting/2026/06 June/June flash bridge - review copy 7.2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "cash control",
+        "AR control",
+        "AP control",
+        "debt control",
+        "WIP close",
+        "pro-forma P&L"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_017": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_736am - FW_ wc cleanup + backlog coverage.eml",
+        "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
+        "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx",
+        "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
+        "Shared/Finance/Close/2026/06 June/1 close mgmt/June close tracker - working - upd 7.1 810am.xlsx"
+      ],
+      "independent_fact_groups": [
+        "LTM denominators",
+        "AR aging",
+        "AP aging/holds",
+        "cash-release sensitivity"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_018": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": false,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_736am - FW_ wc cleanup + backlog coverage.eml",
+        "Shared/Finance/FP&A/Backlog/backlog burn + award pipeline_6.30 v6.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx",
+        "Shared/Operations/Project Reviews/weekly top jobs review - 6.29 PM copy.pptx"
+      ],
+      "independent_fact_groups": [
+        "signed backlog",
+        "weighted pipeline",
+        "H2 plan",
+        "capacity review"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": false
+    },
+    "task_019": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx",
+        "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf",
+        "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "approval status",
+        "AOP headroom",
+        "financing eligibility",
+        "downside liquidity",
+        "covenants"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_020": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
+        "Shared/Finance/Close/2026/06 June/3 accruals/payroll accrual 6.30 - FINAL? v3.xlsx",
+        "Shared/Finance/FP&A/Labor/HC + field labor productivity Q2 working.xlsx",
+        "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
+        "Shared/Finance/FP&A/Labor/2026 field labor loaded rate build - est copy.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx"
+      ],
+      "independent_fact_groups": [
+        "payroll population",
+        "employee status",
+        "hours mix",
+        "approved rate",
+        "plan headcount"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_021": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
+        "Shared/Finance/Close/2026/06 June/5 fixed assets/FA + CIP rollforward_June26 rev2.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "fixed assets",
+        "debt classification",
+        "approved capex",
+        "financing",
+        "cash pro forma"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_022": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_842am - service vans capacity check - LT fwd.eml",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
+        "Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx",
+        "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx",
+        "Shared/Finance/FP&A/Labor/HC + field labor productivity Q2 working.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
+        "Shared/Operations/Quarterly Reviews/Q2 ops + safety review - 6.26 draft.pptx"
+      ],
+      "independent_fact_groups": [
+        "service population",
+        "technicians",
+        "callback definition",
+        "capital approval",
+        "fleet need",
+        "ramp"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_023": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+        "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 covenant headroom - lender review working.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "borrowing base",
+        "posted covenants",
+        "pro-forma WIP",
+        "formula lineage"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_024": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx",
+        "Shared/Operations/Fleet/fleet + equipment utilization_June working.xlsx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf",
+        "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "request decisions",
+        "budget",
+        "financing",
+        "liquidity",
+        "leverage",
+        "workbook controls"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_025": {
+      "accounting_mcp_required": true,
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.2.26_1103am - CFO close decision note - internal only.eml",
+        "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
+        "Shared/Finance/Accounting Policies + old memos/Revenue recognition - WIP policy_rev11-24 SIGNED scan.pdf",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx",
+        "Shared/Operations/Commercial/CO Log/CO log MASTER (do not sort)_6.30.26 - PR copy.xlsx",
+        "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+        "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx",
+        "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "WIP",
+        "liquidity",
+        "borrowing base",
+        "covenants",
+        "capital decisions",
+        "source disclosure"
+      ],
+      "shared_company_navigation": true,
+      "standalone": true,
+      "single_file_shortcut_designed_out": true
+    },
+    "task_026": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 AOP approval deck_12.18.25 FINAL.pptx"
+      ],
+      "independent_fact_groups": [
+        "FY26 posted revenue tie",
+        "FY27 approved branch drivers",
+        "Reconciliation",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 30,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_027": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_opex",
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 EBITDA scenarios - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Driver Inputs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 50,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_028": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_opex"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/department reforecast inputs - June pull.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Approved monthly plan",
+        "Approved reforecast events",
+        "Scope exclusions",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 160,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_029": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ytd_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx",
+        "Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx"
+      ],
+      "independent_fact_groups": [
+        "Posted tie",
+        "Q2 service product detail",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 31,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_030": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Operations/Project Forecasts/June26 - PM updates/PM ETC updates_6.29 530pm_COMBINED_v3.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Construction worktype bridge",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 44,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_031": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "active_employees"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/Labor/HC + field labor productivity Q2 working.xlsx",
+        "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
+        "Shared/Finance/FP&A/FY27 plan/FY27 field workforce plan - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Employee roster summary",
+        "Monthly productive-hour demand",
+        "Workforce policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 68,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_032": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Forecast policy flags",
+        "Monthly actual revenue",
+        "Monthly locked forecast",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 123,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_033": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Activity drivers",
+        "Branch economics",
+        "Capital base",
+        "Capital policy",
+        "Corporate pools",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 45,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_034": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "service_arr"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Active service cohort population",
+        "FY27 renewal assumptions",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 61,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_035": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/Backlog/backlog burn + award pipeline_6.30 v6.xlsx",
+        "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
+        "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Monthly capacity",
+        "Project burn curve",
+        "Signed contract backlog",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 141,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_036": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_revenue",
+        "open_ap",
+        "open_ar"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/Close/2026/06 June/2 reconciliations/AR roll + retainage 0630 KS.xlsx",
+        "Shared/Finance/Close/2026/06 June/3 accruals/AP cutoff + accrual list_7.1 OL.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Cash conversion",
+        "Opening working capital",
+        "Operating plan",
+        "Working-capital drivers",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 43,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_037": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "Capital project cases",
+        "Portfolio constraints",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 165,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_038": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "Boise investment assumptions",
+        "Boise operating case",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 61,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_039": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "Fleet financing terms",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 23,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_040": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash",
+        "debt",
+        "ltm_opex",
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "LRP opening balances",
+        "LRP scenario drivers",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 140,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_041": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Cash positioning/July daily cash position - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Bank Balances",
+        "Expected Disbursements",
+        "Expected Receipts",
+        "Treasury policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 83,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_042": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Borrowing base",
+        "Liquidity policy",
+        "Monthly liquidity forecast",
+        "Opening liquidity",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 88,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_043": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Existing notes",
+        "Refinancing proposals",
+        "Treasury policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 29,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_044": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Debt forecast",
+        "Floating debt",
+        "Hedge terms",
+        "SOFR scenarios",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 32,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_045": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Bank proposals",
+        "Forecast relationship volumes",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 38,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_046": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Downside FX scenario",
+        "Equipment payment schedule",
+        "Existing hedge register",
+        "Hedge policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 36,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_047": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Approved investment menu",
+        "Available cash",
+        "Investment policy",
+        "Liquidity floors",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 38,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_048": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf",
+        "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Covenant policy",
+        "Debt Schedule",
+        "Forecast Inputs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 65,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_049": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+        "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
+        "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx"
+      ],
+      "independent_fact_groups": [
+        "Peer beta set",
+        "WACC policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 46,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "market"
+    },
+    "task_050": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash",
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "Distribution constraints",
+        "Opening balances",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 23,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_051": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "QoE adjustment register",
+        "Redwood monthly P&L",
+        "Remaining risk register",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 69,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_052": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Estimated closing NWC",
+        "Historical normalized NWC",
+        "Purchase agreement",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 88,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_053": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "DCF assumptions",
+        "Forecast",
+        "Historical",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 44,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_054": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+        "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
+        "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx"
+      ],
+      "independent_fact_groups": [
+        "Target metrics",
+        "Trading comparables",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 36,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "market"
+    },
+    "task_055": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Accretion inputs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 28,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_056": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Transaction hurdle inputs",
+        "Year 2 synergy register",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 35,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_057": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash",
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Buyer liquidity",
+        "Funding sources",
+        "Transaction uses",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 23,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_058": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Earnout scenarios",
+        "Earnout terms",
+        "Sensitivity diagnostics",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 33,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_059": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
+      ],
+      "independent_fact_groups": [
+        "Carve-out adjustments",
+        "Divestiture terms",
+        "Service division P&L",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 56,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_060": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Initiatives",
+        "Value capture policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 32,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_061": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf",
+        "Shared/Finance/Tax/2026/FY26 tax provision - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Deferred tax inventory",
+        "FY26 provision state apportionment",
+        "Tax Adjustments",
+        "Tax policy",
+        "Trial Balance",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 72,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_062": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf"
+      ],
+      "independent_fact_groups": [
+        "Estimated-payment policy",
+        "Quarterly taxable-income forecast",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 32,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_063": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Tax/2026/OR DOR desk review notice + response checklist.pdf"
+      ],
+      "independent_fact_groups": [
+        "Apportionment policy",
+        "State apportionment",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 35,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_064": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_ebitda",
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx"
+      ],
+      "independent_fact_groups": [
+        "GAAP bridge",
+        "Non-GAAP adjustment register",
+        "Posted P&L",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 25,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_065": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "service_arr"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Contract schedule",
+        "Deferred revenue tie",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 56,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_066": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt",
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Credit metrics",
+        "Quarterly KPIs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 40,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_067": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ytd_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
+        "Shared/Finance/Reporting/Board/Q2 2026/Board performance dashboard - WORKING.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Cash and capital",
+        "Full-year outlook",
+        "Liquidity",
+        "Performance diagnostics",
+        "Q2 actual export",
+        "Q2 approved plan",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 63,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_068": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ytd_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx"
+      ],
+      "independent_fact_groups": [
+        "Cash and capital",
+        "Full-year outlook",
+        "Liquidity",
+        "Performance diagnostics",
+        "Q2 actual export",
+        "Q2 approved plan",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 63,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_069": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+        "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
+        "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx"
+      ],
+      "independent_fact_groups": [
+        "Alder Ridge benchmark",
+        "Peer operating benchmarks",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 46,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "market"
+    },
+    "task_070": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+        "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
+        "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx"
+      ],
+      "independent_fact_groups": [
+        "Delivery model",
+        "Market segment assumptions",
+        "Sensitivity register",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 34,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "market"
+    },
+    "task_071": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ltm_ebitda"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 7.3 close.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/Q2 peer market + competitor support - 6.27 banker pull.xlsx",
+        "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
+        "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
+        "Shared/Finance/Investor Relations/Peer analysis/peer market data pull_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx"
+      ],
+      "independent_fact_groups": [
+        "Alder Ridge valuation",
+        "Multiple bridge",
+        "Peer valuation set",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 25,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "market"
+    },
+    "task_072": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "ytd_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Cash and capital",
+        "Full-year outlook",
+        "IR comparability bridge",
+        "Liquidity",
+        "Performance diagnostics",
+        "Q2 actual export",
+        "Q2 approved plan",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 65,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_073": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Credit policy",
+        "Credit population",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 23,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_074": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Bank relationship economics",
+        "Treasury concentration policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 27,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_075": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash",
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/midyear capex committee memo - draft 7.1.docx",
+        "Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf"
+      ],
+      "independent_fact_groups": [
+        "Alternative uses",
+        "Capital capacity",
+        "Risk cases",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 43,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_076": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash",
+        "ltm_revenue"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Branch operating plan",
+        "Integrated plan assumptions",
+        "Integrated plan baseline",
+        "Quarterly funding policy",
+        "Quarterly integrated plan",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 72,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_077": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Corrective action phasing",
+        "Forecast corrective actions",
+        "Forecast policy",
+        "Rolling forecast by business unit",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 68,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_078": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Backlog coverage policy",
+        "FY27 delivery portfolio candidates",
+        "FY27 delivery portfolio constraints",
+        "Qualified award pipeline",
+        "Signed backlog conversion",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 115,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_079": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Customer profitability detail",
+        "Customer renewal decision",
+        "Economic profit policy",
+        "Shared cost pools",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 80,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_080": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Integrated risk scenarios",
+        "Scenario baseline",
+        "Scenario cash assumptions",
+        "Scenario mitigation actions",
+        "Scenario mitigation policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 87,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_081": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v6 controller tie.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning assumptions - v4 branch draft.xlsx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 steering committee notes - 7.3 DC.docx",
+        "Shared/Finance/FP&A/FY27 plan/FY27 planning definitions + scenario guardrails - APPROVED.pdf",
+        "Shared/Operations/Planning exports/CRM backlog service renewals + forecast history_6.30.csv",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 rolling forecast_v12 - pre WIP.xlsx",
+        "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Budget optimization policy",
+        "Budget reallocation initiatives",
+        "Hardened initiative constraints",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 117,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
+        "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
+      ],
+      "data_group": "planning"
+    },
+    "task_082": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "cash"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "13-week cash baseline",
+        "13-week direct cash forecast",
+        "Weekly borrowing base policy",
+        "Weekly collection and collateral control",
+        "Weekly funding policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 126,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_083": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Approved SOFR term curve",
+        "Rate cap term sheet",
+        "Rate cases",
+        "Refinancing alternatives",
+        "Refinancing decision policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 65,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_084": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Approved layered hedge plan",
+        "Approved natural FX offsets",
+        "Committed FX exposures",
+        "FX risk policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 54,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_085": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "ABL borrowing base",
+        "ABL covenant inputs",
+        "ABL eligibility exclusions",
+        "Detailed ABL policy",
+        "Detailed AR collateral control",
+        "Detailed inventory collateral control",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 77,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_086": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
+        "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
+        "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
+        "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
+        "Shared/Finance/Treasury/13 week cash/13wk cash_v9 - 6.26 roll - DCHO edits.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Investment policy",
+        "Investment stress control",
+        "Liquidity requirement tranches",
+        "Permitted cash investments",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 77,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
+        "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml"
+      ],
+      "data_group": "treasury"
+    },
+    "task_087": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Closing funds flow terms",
+        "Locked box leakage review",
+        "Purchase price terms",
+        "QoE adjustments",
+        "Target monthly working capital",
+        "Target reported results",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 86,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_088": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Risk-adjusted synergy plan",
+        "Synergy downside overlay",
+        "Synergy downside policy",
+        "Synergy return policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 65,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_089": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Carve-out functional costs",
+        "Carve-out policy",
+        "Carveout TSA exit plan",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 69,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_090": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Financing structures",
+        "Structure underwriting controls",
+        "Transaction structure inputs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 59,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_091": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Approved trading peers",
+        "Pioneer DCF support",
+        "Precedent transactions",
+        "Valuation and bid policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 62,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_092": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
+        "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
+        "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
+        "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Acquisition financing cases",
+        "Acquisition financing commitments",
+        "Acquisition financing policy",
+        "Acquisition financing stress",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 55,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
+        "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml"
+      ],
+      "data_group": "corpdev"
+    },
+    "task_093": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx"
+      ],
+      "independent_fact_groups": [
+        "Deferred tax temporary differences",
+        "Federal NOL vintages",
+        "Tax attribute forecast",
+        "Tax provision rollforward inputs",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 60,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_094": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx"
+      ],
+      "independent_fact_groups": [
+        "Contract modification facts",
+        "Contract performance obligations",
+        "Post-modification revenue schedule",
+        "Post-modification variable consideration",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 55,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_095": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx"
+      ],
+      "independent_fact_groups": [
+        "Downside definition forecast",
+        "Free cash flow inputs",
+        "Non-GAAP reconciliation items",
+        "Reporting definition controls",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 65,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_096": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v4 controller review.xlsx",
+        "Shared/Finance/Tax/2026 working/FY26 tax + non-GAAP workpapers - v2 pre-close.xlsx",
+        "Shared/Finance/Tax/2026 working/tax provision review notes - 7.4 NB.docx",
+        "Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf",
+        "Shared/Finance/Tax/2026 working/tax jurisdiction + book trial balance detail_6.30.csv",
+        "Shared/Finance/Tax/2026/1099 sales use tax tracker - 6.30.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/June flash review notes - DC 7.2 643am.docx"
+      ],
+      "independent_fact_groups": [
+        "Tax step-up asset classes",
+        "Transaction tax structure",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 50,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
+        "Requests/7.5.26_0751am - tax review comments + close version.eml"
+      ],
+      "data_group": "tax"
+    },
+    "task_097": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Guidance combined stress",
+        "Guidance risk register",
+        "Guidance scenarios",
+        "Investor guidance policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 60,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_098": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Historical EBITDA definition restatement",
+        "Investor KPI controls",
+        "KPI scope bridge",
+        "Restated quarterly KPI series",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 57,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    },
+    "task_099": {
+      "accounting_mcp_required": true,
+      "mcp_anchor_types": [
+        "debt"
+      ],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v5.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee cases + LRP assumptions - v3 pre-review.xlsx",
+        "Shared/Finance/Strategic Finance/FY27 working/capital committee review notes - 7.4 DC.docx",
+        "Shared/Finance/Strategic Finance/FY27 working/investment hurdle + capital guardrails - board approved.pdf",
+        "Shared/Finance/FP&A/Capex/2026 equipment requests/CapEx asks + ROI_2026 midyear - MW.xlsx",
+        "Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx",
+        "Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf"
+      ],
+      "independent_fact_groups": [
+        "Capital return alternatives",
+        "Capital return baseline",
+        "Capital return policy",
+        "Two-year capital return cadence",
+        "Two-year capital return policy",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 71,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_0838am - capital committee + five year plan.eml",
+        "Requests/7.5.26_0642am - capital cases after committee review.eml"
+      ],
+      "data_group": "capital"
+    },
+    "task_100": {
+      "accounting_mcp_required": false,
+      "mcp_anchor_types": [],
+      "source_synthesis_task": true,
+      "minimum_source_artifacts": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+        "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
+        "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
+        "Shared/Finance/Reporting/2026/06 June/Q2 management reporting cube extract_7.2.csv",
+        "Shared/Finance/Reporting/Board/Q1 2026/Q1 board package - FINAL signed off.pptx",
+        "Shared/Finance/Reporting/Board/Q2 2026/CFO narrative Q2 board pre-read - v3 comments.docx",
+        "Shared/Finance/FP&A/FY26 plan + reforecast/FY26 Op Plan_BoardApproved_12.18.25_FINAL2.xlsx"
+      ],
+      "independent_fact_groups": [
+        "Board decision portfolio",
+        "Board decision portfolio policy",
+        "Board operating outlook",
+        "Board presentation controls",
+        "Board risk outlook",
+        "Board strategic priorities",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation"
+      ],
+      "native_fact_rows": 83,
+      "shared_company_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "standalone": true,
+      "request_threads": [
+        "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
+        "Requests/7.5.26_0812am - board review changes + source tie.eml"
+      ],
+      "data_group": "reporting"
+    }
+  }
+}

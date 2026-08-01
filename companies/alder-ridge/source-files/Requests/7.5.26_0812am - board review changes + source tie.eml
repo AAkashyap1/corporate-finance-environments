@@ -1,0 +1,11 @@
+From: Daniel Cho <dcho@alderridgemech.example>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.example>
+Cc: treasury@alderridgemech.example; project.accounting@alderridgemech.example
+Date: Sun, 5 Jul 2026 06:18:00 -0700
+Subject: board review changes + source tie
+
+The review changed presentation, not the controller-tied actuals. Use the v7 data book and current market file; the CFO scratch and earlier banker pull remain reference-only. Covenant measures must use the executed definitions, while investor KPIs must use the definitions in the signed presentation policy.
+
+Tie every headline number to its real source, reconcile bridges to reported totals, and avoid unsupported explanations or valuation premiums. Guidance must meet the documented confidence rule, historical EBITDA must remain visibly reported-to-restated, and the board deck must show branch economics, downside liquidity, covenant risk, and explicit decision gates.
+
+Daniel

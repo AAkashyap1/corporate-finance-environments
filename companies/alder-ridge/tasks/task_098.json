@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_098",
+  "slug": "create-restated-kpi-fact-sheet",
+  "title": "Create the restated investor KPI fact sheet",
+  "workflow": "investor-relations",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "spreadsheet_create",
+    "target_path": "Deliverables/Restated investor KPI fact sheet - 7.6.xlsx"
+  },
+  "prompt": "Create this file:\n`Deliverables/Restated investor KPI fact sheet - 7.6.xlsx`\n\nBegin with the Q2 board, lender, and investor-relations thread in `Requests/`, including the source-tie follow-up. Work through the shared finance folders as an Alder Ridge analyst would: determine which controller-tied workpapers and operating extracts are current, use prior versions only for permitted comparison, and resolve conflicts from dates, approvals, document status, and the management correspondence. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Build the deliverable from the shared company sources and do not copy an output produced by another task.\n\nCreate `Reported Series`, `Definition Restatement`, `Restated KPIs`, `Trend and Leverage`, and `Checks`. The controlled `Restated quarterly KPI series` already uses the current adjusted-EBITDA definition. `EBITDA change` equals current-definition EBITDA less historical reported EBITDA; use it only to reconstruct the historical bridge and do not add it to the current series again. Calculate Q2 growth and margin, LTM revenue, EBITDA and operating cash flow, FCF, ending backlog, net debt, and net leverage. Use formulas and include reported-to-restated, LTM, cash-flow, leverage, comparative, and source controls; do not silently overwrite historical reported values.\n\nAlso show organic scope, investor-versus-covenant leverage, cash conversion, and the quarterly restatement bridge control.\n\nDocument the controlling sources inside the deliverable. Recalculate or render as appropriate and save to the exact target path. The file is graded.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_098",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_040",
+  "slug": "commercial-margin-review-deck",
+  "title": "Create the commercial margin review deck",
+  "workflow": "commercial-finance",
+  "difficulty": "expert",
+  "output": {
+    "mode": "presentation",
+    "target_path": "Deliverables/commercial-margin-review-deck.pptx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Create the commercial margin review deck**.\n\nUse ERP invoice, shipment, customer, item/site standard-cost, BOM, and routing data. Reconcile to the customer/product profitability and standard-cost rollup workbooks and the pricing/margin review email.\n\nAuthoritative reconciliation source set:\n- `ERP customer/product profitability reports`\n- `Finance/Analyses/Customer Profitability.xlsx`\n- `Finance/Analyses/Product Family Profitability.xlsx`\n- `Communications/2026-06-15 - Product family margin review.eml`\n\nCalculation basis: Use posted customer-invoice lines from 2026-01-01 through 2026-06-30 and current item/site standard cost.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"group_by\": \"product_family\"\n}\n```\n\nCommercial-review scope: Compare all five product families in a native table and chart using consistent units. Identify the revenue-protection priority, lowest-margin family, quantified economics, accountable owner, and dated corrective action.\n\n\nCreate exactly this deliverable: `Deliverables/commercial-margin-review-deck.pptx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"revenue\", \"standard_cost\", \"gross_profit\", \"gross_margin\", \"units\", \"group_count\", \"top_group\", \"top_group_revenue\", \"lowest_margin_group\", \"lowest_margin\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nPresentation contract:\n- Exactly 5 slides titled `Decision`, `Evidence`, `Economics`, `Risks`, and `Actions`.\n- Include exact central metrics, one native editable chart, one native editable table, a clear decision, named owners, timing, and source footnotes.\n- Use a coherent executive visual hierarchy; no screenshots of tables, overlapping objects, clipped text, placeholders, or unsupported claims.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/commercial-margin-review-deck.pptx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_040",
+    "agent_visible": false
+  }
+}

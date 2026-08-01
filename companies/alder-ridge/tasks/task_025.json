@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_025",
+  "slug": "create-q2-cfo-decision-note",
+  "title": "Create the Q2 close CFO decision note",
+  "workflow": "cfo-synthesis",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "document_create",
+    "target_path": "Deliverables/Q2 close CFO decision note - 7.2.docx"
+  },
+  "prompt": "Create a concise Word document at:\n`Deliverables/Q2 close CFO decision note - 7.2.docx`\n\nLimit the note to two pages. Title it `Q2 close — CFO decision note` and label it `INTERNAL WORKING / NOT SUBMITTED`. Include one real Word table with rows for: proposed June WIP entry, downside liquidity, borrowing base, posted/pro-forma covenants, and midyear capex. The table must show the exact linked figures and decision/status for each row.\n\nBegin with the CFO synthesis request in `Requests/`. Independently reconcile the WIP, downside liquidity, borrowing-base, covenant, and capital-allocation workstreams to their controlling system populations and source files; do not copy a single downstream summary as the authority for all five rows.\n\nState that the WIP entry is proposed/unposted; identify the downside minimum pre-financing cash, draw week and maximum revolver; give the final borrowing base; show posted/pro-forma leverage and compliance; and state the capex cash requirement plus release-now/conditional/hold classifications. Add a short source list naming the accounting MCP and at least five controlling files spanning the five workstreams. Do not add unsupported narrative, sign the note, or represent it as lender-submitted. The DOCX is graded.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_025",
+    "agent_visible": false
+  }
+}

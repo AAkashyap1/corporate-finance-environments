@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_042",
+  "slug": "seasonal-liquidity-headroom",
+  "title": "Seasonal liquidity and revolver headroom",
+  "workflow": "treasury",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Quantify monthly liquidity headroom through the seasonal low point.\n\nBegin with the July liquidity, banking, and covenant-outlook thread in `Requests/`, including the bank follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nRoll monthly beginning cash through receipts, operating disbursements, taxes, capex, and scheduled debt service. Respect restricted cash and the $2.25 million operating floor. Draw and repay the revolver only after calculating pre-financing cash. Apply the spring borrowing-base step-down independently from the revolver commitment. Return minimum pre-financing cash, first draw month, maximum revolver, minimum total liquidity, and remaining headroom at the low point.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `minimum_pre_financing_cash`, `first_draw_month`, `maximum_revolver`, `minimum_total_liquidity`, `remaining_revolver_headroom_at_low_point`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_042",
+    "agent_visible": false
+  }
+}

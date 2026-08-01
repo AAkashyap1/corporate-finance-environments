@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_070",
+  "slug": "create-and-post-the-approved-depreciation-reclass",
+  "title": "Create and post the approved depreciation reclass",
+  "workflow": "capital-strategy",
+  "difficulty": "expert",
+  "output": {
+    "mode": "erp",
+    "target_path": null
+  },
+  "prompt": "You are an authorized Pinehaven ERP operator. Complete **Create and post the approved depreciation reclass**.\n\nAuthorized scope: Create exactly one balanced draft journal with the supplied header and lines, then post that same journal.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"lines\": [\n    {\n      \"account_code\": \"6400\",\n      \"debit\": 85000.0,\n      \"site_code\": \"200\"\n    },\n    {\n      \"account_code\": \"6400\",\n      \"credit\": 85000.0,\n      \"site_code\": \"100\"\n    }\n  ],\n  \"memo\": \"Approved June depreciation site reclass\",\n  \"posting_date\": \"2026-06-30\",\n  \"reference\": \"PH-JE-070\"\n}\n```\n\nControls:\n- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n- Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.\n- Confirm the returned business object and audit events after the write.\n\nReturn one valid JSON object and no surrounding prose, with exactly these keys:\n[\"reference\", \"status\", \"debits\", \"credits\", \"audit_actions\"]\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_070",
+    "agent_visible": false
+  }
+}

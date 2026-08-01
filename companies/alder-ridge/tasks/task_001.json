@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_001",
+  "slug": "arm-2409-wip-backcharge",
+  "title": "ARM-2409 disputed-backcharge WIP treatment",
+  "workflow": "project-accounting",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are reviewing one June WIP estimate for Alder Ridge Mechanical. Determine the June 30 gross contract asset for project ARM-2409 only.\n\nUse the contractor-accounting MCP for current contract value, posted cost to date, and billings. Read the latest PM ETC submission, the commercial change-order log, the ARM-2409 backcharge support PDF, and the revenue-recognition/WIP policy. The PM forecast assumes a disputed $185,000 concrete-trade recovery. Apply the policy as written; do not recognize unsupported recovery revenue or net a disputed recovery against forecast cost.\n\nReconcile current contract, posted cost and billings; bridge PM ETC to policy-compliant close ETC; then calculate EAC, percent complete and earned revenue before deriving the contract position. Report the complete calculation chain so each professional step can be independently verified. Do not modify files or post a journal.\n\nReturn only one JSON object in your final response with exactly these keys: `current_contract`, `posted_cost`, `billings`, `pm_etc`, `required_etc_adjustment`, `close_etc`, `eac`, `percent_complete`, `earned_revenue`, `contract_asset`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_001",
+    "agent_visible": false
+  }
+}

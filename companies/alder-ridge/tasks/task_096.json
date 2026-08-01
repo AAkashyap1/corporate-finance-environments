@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_096",
+  "slug": "stock-asset-tax-structure",
+  "title": "Stock-versus-asset transaction tax structure",
+  "workflow": "tax-corporate-development",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Evaluate the buyer economics of a stock purchase versus an asset acquisition or Section 338 election.\n\nBegin with the FY26 tax-provision and EBITDA-definition thread in `Requests/`, including the close-review follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nValue depreciable and goodwill-amortization tax shields over their respective lives at the approved discount rate. Compare total step-up benefit with seller gross-up and incremental transaction costs, calculate the maximum economic gross-up, and make a recommendation only after testing legal feasibility, positive economics, and the buyer consideration limit.\n\nDo not modify files or post transactions. Also rebuild tax shields by asset class with bonus and mid-year conventions and show all three independent recommendation gates. Apply 0.50 of the post-bonus straight-line deduction in Year 1, full deductions in intermediate years, and 1.50 in the final recovery year; discount each shield at year minus 0.50. The legacy goodwill-labeled outputs include the Goodwill class only; Customer relationships are separately modeled and included in the total class-level benefit. Incremental asset-structure cost includes the seller gross-up plus asset-deal costs less stock-deal costs. Seller gross-up shortfall to the economic ceiling equals the economic ceiling less the seller's required gross-up, so a positive result is headroom.\n\nReturn only one JSON object with exactly these keys: `annual_depreciation_tax_shield`, `annual_goodwill_amortization_tax_shield`, `pv_depreciation_tax_shield`, `pv_goodwill_tax_shield`, `total_step_up_tax_benefit`, `incremental_asset_structure_cost`, `net_asset_structure_benefit`, `maximum_economic_seller_gross_up`, `recommended_structure`, `class_level_year_1_tax_shield`, `class_level_pv_tax_shield`, `class_level_net_asset_structure_benefit`, `seller_gross_up_shortfall_to_economic_ceiling`, `legal_feasibility_gate`, `incremental_consideration_gate`, `positive_npv_gate`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_096",
+    "agent_visible": false
+  }
+}

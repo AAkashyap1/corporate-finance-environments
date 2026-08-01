@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_039",
+  "slug": "drv-pricing-recommendation",
+  "title": "Write the DRV pricing recommendation",
+  "workflow": "commercial-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "document",
+    "target_path": "Deliverables/drv-pricing-recommendation.docx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Write the DRV pricing recommendation**.\n\nUse ERP invoice, shipment, customer, item/site standard-cost, BOM, and routing data. Reconcile to the customer/product profitability and standard-cost rollup workbooks and the pricing/margin review email.\n\nAuthoritative reconciliation source set:\n- `ERP product-family profitability and standard-cost reports`\n- `Finance/Analyses/Product Family Profitability.xlsx`\n- `Finance/Analyses/Standard Cost Rollup Review.xlsx`\n- `Communications/2026-06-15 - Product family margin review.eml`\n\nCalculation basis: Use the requested product-family row from the YTD profitability report. Its `units` and `material_cost` are exact invoice-line scope inputs. Calculate `scenario_standard_cost = baseline_standard_cost + material_cost * cost_change`, then apply only the stated price and material-cost shocks. Calculate the break-even price change once to preserve baseline gross-profit dollars and separately once to preserve baseline gross-margin percentage.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"cost_change\": 0.04,\n  \"decision_date\": \"2026-07-10\",\n  \"decision_owner\": \"Commercial Finance Director\",\n  \"price_change\": 0.02,\n  \"product_family\": \"DRV\"\n}\n```\n\nPricing decision: Recommend a specific minimum DRV price action. State separately the formula-driven increase required to preserve baseline gross-profit dollars and the increase required to preserve baseline gross-margin percentage. Assign the supplied owner and decision date and explain which threshold management should approve.\n\n\nCreate exactly this deliverable: `Deliverables/drv-pricing-recommendation.docx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"baseline_revenue\", \"baseline_standard_cost\", \"baseline_material_cost\", \"baseline_gross_profit\", \"baseline_margin\", \"price_change\", \"cost_change\", \"scenario_revenue\", \"scenario_standard_cost\", \"scenario_gross_profit\", \"scenario_margin\", \"gross_profit_change\", \"required_price_change_for_gp\", \"required_price_change_for_margin\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nDocument contract:\n- Maximum 3 pages, with a clear title, date, audience, and June pre-close labeling.\n- Use sections `Executive conclusion`, `Evidence`, `Economics`, `Risks and controls`, and `Sources`.\n- Include a native decision table, exact central metrics, the recommended decision/action, named owner, and timing.\n- Cite visible source filenames and ERP report names. Distinguish facts from assumptions and do not claim June is closed.\n- Number every page in the footer with native page numbering and render every page to confirm the number is visible.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/drv-pricing-recommendation.docx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_039",
+    "agent_visible": false
+  }
+}

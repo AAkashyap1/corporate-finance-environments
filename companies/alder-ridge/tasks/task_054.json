@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_054",
+  "slug": "controls-trading-comps",
+  "title": "Public-company trading-comparables valuation",
+  "workflow": "corporate-development",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Value Cascade Controls using the approved public-company peer set.\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nNormalize peer enterprise value and LTM EBITDA from the market-data export, remove the peer with the documented noncomparable transaction, and calculate median and quartile EV/EBITDA and EV/revenue. Apply the median multiples to Cascade's standalone metrics, reconcile the two indications using the approved weighting, and bridge enterprise value to equity value. Do not use the acquisition target's proposed synergies.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `median_ev_ebitda`, `median_ev_revenue`, `ebitda_implied_enterprise_value`, `revenue_implied_enterprise_value`, `weighted_enterprise_value`, `implied_equity_value`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_054",
+    "agent_visible": false
+  }
+}

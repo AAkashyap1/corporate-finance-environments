@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_005",
+  "slug": "base-13-week-liquidity",
+  "title": "Base 13-week liquidity result",
+  "workflow": "treasury",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Recalculate the base 13-week cash forecast from June 30 through the Friday ending September 25, 2026.\n\nUse the contractor-accounting MCP for June 30 cash, open AR, open AP, and open POs. Use the controller's AR notes for documented collection dates and the v9 cash workbook for the recurring timing conventions. Keep the base case evidence-based: held AP remains held until its documented release date and no unsupported receipt acceleration or revolver draw is allowed.\n\nRoll all 13 weeks and report opening cash, the lowest ending cash and its week, the liquidity floor, maximum revolver, and September 25 ending cash so the liquidity conclusion can be independently verified. Do not modify the workbook.\n\nReturn only one JSON object in your final response with exactly these keys: `opening_cash`, `minimum_cash`, `minimum_cash_week`, `liquidity_floor`, `maximum_revolver`, `ending_cash_2026_09_25`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_005",
+    "agent_visible": false
+  }
+}

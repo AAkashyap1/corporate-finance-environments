@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alder-ridge-corporate-finance"
+version = "1.0.0"
+description = "A HUD-compatible corporate-finance company package spanning FP&A, treasury, controllership, corporate development, tax, and investor relations"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastmcp==3.0.2",
+  "hud>=0.6.11,<0.7",
+  "matplotlib>=3.10,<4",
+  "numpy>=2.3,<3",
+  "openpyxl>=3.1,<4",
+  "openai>=1.109,<3",
+  "pandas>=2.3,<3",
+  "pdfplumber>=0.11,<1",
+  "pillow>=12,<13",
+  "python-docx>=1.2,<2",
+  "reportlab>=4.4,<5",
+  "pypdf>=6,<7",
+  "python-pptx>=1.0,<2",
+  "xlsxwriter>=3.2,<4",
+]
+
+[tool.setuptools]
+py-modules = ["env", "tasks", "task_templates", "task_catalog"]
+
+[tool.setuptools.packages.find]
+include = ["alder_ridge_company*", "evaluator*"]
+
+[tool.setuptools.package-data]
+evaluator = ["reference/*.json", "reference/*.txt"]

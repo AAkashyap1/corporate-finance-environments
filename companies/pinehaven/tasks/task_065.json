@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_065",
+  "slug": "greenville-test-cell-automation-npv",
+  "title": "Greenville test-cell automation NPV",
+  "workflow": "capital-strategy",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Greenville test-cell automation NPV**.\n\nUse the ERP fixed-asset register, plant output, maintenance, payroll, capacity, and cash/debt data. Treat scenario assumptions as prospective and cite the Capital Committee Charter and capitalization policy.\n\nAuthoritative reconciliation source set:\n- `ERP capacity, maintenance, and fixed-asset reports`\n- `Finance/Analyses/Capital Expenditure Pipeline.xlsx`\n- `Corporate Memos/Capital Committee Charter.docx`\n- `Accounting Policies/Capitalization Policy.docx`\n- `Communications/2026-06-13 - Capacity capital requests.eml`\n\nCalculation basis: Assume benefits occur at each year-end, no terminal value, no tax effect, and no residual value. Calculate NPV, IRR, payback, and profitability index from year-by-year cash-flow logic without rounding intermediate present values.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"annual_maintenance\": 95000.0,\n  \"annual_savings\": 830000.0,\n  \"discount_rate\": 0.105,\n  \"initial_investment\": 2850000.0,\n  \"life_years\": 6,\n  \"project_id\": \"CAP-GRV-001\",\n  \"project_name\": \"Greenville test-cell automation\",\n  \"site_code\": \"300\",\n  \"site_name\": \"Greenville\"\n}\n```\n\nReport `irr` and `profitability_index` to four decimal places; the authoritative comparison uses that declared precision.\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"initial_investment\", \"annual_savings\", \"annual_maintenance\", \"net_annual_benefit\", \"discount_rate\", \"life_years\", \"npv\", \"irr\", \"payback_years\", \"profitability_index\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_065",
+    "agent_visible": false
+  }
+}

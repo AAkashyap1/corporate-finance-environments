@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_033",
+  "slug": "ytd-regional-profitability",
+  "title": "YTD regional profitability",
+  "workflow": "commercial-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **YTD regional profitability**.\n\nUse ERP invoice, shipment, customer, item/site standard-cost, BOM, and routing data. Reconcile to the customer/product profitability and standard-cost rollup workbooks and the pricing/margin review email.\n\nAuthoritative reconciliation source set:\n- `ERP customer/product profitability reports`\n- `Finance/Analyses/Customer Profitability.xlsx`\n- `Finance/Analyses/Product Family Profitability.xlsx`\n- `Communications/2026-06-15 - Product family margin review.eml`\n\nCalculation basis: Use posted customer-invoice lines from 2026-01-01 through 2026-06-30 and current item/site standard cost.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"group_by\": \"region\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"revenue\", \"standard_cost\", \"gross_profit\", \"gross_margin\", \"units\", \"group_count\", \"top_group\", \"top_group_revenue\", \"lowest_margin_group\", \"lowest_margin\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_033",
+    "agent_visible": false
+  }
+}

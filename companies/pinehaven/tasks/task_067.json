@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_067",
+  "slug": "dayton-automation-business-case",
+  "title": "Build the Dayton automation business case",
+  "workflow": "capital-strategy",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet",
+    "target_path": "Deliverables/dayton-automation-business-case.xlsx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Build the Dayton automation business case**.\n\nUse the ERP fixed-asset register, plant output, maintenance, payroll, capacity, and cash/debt data. Treat scenario assumptions as prospective and cite the Capital Committee Charter and capitalization policy.\n\nAuthoritative reconciliation source set:\n- `ERP capacity, maintenance, and fixed-asset reports`\n- `Finance/Analyses/Capital Expenditure Pipeline.xlsx`\n- `Corporate Memos/Capital Committee Charter.docx`\n- `Accounting Policies/Capitalization Policy.docx`\n- `Communications/2026-06-13 - Capacity capital requests.eml`\n\nCalculation basis: Assume benefits occur at each year-end, no terminal value, no tax effect, and no residual value. Calculate NPV, IRR, payback, and profitability index from year-by-year cash-flow logic without rounding intermediate present values.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"annual_maintenance\": 135000.0,\n  \"annual_savings\": 1180000.0,\n  \"decision_owner\": \"VP Operations\",\n  \"discount_rate\": 0.105,\n  \"implementation_gate_date\": \"2026-07-31\",\n  \"initial_investment\": 4200000.0,\n  \"life_years\": 7,\n  \"project_id\": \"CAP-DAY-001\",\n  \"project_name\": \"Dayton machining automation\",\n  \"site_code\": \"200\",\n  \"site_name\": \"Dayton\"\n}\n```\n\nBusiness-case scope: Identify Dayton site 200, include status quo and investment alternatives, a year-0 through year-7 cash-flow and present-value schedule, NPV, IRR, payback, profitability index, sensitivities, implementation risks, the supplied owner/gate date, and a post-audit measure.\n\n\nCreate exactly this deliverable: `Deliverables/dayton-automation-business-case.xlsx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"initial_investment\", \"annual_savings\", \"annual_maintenance\", \"net_annual_benefit\", \"discount_rate\", \"life_years\", \"npv\", \"irr\", \"payback_years\", \"profitability_index\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nWorkbook contract:\n- Include sheets named `Read Me`, `Inputs`, `Analysis`, and `Control`.\n- Preserve source lineage in Inputs with source object/file, date or version, and extraction cutoff.\n- Put scenario assumptions in visibly distinct input cells. Drive Analysis and Control by formulas; do not hard-code calculated results.\n- Include a decision-ready summary, the requested detail/bridge, and at least one useful native chart that clarifies a KPI, comparison, trend, composition, or control result.\n- Include zero-difference controls tying every central metric to an independent authoritative total; a pass-through reference is not a control.\n- Use professional number formats, frozen headers, filters where useful, readable widths, and no formula errors. Wrap or widen populated text cells so labels, dates, and source notes are not clipped by adjacent values.\n- Round monetary controls to cents before evaluating zero/tolerance or PASS/FAIL results.\n- Normalize dates to a common date type before comparing them; do not compare mixed text and date representations.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/dayton-automation-business-case.xlsx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_067",
+    "agent_visible": false
+  }
+}

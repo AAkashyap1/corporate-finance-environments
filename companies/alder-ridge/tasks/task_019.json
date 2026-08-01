@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_019",
+  "slug": "midyear-capex-funding-screen",
+  "title": "Midyear capex funding and release screen",
+  "workflow": "capital-planning",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Evaluate the five midyear capital requests against approvals, the board capital plan, financing eligibility, downside liquidity, and lender leverage.\n\nBegin with the capital-allocation request in `Requests/`. Locate the current midyear request schedule and committee memo, board-approved capital plan in both workbook and deck form, current fleet-utilization support, the bank's indicative equipment-line proposal, downside liquidity work, executed credit agreement, and posted accounting balances. Resolve documented approval conditions and financing eligibility from those sources; do not infer approval from a positive ROI alone. Treat the equipment proposal as non-binding and add only eligible indicated proceeds to funded debt for the pro-forma leverage check.\n\nUse the board deck's $1.1 million FY26 capital envelope and the fixed-asset register's January-through-June posted additions to calculate AOP headroom before and after the approved requests; do not construct a hidden subset budget from selected request categories. For the capex-financing leverage check, use proposed-WIP pro-forma LTM adjusted EBITDA as the denominator and add only the eligible indicated equipment-line proceeds to funded debt. Report approved spend and savings, eligible basis/proceeds, cash required, facility headroom, AOP envelope, posted additions and remaining AOP before/after requests, portfolio payback, downside revolver usage/capacity, and pro-forma funded debt/leverage. Classify requests as release now, conditional, or hold/defer based strictly on documented approvals and unmet conditions.\n\nReturn only one JSON object in your final response with exactly these keys: `approved_spend`, `approved_annual_savings`, `equipment_line_eligible_basis`, `equipment_line_proceeds`, `cash_required`, `facility_remaining`, `aop_capex_envelope`, `fy26_posted_additions`, `remaining_aop_before_requests`, `remaining_aop_after_approved_requests`, `portfolio_simple_payback_years`, `downside_maximum_revolver`, `revolver_capacity_after_downside`, `pro_forma_funded_debt`, `pro_forma_leverage_after_capex_financing`, `release_now`, `conditional`, `hold_or_defer`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_019",
+    "agent_visible": false
+  }
+}

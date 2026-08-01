@@ -1,0 +1,601 @@
+id,description,item_type,product_family,inventory_uom,make_buy,lot_controlled,serial_controlled,lifecycle_status,standard_order_quantity,primary_vendor_id,commodity
+ACT-0001,"Electric linear actuator, frame 040, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0002,"Electric linear actuator, frame 050, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0003,"Electric linear actuator, frame 063, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,20.0,,Finished Product
+ACT-0004,"Electric linear actuator, frame 075, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0005,"Electric linear actuator, frame 090, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0006,"Electric linear actuator, frame 110, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,1.0,,Finished Product
+ACT-0007,"Electric linear actuator, frame 140, stroke 100 mm",Finished Good,ACT,EA,Make,0,1,Active,5.0,,Finished Product
+ACT-0008,"Electric linear actuator, frame 160, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0009,"Electric linear actuator, frame 200, stroke 100 mm",Finished Good,ACT,EA,Make,1,0,Active,20.0,,Finished Product
+ACT-0010,"Electric linear actuator, frame 250, stroke 100 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0011,"Electric linear actuator, frame 040, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0012,"Electric linear actuator, frame 050, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,1.0,,Finished Product
+ACT-0013,"Electric linear actuator, frame 063, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0014,"Electric linear actuator, frame 075, stroke 200 mm",Finished Good,ACT,EA,Make,0,1,Active,10.0,,Finished Product
+ACT-0015,"Electric linear actuator, frame 090, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,20.0,,Finished Product
+ACT-0016,"Electric linear actuator, frame 110, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0017,"Electric linear actuator, frame 140, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0018,"Electric linear actuator, frame 160, stroke 200 mm",Finished Good,ACT,EA,Make,1,0,Active,1.0,,Finished Product
+ACT-0019,"Electric linear actuator, frame 200, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0020,"Electric linear actuator, frame 250, stroke 200 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0021,"Electric linear actuator, frame 040, stroke 300 mm",Finished Good,ACT,EA,Make,0,1,Active,20.0,,Finished Product
+ACT-0022,"Electric linear actuator, frame 050, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0023,"Electric linear actuator, frame 063, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0024,"Electric linear actuator, frame 075, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,1.0,,Finished Product
+ACT-0025,"Electric linear actuator, frame 090, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0026,"Electric linear actuator, frame 110, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0027,"Electric linear actuator, frame 140, stroke 300 mm",Finished Good,ACT,EA,Make,1,0,Active,20.0,,Finished Product
+ACT-0028,"Electric linear actuator, frame 160, stroke 300 mm",Finished Good,ACT,EA,Make,0,1,Active,50.0,,Finished Product
+ACT-0029,"Electric linear actuator, frame 200, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0030,"Electric linear actuator, frame 250, stroke 300 mm",Finished Good,ACT,EA,Make,0,0,Active,1.0,,Finished Product
+ACT-0031,"Electric linear actuator, frame 040, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0032,"Electric linear actuator, frame 050, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0033,"Electric linear actuator, frame 063, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,20.0,,Finished Product
+ACT-0034,"Electric linear actuator, frame 075, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0035,"Electric linear actuator, frame 090, stroke 450 mm",Finished Good,ACT,EA,Make,0,1,Active,100.0,,Finished Product
+ACT-0036,"Electric linear actuator, frame 110, stroke 450 mm",Finished Good,ACT,EA,Make,1,0,Active,1.0,,Finished Product
+ACT-0037,"Electric linear actuator, frame 140, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0038,"Electric linear actuator, frame 160, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0039,"Electric linear actuator, frame 200, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,20.0,,Finished Product
+ACT-0040,"Electric linear actuator, frame 250, stroke 450 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0041,"Electric linear actuator, frame 040, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0042,"Electric linear actuator, frame 050, stroke 600 mm",Finished Good,ACT,EA,Make,0,1,Active,1.0,,Finished Product
+ACT-0043,"Electric linear actuator, frame 063, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0044,"Electric linear actuator, frame 075, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0045,"Electric linear actuator, frame 090, stroke 600 mm",Finished Good,ACT,EA,Make,1,0,Active,20.0,,Finished Product
+ACT-0046,"Electric linear actuator, frame 110, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0047,"Electric linear actuator, frame 140, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0048,"Electric linear actuator, frame 160, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,1.0,,Finished Product
+ACT-0049,"Electric linear actuator, frame 200, stroke 600 mm",Finished Good,ACT,EA,Make,0,1,Active,5.0,,Finished Product
+ACT-0050,"Electric linear actuator, frame 250, stroke 600 mm",Finished Good,ACT,EA,Make,0,0,Active,10.0,,Finished Product
+ACT-0051,"Electric linear actuator, frame 040, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Active,20.0,,Finished Product
+ACT-0052,"Electric linear actuator, frame 050, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Active,50.0,,Finished Product
+ACT-0053,"Electric linear actuator, frame 063, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Active,100.0,,Finished Product
+ACT-0054,"Electric linear actuator, frame 075, stroke 900 mm",Finished Good,ACT,EA,Make,1,0,Active,1.0,,Finished Product
+ACT-0055,"Electric linear actuator, frame 090, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Active,5.0,,Finished Product
+ACT-0056,"Electric linear actuator, frame 110, stroke 900 mm",Finished Good,ACT,EA,Make,0,1,Active,10.0,,Finished Product
+ACT-0057,"Electric linear actuator, frame 140, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Phase Out,20.0,,Finished Product
+ACT-0058,"Electric linear actuator, frame 160, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Phase Out,50.0,,Finished Product
+ACT-0059,"Electric linear actuator, frame 200, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Phase Out,100.0,,Finished Product
+ACT-0060,"Electric linear actuator, frame 250, stroke 900 mm",Finished Good,ACT,EA,Make,0,0,Phase Out,1.0,,Finished Product
+AFT-0001,"Seal and bearing service kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0014,Aftermarket
+AFT-0002,"Input coupling replacement kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0027,Aftermarket
+AFT-0003,"Brake retrofit kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0040,Aftermarket
+AFT-0004,"Encoder replacement kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0053,Aftermarket
+AFT-0005,"Cooling fan service kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0066,Aftermarket
+AFT-0006,"Field wiring kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0079,Aftermarket
+AFT-0007,"Lubrication service kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0092,Aftermarket
+AFT-0008,"Output flange retrofit kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0105,Aftermarket
+AFT-0009,"Operator panel replacement kit, frame 040",Aftermarket,AFT,EA,Either,1,0,Active,20.0,VEND-0118,Aftermarket
+AFT-0010,"Preventive-maintenance spares kit, frame 040",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0131,Aftermarket
+AFT-0011,"Seal and bearing service kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0144,Aftermarket
+AFT-0012,"Input coupling replacement kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0157,Aftermarket
+AFT-0013,"Brake retrofit kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0170,Aftermarket
+AFT-0014,"Encoder replacement kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0003,Aftermarket
+AFT-0015,"Cooling fan service kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0016,Aftermarket
+AFT-0016,"Field wiring kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0029,Aftermarket
+AFT-0017,"Lubrication service kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0042,Aftermarket
+AFT-0018,"Output flange retrofit kit, frame 050",Aftermarket,AFT,EA,Either,1,0,Active,1.0,VEND-0055,Aftermarket
+AFT-0019,"Operator panel replacement kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0068,Aftermarket
+AFT-0020,"Preventive-maintenance spares kit, frame 050",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0081,Aftermarket
+AFT-0021,"Seal and bearing service kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0094,Aftermarket
+AFT-0022,"Input coupling replacement kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0107,Aftermarket
+AFT-0023,"Brake retrofit kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0120,Aftermarket
+AFT-0024,"Encoder replacement kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0133,Aftermarket
+AFT-0025,"Cooling fan service kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0146,Aftermarket
+AFT-0026,"Field wiring kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0159,Aftermarket
+AFT-0027,"Lubrication service kit, frame 063",Aftermarket,AFT,EA,Either,1,0,Active,20.0,VEND-0172,Aftermarket
+AFT-0028,"Output flange retrofit kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0005,Aftermarket
+AFT-0029,"Operator panel replacement kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0018,Aftermarket
+AFT-0030,"Preventive-maintenance spares kit, frame 063",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0031,Aftermarket
+AFT-0031,"Seal and bearing service kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0044,Aftermarket
+AFT-0032,"Input coupling replacement kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0057,Aftermarket
+AFT-0033,"Brake retrofit kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0070,Aftermarket
+AFT-0034,"Encoder replacement kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0083,Aftermarket
+AFT-0035,"Cooling fan service kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0096,Aftermarket
+AFT-0036,"Field wiring kit, frame 075",Aftermarket,AFT,EA,Either,1,0,Active,1.0,VEND-0109,Aftermarket
+AFT-0037,"Lubrication service kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0122,Aftermarket
+AFT-0038,"Output flange retrofit kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0135,Aftermarket
+AFT-0039,"Operator panel replacement kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0148,Aftermarket
+AFT-0040,"Preventive-maintenance spares kit, frame 075",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0161,Aftermarket
+AFT-0041,"Seal and bearing service kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0174,Aftermarket
+AFT-0042,"Input coupling replacement kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0007,Aftermarket
+AFT-0043,"Brake retrofit kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0020,Aftermarket
+AFT-0044,"Encoder replacement kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0033,Aftermarket
+AFT-0045,"Cooling fan service kit, frame 090",Aftermarket,AFT,EA,Either,1,0,Active,20.0,VEND-0046,Aftermarket
+AFT-0046,"Field wiring kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0059,Aftermarket
+AFT-0047,"Lubrication service kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0072,Aftermarket
+AFT-0048,"Output flange retrofit kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,1.0,VEND-0085,Aftermarket
+AFT-0049,"Operator panel replacement kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0098,Aftermarket
+AFT-0050,"Preventive-maintenance spares kit, frame 090",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0111,Aftermarket
+AFT-0051,"Seal and bearing service kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Active,20.0,VEND-0124,Aftermarket
+AFT-0052,"Input coupling replacement kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Active,50.0,VEND-0137,Aftermarket
+AFT-0053,"Brake retrofit kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Active,100.0,VEND-0150,Aftermarket
+AFT-0054,"Encoder replacement kit, frame 110",Aftermarket,AFT,EA,Either,1,0,Active,1.0,VEND-0163,Aftermarket
+AFT-0055,"Cooling fan service kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Active,5.0,VEND-0176,Aftermarket
+AFT-0056,"Field wiring kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Active,10.0,VEND-0009,Aftermarket
+AFT-0057,"Lubrication service kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Phase Out,20.0,VEND-0022,Aftermarket
+AFT-0058,"Output flange retrofit kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Phase Out,50.0,VEND-0035,Aftermarket
+AFT-0059,"Operator panel replacement kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Phase Out,100.0,VEND-0048,Aftermarket
+AFT-0060,"Preventive-maintenance spares kit, frame 110",Aftermarket,AFT,EA,Either,0,0,Phase Out,1.0,VEND-0061,Aftermarket
+CTL-0001,"Motion-control cabinet, 2-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0002,"Motion-control cabinet, 3-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,10.0,,Finished Product
+CTL-0003,"Motion-control cabinet, 4-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,20.0,,Finished Product
+CTL-0004,"Motion-control cabinet, 5-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,50.0,,Finished Product
+CTL-0005,"Motion-control cabinet, 6-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,100.0,,Finished Product
+CTL-0006,"Motion-control cabinet, 7-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,1.0,,Finished Product
+CTL-0007,"Motion-control cabinet, 8-axis, 230 V",Finished Good,CTL,EA,Make,0,1,Active,5.0,,Finished Product
+CTL-0008,"Motion-control cabinet, 9-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,10.0,,Finished Product
+CTL-0009,"Motion-control cabinet, 10-axis, 230 V",Finished Good,CTL,EA,Make,1,0,Active,20.0,,Finished Product
+CTL-0010,"Motion-control cabinet, 11-axis, 230 V",Finished Good,CTL,EA,Make,0,0,Active,50.0,,Finished Product
+CTL-0011,"Motion-control cabinet, 2-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,100.0,,Finished Product
+CTL-0012,"Motion-control cabinet, 3-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,1.0,,Finished Product
+CTL-0013,"Motion-control cabinet, 4-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0014,"Motion-control cabinet, 5-axis, 400 V",Finished Good,CTL,EA,Make,0,1,Active,10.0,,Finished Product
+CTL-0015,"Motion-control cabinet, 6-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,20.0,,Finished Product
+CTL-0016,"Motion-control cabinet, 7-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,50.0,,Finished Product
+CTL-0017,"Motion-control cabinet, 8-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,100.0,,Finished Product
+CTL-0018,"Motion-control cabinet, 9-axis, 400 V",Finished Good,CTL,EA,Make,1,0,Active,1.0,,Finished Product
+CTL-0019,"Motion-control cabinet, 10-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0020,"Motion-control cabinet, 11-axis, 400 V",Finished Good,CTL,EA,Make,0,0,Active,10.0,,Finished Product
+CTL-0021,"Motion-control cabinet, 2-axis, 460 V",Finished Good,CTL,EA,Make,0,1,Active,20.0,,Finished Product
+CTL-0022,"Motion-control cabinet, 3-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,50.0,,Finished Product
+CTL-0023,"Motion-control cabinet, 4-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,100.0,,Finished Product
+CTL-0024,"Motion-control cabinet, 5-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,1.0,,Finished Product
+CTL-0025,"Motion-control cabinet, 6-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0026,"Motion-control cabinet, 7-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,10.0,,Finished Product
+CTL-0027,"Motion-control cabinet, 8-axis, 460 V",Finished Good,CTL,EA,Make,1,0,Active,20.0,,Finished Product
+CTL-0028,"Motion-control cabinet, 9-axis, 460 V",Finished Good,CTL,EA,Make,0,1,Active,50.0,,Finished Product
+CTL-0029,"Motion-control cabinet, 10-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,100.0,,Finished Product
+CTL-0030,"Motion-control cabinet, 11-axis, 460 V",Finished Good,CTL,EA,Make,0,0,Active,1.0,,Finished Product
+CTL-0031,"Motion-control cabinet, 2-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0032,"Motion-control cabinet, 3-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Active,10.0,,Finished Product
+CTL-0033,"Motion-control cabinet, 4-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Active,20.0,,Finished Product
+CTL-0034,"Motion-control cabinet, 5-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Active,50.0,,Finished Product
+CTL-0035,"Motion-control cabinet, 6-axis, 600 V",Finished Good,CTL,EA,Make,0,1,Active,100.0,,Finished Product
+CTL-0036,"Motion-control cabinet, 7-axis, 600 V",Finished Good,CTL,EA,Make,1,0,Active,1.0,,Finished Product
+CTL-0037,"Motion-control cabinet, 8-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Active,5.0,,Finished Product
+CTL-0038,"Motion-control cabinet, 9-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Phase Out,10.0,,Finished Product
+CTL-0039,"Motion-control cabinet, 10-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Phase Out,20.0,,Finished Product
+CTL-0040,"Motion-control cabinet, 11-axis, 600 V",Finished Good,CTL,EA,Make,0,0,Phase Out,50.0,,Finished Product
+DRV-0001,"Helical servo gear drive, frame 040, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0002,"Helical servo gear drive, frame 050, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0003,"Helical servo gear drive, frame 063, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,20.0,,Finished Product
+DRV-0004,"Helical servo gear drive, frame 075, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0005,"Helical servo gear drive, frame 090, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0006,"Helical servo gear drive, frame 110, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,1.0,,Finished Product
+DRV-0007,"Helical servo gear drive, frame 140, ratio 5:1",Finished Good,DRV,EA,Make,0,1,Active,5.0,,Finished Product
+DRV-0008,"Helical servo gear drive, frame 160, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0009,"Helical servo gear drive, frame 200, ratio 5:1",Finished Good,DRV,EA,Make,1,0,Active,20.0,,Finished Product
+DRV-0010,"Helical servo gear drive, frame 250, ratio 5:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0011,"Helical servo gear drive, frame 040, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0012,"Helical servo gear drive, frame 050, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,1.0,,Finished Product
+DRV-0013,"Helical servo gear drive, frame 063, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0014,"Helical servo gear drive, frame 075, ratio 7:1",Finished Good,DRV,EA,Make,0,1,Active,10.0,,Finished Product
+DRV-0015,"Helical servo gear drive, frame 090, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,20.0,,Finished Product
+DRV-0016,"Helical servo gear drive, frame 110, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0017,"Helical servo gear drive, frame 140, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0018,"Helical servo gear drive, frame 160, ratio 7:1",Finished Good,DRV,EA,Make,1,0,Active,1.0,,Finished Product
+DRV-0019,"Helical servo gear drive, frame 200, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0020,"Helical servo gear drive, frame 250, ratio 7:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0021,"Helical servo gear drive, frame 040, ratio 10:1",Finished Good,DRV,EA,Make,0,1,Active,20.0,,Finished Product
+DRV-0022,"Helical servo gear drive, frame 050, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0023,"Helical servo gear drive, frame 063, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0024,"Helical servo gear drive, frame 075, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,1.0,,Finished Product
+DRV-0025,"Helical servo gear drive, frame 090, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0026,"Helical servo gear drive, frame 110, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0027,"Helical servo gear drive, frame 140, ratio 10:1",Finished Good,DRV,EA,Make,1,0,Active,20.0,,Finished Product
+DRV-0028,"Helical servo gear drive, frame 160, ratio 10:1",Finished Good,DRV,EA,Make,0,1,Active,50.0,,Finished Product
+DRV-0029,"Helical servo gear drive, frame 200, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0030,"Helical servo gear drive, frame 250, ratio 10:1",Finished Good,DRV,EA,Make,0,0,Active,1.0,,Finished Product
+DRV-0031,"Helical servo gear drive, frame 040, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0032,"Helical servo gear drive, frame 050, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0033,"Helical servo gear drive, frame 063, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,20.0,,Finished Product
+DRV-0034,"Helical servo gear drive, frame 075, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0035,"Helical servo gear drive, frame 090, ratio 15:1",Finished Good,DRV,EA,Make,0,1,Active,100.0,,Finished Product
+DRV-0036,"Helical servo gear drive, frame 110, ratio 15:1",Finished Good,DRV,EA,Make,1,0,Active,1.0,,Finished Product
+DRV-0037,"Helical servo gear drive, frame 140, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0038,"Helical servo gear drive, frame 160, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0039,"Helical servo gear drive, frame 200, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,20.0,,Finished Product
+DRV-0040,"Helical servo gear drive, frame 250, ratio 15:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0041,"Helical servo gear drive, frame 040, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0042,"Helical servo gear drive, frame 050, ratio 20:1",Finished Good,DRV,EA,Make,0,1,Active,1.0,,Finished Product
+DRV-0043,"Helical servo gear drive, frame 063, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0044,"Helical servo gear drive, frame 075, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0045,"Helical servo gear drive, frame 090, ratio 20:1",Finished Good,DRV,EA,Make,1,0,Active,20.0,,Finished Product
+DRV-0046,"Helical servo gear drive, frame 110, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0047,"Helical servo gear drive, frame 140, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0048,"Helical servo gear drive, frame 160, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,1.0,,Finished Product
+DRV-0049,"Helical servo gear drive, frame 200, ratio 20:1",Finished Good,DRV,EA,Make,0,1,Active,5.0,,Finished Product
+DRV-0050,"Helical servo gear drive, frame 250, ratio 20:1",Finished Good,DRV,EA,Make,0,0,Active,10.0,,Finished Product
+DRV-0051,"Helical servo gear drive, frame 040, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Active,20.0,,Finished Product
+DRV-0052,"Helical servo gear drive, frame 050, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Active,50.0,,Finished Product
+DRV-0053,"Helical servo gear drive, frame 063, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Active,100.0,,Finished Product
+DRV-0054,"Helical servo gear drive, frame 075, ratio 30:1",Finished Good,DRV,EA,Make,1,0,Active,1.0,,Finished Product
+DRV-0055,"Helical servo gear drive, frame 090, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Active,5.0,,Finished Product
+DRV-0056,"Helical servo gear drive, frame 110, ratio 30:1",Finished Good,DRV,EA,Make,0,1,Active,10.0,,Finished Product
+DRV-0057,"Helical servo gear drive, frame 140, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Phase Out,20.0,,Finished Product
+DRV-0058,"Helical servo gear drive, frame 160, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Phase Out,50.0,,Finished Product
+DRV-0059,"Helical servo gear drive, frame 200, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Phase Out,100.0,,Finished Product
+DRV-0060,"Helical servo gear drive, frame 250, ratio 30:1",Finished Good,DRV,EA,Make,0,0,Phase Out,1.0,,Finished Product
+PC-0001,"Angular-contact bearing set, compact frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0014,Components
+PC-0002,"Planetary bearing cartridge, compact frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0027,Components
+PC-0003,"Servo motor, compact frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0040,Components
+PC-0004,"Variable-frequency drive, compact frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0053,Components
+PC-0005,"Absolute encoder, compact frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0066,Components
+PC-0006,"Industrial power supply, compact frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0079,Components
+PC-0007,"Safety relay, compact frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0092,Components
+PC-0008,"Circuit breaker, compact frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0105,Components
+PC-0009,"Contactor assembly, compact frame",Purchased Component,,EA,Buy,1,0,Active,20.0,VEND-0118,Components
+PC-0010,"Terminal block kit, compact frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0131,Components
+PC-0011,"Precision coupling, compact frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0144,Components
+PC-0012,"Linear guide set, compact frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0157,Components
+PC-0013,"Ball-screw assembly, compact frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0170,Components
+PC-0014,"Hydraulic fitting kit, compact frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0003,Components
+PC-0015,"Cooling fan module, compact frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0016,Components
+PC-0016,"Control transformer, compact frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0029,Components
+PC-0017,"Ethernet switch, compact frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0042,Components
+PC-0018,"Operator interface, compact frame",Purchased Component,,EA,Buy,1,0,Active,1.0,VEND-0055,Components
+PC-0019,"Cable gland set, compact frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0068,Components
+PC-0020,"Shipping enclosure, compact frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0081,Components
+PC-0021,"Angular-contact bearing set, standard frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0094,Components
+PC-0022,"Planetary bearing cartridge, standard frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0107,Components
+PC-0023,"Servo motor, standard frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0120,Components
+PC-0024,"Variable-frequency drive, standard frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0133,Components
+PC-0025,"Absolute encoder, standard frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0146,Components
+PC-0026,"Industrial power supply, standard frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0159,Components
+PC-0027,"Safety relay, standard frame",Purchased Component,,EA,Buy,1,0,Active,20.0,VEND-0172,Components
+PC-0028,"Circuit breaker, standard frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0005,Components
+PC-0029,"Contactor assembly, standard frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0018,Components
+PC-0030,"Terminal block kit, standard frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0031,Components
+PC-0031,"Precision coupling, standard frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0044,Components
+PC-0032,"Linear guide set, standard frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0057,Components
+PC-0033,"Ball-screw assembly, standard frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0070,Components
+PC-0034,"Hydraulic fitting kit, standard frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0083,Components
+PC-0035,"Cooling fan module, standard frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0096,Components
+PC-0036,"Control transformer, standard frame",Purchased Component,,EA,Buy,1,0,Active,1.0,VEND-0109,Components
+PC-0037,"Ethernet switch, standard frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0122,Components
+PC-0038,"Operator interface, standard frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0135,Components
+PC-0039,"Cable gland set, standard frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0148,Components
+PC-0040,"Shipping enclosure, standard frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0161,Components
+PC-0041,"Angular-contact bearing set, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0174,Components
+PC-0042,"Planetary bearing cartridge, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0007,Components
+PC-0043,"Servo motor, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0020,Components
+PC-0044,"Variable-frequency drive, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0033,Components
+PC-0045,"Absolute encoder, high-torque frame",Purchased Component,,EA,Buy,1,0,Active,20.0,VEND-0046,Components
+PC-0046,"Industrial power supply, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0059,Components
+PC-0047,"Safety relay, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0072,Components
+PC-0048,"Circuit breaker, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0085,Components
+PC-0049,"Contactor assembly, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0098,Components
+PC-0050,"Terminal block kit, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0111,Components
+PC-0051,"Precision coupling, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0124,Components
+PC-0052,"Linear guide set, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0137,Components
+PC-0053,"Ball-screw assembly, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0150,Components
+PC-0054,"Hydraulic fitting kit, high-torque frame",Purchased Component,,EA,Buy,1,0,Active,1.0,VEND-0163,Components
+PC-0055,"Cooling fan module, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0176,Components
+PC-0056,"Control transformer, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0009,Components
+PC-0057,"Ethernet switch, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0022,Components
+PC-0058,"Operator interface, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0035,Components
+PC-0059,"Cable gland set, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0048,Components
+PC-0060,"Shipping enclosure, high-torque frame",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0061,Components
+PC-0061,"Angular-contact bearing set, washdown duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0074,Components
+PC-0062,"Planetary bearing cartridge, washdown duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0087,Components
+PC-0063,"Servo motor, washdown duty",Purchased Component,,EA,Buy,1,0,Active,20.0,VEND-0100,Components
+PC-0064,"Variable-frequency drive, washdown duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0113,Components
+PC-0065,"Absolute encoder, washdown duty",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0126,Components
+PC-0066,"Industrial power supply, washdown duty",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0139,Components
+PC-0067,"Safety relay, washdown duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0152,Components
+PC-0068,"Circuit breaker, washdown duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0165,Components
+PC-0069,"Contactor assembly, washdown duty",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0178,Components
+PC-0070,"Terminal block kit, washdown duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0011,Components
+PC-0071,"Precision coupling, washdown duty",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0024,Components
+PC-0072,"Linear guide set, washdown duty",Purchased Component,,EA,Buy,1,0,Active,1.0,VEND-0037,Components
+PC-0073,"Ball-screw assembly, washdown duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0050,Components
+PC-0074,"Hydraulic fitting kit, washdown duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0063,Components
+PC-0075,"Cooling fan module, washdown duty",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0076,Components
+PC-0076,"Control transformer, washdown duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0089,Components
+PC-0077,"Ethernet switch, washdown duty",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0102,Components
+PC-0078,"Operator interface, washdown duty",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0115,Components
+PC-0079,"Cable gland set, washdown duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0128,Components
+PC-0080,"Shipping enclosure, washdown duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0141,Components
+PC-0081,"Angular-contact bearing set, extended-temperature duty",Purchased Component,,EA,Buy,1,0,Active,20.0,VEND-0154,Components
+PC-0082,"Planetary bearing cartridge, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0167,Components
+PC-0083,"Servo motor, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0180,Components
+PC-0084,"Variable-frequency drive, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,1.0,VEND-0013,Components
+PC-0085,"Absolute encoder, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0026,Components
+PC-0086,"Industrial power supply, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0039,Components
+PC-0087,"Safety relay, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0052,Components
+PC-0088,"Circuit breaker, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0065,Components
+PC-0089,"Contactor assembly, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,100.0,VEND-0078,Components
+PC-0090,"Terminal block kit, extended-temperature duty",Purchased Component,,EA,Buy,1,0,Active,1.0,VEND-0091,Components
+PC-0091,"Precision coupling, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,5.0,VEND-0104,Components
+PC-0092,"Linear guide set, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,10.0,VEND-0117,Components
+PC-0093,"Ball-screw assembly, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,20.0,VEND-0130,Components
+PC-0094,"Hydraulic fitting kit, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Active,50.0,VEND-0143,Components
+PC-0095,"Cooling fan module, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Phase Out,100.0,VEND-0156,Components
+PC-0096,"Control transformer, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Phase Out,1.0,VEND-0169,Components
+PC-0097,"Ethernet switch, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Phase Out,5.0,VEND-0002,Components
+PC-0098,"Operator interface, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Phase Out,10.0,VEND-0015,Components
+PC-0099,"Cable gland set, extended-temperature duty",Purchased Component,,EA,Buy,1,0,Phase Out,20.0,VEND-0028,Components
+PC-0100,"Shipping enclosure, extended-temperature duty",Purchased Component,,EA,Buy,0,0,Phase Out,50.0,VEND-0041,Components
+RM-0001,"Cold-rolled steel bar, production grade A",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0014,Metals
+RM-0002,"Alloy steel round, production grade A",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0027,Metals
+RM-0003,"Stainless steel sheet, production grade A",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0040,Metals
+RM-0004,"Aluminum plate, production grade A",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0053,Metals
+RM-0005,"Ductile iron casting, production grade A",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0066,Metals
+RM-0006,"Gray iron casting, production grade A",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0079,Metals
+RM-0007,"Bronze bushing stock, production grade A",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0092,Metals
+RM-0008,"Copper bus bar, production grade A",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0105,Metals
+RM-0009,"Structural steel tube, production grade A",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0118,Metals
+RM-0010,"Ground shaft stock, production grade A",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0131,Metals
+RM-0011,"Tool steel blank, production grade A",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0144,Metals
+RM-0012,"Polycarbonate sheet, production grade A",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0157,Metals
+RM-0013,"Industrial coating resin, production grade A",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0170,Metals
+RM-0014,"Gear lubricant, production grade A",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0003,Metals
+RM-0015,"Electrical hookup wire, production grade A",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0016,Metals
+RM-0016,"Cold-rolled steel bar, production grade B",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0029,Metals
+RM-0017,"Alloy steel round, production grade B",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0042,Metals
+RM-0018,"Stainless steel sheet, production grade B",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0055,Metals
+RM-0019,"Aluminum plate, production grade B",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0068,Metals
+RM-0020,"Ductile iron casting, production grade B",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0081,Metals
+RM-0021,"Gray iron casting, production grade B",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0094,Metals
+RM-0022,"Bronze bushing stock, production grade B",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0107,Metals
+RM-0023,"Copper bus bar, production grade B",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0120,Metals
+RM-0024,"Structural steel tube, production grade B",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0133,Metals
+RM-0025,"Ground shaft stock, production grade B",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0146,Metals
+RM-0026,"Tool steel blank, production grade B",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0159,Metals
+RM-0027,"Polycarbonate sheet, production grade B",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0172,Metals
+RM-0028,"Industrial coating resin, production grade B",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0005,Metals
+RM-0029,"Gear lubricant, production grade B",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0018,Metals
+RM-0030,"Electrical hookup wire, production grade B",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0031,Metals
+RM-0031,"Cold-rolled steel bar, precision tolerance",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0044,Metals
+RM-0032,"Alloy steel round, precision tolerance",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0057,Metals
+RM-0033,"Stainless steel sheet, precision tolerance",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0070,Metals
+RM-0034,"Aluminum plate, precision tolerance",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0083,Metals
+RM-0035,"Ductile iron casting, precision tolerance",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0096,Metals
+RM-0036,"Gray iron casting, precision tolerance",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0109,Metals
+RM-0037,"Bronze bushing stock, precision tolerance",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0122,Metals
+RM-0038,"Copper bus bar, precision tolerance",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0135,Metals
+RM-0039,"Structural steel tube, precision tolerance",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0148,Metals
+RM-0040,"Ground shaft stock, precision tolerance",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0161,Metals
+RM-0041,"Tool steel blank, precision tolerance",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0174,Metals
+RM-0042,"Polycarbonate sheet, precision tolerance",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0007,Metals
+RM-0043,"Industrial coating resin, precision tolerance",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0020,Metals
+RM-0044,"Gear lubricant, precision tolerance",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0033,Metals
+RM-0045,"Electrical hookup wire, precision tolerance",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0046,Metals
+RM-0046,"Cold-rolled steel bar, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0059,Metals
+RM-0047,"Alloy steel round, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0072,Metals
+RM-0048,"Stainless steel sheet, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0085,Metals
+RM-0049,"Aluminum plate, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0098,Metals
+RM-0050,"Ductile iron casting, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0111,Metals
+RM-0051,"Gray iron casting, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0124,Metals
+RM-0052,"Bronze bushing stock, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0137,Metals
+RM-0053,"Copper bus bar, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0150,Metals
+RM-0054,"Structural steel tube, corrosion-resistant",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0163,Metals
+RM-0055,"Ground shaft stock, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0176,Metals
+RM-0056,"Tool steel blank, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0009,Metals
+RM-0057,"Polycarbonate sheet, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0022,Metals
+RM-0058,"Industrial coating resin, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0035,Metals
+RM-0059,"Gear lubricant, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0048,Metals
+RM-0060,"Electrical hookup wire, corrosion-resistant",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0061,Metals
+RM-0061,"Cold-rolled steel bar, high-strength",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0074,Metals
+RM-0062,"Alloy steel round, high-strength",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0087,Metals
+RM-0063,"Stainless steel sheet, high-strength",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0100,Metals
+RM-0064,"Aluminum plate, high-strength",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0113,Metals
+RM-0065,"Ductile iron casting, high-strength",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0126,Metals
+RM-0066,"Gray iron casting, high-strength",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0139,Metals
+RM-0067,"Bronze bushing stock, high-strength",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0152,Metals
+RM-0068,"Copper bus bar, high-strength",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0165,Metals
+RM-0069,"Structural steel tube, high-strength",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0178,Metals
+RM-0070,"Ground shaft stock, high-strength",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0011,Metals
+RM-0071,"Tool steel blank, high-strength",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0024,Metals
+RM-0072,"Polycarbonate sheet, high-strength",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0037,Metals
+RM-0073,"Industrial coating resin, high-strength",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0050,Metals
+RM-0074,"Gear lubricant, high-strength",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0063,Metals
+RM-0075,"Electrical hookup wire, high-strength",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0076,Metals
+RM-0076,"Cold-rolled steel bar, machining stock",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0089,Metals
+RM-0077,"Alloy steel round, machining stock",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0102,Metals
+RM-0078,"Stainless steel sheet, machining stock",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0115,Metals
+RM-0079,"Aluminum plate, machining stock",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0128,Metals
+RM-0080,"Ductile iron casting, machining stock",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0141,Metals
+RM-0081,"Gray iron casting, machining stock",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0154,Metals
+RM-0082,"Bronze bushing stock, machining stock",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0167,Metals
+RM-0083,"Copper bus bar, machining stock",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0180,Metals
+RM-0084,"Structural steel tube, machining stock",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0013,Metals
+RM-0085,"Ground shaft stock, machining stock",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0026,Metals
+RM-0086,"Tool steel blank, machining stock",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0039,Metals
+RM-0087,"Polycarbonate sheet, machining stock",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0052,Metals
+RM-0088,"Industrial coating resin, machining stock",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0065,Metals
+RM-0089,"Gear lubricant, machining stock",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0078,Metals
+RM-0090,"Electrical hookup wire, machining stock",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0091,Metals
+RM-0091,"Cold-rolled steel bar, formed profile",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0104,Metals
+RM-0092,"Alloy steel round, formed profile",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0117,Metals
+RM-0093,"Stainless steel sheet, formed profile",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0130,Metals
+RM-0094,"Aluminum plate, formed profile",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0143,Metals
+RM-0095,"Ductile iron casting, formed profile",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0156,Metals
+RM-0096,"Gray iron casting, formed profile",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0169,Metals
+RM-0097,"Bronze bushing stock, formed profile",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0002,Metals
+RM-0098,"Copper bus bar, formed profile",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0015,Metals
+RM-0099,"Structural steel tube, formed profile",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0028,Metals
+RM-0100,"Ground shaft stock, formed profile",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0041,Metals
+RM-0101,"Tool steel blank, formed profile",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0054,Metals
+RM-0102,"Polycarbonate sheet, formed profile",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0067,Metals
+RM-0103,"Industrial coating resin, formed profile",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0080,Metals
+RM-0104,"Gear lubricant, formed profile",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0093,Metals
+RM-0105,"Electrical hookup wire, formed profile",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0106,Metals
+RM-0106,"Cold-rolled steel bar, heat-treated",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0119,Metals
+RM-0107,"Alloy steel round, heat-treated",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0132,Metals
+RM-0108,"Stainless steel sheet, heat-treated",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0145,Metals
+RM-0109,"Aluminum plate, heat-treated",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0158,Metals
+RM-0110,"Ductile iron casting, heat-treated",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0171,Metals
+RM-0111,"Gray iron casting, heat-treated",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0004,Metals
+RM-0112,"Bronze bushing stock, heat-treated",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0017,Metals
+RM-0113,"Copper bus bar, heat-treated",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0030,Metals
+RM-0114,"Structural steel tube, heat-treated",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0043,Metals
+RM-0115,"Ground shaft stock, heat-treated",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0056,Metals
+RM-0116,"Tool steel blank, heat-treated",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0069,Metals
+RM-0117,"Polycarbonate sheet, heat-treated",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0082,Metals
+RM-0118,"Industrial coating resin, heat-treated",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0095,Metals
+RM-0119,"Gear lubricant, heat-treated",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0108,Metals
+RM-0120,"Electrical hookup wire, heat-treated",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0121,Metals
+RM-0121,"Cold-rolled steel bar, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0134,Metals
+RM-0122,"Alloy steel round, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0147,Metals
+RM-0123,"Stainless steel sheet, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0160,Metals
+RM-0124,"Aluminum plate, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0173,Metals
+RM-0125,"Ductile iron casting, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0006,Metals
+RM-0126,"Gray iron casting, certified domestic melt",Raw Material,,EA,Buy,1,0,Active,1.0,VEND-0019,Metals
+RM-0127,"Bronze bushing stock, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0032,Metals
+RM-0128,"Copper bus bar, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0045,Metals
+RM-0129,"Structural steel tube, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0058,Metals
+RM-0130,"Ground shaft stock, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0071,Metals
+RM-0131,"Tool steel blank, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0084,Metals
+RM-0132,"Polycarbonate sheet, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0097,Metals
+RM-0133,"Industrial coating resin, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0110,Metals
+RM-0134,"Gear lubricant, certified domestic melt",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0123,Metals
+RM-0135,"Electrical hookup wire, certified domestic melt",Raw Material,,EA,Buy,1,0,Active,20.0,VEND-0136,Metals
+RM-0136,"Cold-rolled steel bar, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,50.0,VEND-0149,Metals
+RM-0137,"Alloy steel round, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,100.0,VEND-0162,Metals
+RM-0138,"Stainless steel sheet, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,1.0,VEND-0175,Metals
+RM-0139,"Aluminum plate, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,5.0,VEND-0008,Metals
+RM-0140,"Ductile iron casting, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,10.0,VEND-0021,Metals
+RM-0141,"Gray iron casting, approved alternate grade",Raw Material,,EA,Buy,0,0,Active,20.0,VEND-0034,Metals
+RM-0142,"Bronze bushing stock, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,50.0,VEND-0047,Metals
+RM-0143,"Copper bus bar, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,100.0,VEND-0060,Metals
+RM-0144,"Structural steel tube, approved alternate grade",Raw Material,,EA,Buy,1,0,Phase Out,1.0,VEND-0073,Metals
+RM-0145,"Ground shaft stock, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,5.0,VEND-0086,Metals
+RM-0146,"Tool steel blank, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,10.0,VEND-0099,Metals
+RM-0147,"Polycarbonate sheet, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,20.0,VEND-0112,Metals
+RM-0148,"Industrial coating resin, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,50.0,VEND-0125,Metals
+RM-0149,"Gear lubricant, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,100.0,VEND-0138,Metals
+RM-0150,"Electrical hookup wire, approved alternate grade",Raw Material,,EA,Buy,0,0,Phase Out,1.0,VEND-0151,Metals
+SA-0001,"Input shaft assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0002,"Output flange assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0003,"Gear train assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0004,"Bearing carrier assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0005,"Motor adapter assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0006,"Brake module assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0007,"Actuator screw assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0008,"Actuator rod assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0009,"Cabinet backplate assembly, size 1",Manufactured Subassembly,,EA,Make,1,0,Active,20.0,,Subassembly
+SA-0010,"Power distribution assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0011,"Control wiring harness, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0012,"Safety circuit assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0013,"Cooling module assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0014,"Operator panel assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0015,"Skid base assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0016,"Lubrication module assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0017,"Sensor manifold assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0018,"Terminal rail assembly, size 1",Manufactured Subassembly,,EA,Make,1,0,Active,1.0,,Subassembly
+SA-0019,"Service access panel, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0020,"Test fixture assembly, size 1",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0021,"Input shaft assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0022,"Output flange assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0023,"Gear train assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0024,"Bearing carrier assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0025,"Motor adapter assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0026,"Brake module assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0027,"Actuator screw assembly, size 2",Manufactured Subassembly,,EA,Make,1,0,Active,20.0,,Subassembly
+SA-0028,"Actuator rod assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0029,"Cabinet backplate assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0030,"Power distribution assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0031,"Control wiring harness, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0032,"Safety circuit assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0033,"Cooling module assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0034,"Operator panel assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0035,"Skid base assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0036,"Lubrication module assembly, size 2",Manufactured Subassembly,,EA,Make,1,0,Active,1.0,,Subassembly
+SA-0037,"Sensor manifold assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0038,"Terminal rail assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0039,"Service access panel, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0040,"Test fixture assembly, size 2",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0041,"Input shaft assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0042,"Output flange assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0043,"Gear train assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0044,"Bearing carrier assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0045,"Motor adapter assembly, size 3",Manufactured Subassembly,,EA,Make,1,0,Active,20.0,,Subassembly
+SA-0046,"Brake module assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0047,"Actuator screw assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0048,"Actuator rod assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0049,"Cabinet backplate assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0050,"Power distribution assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0051,"Control wiring harness, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0052,"Safety circuit assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0053,"Cooling module assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0054,"Operator panel assembly, size 3",Manufactured Subassembly,,EA,Make,1,0,Active,1.0,,Subassembly
+SA-0055,"Skid base assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0056,"Lubrication module assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0057,"Sensor manifold assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0058,"Terminal rail assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0059,"Service access panel, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0060,"Test fixture assembly, size 3",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0061,"Input shaft assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0062,"Output flange assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0063,"Gear train assembly, heavy-duty",Manufactured Subassembly,,EA,Make,1,0,Active,20.0,,Subassembly
+SA-0064,"Bearing carrier assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0065,"Motor adapter assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0066,"Brake module assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0067,"Actuator screw assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0068,"Actuator rod assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0069,"Cabinet backplate assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0070,"Power distribution assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0071,"Control wiring harness, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0072,"Safety circuit assembly, heavy-duty",Manufactured Subassembly,,EA,Make,1,0,Active,1.0,,Subassembly
+SA-0073,"Cooling module assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0074,"Operator panel assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0075,"Skid base assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0076,"Lubrication module assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0077,"Sensor manifold assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0078,"Terminal rail assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0079,"Service access panel, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0080,"Test fixture assembly, heavy-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0081,"Input shaft assembly, precision-duty",Manufactured Subassembly,,EA,Make,1,0,Active,20.0,,Subassembly
+SA-0082,"Output flange assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0083,"Gear train assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0084,"Bearing carrier assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,1.0,,Subassembly
+SA-0085,"Motor adapter assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0086,"Brake module assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0087,"Actuator screw assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0088,"Actuator rod assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0089,"Cabinet backplate assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,100.0,,Subassembly
+SA-0090,"Power distribution assembly, precision-duty",Manufactured Subassembly,,EA,Make,1,0,Active,1.0,,Subassembly
+SA-0091,"Control wiring harness, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,5.0,,Subassembly
+SA-0092,"Safety circuit assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,10.0,,Subassembly
+SA-0093,"Cooling module assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,20.0,,Subassembly
+SA-0094,"Operator panel assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Active,50.0,,Subassembly
+SA-0095,"Skid base assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Phase Out,100.0,,Subassembly
+SA-0096,"Lubrication module assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Phase Out,1.0,,Subassembly
+SA-0097,"Sensor manifold assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Phase Out,5.0,,Subassembly
+SA-0098,"Terminal rail assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Phase Out,10.0,,Subassembly
+SA-0099,"Service access panel, precision-duty",Manufactured Subassembly,,EA,Make,1,0,Phase Out,20.0,,Subassembly
+SA-0100,"Test fixture assembly, precision-duty",Manufactured Subassembly,,EA,Make,0,0,Phase Out,50.0,,Subassembly
+SYS-0001,"Engineered motion skid, 2-axis, 5 kN",Finished Good,SYS,EA,Make,0,0,Active,5.0,,Engineered System
+SYS-0002,"Engineered motion skid, 2-axis, 10 kN",Finished Good,SYS,EA,Make,0,0,Active,10.0,,Engineered System
+SYS-0003,"Engineered motion skid, 2-axis, 15 kN",Finished Good,SYS,EA,Make,0,0,Active,20.0,,Engineered System
+SYS-0004,"Engineered motion skid, 2-axis, 25 kN",Finished Good,SYS,EA,Make,0,0,Active,50.0,,Engineered System
+SYS-0005,"Engineered motion skid, 2-axis, 40 kN",Finished Good,SYS,EA,Make,0,0,Active,100.0,,Engineered System
+SYS-0006,"Engineered motion skid, 2-axis, 60 kN",Finished Good,SYS,EA,Make,0,0,Active,1.0,,Engineered System
+SYS-0007,"Engineered motion skid, 2-axis, 80 kN",Finished Good,SYS,EA,Make,0,1,Active,5.0,,Engineered System
+SYS-0008,"Engineered motion skid, 2-axis, 100 kN",Finished Good,SYS,EA,Make,0,0,Active,10.0,,Engineered System
+SYS-0009,"Engineered motion skid, 2-axis, 125 kN",Finished Good,SYS,EA,Make,1,0,Active,20.0,,Engineered System
+SYS-0010,"Engineered motion skid, 2-axis, 150 kN",Finished Good,SYS,EA,Make,0,0,Active,50.0,,Engineered System
+SYS-0011,"Engineered motion skid, 3-axis, 5 kN",Finished Good,SYS,EA,Make,0,0,Active,100.0,,Engineered System
+SYS-0012,"Engineered motion skid, 3-axis, 10 kN",Finished Good,SYS,EA,Make,0,0,Active,1.0,,Engineered System
+SYS-0013,"Engineered motion skid, 3-axis, 15 kN",Finished Good,SYS,EA,Make,0,0,Active,5.0,,Engineered System
+SYS-0014,"Engineered motion skid, 3-axis, 25 kN",Finished Good,SYS,EA,Make,0,1,Active,10.0,,Engineered System
+SYS-0015,"Engineered motion skid, 3-axis, 40 kN",Finished Good,SYS,EA,Make,0,0,Active,20.0,,Engineered System
+SYS-0016,"Engineered motion skid, 3-axis, 60 kN",Finished Good,SYS,EA,Make,0,0,Active,50.0,,Engineered System
+SYS-0017,"Engineered motion skid, 3-axis, 80 kN",Finished Good,SYS,EA,Make,0,0,Active,100.0,,Engineered System
+SYS-0018,"Engineered motion skid, 3-axis, 100 kN",Finished Good,SYS,EA,Make,1,0,Active,1.0,,Engineered System
+SYS-0019,"Engineered motion skid, 3-axis, 125 kN",Finished Good,SYS,EA,Make,0,0,Active,5.0,,Engineered System
+SYS-0020,"Engineered motion skid, 3-axis, 150 kN",Finished Good,SYS,EA,Make,0,0,Active,10.0,,Engineered System
+SYS-0021,"Engineered motion skid, 4-axis, 5 kN",Finished Good,SYS,EA,Make,0,1,Active,20.0,,Engineered System
+SYS-0022,"Engineered motion skid, 4-axis, 10 kN",Finished Good,SYS,EA,Make,0,0,Active,50.0,,Engineered System
+SYS-0023,"Engineered motion skid, 4-axis, 15 kN",Finished Good,SYS,EA,Make,0,0,Active,100.0,,Engineered System
+SYS-0024,"Engineered motion skid, 4-axis, 25 kN",Finished Good,SYS,EA,Make,0,0,Active,1.0,,Engineered System
+SYS-0025,"Engineered motion skid, 4-axis, 40 kN",Finished Good,SYS,EA,Make,0,0,Active,5.0,,Engineered System
+SYS-0026,"Engineered motion skid, 4-axis, 60 kN",Finished Good,SYS,EA,Make,0,0,Active,10.0,,Engineered System
+SYS-0027,"Engineered motion skid, 4-axis, 80 kN",Finished Good,SYS,EA,Make,1,0,Active,20.0,,Engineered System
+SYS-0028,"Engineered motion skid, 4-axis, 100 kN",Finished Good,SYS,EA,Make,0,1,Active,50.0,,Engineered System
+SYS-0029,"Engineered motion skid, 4-axis, 125 kN",Finished Good,SYS,EA,Make,0,0,Phase Out,100.0,,Engineered System
+SYS-0030,"Engineered motion skid, 4-axis, 150 kN",Finished Good,SYS,EA,Make,0,0,Phase Out,1.0,,Engineered System

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_087",
+  "slug": "create-pioneer-qoe-purchase-price",
+  "title": "Create the Pioneer QoE and purchase-price bridge",
+  "workflow": "corporate-development",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "spreadsheet_create",
+    "target_path": "Deliverables/Pioneer QoE and purchase price bridge - 7.6.xlsx"
+  },
+  "prompt": "Create this file:\n`Deliverables/Pioneer QoE and purchase price bridge - 7.6.xlsx`\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: determine which controller-tied workpapers and operating extracts are current, use prior versions only for permitted comparison, and resolve conflicts from dates, approvals, document status, and the management correspondence. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Build the deliverable from the shared company sources and do not copy an output produced by another task.\n\nCreate `Reported Financials`, `QoE Adjustments`, `Working Capital`, `Net Debt`, `Purchase Price`, and `Checks`. Separate supported recurring normalizations from buyer synergies and banker forecasts, calculate adjusted EBITDA, build the monthly NWC peg and closing adjustment, classify funded-debt and debt-like items, and determine usable cash as delivered cash above the minimum; a seller-retained non-cash receivable receives no credit but is not deducted from cash. Bridge equity price to enterprise value and the adjusted-EBITDA multiple. Use formulas and include EBITDA, NWC, purchase-price, and source controls.\n\nAlso complete the locked-box leakage, escrow, earnout, total-consideration, and closing funds-flow bridge. For this assignment, total-consideration enterprise value includes earnout fair value, total debt and debt-like items means funded debt plus all debt-like settlements, and gross closing cash uses includes seller cash, escrow, funded-debt payoff, debt-like settlements, and transaction expenses. Show usable target cash as a source, the net buyer funding requirement, and a formula-driven zero funds-flow check.\n\nDocument the controlling sources inside the deliverable. Recalculate or render as appropriate and save to the exact target path. The file is graded.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_087",
+    "agent_visible": false
+  }
+}

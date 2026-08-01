@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_008",
+  "slug": "complete-downside-cash-workbook",
+  "title": "Complete the downside cash schedule and chart",
+  "workflow": "treasury",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet_edit",
+    "target_path": "Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx"
+  },
+  "prompt": "Edit this workbook in place:\n`Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx`\n\nBegin with the treasury request in `Requests/`. Reconcile the target workbook's imported base to the current cash roll-forward, controller collection notes, open-item accounting populations, and insurance-renewal support. Populate the missing amount cells on `Scenario Assumptions` from the controlling sources. Complete all 13 rows on `Downside Case` with formulas using the documented floor, draw convention, and repayment convention. Add one line chart on `Downside Case` comparing Cash Before Financing and Ending Cash by week.\n\nPreserve `Base Case Import`, all scenario wording, sheet names, and workbook formatting. Recalculate with LibreOffice or Excel and save to the same path. The workbook—not the final response—is graded.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_008",
+    "agent_visible": false
+  }
+}

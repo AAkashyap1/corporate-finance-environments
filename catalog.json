@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "title": "Corporate Finance Environments",
+  "company_count": 2,
+  "task_count": 200,
+  "source_file_count": 285,
+  "companies": [
+    {
+      "company_id": "alder-ridge",
+      "name": "Alder Ridge Mechanical",
+      "industry": "specialty mechanical contracting",
+      "task_count": 100,
+      "source_file_count": 121,
+      "path": "companies/alder-ridge",
+      "metadata": "companies/alder-ridge/company.json",
+      "submission_task_count": 100,
+      "submission_index": "companies/alder-ridge/tasks/hud-taskset.json"
+    },
+    {
+      "company_id": "pinehaven",
+      "name": "Pinehaven Motion Systems",
+      "industry": "multi-plant discrete manufacturing",
+      "task_count": 100,
+      "source_file_count": 164,
+      "path": "companies/pinehaven",
+      "metadata": "companies/pinehaven/company.json",
+      "submission_task_count": 94,
+      "submission_index": "companies/pinehaven/tasks/hud-taskset.json"
+    }
+  ],
+  "license": "LICENSE",
+  "submission_task_count": 194
+}

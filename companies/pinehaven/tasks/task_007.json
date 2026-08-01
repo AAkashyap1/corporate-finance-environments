@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_007",
+  "slug": "june-manufacturing-close-control-workbook",
+  "title": "Build the June manufacturing close control workbook",
+  "workflow": "manufacturing-close",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet",
+    "target_path": "Deliverables/june-manufacturing-close-control-workbook.xlsx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Build the June manufacturing close control workbook**.\n\nUse the ERP general ledger, production-cost, WIP, and reconciliation reports together with the Monthly Close Policy, production-order close policy, June close instructions, and the applicable close binder.\n\nAuthoritative reconciliation source set:\n- `ERP production variance, WIP, P&L, and subledger reconciliation`\n- `Finance/Monthly Close/2026-06 Close Binder.xlsx`\n- `Corporate Memos/June 2026 Close Instructions.docx`\n\nCalculation basis: Use the June 30, 2026 pre-close snapshot and reconcile every control account to its authoritative ERP subledger. Production variance and the GL account 5110 control are June-only activity from 2026-06-01 through 2026-06-30, not YTD activity. If you quantify negative WIP residuals, use the WIP report's exact negative-residual scope count and signed value, which aggregate atomic open-order values before rounding once; do not sum rounded detail rows or hardcode an exception amount.\n\nNo additional management case inputs.\n\n\nCreate exactly this deliverable: `Deliverables/june-manufacturing-close-control-workbook.xlsx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"system_cash\", \"system_ar\", \"system_ap\", \"system_inventory\", \"system_wip\", \"system_production_variance\", \"gl_5110_production_variance\", \"production_variance_control_delta\", \"system_debt\", \"journal_imbalance\", \"maximum_control_delta\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nWorkbook contract:\n- Include sheets named `Read Me`, `Inputs`, `Analysis`, and `Control`.\n- Preserve source lineage in Inputs with source object/file, date or version, and extraction cutoff.\n- Put scenario assumptions in visibly distinct input cells. Drive Analysis and Control by formulas; do not hard-code calculated results.\n- Include a decision-ready summary, the requested detail/bridge, and at least one useful native chart that clarifies a KPI, comparison, trend, composition, or control result.\n- Include zero-difference controls tying every central metric to an independent authoritative total; a pass-through reference is not a control.\n- Use professional number formats, frozen headers, filters where useful, readable widths, and no formula errors. Wrap or widen populated text cells so labels, dates, and source notes are not clipped by adjacent values.\n- Round monetary controls to cents before evaluating zero/tolerance or PASS/FAIL results.\n- Normalize dates to a common date type before comparing them; do not compare mixed text and date representations.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/june-manufacturing-close-control-workbook.xlsx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_007",
+    "agent_visible": false
+  }
+}

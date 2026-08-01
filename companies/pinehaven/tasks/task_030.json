@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_030",
+  "slug": "drv-production-order-from-the-approved-plan",
+  "title": "Create the DRV production order from the approved plan",
+  "workflow": "sop-reforecast",
+  "difficulty": "expert",
+  "output": {
+    "mode": "erp",
+    "target_path": null
+  },
+  "prompt": "You are an authorized Pinehaven ERP operator. Complete **Create the DRV production order from the approved plan**.\n\nAuthorized scope: Create exactly one production order with the supplied values. Apply only the status transitions needed to reach `final_status`; when omitted, leave it Scheduled.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"item_id\": \"DRV-0001\",\n  \"order_quantity\": 5.0,\n  \"scheduled_finish\": \"2026-07-11\",\n  \"scheduled_start\": \"2026-07-01\",\n  \"site_code\": \"100\",\n  \"source_reference\": \"PLAN-000790\"\n}\n```\n\nControls:\n- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n- Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.\n- Confirm the returned business object and audit events after the write.\n\nReturn one valid JSON object and no surrounding prose, with exactly these keys:\n[\"order_number\", \"status\", \"item_id\", \"site_code\", \"order_quantity\", \"standard_unit_cost\", \"audit_actions\"]\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_030",
+    "agent_visible": false
+  }
+}

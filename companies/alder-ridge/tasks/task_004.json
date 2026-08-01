@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_004",
+  "slug": "complete-june-wip-risk-template",
+  "title": "Complete the four-project WIP risk template",
+  "workflow": "controllership",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "spreadsheet_edit",
+    "target_path": "Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx"
+  },
+  "prompt": "Edit this workbook in place:\n`Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx`\n\nBegin with the controller's WIP-close request in `Requests/`. Locate and reconcile the current system balances, PM forecast, commercial log, project support packets, and signed WIP policy. Populate the blue source-input cells on `Risk Review` for all four projects; then fill rows 6:9 with formulas for Close ETC, EAC, % complete, Earned Revenue, Contract Asset, Contract Liability, Total Estimated Margin at Completion (current contract less EAC), and Margin %. Fill the `TOTAL / CONTROL` row with formulas for every applicable dollar column.\n\nPreserve the project identities, evidence-role map, sheet names, workbook style, and existing notes. Do not add pending revenue or paste a downstream summary over the source cells. Recalculate the workbook with LibreOffice or Excel and save it to the same path. Your final response can simply confirm completion; the workbook is graded.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_004",
+    "agent_visible": false
+  }
+}

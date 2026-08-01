@@ -1,0 +1,9 @@
+README.md
+company.json
+tasks/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.runtime/
+.build/

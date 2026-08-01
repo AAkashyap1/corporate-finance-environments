@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_003",
+  "slug": "ytd-settled-production-variance-bridge",
+  "title": "YTD settled production variance bridge",
+  "workflow": "manufacturing-close",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **YTD settled production variance bridge**.\n\nUse the ERP general ledger, production-cost, WIP, and reconciliation reports together with the Monthly Close Policy, production-order close policy, June close instructions, and the applicable close binder.\n\nAuthoritative reconciliation source set:\n- `ERP production variance, WIP, P&L, and subledger reconciliation`\n- `Finance/Monthly Close/2026-06 Close Binder.xlsx`\n- `Corporate Memos/June 2026 Close Instructions.docx`\n\nCalculation basis: Use settled production orders in the specified period. Preserve signed favorable/unfavorable variance convention. Use the production variance report's exact scope totals, which aggregate atomic order values before rounding once; do not sum the displayed rounded site/family rows.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"date_from\": \"2026-01-01\",\n  \"date_to\": \"2026-06-30\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"order_count\", \"standard_output_cost\", \"material_usage_variance\", \"labor_rate_variance\", \"labor_efficiency_variance\", \"variable_overhead_variance\", \"fixed_overhead_volume_variance\", \"scrap_variance\", \"rounding_adjustment\", \"total_variance\", \"variance_rate\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_003",
+    "agent_visible": false
+  }
+}

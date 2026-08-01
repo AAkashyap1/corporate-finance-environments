@@ -1,0 +1,11 @@
+From: Natalie Brooks <nbrooks@alderridgemech.example>
+To: Senior FP&A Analyst <finance.analysis@alderridgemech.example>
+Cc: Daniel Cho <dcho@alderridgemech.example>; project.accounting@alderridgemech.example
+Date: Wed, 1 Jul 2026 08:22:14 -0700
+Subject: Fwd: wip close - need first pass today
+
+Use the May final-ish file (the v7 one in May/4_WIP, not the earlier copy) and roll it to 6/30. The dump tabs in there are May and a couple formulas still point at the old PM pull, so current contract/cost/billings have to come from the system. PM file is the 5:30 combined copy. PR updated the CO master last night.
+
+Same policy as discussed: no pending PCO revenue, but don't ignore cost we know we're going to eat. Flag >100bp moves, losses and anything where the PM netted a claim/backcharge. Please update the four risk cases in the controller review copy before the 2pm review. Proposed JE only--nothing gets posted from your file.
+
+Natalie

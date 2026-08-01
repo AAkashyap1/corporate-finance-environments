@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_013",
+  "slug": "inventory-aging-over-180-days",
+  "title": "Inventory aging over 180 days",
+  "workflow": "inventory-working-capital",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Inventory aging over 180 days**.\n\nUse ERP on-hand, valuation, aging, movement, and financial reports. Reconcile to the Inventory Aging and E&O workbook, inventory reserve policy, aftermarket transfer process, and June inventory-control email.\n\nAuthoritative reconciliation source set:\n- `ERP inventory on-hand, valuation, aging, and movement reports`\n- `Supply Chain/Analyses/Inventory Aging and E&O Candidates.xlsx`\n- `Accounting Policies/Inventory Reserve Policy.docx`\n\nCalculation basis: Age positive on-hand value from the last movement date through 2026-06-30 and apply the supplied lifecycle/site filter to the entire in-scope population. `item_site_rows`, `inventory_value`, and the `over_threshold_percent` denominator are that full filtered positive-on-hand population; they are not the aged subset. `value_over_threshold`, the top item, and the top item/site use the strict `age_days > days` test. `top_item` aggregates across sites; `top_item_site` ranks one item/site exposure in accordance with the reserve policy. `phase_out_value` is the full positive-on-hand Phase Out population within the same other filters, independent of age, without double-counting it into the aged measure.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"days\": 180\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"item_site_rows\", \"inventory_value\", \"value_over_threshold\", \"phase_out_value\", \"quality_hold_value\", \"over_threshold_percent\", \"top_item\", \"top_item_value\", \"top_item_site\", \"top_item_site_value\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_013",
+    "agent_visible": false
+  }
+}

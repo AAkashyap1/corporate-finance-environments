@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_050",
+  "slug": "approved-raw-material-purchase-order",
+  "title": "Create the approved raw-material purchase order",
+  "workflow": "procurement-finance",
+  "difficulty": "expert",
+  "output": {
+    "mode": "erp",
+    "target_path": null
+  },
+  "prompt": "You are an authorized Pinehaven ERP operator. Complete **Create the approved raw-material purchase order**.\n\nUse ERP purchase orders, receipts, vendor invoices, standard material cost, supplier performance, quality status, and open commitments. Reconcile to the PPV and supplier-scorecard workbooks and match policy.\n\nAuthoritative reconciliation source set:\n- `ERP active vendor, item/site, buyer, and recent PO master data`\n- `Supply Chain/Analyses/Open Purchase Commitments.xlsx`\n- `Accounting Policies/Three Way Match Policy.docx`\n\nAuthorized scope: Create exactly one purchase order with the supplied header and line values.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"buyer_employee_id\": \"EMP-0005\",\n  \"expected_date\": \"2026-07-20\",\n  \"lines\": [\n    {\n      \"item_id\": \"RM-0001\",\n      \"quantity\": 240.0,\n      \"unit_price\": 12.76\n    }\n  ],\n  \"order_date\": \"2026-06-30\",\n  \"site_code\": \"100\",\n  \"vendor_id\": \"VEND-0014\"\n}\n```\n\nControls:\n- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n- Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.\n- Confirm the returned business object and audit events after the write.\n\nReturn one valid JSON object and no surrounding prose, with exactly these keys:\n[\"po_number\", \"status\", \"line_count\", \"order_value\", \"audit_action\"]\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_050",
+    "agent_visible": false
+  }
+}

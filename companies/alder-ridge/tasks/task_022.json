@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_022",
+  "slug": "service-capacity-van-ramp",
+  "title": "Q2 service-capacity and three-van ramp sensitivity",
+  "workflow": "service-fpa",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Estimate the quarterly service-capacity effect of the approved three-van request.\n\nBegin with the service-operations request in `Requests/`. Locate and reconcile the dispatch/KPI workpapers, callback and pricing definitions, employee roster, current fleet-utilization file, approved/conditional capital-request evidence, and recent operating-review materials. Use completed Q2 work orders from the contractor-accounting MCP as the detail authority. Calculate current completed work orders, unique technicians, callbacks, first-time-fix rate, billable hours, labor-plus-material value proxy, and per-technician productivity.\n\nFor the sensitivity, assume the three vans support three incremental technicians, each producing 90% of current average technician work orders, billable hours, and value proxy. Do not call the proxy GAAP revenue and do not change the first-time-fix rate. Report current, incremental, and pro-forma quarterly metrics.\n\nReturn only one JSON object in your final response with exactly these keys: `completed_work_orders`, `unique_technicians`, `callbacks`, `first_time_fix_rate`, `billable_hours`, `revenue_proxy`, `work_orders_per_technician`, `hours_per_technician`, `proxy_per_technician`, `incremental_work_orders`, `incremental_billable_hours`, `incremental_revenue_proxy`, `pro_forma_work_orders`, `pro_forma_billable_hours`, `pro_forma_revenue_proxy`, `service_van_capex`, `ramp_factor`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_022",
+    "agent_visible": false
+  }
+}

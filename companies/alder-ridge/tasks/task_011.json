@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_011",
+  "slug": "q2-service-kpis",
+  "title": "Q2 service work-order KPI calculation",
+  "workflow": "service-fpa",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Calculate the company-level Q2 service KPIs for April 1 through June 30.\n\nBegin with the service-operations request in `Requests/`. Locate the dispatch/KPI workpapers, the service-pricing and callback notes, the employee roster, and the most recent operating-review materials. Reconcile the retained work-order population to completed work orders from the contractor-accounting MCP. Apply the documented first-time-fix and operating-value definitions; do not substitute invoiced GAAP revenue for the operating proxy.\n\nReport completed work orders, callbacks, first-time-fix rate, billable hours, total labor-plus-material proxy, and average proxy value per completed work order. Do not edit files.\n\nReturn only one JSON object in your final response with exactly these keys: `completed_work_orders`, `callbacks`, `first_time_fix_rate`, `billable_hours`, `revenue_proxy`, `average_revenue_per_work_order`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_011",
+    "agent_visible": false
+  }
+}

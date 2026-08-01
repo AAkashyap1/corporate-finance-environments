@@ -1,0 +1,834 @@
+{
+  "artifact_counts": {
+    "csv": 20,
+    "docx": 20,
+    "eml": 30,
+    "markdown": 1,
+    "pdf": 20,
+    "pptx": 10,
+    "xlsx_analysis_workbooks": 26,
+    "xlsx_close_binders": 18,
+    "xlsx_plant_scorecards": 18
+  },
+  "files": [
+    {
+      "path": "Accounting Policies/Capitalization Policy.docx",
+      "sha256": "98369c4f274c001cad1419fd2628eb7b3a19f5dd244d93c2d948ecf31513269d",
+      "size": 36950
+    },
+    {
+      "path": "Accounting Policies/Credit and Collections Policy.docx",
+      "sha256": "8cc6e9b10dadb0c3c16c4aa23b69aae0e3e40497722acae13454a8f656828fdf",
+      "size": 36922
+    },
+    {
+      "path": "Accounting Policies/Inventory Reserve Policy.docx",
+      "sha256": "e07007f284aafd9bc8623dd4b320cf64fb2625bb37feecfd2e54f27009af6706",
+      "size": 37082
+    },
+    {
+      "path": "Accounting Policies/Journal Entry Policy.docx",
+      "sha256": "9f193d0b8dbc00927ff136b73bba16bfec955c8c5d996b8c9401f4053f6e5c25",
+      "size": 36923
+    },
+    {
+      "path": "Accounting Policies/Monthly Close Policy.docx",
+      "sha256": "875022c0beeb2579c292dee4f737770a0c476473b0533fe863e902fec20647ec",
+      "size": 36935
+    },
+    {
+      "path": "Accounting Policies/Production Order Close Policy.docx",
+      "sha256": "e88060d792326e745b92460ae02f386f1e02e3f8f08e87863d0b615ba2221d80",
+      "size": 37011
+    },
+    {
+      "path": "Accounting Policies/Purchase Price Variance Policy.docx",
+      "sha256": "b94af64c2bd70cc94dc85fa44ea969a4b301c92ff779e4aaa1a0999d67af25f5",
+      "size": 37015
+    },
+    {
+      "path": "Accounting Policies/Quality Hold Financial Control.docx",
+      "sha256": "25d83299ee8f139fb73a172133ebf5a3d6566b4e5e978a553f8a9941fa43a8ea",
+      "size": 36900
+    },
+    {
+      "path": "Accounting Policies/Revenue Recognition Policy.docx",
+      "sha256": "e1c913d372c087296fc3c89e8782e0ef126a8e8413f11043504cbff243117b03",
+      "size": 37011
+    },
+    {
+      "path": "Accounting Policies/Standard Cost Accounting Policy.docx",
+      "sha256": "b126cc10639032b59a4f3980013eccd7802ce4a8180a6286f1022eb9d18c0a7e",
+      "size": 37175
+    },
+    {
+      "path": "Accounting Policies/Three Way Match Policy.docx",
+      "sha256": "42bc0aa4ca261bf50c657e2d0117f2bb566f4f06d8ed4b95ab5506fbd5fed18f",
+      "size": 36914
+    },
+    {
+      "path": "Accounting Policies/Warranty Reserve Policy.docx",
+      "sha256": "d66e866398757e4444857ed46c6ea6df2d3bee27d4d7914f693655bb9291ab8e",
+      "size": 36941
+    },
+    {
+      "path": "Communications/2026-01-07 - January close kickoff.eml",
+      "sha256": "ca3c47874404bfd55e46e2293af54ac6eb4b0fb489bfa57ade72a525b8ef34c2",
+      "size": 630
+    },
+    {
+      "path": "Communications/2026-01-19 - 2026 standard cost review.eml",
+      "sha256": "830e25c5421a2270766e852bc6c94bc0dcbac888fae624b1487641bc22e18c0f",
+      "size": 664
+    },
+    {
+      "path": "Communications/2026-02-03 - Supplier delivery recovery.eml",
+      "sha256": "eb0764a58460a73d54185824fb6308dffef646f014df8b80a120beff3918d85f",
+      "size": 674
+    },
+    {
+      "path": "Communications/2026-02-12 - ABL availability package.eml",
+      "sha256": "9bf69b4f3990ecf7c406ae198a42eca80112ea97a7551605c2df33aa15d33d0b",
+      "size": 661
+    },
+    {
+      "path": "Communications/2026-02-24 - Backlog quality.eml",
+      "sha256": "d49347df02e595fe9de66ae418467a780cee37ca01bc4cf3e0ea1491ec28e266",
+      "size": 671
+    },
+    {
+      "path": "Communications/2026-03-04 - Machining capacity constraint.eml",
+      "sha256": "ed7adfcdbf9243f057c524f64ba07c58fa3130afee6525ede9d4100928c041bd",
+      "size": 676
+    },
+    {
+      "path": "Communications/2026-03-15 - Open nonconformance exposure.eml",
+      "sha256": "3b72e751400d792ca469f690cb0791b68886516dcfcd605bda291b358ec24258",
+      "size": 677
+    },
+    {
+      "path": "Communications/2026-03-28 - Q1 operating review.eml",
+      "sha256": "922240bef536094c8717b476c118cc41aee55b8bc75069305c388a006d4eb411",
+      "size": 624
+    },
+    {
+      "path": "Communications/2026-04-05 - Preventive maintenance backlog.eml",
+      "sha256": "dd535212447da9d89f9d1b6167e8d466881ea532aef761b21a7a6f1a5e90c78e",
+      "size": 657
+    },
+    {
+      "path": "Communications/2026-04-14 - April demand review inputs.eml",
+      "sha256": "36999b06c7ee048085ac5fd30ebf4a488d54f814279fcedd72c723dc3737dc92",
+      "size": 673
+    },
+    {
+      "path": "Communications/2026-04-22 - Quality-hold invoices.eml",
+      "sha256": "108606f0dcd60b77742d24c8b2b5e8cd269563633aa4279305a5b9c2aa0fc502",
+      "size": 629
+    },
+    {
+      "path": "Communications/2026-05-02 - Past-due customer review.eml",
+      "sha256": "8cf2d63510b85df0f63c75a1c5c0016098dba18d8369e90fb898f9523605d8a3",
+      "size": 659
+    },
+    {
+      "path": "Communications/2026-05-11 - Inventory aging review.eml",
+      "sha256": "e4765f710029fad5de8bbdc5659c6ca6a59a99468aceabf4608192c31631103c",
+      "size": 652
+    },
+    {
+      "path": "Communications/2026-05-18 - Electronics quality and rework.eml",
+      "sha256": "413e84745beb1a1f845e37f39681f0f566c54dc05bedeab7f717191894e1bdc4",
+      "size": 702
+    },
+    {
+      "path": "Communications/2026-05-27 - Liquidity downside case.eml",
+      "sha256": "cb45df25c4297b6554e822cf2701e65672c3e1e58a8b166fea5ce6eacef0008a",
+      "size": 641
+    },
+    {
+      "path": "Communications/2026-06-01 - June pre-close priorities.eml",
+      "sha256": "14ade27ef76bf40315c7d0231f5e258f789a591211450429af2d13e39a802042",
+      "size": 623
+    },
+    {
+      "path": "Communications/2026-06-03 - June production order hygiene.eml",
+      "sha256": "64080bb22e8eb0210ed70752a661f8f0463a415982a60e04bae4f6795f3e6dde",
+      "size": 685
+    },
+    {
+      "path": "Communications/2026-06-05 - Consensus plan version.eml",
+      "sha256": "b040b39d18eca29a7544187049ade3930b4675e63fd6cc6884416b1012083070",
+      "size": 626
+    },
+    {
+      "path": "Communications/2026-06-07 - Aftermarket transfer reconciliation.eml",
+      "sha256": "8677a2ed15d102badc0612001198b093789a9e7460ea664f544e0003717816a5",
+      "size": 683
+    },
+    {
+      "path": "Communications/2026-06-09 - June PPV actions.eml",
+      "sha256": "6b95db02e81fd61e9b737d208b16e07b7988d797b38129f518400ccd690d869f",
+      "size": 665
+    },
+    {
+      "path": "Communications/2026-06-11 - Q2 provision data.eml",
+      "sha256": "cff9aff31ec91eed6d63e7d90ef8667b402a6fdb65214248335e3408c8753256",
+      "size": 647
+    },
+    {
+      "path": "Communications/2026-06-13 - Capacity capital requests.eml",
+      "sha256": "bb521ced3b0bc6e3e24c38d67162cf1ffaad2d84d4996cfc2d969301d62f768b",
+      "size": 650
+    },
+    {
+      "path": "Communications/2026-06-15 - Product family margin review.eml",
+      "sha256": "b13ca2265ef74c706e2bc2940046c5fc10f09648c39177d914cc5ca3625ec65b",
+      "size": 689
+    },
+    {
+      "path": "Communications/2026-06-17 - ERP access review evidence.eml",
+      "sha256": "87e11d19f820804f652e35a9c57ebd703a76df4b761b72834ab6d285cdadce7d",
+      "size": 709
+    },
+    {
+      "path": "Communications/2026-06-19 - Held inventory disposition.eml",
+      "sha256": "a6f92742fb1a05e73e9fe4e0b1511a23a2c6d9af1773d0e943989008a7d9baaf",
+      "size": 687
+    },
+    {
+      "path": "Communications/2026-06-21 - Q2 forecast refresh.eml",
+      "sha256": "5d818ce809ee12cf73d80101e227dbfd6c77b027b126a3a0dbd5637e110daf1d",
+      "size": 631
+    },
+    {
+      "path": "Communications/2026-06-23 - Debt classification check.eml",
+      "sha256": "aa15bc4d9ca92616f7bac6161a270f54b38c163df9f70dfd9cbc3d4cd55cf2e1",
+      "size": 617
+    },
+    {
+      "path": "Communications/2026-06-25 - Inventory and WIP control totals.eml",
+      "sha256": "8059aee290208f29f199772885597c39dd15d67dcf2c73d263b65541329e5567",
+      "size": 622
+    },
+    {
+      "path": "Communications/2026-06-27 - Final June operations actions.eml",
+      "sha256": "02564cc35013a1be623cd7220f6ac1b21a83c9858d6979dcac9938aec42d7448",
+      "size": 669
+    },
+    {
+      "path": "Communications/2026-06-29 - June 30 executive package.eml",
+      "sha256": "5619c2b9ec4cee1200b64004c0501b189f362dd1fbecc9042ee2dc57c65e49b8",
+      "size": 677
+    },
+    {
+      "path": "Corporate Memos/Aftermarket Transfer Process.docx",
+      "sha256": "f5e5adde1babe6a403e71c57cdfc03f6063f936270d5fb9894a9fd1760815dc5",
+      "size": 36810
+    },
+    {
+      "path": "Corporate Memos/Capacity Escalation Protocol.docx",
+      "sha256": "e42781f2ca9a20bcff6771bf03405291204fb786106457d2ad15655a3cba6460",
+      "size": 36843
+    },
+    {
+      "path": "Corporate Memos/Capital Committee Charter.docx",
+      "sha256": "6c051543c7f9ba5a027de2221d6b46c11ad6a1fb7d560a1a8ca84e37a20c39a8",
+      "size": 36835
+    },
+    {
+      "path": "Corporate Memos/ERP Data Dictionary.docx",
+      "sha256": "67272864438837e4aea558000c1ed0ec91bf1a17703b8fd98eef94a6e2799044",
+      "size": 36876
+    },
+    {
+      "path": "Corporate Memos/June 2026 Close Instructions.docx",
+      "sha256": "ddbec0e5a26059955e41e6ac6a426d551d82e6a6a98c73ab8676369d1f014788",
+      "size": 36821
+    },
+    {
+      "path": "Corporate Memos/S&OP Governance Charter.docx",
+      "sha256": "0757b677955811e93d21639ef09b60fadc794906c5572866942a2e47fe4add9f",
+      "size": 36830
+    },
+    {
+      "path": "Corporate Memos/Supplier Risk Review.docx",
+      "sha256": "ceb5afe826eecdd09813a5f3dfbe243fcd1cbfd5f8ac4b8e7106ab1b5fe8a68a",
+      "size": 36829
+    },
+    {
+      "path": "Corporate Memos/Treasury and Liquidity Framework.docx",
+      "sha256": "ef6fe6b261f13afefdb3210bbb54d9cfee4d56a34503d11a2e7a0e0e79958629",
+      "size": 36832
+    },
+    {
+      "path": "Exports/2026-06-SOP_forecast.csv",
+      "sha256": "45b9af3062c807db6d7659993d949dc375ab92e820522acdfc6791c3190e1ac2",
+      "size": 96949
+    },
+    {
+      "path": "Exports/2026-06-SOP_planned_orders.csv",
+      "sha256": "3e742032cd0131f3da66003c64befdb7f62703fa3093cf1dd6ad98e0b507e954",
+      "size": 567422
+    },
+    {
+      "path": "Exports/2026_inventory_movements.csv",
+      "sha256": "e4344cf04cd6e1e9039555b68e5eb76f92436cdfaf73b477bde8d3ca7467341b",
+      "size": 5243296
+    },
+    {
+      "path": "Exports/2026_production_variances.csv",
+      "sha256": "9161be38acd1b31d3e15cade4f39e6a08da4b04ee08c5b1f9463045e6ad31a10",
+      "size": 580143
+    },
+    {
+      "path": "Exports/2026_receipts.csv",
+      "sha256": "da4f610dac6f57e433be548da956c4ce53160a711c96cef7d797c4f637b0427a",
+      "size": 228522
+    },
+    {
+      "path": "Exports/2026_shipments.csv",
+      "sha256": "2104f6cad79fc982234893f4b237729752ec9dc609dab023b2dcbf4688ad4597",
+      "size": 335813
+    },
+    {
+      "path": "Exports/active_bom_headers.csv",
+      "sha256": "7d056b7aa501d3d5df69a7ea828b4f781e21242a83b9646416eb7f9f9e9296ba",
+      "size": 22281
+    },
+    {
+      "path": "Exports/active_bom_lines.csv",
+      "sha256": "01a7bffe2ab73231f60ed88206080afc360698098973ab40d7e17c58dacb39da",
+      "size": 55203
+    },
+    {
+      "path": "Exports/active_routings.csv",
+      "sha256": "d70e239bcd6464b9b9687474a48356216f6c346f7d67b1d5222d85522f1350b8",
+      "size": 22281
+    },
+    {
+      "path": "Exports/customer_master.csv",
+      "sha256": "88703ff09bca0b555966dc7ada6d98190c24c09650454eef9f1574e99cb2c475",
+      "size": 18134
+    },
+    {
+      "path": "Exports/inventory_on_hand.csv",
+      "sha256": "355d38226d5434defacebe36d7a6a58d37ac674a46485e089902d9112052c382",
+      "size": 117647
+    },
+    {
+      "path": "Exports/item_master.csv",
+      "sha256": "3797214903f33b6331d3b5c658e7df20e624262f82a068126851fd6937a9092d",
+      "size": 67028
+    },
+    {
+      "path": "Exports/item_site_costs.csv",
+      "sha256": "9f15862d89c39d141627c4baa4a5b2ca05b66e262e9800334da80f24a0856731",
+      "size": 124045
+    },
+    {
+      "path": "Exports/open_customer_invoices.csv",
+      "sha256": "41c2424d71d3938b5780f1e3e2172f0171877c1644543ae0e7da3945b35090c1",
+      "size": 15670
+    },
+    {
+      "path": "Exports/open_production_orders.csv",
+      "sha256": "6b25a2e95a00e12fa7e13bf917aa9a45c64d45183ef0d55fb3f81ba5e842a314",
+      "size": 49844
+    },
+    {
+      "path": "Exports/open_purchase_orders.csv",
+      "sha256": "4d7dc8b4f45704bfb1dd5a504dc88d78f491f02f0061fcbdd5c750d82347df8b",
+      "size": 75641
+    },
+    {
+      "path": "Exports/open_sales_backlog.csv",
+      "sha256": "efaf96cfac13553687d542824e25739785045b48230f14b398cb1eaeebee31a0",
+      "size": 149317
+    },
+    {
+      "path": "Exports/open_vendor_invoices.csv",
+      "sha256": "75bcffcaa82450fc735bafd1775e7c50ee4f3ccd83ebbb393ffae98b3c89140b",
+      "size": 39516
+    },
+    {
+      "path": "Exports/routing_operations.csv",
+      "sha256": "6f43393d7393fd1cffd3f3d1fbf10813751f4434134ea3051ed19c1be678bb4c",
+      "size": 70133
+    },
+    {
+      "path": "Exports/vendor_master.csv",
+      "sha256": "6147a26b7d0170af3cc5f4b2fc773d2788dd6238e2fce5e69c525c7ae33cb0a2",
+      "size": 10250
+    },
+    {
+      "path": "Finance/Analyses/AP Aging.xlsx",
+      "sha256": "248f65617fea37638513af7b4e5e747b3827c962872f147a9f5fa1a67d22feeb",
+      "size": 23971
+    },
+    {
+      "path": "Finance/Analyses/AR Aging.xlsx",
+      "sha256": "fcb3802d71fd293ac44a78563bf525e58493b0321ab7ef0f4b3c5aeb148fb06e",
+      "size": 12873
+    },
+    {
+      "path": "Finance/Analyses/Capital Expenditure Pipeline.xlsx",
+      "sha256": "124f6d0bbcf8cdb3583e334d87d8c94ae5cbd4384b9cded7cb9d24d6b40b14df",
+      "size": 7714
+    },
+    {
+      "path": "Finance/Analyses/Cash and Debt.xlsx",
+      "sha256": "344ab79a596e0ea21999bc4d4261e9c5b082d35cca1619451c1cc98bbb4f7328",
+      "size": 7177
+    },
+    {
+      "path": "Finance/Analyses/Customer Profitability.xlsx",
+      "sha256": "7becc53e4a91de392c253b76af9f15192e29074b9213c50a5fca87f6d2b29563",
+      "size": 20225
+    },
+    {
+      "path": "Finance/Analyses/Debt Covenant Model.xlsx",
+      "sha256": "f564b247af979025750b5d24ef012dc898589b4deda688175b8df50abe3fae05",
+      "size": 6236
+    },
+    {
+      "path": "Finance/Analyses/Fixed Asset Register.xlsx",
+      "sha256": "9ec0d1d6770a1f22f579d2b478a8e8fa00f0f8184f25427d077d7d8b55b03ab6",
+      "size": 25901
+    },
+    {
+      "path": "Finance/Analyses/Payroll and Overtime.xlsx",
+      "sha256": "b6f665022061c8003690201402544e7d173f758b2ae204bb874d1f5226e8cd68",
+      "size": 6131
+    },
+    {
+      "path": "Finance/Analyses/Product Family Profitability.xlsx",
+      "sha256": "85d036b954bcda17d381e0746707b1cde211abda7bd449d03354d90af66a743a",
+      "size": 5197
+    },
+    {
+      "path": "Finance/Analyses/Production Variance Bridge.xlsx",
+      "sha256": "3d76c24a252049b60507131f51187a0255ac5a01a9e865a54e6be5047e89db08",
+      "size": 6579
+    },
+    {
+      "path": "Finance/Analyses/Standard Cost Rollup Review.xlsx",
+      "sha256": "b9dc2423b775ef8408d182b865469ea140cd4f769ef3390eb05093560f64c169",
+      "size": 27831
+    },
+    {
+      "path": "Finance/Analyses/Tax Provision Inputs.xlsx",
+      "sha256": "8b45d423334da2ed1e89bb4394beb7e1a19834ecf7429d1d36d89fc8d605f15e",
+      "size": 6051
+    },
+    {
+      "path": "Finance/Analyses/Working Capital Dashboard.xlsx",
+      "sha256": "708b199b69d51edc5a6b694f94943b0cc99240420bf7135cfc34f4df4313f807",
+      "size": 4814
+    },
+    {
+      "path": "Finance/Monthly Close/2025-01 Close Binder.xlsx",
+      "sha256": "828d6c307b214485dfd868f4da4855a3a5ddd16f664bb0436b6fec7c14531b26",
+      "size": 8296
+    },
+    {
+      "path": "Finance/Monthly Close/2025-02 Close Binder.xlsx",
+      "sha256": "a76db047fc97c7e25861141e91d337d19c502fc8d7c4ffc24929642bfa606b9f",
+      "size": 8290
+    },
+    {
+      "path": "Finance/Monthly Close/2025-03 Close Binder.xlsx",
+      "sha256": "b018417d0bcbf434d3a45f77064ad7cecbf22f35ee5910ec4d36fc7c27ce509c",
+      "size": 8295
+    },
+    {
+      "path": "Finance/Monthly Close/2025-04 Close Binder.xlsx",
+      "sha256": "7ddeee737844cf12e9ac6d3b0cea6e78a9d198ff0d3701f54432a6557cacde2c",
+      "size": 8307
+    },
+    {
+      "path": "Finance/Monthly Close/2025-05 Close Binder.xlsx",
+      "sha256": "b971e275517622997f55b675db0423135d27faea55691df7cf472d713a87828d",
+      "size": 8314
+    },
+    {
+      "path": "Finance/Monthly Close/2025-06 Close Binder.xlsx",
+      "sha256": "f3fc24464c5715ba2729552406bc3c415ff4a1e45cdd6733aa618c389e779bb1",
+      "size": 8296
+    },
+    {
+      "path": "Finance/Monthly Close/2025-07 Close Binder.xlsx",
+      "sha256": "7a01e71037e96e773b3e627efa2d537bf988fb0d6fd70ba5362a22b7a4875dd2",
+      "size": 8304
+    },
+    {
+      "path": "Finance/Monthly Close/2025-08 Close Binder.xlsx",
+      "sha256": "54e1f4a42517d43ab8d65a7b0b556dd8fe44ef3138eeee48118c699bfbe20405",
+      "size": 8293
+    },
+    {
+      "path": "Finance/Monthly Close/2025-09 Close Binder.xlsx",
+      "sha256": "84a7ff400a723d7295d0ea2322a08db3d74d8477081dddcd1d20960e656fbe39",
+      "size": 8305
+    },
+    {
+      "path": "Finance/Monthly Close/2025-10 Close Binder.xlsx",
+      "sha256": "8e86bf00e105d71f92cc2ce152406d54c3a23b4f8ffa61d2c7c101149cc5157e",
+      "size": 8290
+    },
+    {
+      "path": "Finance/Monthly Close/2025-11 Close Binder.xlsx",
+      "sha256": "e72ea5edf3004d8e9e7d2374e8c3be9efd4933925e3e481646c547b4c252764a",
+      "size": 8290
+    },
+    {
+      "path": "Finance/Monthly Close/2025-12 Close Binder.xlsx",
+      "sha256": "3c12f1ba24f26d5a9264cd1894ba0d15fc4656e6bdca6422ee793a306597b335",
+      "size": 8334
+    },
+    {
+      "path": "Finance/Monthly Close/2026-01 Close Binder.xlsx",
+      "sha256": "77c3013e5b11e245956d5ec3b40780d850eba0e59aa25aa4204f4e9ee2b54e01",
+      "size": 8308
+    },
+    {
+      "path": "Finance/Monthly Close/2026-02 Close Binder.xlsx",
+      "sha256": "30edf175ab33fd3b6cdd904ef005e029ffa654e9b00752fafb5bc364a2220036",
+      "size": 8304
+    },
+    {
+      "path": "Finance/Monthly Close/2026-03 Close Binder.xlsx",
+      "sha256": "a9955766793d3da07d57383cda9fda316ab69e5e5b5d875ff0776b4395b41eaf",
+      "size": 8294
+    },
+    {
+      "path": "Finance/Monthly Close/2026-04 Close Binder.xlsx",
+      "sha256": "f9af10d5da292c53c69df191cd3068442ea16f071ea39553fa3669bdf3ec6512",
+      "size": 8301
+    },
+    {
+      "path": "Finance/Monthly Close/2026-05 Close Binder.xlsx",
+      "sha256": "2f760c0e84da4424259cc4afb17c58dafad5b08c0cb9ec751a316d81ff8930da",
+      "size": 8302
+    },
+    {
+      "path": "Finance/Monthly Close/2026-06 Close Binder.xlsx",
+      "sha256": "72f62c2102f9a9f6ff502c9e9bea9533b2b08f66dcddb9fc8d5da00ca4119773",
+      "size": 8494
+    },
+    {
+      "path": "Governance/Audit Committee/2026-Q1 Audit Committee Minutes.pdf",
+      "sha256": "faf0bd6317a5ada3e217742b603e93ad13703fdd45501fd580ccdd09810bb063",
+      "size": 44519
+    },
+    {
+      "path": "Governance/Audit Committee/2026-Q2 Preclose Agenda.pdf",
+      "sha256": "5c2c679668a36bb456deebe0f1296d993faf942b2158df0d222df80c3716bdfe",
+      "size": 44489
+    },
+    {
+      "path": "Governance/Board Minutes/2025-09 Board Minutes.pdf",
+      "sha256": "a3d7d8df4d116eede0970e84a4c97e8b012667e4defe44496cc1ba861cfa9004",
+      "size": 44499
+    },
+    {
+      "path": "Governance/Board Minutes/2025-12 Board Minutes.pdf",
+      "sha256": "ab6d82d3f763a8f50cfe2012f58d1f7a3df7169e7c8a0027e8e8b310cbe67c5a",
+      "size": 44484
+    },
+    {
+      "path": "Governance/Board Minutes/2026-03 Board Minutes.pdf",
+      "sha256": "a47980eaaf890cb6e82e58acc7a95ae86d479be4b533dcb7301ce5f32fdb93e3",
+      "size": 44470
+    },
+    {
+      "path": "Legal/Product Liability Review.pdf",
+      "sha256": "ca0b47247e5ae702ad518990287ce8c3e42500a64a7e8bb9d6ec185cd04e444a",
+      "size": 44496
+    },
+    {
+      "path": "Operations/Maintenance/Preventive Maintenance Audit.pdf",
+      "sha256": "174c8f97a679b19dc13fc75e906e5634cddca7fc98c024ef91b8cc4af7155c3d",
+      "size": 44528
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-01 Plant Scorecard.xlsx",
+      "sha256": "f11e3e4133d9777cecb549e46ac3e21fec1b0ff1b0202ee14fc249aa32339b2a",
+      "size": 6446
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-02 Plant Scorecard.xlsx",
+      "sha256": "cfdccb6be29096843067837279d0989fec826dae2da88c112ef5d54192f0a10c",
+      "size": 6449
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-03 Plant Scorecard.xlsx",
+      "sha256": "9006d7c79bd6818e5662f6f5eeaa5c414048f619af72e00f8be3d8f0c3cb26ee",
+      "size": 6449
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-04 Plant Scorecard.xlsx",
+      "sha256": "b7463335cb72f11160acf2eaefb88523de4cb52e7c324d59872361a573a991c4",
+      "size": 6444
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-05 Plant Scorecard.xlsx",
+      "sha256": "9fc5748f98ae1ecee404b521587078f5c6b7eb031406d4b298642f441b001bba",
+      "size": 6447
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 100/2026-06 Plant Scorecard.xlsx",
+      "sha256": "760b596b22a083cdd5494600a9eba430769c9b5d2171c99d75cadc54e801bed8",
+      "size": 6435
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-01 Plant Scorecard.xlsx",
+      "sha256": "36a0610babf5b6f3cea2a7b25e5ee991c2778c303ac08df5815898da1a301e68",
+      "size": 6351
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-02 Plant Scorecard.xlsx",
+      "sha256": "fd0c9cecb5bd52536a20529598ce6a36c5e8b5af85ceeb48842f429d8dd175f3",
+      "size": 6342
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-03 Plant Scorecard.xlsx",
+      "sha256": "e3f78428bee784334316a81367316fbe60e42b7f304b55bedda0d11c40e51aec",
+      "size": 6346
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-04 Plant Scorecard.xlsx",
+      "sha256": "9fbd1d4eb238129f11982cae7d1a2270d8900b4b42d477723bbc577e169cc0fa",
+      "size": 6349
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-05 Plant Scorecard.xlsx",
+      "sha256": "b9cff14def4f09d062ee7efd40f57e98f6f85a8c8082084eff053b9cf8c55cb5",
+      "size": 6342
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 200/2026-06 Plant Scorecard.xlsx",
+      "sha256": "8cb0dc4c898bcb65613ba6221a3719a5976c8c150f35fcb210cf743ed19a8d94",
+      "size": 6367
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-01 Plant Scorecard.xlsx",
+      "sha256": "d563f28d27a8537b3c416f850cd03cd06e364be9c85412ba0331bf7d37f1001b",
+      "size": 6391
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-02 Plant Scorecard.xlsx",
+      "sha256": "dd7acdf7d43a3500070a26918212588102852f510c51598b1cfecb3c835ff438",
+      "size": 6401
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-03 Plant Scorecard.xlsx",
+      "sha256": "d9de4f50c18828b1accc2b9fa0e24c55ba47237c3023c4cd9c81d9eff546a25a",
+      "size": 6399
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-04 Plant Scorecard.xlsx",
+      "sha256": "e96d88ee02fa5696e5a906134736bc7d808d7195b3439099c9ae74219726999a",
+      "size": 6397
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-05 Plant Scorecard.xlsx",
+      "sha256": "acebf43c6b790d4ab01d9cf1f844ad3f3de6f216baed6df39c2ef3b28614a688",
+      "size": 6401
+    },
+    {
+      "path": "Operations/Plant Scorecards/Site 300/2026-06 Plant Scorecard.xlsx",
+      "sha256": "29c6d0393a38c5ac8ebfca61279824a8bf9bf40e0f343b1c1d22d8c97ec90b88",
+      "size": 6416
+    },
+    {
+      "path": "Operations/Quality/Dayton Quality Audit.pdf",
+      "sha256": "80158f2ad1badbcb9abcc3fbdc1524c9c62e95f6ec7d48f67717846839c9534b",
+      "size": 44520
+    },
+    {
+      "path": "Operations/Quality/Greenville Quality Audit.pdf",
+      "sha256": "b4087e22e29ab8cda01da0338d5e184072556747ec891fda5ae96217170fb1f6",
+      "size": 44497
+    },
+    {
+      "path": "Presentations/2026 Q1 Board Review.pptx",
+      "sha256": "156ef74cb84a40e519ea6d28c03fad2913ead041c22e0114ba608b126557fe3a",
+      "size": 27893
+    },
+    {
+      "path": "Presentations/2026 S&OP Executive Review.pptx",
+      "sha256": "a87a09e4a470747216212e3ff780bf07bd0c9147a7cf0c3248c162b6d644f7ad",
+      "size": 27905
+    },
+    {
+      "path": "Presentations/2026-01 Operating Review.pptx",
+      "sha256": "0a532241daeab619274636c45a64b8bb8c8cb05ccb3cabaf1ca9f194e74d4be7",
+      "size": 27912
+    },
+    {
+      "path": "Presentations/2026-02 Operating Review.pptx",
+      "sha256": "fc32d09d421074be764d0083eaee01c9ae698158b4c49146e980d604a3f08cd2",
+      "size": 27911
+    },
+    {
+      "path": "Presentations/2026-03 Operating Review.pptx",
+      "sha256": "2f186f7a67d68f4f31031be8a1be6e82332b20e25398ff87a4df3486a67bb39b",
+      "size": 27904
+    },
+    {
+      "path": "Presentations/2026-04 Operating Review.pptx",
+      "sha256": "31fe09c1d4fff4025733f4b251c0889c0ca63019455cdd2efeb7a902cd8288b1",
+      "size": 27906
+    },
+    {
+      "path": "Presentations/2026-05 Operating Review.pptx",
+      "sha256": "6befacf53e1889d52e71b5407d3d68e2e7751133f928e5ef4cd01ea3036a4b85",
+      "size": 27904
+    },
+    {
+      "path": "Presentations/2026-06 Preclose Operating Review.pptx",
+      "sha256": "32f9360f9780bf780372fe6ac5c07b532170d17e38cbc87b8b33a00a4e8ed5f3",
+      "size": 34978
+    },
+    {
+      "path": "Presentations/Capacity and Capex Review.pptx",
+      "sha256": "54fb60838407e7cd9b1ee198a0b6479d4de9b35610d11bd4542f28be7d4769f4",
+      "size": 27912
+    },
+    {
+      "path": "Presentations/Supplier and Quality Risk Review.pptx",
+      "sha256": "e06b4eabc1bc1acdb9da29d4544c3cca4b4964d9f7bd4d0c4a75db0cdad9e4b9",
+      "size": 27988
+    },
+    {
+      "path": "Risk/2026 Insurance Renewal Summary.pdf",
+      "sha256": "455f8acd97f35414904f990b62dd6ef5b8963bac1554f027f528e8b8367827c4",
+      "size": 44559
+    },
+    {
+      "path": "START HERE - Pinehaven Company Guide.md",
+      "sha256": "ece5eb1b2b2333d935ec6e5c2cab0fdde9f7a254edda996506f64e5651527f68",
+      "size": 1257
+    },
+    {
+      "path": "Security/ERP Access Review Summary.pdf",
+      "sha256": "97a5b50aae21fb846da4ca6cc9c3d8d6f6fd3904328fc0da965a9c42ccddfaa9",
+      "size": 44565
+    },
+    {
+      "path": "Signed Policies/Inventory Reserve Approval.pdf",
+      "sha256": "870689bfaf83d8ddfa77a47bd126b41395cc542c1cfc6f0f5cbbcd3ac208ef47",
+      "size": 44512
+    },
+    {
+      "path": "Signed Policies/Journal Authority Matrix.pdf",
+      "sha256": "d68a3336b68d644377f8a8736df21ae92be70e735047285512dca35086bad940",
+      "size": 44493
+    },
+    {
+      "path": "Signed Policies/Revenue Cutoff Certification.pdf",
+      "sha256": "e5f37698879fff7e56d6ab8195cae6bc8d46a1103b48616768f15573c9ed17a7",
+      "size": 44501
+    },
+    {
+      "path": "Signed Policies/Standard Cost Approval 2026.pdf",
+      "sha256": "66d23db28237c578c0bc039fe7b4a410992ea8b5848744e6f34015eb93a0231d",
+      "size": 44514
+    },
+    {
+      "path": "Supply Chain/Analyses/Consensus Demand Plan.xlsx",
+      "sha256": "0c0babf1fb5bc73934b8e56b3aa799e1edb1020067f7f9fe6e50b2af197d5af4",
+      "size": 6414
+    },
+    {
+      "path": "Supply Chain/Analyses/Inventory Aging and E&O Candidates.xlsx",
+      "sha256": "5be55613ff23fb58c8b084c3fc05a12abde3eab079d5d712c45a8da196ac94b8",
+      "size": 29273
+    },
+    {
+      "path": "Supply Chain/Analyses/Inventory Valuation by Site.xlsx",
+      "sha256": "0a56bc773ac9452c3d9c88e664ba4ab36f6c0633a3b990ff9c508a37a538e60f",
+      "size": 5346
+    },
+    {
+      "path": "Supply Chain/Analyses/MRP Action Messages.xlsx",
+      "sha256": "b033fc2373772554cddd959e1484649e55c9c3939fcffd4a5b2f31fe9944018a",
+      "size": 5517
+    },
+    {
+      "path": "Supply Chain/Analyses/Maintenance Downtime.xlsx",
+      "sha256": "bcbf70b596fd4537b31553abdf8380c6b0368b91d73d051379f8b2af9e1f8941",
+      "size": 12157
+    },
+    {
+      "path": "Supply Chain/Analyses/Open Purchase Commitments.xlsx",
+      "sha256": "f9e50aba85d37030385da9394c4a34c15fbb3c50875547f9380c91c831a4a545",
+      "size": 44326
+    },
+    {
+      "path": "Supply Chain/Analyses/Purchase Price Variance.xlsx",
+      "sha256": "0b7698b3cb65318702a3f955544b3f5c01a6db2fe5c14822b127bc5309cc0b7c",
+      "size": 16216
+    },
+    {
+      "path": "Supply Chain/Analyses/Quality Exposure.xlsx",
+      "sha256": "7403c820ccba0604c177b9e0e32564d33647328487e7449a8e983c355dd3610c",
+      "size": 5833
+    },
+    {
+      "path": "Supply Chain/Analyses/Sales Backlog.xlsx",
+      "sha256": "44e2ba67b3e2154aae23333aafcb236d5b08535876f51b17db96e4d6ec76d1a2",
+      "size": 80622
+    },
+    {
+      "path": "Supply Chain/Analyses/Shipment Performance.xlsx",
+      "sha256": "aed09d2751c9abcd69889c71eae6e2891c44b50b8c02adb299d4c40297f0dd98",
+      "size": 5784
+    },
+    {
+      "path": "Supply Chain/Analyses/Supplier Scorecard.xlsx",
+      "sha256": "4e88ced3bd9a0ed5e3e9437070e8374ce12691ec71caa76795ed8e1e2940b8ff",
+      "size": 21352
+    },
+    {
+      "path": "Supply Chain/Analyses/Vendor Invoice Holds.xlsx",
+      "sha256": "c70bace28ab89c8e4da1406624b19b87fc7f1f58f8e1f06bcd44f61cdaf4c5b7",
+      "size": 5826
+    },
+    {
+      "path": "Supply Chain/Analyses/Work Center Capacity.xlsx",
+      "sha256": "6b806ca940737c6d02c5cc20b4c1197a9976f7cd7a63473e71a8daf497e4efa6",
+      "size": 7371
+    },
+    {
+      "path": "Tax/2025 Federal Return Data Request.pdf",
+      "sha256": "f848e82fbcaabf07b0ce8d6e876d5a3b21dc997e36931c5669a8ed95dc1eea48",
+      "size": 44507
+    },
+    {
+      "path": "Tax/2026 Q2 Provision Calendar.pdf",
+      "sha256": "3310e107bee80ca47aa79e0fd2036d6f7c25d4b5d9ca400de1de54f1bdb51e6f",
+      "size": 44451
+    },
+    {
+      "path": "Treasury/2022 Sponsor Term Loan Summary.pdf",
+      "sha256": "2c4f52540ca4a4992ad7a3c32e7bed523af8b6cd11f3f835f3ea35ef0a3132cf",
+      "size": 44263
+    },
+    {
+      "path": "Treasury/2025 ABL Facility Summary.pdf",
+      "sha256": "fdb318562700b375413a9d567c60280d5a6d6f8daf9bcf3334d3a930d75f84ef",
+      "size": 44376
+    },
+    {
+      "path": "Treasury/Equipment Facility Summary.pdf",
+      "sha256": "3617af55451b72a56156291e43cc7f8966692b18bb29673f932a6a33b4c28418",
+      "size": 44203
+    }
+  ],
+  "generated_at": "2026-06-30T23:59:59+00:00",
+  "snapshot": "2026-06-30-pre-close",
+  "total_files": 164,
+  "company_id": "pinehaven-motion-data-v1"
+}

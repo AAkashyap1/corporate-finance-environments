@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_010",
+  "slug": "approved-june-scrap-reclass-draft",
+  "title": "Create the approved June scrap reclass draft",
+  "workflow": "manufacturing-close",
+  "difficulty": "expert",
+  "output": {
+    "mode": "erp",
+    "target_path": null
+  },
+  "prompt": "You are an authorized Pinehaven ERP operator. Complete **Create the approved June scrap reclass draft**.\n\nAuthorized scope: Create exactly one balanced draft journal with the supplied header and lines. Do not post it.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"lines\": [\n    {\n      \"account_code\": \"5110\",\n      \"debit\": 125000.0,\n      \"site_code\": \"100\"\n    },\n    {\n      \"account_code\": \"5100\",\n      \"credit\": 125000.0,\n      \"site_code\": \"100\"\n    }\n  ],\n  \"memo\": \"Reclass June abnormal scrap for management review\",\n  \"posting_date\": \"2026-06-30\",\n  \"reference\": \"PH-JE-010\"\n}\n```\n\nControls:\n- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n- Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.\n- Confirm the returned business object and audit events after the write.\n\nReturn one valid JSON object and no surrounding prose, with exactly these keys:\n[\"reference\", \"status\", \"debits\", \"credits\", \"audit_action\"]\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_010",
+    "agent_visible": false
+  }
+}

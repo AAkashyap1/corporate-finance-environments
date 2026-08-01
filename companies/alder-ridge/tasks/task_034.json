@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_034",
+  "slug": "service-contract-cohort-forecast",
+  "title": "Service-contract cohort renewal forecast",
+  "workflow": "fpa",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Forecast FY27 recurring service revenue from contract cohorts.\n\nBegin with the July FY27 planning thread in `Requests/`, including the controller's follow-up after the first steering review. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nModel gross renewal, logo churn, partial downsell, contractual price escalation, expansion bookings, and start-month proration by cohort. Recognize retained and repriced opening-cohort ARR for all twelve FY27 months; recognize each signed expansion from its stated revenue start month through June 2027. Return `churn_and_downsell` as a positive ARR-loss amount. Do not apply renewal probability to already signed multiyear contracts. Reconcile the opening annualized recurring revenue to the accounting-system service-agreement population and calculate FY27 recurring revenue, ending ARR, and net revenue retention.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `opening_arr`, `gross_retained_arr`, `churn_and_downsell`, `price_escalation`, `expansion_arr`, `fy27_recurring_revenue`, `ending_arr`, `net_revenue_retention`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_034",
+    "agent_visible": false
+  }
+}

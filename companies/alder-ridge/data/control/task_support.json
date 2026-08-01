@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "snapshot": "2026-06-30-pre-close",
+  "cash_downside": {
+    "collection_customers": [
+      "Eastbank Data",
+      "Cascade Health",
+      "Redmond Unified"
+    ],
+    "delayed_receipt_week": "2026-08-28",
+    "accelerate_open_po_commitments_through": "2026-07-31",
+    "insurance_deposit": 285500.0,
+    "insurance_deposit_week": "2026-07-31",
+    "minimum_cash": 1250000,
+    "revolver_commitment": 4000000,
+    "basis": "CFO downside assumptions documented for liquidity review; base case remains unchanged",
+    "provenance": [
+      "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
+      "Shared/Finance/Treasury/AR calls - notes/AR notes_6.30 - NB working copy.docx",
+      "Shared/Finance/Risk + Insurance/2026-27 binder + schedule of coverage - broker draft.pdf"
+    ]
+  },
+  "field_labor_rates": {
+    "q2_rework_loaded_rate": 84.5,
+    "basis": "Controller and VP Operations approved blended estimating and productivity-analysis rate",
+    "provenance": [
+      "Shared/Finance/FP&A/Labor/field burden rate approval - 2026 estimator use.pdf",
+      "Shared/Finance/FP&A/Labor/2026 field labor loaded rate build - est copy.xlsx"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_095",
+  "slug": "fcf-nongaap-policy-reconciliation",
+  "title": "Free-cash-flow and non-GAAP policy reconciliation",
+  "workflow": "controllership-investor-relations",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Reconcile GAAP EBITDA, management adjusted EBITDA, covenant EBITDA, and two free-cash-flow definitions.\n\nBegin with the FY26 tax-provision and EBITDA-definition thread in `Requests/`, including the close-review follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nApply the signed policy item by item, exclude ordinary recruiting and prospective savings, and keep standard FCF distinct from management-adjusted FCF. For covenant EBITDA, aggregate the documented permitted acquisition-integration, share-based-compensation, and restructuring addbacks, apply the covenant cap, and calculate leverage. Return `covenant_permitted_addbacks` as the permitted dollar total; an exact itemized list with amounts is also acceptable. Do not assume identical labels mean identical definitions.\n\nDo not modify files or post transactions. Also roll forecast covenant addbacks and funded debt, test leverage headroom, disclosure materiality, and both cash-conversion definitions. Reapply the covenant cap percentage to forecast reported EBITDA rather than carrying the prior-period permitted-addback dollars forward.\n\nReturn only one JSON object with exactly these keys: `gaap_ebitda`, `management_adjusted_ebitda`, `excluded_prospective_and_ordinary_adjustments`, `standard_free_cash_flow`, `management_adjusted_free_cash_flow`, `covenant_permitted_addbacks`, `covenant_ebitda`, `covenant_net_leverage`, `covenant_addback_cap_binding`, `downside_requested_covenant_addbacks`, `downside_permitted_covenant_addbacks`, `downside_covenant_ebitda`, `downside_covenant_net_leverage`, `downside_leverage_headroom`, `standard_fcf_cash_conversion`, `management_adjusted_fcf_cash_conversion`, `material_investor_adjustment_items`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_095",
+    "agent_visible": false
+  }
+}

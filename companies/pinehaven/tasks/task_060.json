@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_060",
+  "slug": "place-the-approved-rm-0001-inventory-quality-hold",
+  "title": "Place the approved RM-0001 inventory quality hold",
+  "workflow": "operations-finance",
+  "difficulty": "expert",
+  "output": {
+    "mode": "erp",
+    "target_path": null
+  },
+  "prompt": "You are an authorized Pinehaven ERP operator. Complete **Place the approved RM-0001 inventory quality hold**.\n\nAuthorized scope: Use ERP on-hand to choose a valid available warehouse/location for the supplied item and site, place exactly one hold for the supplied quantity and reason, and release only when `release` is true. The quality order must retain the full placed quantity in `quantity_inspected`; this neutral inventory hold has `quantity_failed = 0`. A release changes the historical order to Closed with the supplied release disposition, without erasing its inspected quantity, and must exactly restore the prior blocked inventory balance. `placed_quantity` is the historical quantity placed and inspected; it is not the current blocked quantity after a release.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"item_id\": \"RM-0001\",\n  \"quantity\": 12.0,\n  \"reason\": \"Supplier lot inspection pending\",\n  \"site_code\": \"100\"\n}\n```\n\nControls:\n- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n- Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.\n- Confirm the returned business object and audit events after the write.\n\nReturn one valid JSON object and no surrounding prose, with exactly these keys:\n[\"quality_order_id\", \"status\", \"placed_quantity\", \"estimated_financial_exposure\", \"audit_actions\"]\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_060",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_020",
+  "slug": "payroll-mix-and-loaded-rate",
+  "title": "Payroll mix, overtime, and loaded-rate reconciliation",
+  "workflow": "fpa-labor",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Reconcile the June 29–30 cutoff true-up payroll run and explain the bridge to the approved estimating loaded rate.\n\nBegin with the labor/capital request in `Requests/`. Locate the latest payroll accrual, headcount/productivity workpaper, approved burden memo, supporting loaded-rate build, board-approved headcount plan, and the relevant operating-review commentary. The accrual identifies cutoff true-up run `PR-20260630-215`, covering June 29–30; do not combine it with the separate regular payroll run that shares the June 30 check date. Use the contractor-accounting MCP payroll-run transaction detail, employee master, and timecards as the posted/detail authority and reconcile the workpapers.\n\nCalculate gross pay, employer taxes, benefits and total burdened payroll. For hourly employees only, define `hourly_payroll_cost` as gross pay plus employer taxes plus benefits; calculate regular/overtime hours, overtime percentage, that payroll cost per paid hour, and the difference to the approved estimating rate. Define `rate_difference` as approved estimating rate minus actual hourly payroll cost per paid hour. Keep estimating-only small-tools and field-supervision burdens out of payroll actuals. Compare active headcount with the board-plan year-end target and define `headcount_gap` as plan year-end headcount minus active headcount.\n\nReturn only one JSON object in your final response with exactly these keys: `active_headcount`, `plan_year_end_headcount`, `headcount_gap`, `gross_pay`, `employer_taxes`, `benefits`, `total_burdened_payroll`, `hourly_employee_count`, `regular_hours`, `overtime_hours`, `overtime_percent`, `hourly_payroll_cost`, `actual_hourly_payroll_cost_per_hour`, `approved_loaded_rate`, `rate_difference`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_020",
+    "agent_visible": false
+  }
+}

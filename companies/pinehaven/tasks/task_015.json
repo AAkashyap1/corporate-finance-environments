@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_015",
+  "slug": "company-inventory-turns-and-days-on-hand",
+  "title": "Company inventory turns and days on hand",
+  "workflow": "inventory-working-capital",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Company inventory turns and days on hand**.\n\nUse ERP on-hand, valuation, aging, movement, and financial reports. Reconcile to the Inventory Aging and E&O workbook, inventory reserve policy, aftermarket transfer process, and June inventory-control email.\n\nAuthoritative reconciliation source set:\n- `ERP inventory on-hand, valuation, aging, and movement reports`\n- `Supply Chain/Analyses/Inventory Aging and E&O Candidates.xlsx`\n- `Accounting Policies/Inventory Reserve Policy.docx`\n\nCalculation basis: Use LTM posted manufacturing cost of sales and June 30 discrete inventory; report turns and 365-day inventory days. Manufacturing cost of sales includes material cost of sales plus posted PPV, production variance, direct-labor clearing, and variable/fixed overhead absorption accounts.\n\nNo additional management case inputs.\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"ltm_cost_of_goods_sold\", \"ending_inventory\", \"inventory_turns\", \"days_inventory\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_015",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,181 @@
+id,name,category,country,payment_terms_days,preferred,active
+VEND-0001,Allegheny Logistics,Freight,MX,45,0,1
+VEND-0002,Allegheny Surface Technologies,Outside Processing,DE,60,0,1
+VEND-0003,Allegheny Motion Components,Bearings & Mechanical,US,30,0,1
+VEND-0004,Allegheny Advisory,Professional Services,US,45,0,1
+VEND-0005,Allegheny Packaging,Packaging,CN,60,1,1
+VEND-0006,Allegheny Drive Systems,Motors & Drives,JP,30,0,1
+VEND-0007,Arcadia Energy Services,Utilities,CA,45,0,1
+VEND-0008,Arcadia Industrial Supply,MRO,US,60,0,1
+VEND-0009,Arcadia Controls,Electronics,US,30,0,1
+VEND-0010,Arcadia Metals,Metals,MX,45,1,1
+VEND-0011,Arcadia Logistics,Freight,DE,60,0,1
+VEND-0012,Arcadia Surface Technologies,Outside Processing,US,30,0,1
+VEND-0013,Bayshore Motion Components,Bearings & Mechanical,US,45,0,1
+VEND-0014,Bayshore Advisory,Professional Services,CN,60,0,1
+VEND-0015,Bayshore Packaging,Packaging,JP,30,1,1
+VEND-0016,Bayshore Drive Systems,Motors & Drives,CA,45,0,1
+VEND-0017,Bayshore Energy Services,Utilities,US,60,0,1
+VEND-0018,Bayshore Industrial Supply,MRO,US,30,0,1
+VEND-0019,Bluewater Controls,Electronics,MX,45,0,1
+VEND-0020,Bluewater Metals,Metals,DE,60,1,1
+VEND-0021,Bluewater Logistics,Freight,US,30,0,1
+VEND-0022,Bluewater Surface Technologies,Outside Processing,US,45,0,1
+VEND-0023,Bluewater Motion Components,Bearings & Mechanical,CN,60,0,1
+VEND-0024,Bluewater Advisory,Professional Services,JP,30,0,1
+VEND-0025,Cedar Valley Packaging,Packaging,CA,45,1,1
+VEND-0026,Cedar Valley Drive Systems,Motors & Drives,US,60,0,1
+VEND-0027,Cedar Valley Energy Services,Utilities,US,30,0,1
+VEND-0028,Cedar Valley Industrial Supply,MRO,MX,45,0,1
+VEND-0029,Cedar Valley Controls,Electronics,DE,60,0,1
+VEND-0030,Cedar Valley Metals,Metals,US,30,1,1
+VEND-0031,Clearpoint Logistics,Freight,US,45,0,1
+VEND-0032,Clearpoint Surface Technologies,Outside Processing,CN,60,0,1
+VEND-0033,Clearpoint Motion Components,Bearings & Mechanical,JP,30,0,1
+VEND-0034,Clearpoint Advisory,Professional Services,CA,45,0,1
+VEND-0035,Clearpoint Packaging,Packaging,US,60,1,1
+VEND-0036,Clearpoint Drive Systems,Motors & Drives,US,30,0,1
+VEND-0037,Continental Energy Services,Utilities,MX,45,0,1
+VEND-0038,Continental Industrial Supply,MRO,DE,60,0,1
+VEND-0039,Continental Controls,Electronics,US,30,0,1
+VEND-0040,Continental Metals,Metals,US,45,1,1
+VEND-0041,Continental Logistics,Freight,CN,60,0,1
+VEND-0042,Continental Surface Technologies,Outside Processing,JP,30,0,1
+VEND-0043,Crown Motion Components,Bearings & Mechanical,CA,45,0,1
+VEND-0044,Crown Advisory,Professional Services,US,60,0,1
+VEND-0045,Crown Packaging,Packaging,US,30,1,1
+VEND-0046,Crown Drive Systems,Motors & Drives,MX,45,0,1
+VEND-0047,Crown Energy Services,Utilities,DE,60,0,1
+VEND-0048,Crown Industrial Supply,MRO,US,30,0,1
+VEND-0049,Easton Controls,Electronics,US,45,0,1
+VEND-0050,Easton Metals,Metals,CN,60,1,1
+VEND-0051,Easton Logistics,Freight,JP,30,0,1
+VEND-0052,Easton Surface Technologies,Outside Processing,CA,45,0,1
+VEND-0053,Easton Motion Components,Bearings & Mechanical,US,60,0,1
+VEND-0054,Easton Advisory,Professional Services,US,30,0,1
+VEND-0055,Fairview Packaging,Packaging,MX,45,1,1
+VEND-0056,Fairview Drive Systems,Motors & Drives,DE,60,0,1
+VEND-0057,Fairview Energy Services,Utilities,US,30,0,1
+VEND-0058,Fairview Industrial Supply,MRO,US,45,0,1
+VEND-0059,Fairview Controls,Electronics,CN,60,0,1
+VEND-0060,Fairview Metals,Metals,JP,30,1,1
+VEND-0061,Great Lakes Logistics,Freight,CA,45,0,1
+VEND-0062,Great Lakes Surface Technologies,Outside Processing,US,60,0,1
+VEND-0063,Great Lakes Motion Components,Bearings & Mechanical,US,30,0,1
+VEND-0064,Great Lakes Advisory,Professional Services,MX,45,0,1
+VEND-0065,Great Lakes Packaging,Packaging,DE,60,1,1
+VEND-0066,Great Lakes Drive Systems,Motors & Drives,US,30,0,1
+VEND-0067,Horizon Energy Services,Utilities,US,45,0,1
+VEND-0068,Horizon Industrial Supply,MRO,CN,60,0,1
+VEND-0069,Horizon Controls,Electronics,JP,30,0,1
+VEND-0070,Horizon Metals,Metals,CA,45,1,1
+VEND-0071,Horizon Logistics,Freight,US,60,0,1
+VEND-0072,Horizon Surface Technologies,Outside Processing,US,30,0,1
+VEND-0073,Keystone Motion Components,Bearings & Mechanical,MX,45,0,1
+VEND-0074,Keystone Advisory,Professional Services,DE,60,0,1
+VEND-0075,Keystone Packaging,Packaging,US,30,1,1
+VEND-0076,Keystone Drive Systems,Motors & Drives,US,45,0,1
+VEND-0077,Keystone Energy Services,Utilities,CN,60,0,1
+VEND-0078,Keystone Industrial Supply,MRO,JP,30,0,1
+VEND-0079,Lakefront Controls,Electronics,CA,45,0,1
+VEND-0080,Lakefront Metals,Metals,US,60,1,1
+VEND-0081,Lakefront Logistics,Freight,US,30,0,1
+VEND-0082,Lakefront Surface Technologies,Outside Processing,MX,45,0,1
+VEND-0083,Lakefront Motion Components,Bearings & Mechanical,DE,60,0,1
+VEND-0084,Lakefront Advisory,Professional Services,US,30,0,1
+VEND-0085,Landmark Packaging,Packaging,US,45,1,1
+VEND-0086,Landmark Drive Systems,Motors & Drives,CN,60,0,1
+VEND-0087,Landmark Energy Services,Utilities,JP,30,0,1
+VEND-0088,Landmark Industrial Supply,MRO,CA,45,0,1
+VEND-0089,Landmark Controls,Electronics,US,60,0,1
+VEND-0090,Landmark Metals,Metals,US,30,1,1
+VEND-0091,Northstar Logistics,Freight,MX,45,0,1
+VEND-0092,Northstar Surface Technologies,Outside Processing,DE,60,0,1
+VEND-0093,Northstar Motion Components,Bearings & Mechanical,US,30,0,1
+VEND-0094,Northstar Advisory,Professional Services,US,45,0,1
+VEND-0095,Northstar Packaging,Packaging,CN,60,1,1
+VEND-0096,Northstar Drive Systems,Motors & Drives,JP,30,0,1
+VEND-0097,Oak River Energy Services,Utilities,CA,45,0,1
+VEND-0098,Oak River Industrial Supply,MRO,US,60,0,1
+VEND-0099,Oak River Controls,Electronics,US,30,0,1
+VEND-0100,Oak River Metals,Metals,MX,45,1,1
+VEND-0101,Oak River Logistics,Freight,DE,60,0,1
+VEND-0102,Oak River Surface Technologies,Outside Processing,US,30,0,1
+VEND-0103,Orchard Motion Components,Bearings & Mechanical,US,45,0,1
+VEND-0104,Orchard Advisory,Professional Services,CN,60,0,1
+VEND-0105,Orchard Packaging,Packaging,JP,30,1,1
+VEND-0106,Orchard Drive Systems,Motors & Drives,CA,45,0,1
+VEND-0107,Orchard Energy Services,Utilities,US,60,0,1
+VEND-0108,Orchard Industrial Supply,MRO,US,30,0,1
+VEND-0109,Pinnacle Controls,Electronics,MX,45,0,1
+VEND-0110,Pinnacle Metals,Metals,DE,60,1,1
+VEND-0111,Pinnacle Logistics,Freight,US,30,0,1
+VEND-0112,Pinnacle Surface Technologies,Outside Processing,US,45,0,1
+VEND-0113,Pinnacle Motion Components,Bearings & Mechanical,CN,60,0,1
+VEND-0114,Pinnacle Advisory,Professional Services,JP,30,0,1
+VEND-0115,Prairie Packaging,Packaging,CA,45,1,1
+VEND-0116,Prairie Drive Systems,Motors & Drives,US,60,0,1
+VEND-0117,Prairie Energy Services,Utilities,US,30,0,1
+VEND-0118,Prairie Industrial Supply,MRO,MX,45,0,1
+VEND-0119,Prairie Controls,Electronics,DE,60,0,1
+VEND-0120,Prairie Metals,Metals,US,30,1,1
+VEND-0121,Redstone Logistics,Freight,US,45,0,1
+VEND-0122,Redstone Surface Technologies,Outside Processing,CN,60,0,1
+VEND-0123,Redstone Motion Components,Bearings & Mechanical,JP,30,0,1
+VEND-0124,Redstone Advisory,Professional Services,CA,45,0,1
+VEND-0125,Redstone Packaging,Packaging,US,60,1,1
+VEND-0126,Redstone Drive Systems,Motors & Drives,US,30,0,1
+VEND-0127,Ridgeway Energy Services,Utilities,MX,45,0,1
+VEND-0128,Ridgeway Industrial Supply,MRO,DE,60,0,1
+VEND-0129,Ridgeway Controls,Electronics,US,30,0,1
+VEND-0130,Ridgeway Metals,Metals,US,45,1,1
+VEND-0131,Ridgeway Logistics,Freight,CN,60,0,1
+VEND-0132,Ridgeway Surface Technologies,Outside Processing,JP,30,0,1
+VEND-0133,Riverbend Motion Components,Bearings & Mechanical,CA,45,0,1
+VEND-0134,Riverbend Advisory,Professional Services,US,60,0,1
+VEND-0135,Riverbend Packaging,Packaging,US,30,1,1
+VEND-0136,Riverbend Drive Systems,Motors & Drives,MX,45,0,1
+VEND-0137,Riverbend Energy Services,Utilities,DE,60,0,1
+VEND-0138,Riverbend Industrial Supply,MRO,US,30,0,1
+VEND-0139,Seaboard Controls,Electronics,US,45,0,1
+VEND-0140,Seaboard Metals,Metals,CN,60,1,1
+VEND-0141,Seaboard Logistics,Freight,JP,30,0,1
+VEND-0142,Seaboard Surface Technologies,Outside Processing,CA,45,0,1
+VEND-0143,Seaboard Motion Components,Bearings & Mechanical,US,60,0,1
+VEND-0144,Seaboard Advisory,Professional Services,US,30,0,1
+VEND-0145,Stonebridge Packaging,Packaging,MX,45,1,1
+VEND-0146,Stonebridge Drive Systems,Motors & Drives,DE,60,0,1
+VEND-0147,Stonebridge Energy Services,Utilities,US,30,0,1
+VEND-0148,Stonebridge Industrial Supply,MRO,US,45,0,1
+VEND-0149,Stonebridge Controls,Electronics,CN,60,0,1
+VEND-0150,Stonebridge Metals,Metals,JP,30,1,1
+VEND-0151,Summit Logistics,Freight,CA,45,0,1
+VEND-0152,Summit Surface Technologies,Outside Processing,US,60,0,1
+VEND-0153,Summit Motion Components,Bearings & Mechanical,US,30,0,1
+VEND-0154,Summit Advisory,Professional Services,MX,45,0,1
+VEND-0155,Summit Packaging,Packaging,DE,60,1,1
+VEND-0156,Summit Drive Systems,Motors & Drives,US,30,0,1
+VEND-0157,Tri-County Energy Services,Utilities,US,45,0,1
+VEND-0158,Tri-County Industrial Supply,MRO,CN,60,0,1
+VEND-0159,Tri-County Controls,Electronics,JP,30,0,1
+VEND-0160,Tri-County Metals,Metals,CA,45,1,1
+VEND-0161,Tri-County Logistics,Freight,US,60,0,1
+VEND-0162,Tri-County Surface Technologies,Outside Processing,US,30,0,1
+VEND-0163,Valley Motion Components,Bearings & Mechanical,MX,45,0,1
+VEND-0164,Valley Advisory,Professional Services,DE,60,0,1
+VEND-0165,Valley Packaging,Packaging,US,30,1,1
+VEND-0166,Valley Drive Systems,Motors & Drives,US,45,0,1
+VEND-0167,Valley Energy Services,Utilities,CN,60,0,1
+VEND-0168,Valley Industrial Supply,MRO,JP,30,0,1
+VEND-0169,Westfield Controls,Electronics,CA,45,0,1
+VEND-0170,Westfield Metals,Metals,US,60,1,1
+VEND-0171,Westfield Logistics,Freight,US,30,0,1
+VEND-0172,Westfield Surface Technologies,Outside Processing,MX,45,0,1
+VEND-0173,Westfield Motion Components,Bearings & Mechanical,DE,60,0,0
+VEND-0174,Westfield Advisory,Professional Services,US,30,0,0
+VEND-0175,Woodcrest Packaging,Packaging,US,45,1,0
+VEND-0176,Woodcrest Drive Systems,Motors & Drives,CN,60,0,0
+VEND-0177,Woodcrest Energy Services,Utilities,JP,30,0,0
+VEND-0178,Woodcrest Industrial Supply,MRO,CA,45,0,0
+VEND-0179,Woodcrest Controls,Electronics,US,60,0,0
+VEND-0180,Woodcrest Metals,Metals,US,30,1,0

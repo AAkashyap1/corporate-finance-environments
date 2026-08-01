@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_006",
+  "slug": "downside-liquidity-sensitivity",
+  "title": "CFO downside liquidity sensitivity",
+  "workflow": "treasury",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Run the downside sensitivity documented in `Shared/Finance/Treasury/13 week cash/downside assumptions_7.2 618am - DC marks.xlsx`.\n\nBegin with the treasury request in `Requests/`, locate the current cash roll-forward, controller collection notes, open-item accounting populations, downside markup, and the insurance-renewal support behind the marked deposit. Rebuild the scenario from those sources rather than assuming the markup workbook's imported base is current. Apply the documented receipt delays, PO acceleration, deposit timing, cash floor, draw convention, and repayment convention. Do not alter the base file.\n\nReport the total named collections moved, the PO amount accelerated, insurance deposit, lowest cash before financing, its week, first draw week, maximum revolver balance, and ending revolver balance.\n\nReturn only one JSON object in your final response with exactly these keys: `named_collections_total`, `accelerated_po_amount`, `insurance_deposit`, `minimum_cash_before_financing`, `minimum_cash_week`, `first_draw_week`, `maximum_revolver`, `ending_revolver`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_006",
+    "agent_visible": false
+  }
+}

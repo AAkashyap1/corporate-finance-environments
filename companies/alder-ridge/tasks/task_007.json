@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_007",
+  "slug": "named-ar-concentration",
+  "title": "Named-customer AR concentration",
+  "workflow": "working-capital",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Using the June 30 invoice-level AR aging from the contractor-accounting MCP, reconcile gross open AR and the open balances for Eastbank Data, Cascade Health, and Redmond Unified to the AR roll-forward and controller collection notes.\n\nThen calculate the three-customer total as a percentage of gross open AR and identify the largest of the three customers. Include retainage because this is a collection-concentration view, not a borrowing-base eligibility calculation. Report every component so the concentration can be independently verified; do not modify files.\n\nReturn only one JSON object in your final response with exactly these keys: `gross_open_ar`, `eastbank_data_ar`, `cascade_health_ar`, `redmond_unified_ar`, `named_total`, `named_percent_of_ar`, `largest_customer`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_007",
+    "agent_visible": false
+  }
+}

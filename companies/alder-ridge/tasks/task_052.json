@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_052",
+  "slug": "bluepeak-nwc-peg",
+  "title": "BluePeak normalized working-capital peg",
+  "workflow": "corporate-development",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Calculate BluePeak's normalized working-capital peg and closing purchase-price adjustment.\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nApply the purchase agreement's account definitions to twelve monthly balances, remove the two documented nonrecurring distortions, and use the median of the resulting monthly NWC rather than an average. Reclassify customer deposits and transaction bonuses exactly as specified. Compare estimated closing NWC with the peg and apply the collar and dollar-for-dollar adjustment mechanics.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `normalized_nwc_peg`, `estimated_closing_nwc`, `gross_nwc_shortfall`, `collar_absorbed`, `purchase_price_adjustment`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_052",
+    "agent_visible": false
+  }
+}

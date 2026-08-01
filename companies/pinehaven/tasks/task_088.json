@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_088",
+  "slug": "first-half-tax-provision-memorandum",
+  "title": "Write the first-half tax provision memorandum",
+  "workflow": "tax-corpdev",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "document",
+    "target_path": "Deliverables/first-half-tax-provision-memorandum.docx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Write the first-half tax provision memorandum**.\n\nUse posted ERP financials, fixed assets, payroll, transfers, quality, maintenance, and debt. Clearly separate management scenarios and valuation assumptions from posted company results.\n\nAuthoritative reconciliation source set:\n- `ERP posted book-income, debt-interest, fixed-asset, and payroll reports`\n- `Finance/Analyses/Tax Provision Inputs.xlsx`\n- `Tax/2026 Q2 Provision Calendar.pdf`\n- `Communications/2026-06-11 - Q2 provision data.eml`\n\nCalculation basis: Use YTD posted pretax income plus the stated permanent items; apply federal tax first and the stated state rate to the same taxable-income base.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"federal_rate\": 0.21,\n  \"permanent_items\": 425000.0,\n  \"state_rate\": 0.045,\n  \"tax_depreciation\": 15750000.0\n}\n```\n\nTax-memo scope: Reconcile book income to taxable income, show permanent and depreciation differences, federal and state rates, current tax, and the combined effective rate. Use benefit wording when the calculated tax amount is negative, and specify review, support-retention, and close-control ownership with dates.\n\n\nCreate exactly this deliverable: `Deliverables/first-half-tax-provision-memorandum.docx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"pretax_income\", \"interest_expense\", \"book_depreciation\", \"tax_depreciation\", \"depreciation_temporary_difference\", \"permanent_items\", \"estimated_taxable_income\", \"federal_rate\", \"federal_tax\", \"state_rate\", \"state_tax\", \"current_tax\", \"deferred_tax_expense\", \"total_tax_provision\", \"effective_tax_rate\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nDocument contract:\n- Maximum 3 pages, with a clear title, date, audience, and June pre-close labeling.\n- Use sections `Executive conclusion`, `Evidence`, `Economics`, `Risks and controls`, and `Sources`.\n- Include a native decision table, exact central metrics, the recommended decision/action, named owner, and timing.\n- Cite visible source filenames and ERP report names. Distinguish facts from assumptions and do not claim June is closed.\n- Number every page in the footer with native page numbering and render every page to confirm the number is visible.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/first-half-tax-provision-memorandum.docx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_088",
+    "agent_visible": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_069",
+  "slug": "dayton-automation-capital-committee-decision-memorandum",
+  "title": "Write the Dayton automation capital committee decision memorandum",
+  "workflow": "capital-strategy",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "document",
+    "target_path": "Deliverables/dayton-automation-capital-committee-decision-memorandum.docx"
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Write the Dayton automation capital committee decision memorandum**.\n\nUse the ERP fixed-asset register, plant output, maintenance, payroll, capacity, and cash/debt data. Treat scenario assumptions as prospective and cite the Capital Committee Charter and capitalization policy.\n\nAuthoritative reconciliation source set:\n- `ERP capacity, maintenance, and fixed-asset reports`\n- `Finance/Analyses/Capital Expenditure Pipeline.xlsx`\n- `Corporate Memos/Capital Committee Charter.docx`\n- `Accounting Policies/Capitalization Policy.docx`\n- `Communications/2026-06-13 - Capacity capital requests.eml`\n\nCalculation basis: Assume benefits occur at each year-end, no terminal value, no tax effect, and no residual value. Calculate NPV, IRR, payback, and profitability index from year-by-year cash-flow logic without rounding intermediate present values.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"annual_maintenance\": 135000.0,\n  \"annual_savings\": 1180000.0,\n  \"discount_rate\": 0.105,\n  \"initial_investment\": 4200000.0,\n  \"life_years\": 7,\n  \"site_code\": \"200\",\n  \"site_name\": \"Dayton\"\n}\n```\n\nProject scope: The memorandum and its approval recommendation must explicitly identify Dayton (site 200) as the project site. Evidence from another plant may be used only as a clearly labeled comparison, never as the recommended project scope.\n\n\nCreate exactly this deliverable: `Deliverables/dayton-automation-capital-committee-decision-memorandum.docx`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:\n[\"initial_investment\", \"annual_savings\", \"annual_maintenance\", \"net_annual_benefit\", \"discount_rate\", \"life_years\", \"npv\", \"irr\", \"payback_years\", \"profitability_index\"]\n\nAccess boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n\nDocument contract:\n- Maximum 3 pages, with a clear title, date, audience, and June pre-close labeling.\n- Use sections `Executive conclusion`, `Evidence`, `Economics`, `Risks and controls`, and `Sources`.\n- Include a native decision table, exact central metrics, the recommended decision/action, named owner, and timing.\n- Cite visible source filenames and ERP report names. Distinguish facts from assumptions and do not claim June is closed.\n- Number every page in the footer with native page numbering and render every page to confirm the number is visible.\n\nWhen the file is complete, return one JSON object only:\n{\"deliverable\":\"Deliverables/dayton-automation-capital-committee-decision-memorandum.docx\",\"status\":\"complete\",\"central_decision\":\"<concise decision>\",\"sources_checked\":[\"<source 1>\",\"<source 2>\"]}\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_069",
+    "agent_visible": false
+  }
+}

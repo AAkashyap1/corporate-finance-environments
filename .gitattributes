@@ -1,0 +1,9 @@
+* text=auto
+*.db binary
+*.docx binary
+*.pdf binary
+*.pptx binary
+*.xlsx binary
+*.part binary
+companies/*/source-files/** -text
+companies/*/data/** -text

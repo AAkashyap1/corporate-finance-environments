@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_086",
+  "slug": "cash-investment-liquidity-ladder",
+  "title": "Cash-investment liquidity ladder",
+  "workflow": "treasury",
+  "difficulty": "expert-adversarial-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Construct the highest-income permitted investment ladder without compromising operating liquidity.\n\nBegin with the July liquidity, banking, and covenant-outlook thread in `Requests/`, including the bank follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nAllocate the entire investable balance in approved denominations, observing instrument caps and the commercial-paper concentration limit. Treat the dated cash-need rows as incremental tranches and sum them through each date, test same-day liquidity using settlement eligibility and value factors, satisfy every cumulative requirement, and maximize expected income over the common 100-day horizon under the approved same-yield reinvestment convention.\n\nDo not modify files or post transactions. Also optimize the final executable ladder under weighted-maturity, issuer-concentration, and stressed day-35 liquidity constraints as well as the ordinary cash needs; reoptimize if the ordinary-only optimum fails stress.\n\nReturn only one JSON object with exactly these keys: `operating_deposit_allocation`, `government_mmf_allocation`, `four_week_t_bill_allocation`, `eight_week_t_bill_allocation`, `thirteen_week_t_bill_allocation`, `commercial_paper_allocation`, `expected_holding_period_income`, `same_day_liquidity`, `weighted_average_yield`, `commercial_paper_concentration`, `unallocated_cash`, `weighted_average_maturity_days`, `government_issuer_concentration`, `stressed_day_35_liquidity`, `stressed_day_35_liquidity_headroom`, `stress_policy_breaches`, `ladder_executable_after_stress`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_086",
+    "agent_visible": false
+  }
+}

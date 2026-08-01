@@ -1,0 +1,241 @@
+id,name,end_market,region,payment_terms_days,credit_limit,active
+CUST-0001,Apex Automation,Logistics Automation,Canada,45,375000.0,1
+CUST-0002,Arbor Ridge Automation,Food & Beverage Equipment,West,60,500000.0,1
+CUST-0003,Beacon Automation,Water & Wastewater,Southwest,30,625000.0,1
+CUST-0004,Bluewater Automation,Forest Products,Southeast,45,750000.0,1
+CUST-0005,Bridgepoint Automation,General Industrial,Northeast,60,875000.0,1
+CUST-0006,Clearwater Automation,Packaging Automation,Midwest,30,1000000.0,1
+CUST-0007,Crescent Automation,Logistics Automation,Canada,45,1125000.0,1
+CUST-0008,Delta Automation,Food & Beverage Equipment,West,60,1250000.0,1
+CUST-0009,Eastgate Automation,Water & Wastewater,Southwest,30,1375000.0,1
+CUST-0010,Evergreen Automation,Forest Products,Southeast,45,1500000.0,1
+CUST-0011,Fairmont Automation,General Industrial,Northeast,60,1625000.0,1
+CUST-0012,Frontier Automation,Packaging Automation,Midwest,30,1750000.0,1
+CUST-0013,Granite Automation,Logistics Automation,Canada,45,1875000.0,1
+CUST-0014,Harbor Automation,Food & Beverage Equipment,West,60,2000000.0,1
+CUST-0015,Highland Automation,Water & Wastewater,Southwest,30,2125000.0,1
+CUST-0016,Ironwood Automation,Forest Products,Southeast,45,2250000.0,1
+CUST-0017,Juniper Automation,General Industrial,Northeast,60,2375000.0,1
+CUST-0018,Keystone Automation,Packaging Automation,Midwest,30,2500000.0,1
+CUST-0019,Lakeshore Automation,Logistics Automation,Canada,45,2625000.0,1
+CUST-0020,Maple Ridge Automation,Food & Beverage Equipment,West,60,250000.0,1
+CUST-0021,Meridian Automation,Water & Wastewater,Southwest,30,375000.0,1
+CUST-0022,Monarch Automation,Forest Products,Southeast,45,500000.0,1
+CUST-0023,Northline Automation,General Industrial,Northeast,60,625000.0,1
+CUST-0024,Oakmont Automation,Packaging Automation,Midwest,30,750000.0,1
+CUST-0025,Parkside Automation,Logistics Automation,Canada,45,875000.0,1
+CUST-0026,Pioneer Automation,Food & Beverage Equipment,West,60,1000000.0,1
+CUST-0027,Prairie State Automation,Water & Wastewater,Southwest,30,1125000.0,1
+CUST-0028,Redwood Automation,Forest Products,Southeast,45,1250000.0,1
+CUST-0029,Riverton Automation,General Industrial,Northeast,60,1375000.0,1
+CUST-0030,Rockford Automation,Packaging Automation,Midwest,30,1500000.0,1
+CUST-0031,Silverline Automation,Logistics Automation,Canada,45,1625000.0,1
+CUST-0032,Summit Automation,Food & Beverage Equipment,West,60,1750000.0,1
+CUST-0033,Timberline Automation,Water & Wastewater,Southwest,30,1875000.0,1
+CUST-0034,Triad Automation,Forest Products,Southeast,45,2000000.0,1
+CUST-0035,Valley Forge Automation,General Industrial,Northeast,60,2125000.0,1
+CUST-0036,Vector Automation,Packaging Automation,Midwest,30,2250000.0,1
+CUST-0037,Westbridge Automation,Logistics Automation,Canada,45,2375000.0,1
+CUST-0038,Willow Creek Automation,Food & Beverage Equipment,West,60,2500000.0,1
+CUST-0039,Windward Automation,Water & Wastewater,Southwest,30,2625000.0,1
+CUST-0040,Woodland Automation,Forest Products,Southeast,45,250000.0,1
+CUST-0041,Apex Systems,General Industrial,Northeast,60,375000.0,1
+CUST-0042,Arbor Ridge Systems,Packaging Automation,Midwest,30,500000.0,1
+CUST-0043,Beacon Systems,Logistics Automation,Canada,45,625000.0,1
+CUST-0044,Bluewater Systems,Food & Beverage Equipment,West,60,750000.0,1
+CUST-0045,Bridgepoint Systems,Water & Wastewater,Southwest,30,875000.0,1
+CUST-0046,Clearwater Systems,Forest Products,Southeast,45,1000000.0,1
+CUST-0047,Crescent Systems,General Industrial,Northeast,60,1125000.0,1
+CUST-0048,Delta Systems,Packaging Automation,Midwest,30,1250000.0,1
+CUST-0049,Eastgate Systems,Logistics Automation,Canada,45,1375000.0,1
+CUST-0050,Evergreen Systems,Food & Beverage Equipment,West,60,1500000.0,1
+CUST-0051,Fairmont Systems,Water & Wastewater,Southwest,30,1625000.0,1
+CUST-0052,Frontier Systems,Forest Products,Southeast,45,1750000.0,1
+CUST-0053,Granite Systems,General Industrial,Northeast,60,1875000.0,1
+CUST-0054,Harbor Systems,Packaging Automation,Midwest,30,2000000.0,1
+CUST-0055,Highland Systems,Logistics Automation,Canada,45,2125000.0,1
+CUST-0056,Ironwood Systems,Food & Beverage Equipment,West,60,2250000.0,1
+CUST-0057,Juniper Systems,Water & Wastewater,Southwest,30,2375000.0,1
+CUST-0058,Keystone Systems,Forest Products,Southeast,45,2500000.0,1
+CUST-0059,Lakeshore Systems,General Industrial,Northeast,60,2625000.0,1
+CUST-0060,Maple Ridge Systems,Packaging Automation,Midwest,30,250000.0,1
+CUST-0061,Meridian Systems,Logistics Automation,Canada,45,375000.0,1
+CUST-0062,Monarch Systems,Food & Beverage Equipment,West,60,500000.0,1
+CUST-0063,Northline Systems,Water & Wastewater,Southwest,30,625000.0,1
+CUST-0064,Oakmont Systems,Forest Products,Southeast,45,750000.0,1
+CUST-0065,Parkside Systems,General Industrial,Northeast,60,875000.0,1
+CUST-0066,Pioneer Systems,Packaging Automation,Midwest,30,1000000.0,1
+CUST-0067,Prairie State Systems,Logistics Automation,Canada,45,1125000.0,1
+CUST-0068,Redwood Systems,Food & Beverage Equipment,West,60,1250000.0,1
+CUST-0069,Riverton Systems,Water & Wastewater,Southwest,30,1375000.0,1
+CUST-0070,Rockford Systems,Forest Products,Southeast,45,1500000.0,1
+CUST-0071,Silverline Systems,General Industrial,Northeast,60,1625000.0,1
+CUST-0072,Summit Systems,Packaging Automation,Midwest,30,1750000.0,1
+CUST-0073,Timberline Systems,Logistics Automation,Canada,45,1875000.0,1
+CUST-0074,Triad Systems,Food & Beverage Equipment,West,60,2000000.0,1
+CUST-0075,Valley Forge Systems,Water & Wastewater,Southwest,30,2125000.0,1
+CUST-0076,Vector Systems,Forest Products,Southeast,45,2250000.0,1
+CUST-0077,Westbridge Systems,General Industrial,Northeast,60,2375000.0,1
+CUST-0078,Willow Creek Systems,Packaging Automation,Midwest,30,2500000.0,1
+CUST-0079,Windward Systems,Logistics Automation,Canada,45,2625000.0,1
+CUST-0080,Woodland Systems,Food & Beverage Equipment,West,60,250000.0,1
+CUST-0081,Apex Equipment,Water & Wastewater,Southwest,30,375000.0,1
+CUST-0082,Arbor Ridge Equipment,Forest Products,Southeast,45,500000.0,1
+CUST-0083,Beacon Equipment,General Industrial,Northeast,60,625000.0,1
+CUST-0084,Bluewater Equipment,Packaging Automation,Midwest,30,750000.0,1
+CUST-0085,Bridgepoint Equipment,Logistics Automation,Canada,45,875000.0,1
+CUST-0086,Clearwater Equipment,Food & Beverage Equipment,West,60,1000000.0,1
+CUST-0087,Crescent Equipment,Water & Wastewater,Southwest,30,1125000.0,1
+CUST-0088,Delta Equipment,Forest Products,Southeast,45,1250000.0,1
+CUST-0089,Eastgate Equipment,General Industrial,Northeast,60,1375000.0,1
+CUST-0090,Evergreen Equipment,Packaging Automation,Midwest,30,1500000.0,1
+CUST-0091,Fairmont Equipment,Logistics Automation,Canada,45,1625000.0,1
+CUST-0092,Frontier Equipment,Food & Beverage Equipment,West,60,1750000.0,1
+CUST-0093,Granite Equipment,Water & Wastewater,Southwest,30,1875000.0,1
+CUST-0094,Harbor Equipment,Forest Products,Southeast,45,2000000.0,1
+CUST-0095,Highland Equipment,General Industrial,Northeast,60,2125000.0,1
+CUST-0096,Ironwood Equipment,Packaging Automation,Midwest,30,2250000.0,1
+CUST-0097,Juniper Equipment,Logistics Automation,Canada,45,2375000.0,1
+CUST-0098,Keystone Equipment,Food & Beverage Equipment,West,60,2500000.0,1
+CUST-0099,Lakeshore Equipment,Water & Wastewater,Southwest,30,2625000.0,1
+CUST-0100,Maple Ridge Equipment,Forest Products,Southeast,45,250000.0,1
+CUST-0101,Meridian Equipment,General Industrial,Northeast,60,375000.0,1
+CUST-0102,Monarch Equipment,Packaging Automation,Midwest,30,500000.0,1
+CUST-0103,Northline Equipment,Logistics Automation,Canada,45,625000.0,1
+CUST-0104,Oakmont Equipment,Food & Beverage Equipment,West,60,750000.0,1
+CUST-0105,Parkside Equipment,Water & Wastewater,Southwest,30,875000.0,1
+CUST-0106,Pioneer Equipment,Forest Products,Southeast,45,1000000.0,1
+CUST-0107,Prairie State Equipment,General Industrial,Northeast,60,1125000.0,1
+CUST-0108,Redwood Equipment,Packaging Automation,Midwest,30,1250000.0,1
+CUST-0109,Riverton Equipment,Logistics Automation,Canada,45,1375000.0,1
+CUST-0110,Rockford Equipment,Food & Beverage Equipment,West,60,1500000.0,1
+CUST-0111,Silverline Equipment,Water & Wastewater,Southwest,30,1625000.0,1
+CUST-0112,Summit Equipment,Forest Products,Southeast,45,1750000.0,1
+CUST-0113,Timberline Equipment,General Industrial,Northeast,60,1875000.0,1
+CUST-0114,Triad Equipment,Packaging Automation,Midwest,30,2000000.0,1
+CUST-0115,Valley Forge Equipment,Logistics Automation,Canada,45,2125000.0,1
+CUST-0116,Vector Equipment,Food & Beverage Equipment,West,60,2250000.0,1
+CUST-0117,Westbridge Equipment,Water & Wastewater,Southwest,30,2375000.0,1
+CUST-0118,Willow Creek Equipment,Forest Products,Southeast,45,2500000.0,1
+CUST-0119,Windward Equipment,General Industrial,Northeast,60,2625000.0,1
+CUST-0120,Woodland Equipment,Packaging Automation,Midwest,30,250000.0,1
+CUST-0121,Apex Industries,Logistics Automation,Canada,45,375000.0,1
+CUST-0122,Arbor Ridge Industries,Food & Beverage Equipment,West,60,500000.0,1
+CUST-0123,Beacon Industries,Water & Wastewater,Southwest,30,625000.0,1
+CUST-0124,Bluewater Industries,Forest Products,Southeast,45,750000.0,1
+CUST-0125,Bridgepoint Industries,General Industrial,Northeast,60,875000.0,1
+CUST-0126,Clearwater Industries,Packaging Automation,Midwest,30,1000000.0,1
+CUST-0127,Crescent Industries,Logistics Automation,Canada,45,1125000.0,1
+CUST-0128,Delta Industries,Food & Beverage Equipment,West,60,1250000.0,1
+CUST-0129,Eastgate Industries,Water & Wastewater,Southwest,30,1375000.0,1
+CUST-0130,Evergreen Industries,Forest Products,Southeast,45,1500000.0,1
+CUST-0131,Fairmont Industries,General Industrial,Northeast,60,1625000.0,1
+CUST-0132,Frontier Industries,Packaging Automation,Midwest,30,1750000.0,1
+CUST-0133,Granite Industries,Logistics Automation,Canada,45,1875000.0,1
+CUST-0134,Harbor Industries,Food & Beverage Equipment,West,60,2000000.0,1
+CUST-0135,Highland Industries,Water & Wastewater,Southwest,30,2125000.0,1
+CUST-0136,Ironwood Industries,Forest Products,Southeast,45,2250000.0,1
+CUST-0137,Juniper Industries,General Industrial,Northeast,60,2375000.0,1
+CUST-0138,Keystone Industries,Packaging Automation,Midwest,30,2500000.0,1
+CUST-0139,Lakeshore Industries,Logistics Automation,Canada,45,2625000.0,1
+CUST-0140,Maple Ridge Industries,Food & Beverage Equipment,West,60,250000.0,1
+CUST-0141,Meridian Industries,Water & Wastewater,Southwest,30,375000.0,1
+CUST-0142,Monarch Industries,Forest Products,Southeast,45,500000.0,1
+CUST-0143,Northline Industries,General Industrial,Northeast,60,625000.0,1
+CUST-0144,Oakmont Industries,Packaging Automation,Midwest,30,750000.0,1
+CUST-0145,Parkside Industries,Logistics Automation,Canada,45,875000.0,1
+CUST-0146,Pioneer Industries,Food & Beverage Equipment,West,60,1000000.0,1
+CUST-0147,Prairie State Industries,Water & Wastewater,Southwest,30,1125000.0,1
+CUST-0148,Redwood Industries,Forest Products,Southeast,45,1250000.0,1
+CUST-0149,Riverton Industries,General Industrial,Northeast,60,1375000.0,1
+CUST-0150,Rockford Industries,Packaging Automation,Midwest,30,1500000.0,1
+CUST-0151,Silverline Industries,Logistics Automation,Canada,45,1625000.0,1
+CUST-0152,Summit Industries,Food & Beverage Equipment,West,60,1750000.0,1
+CUST-0153,Timberline Industries,Water & Wastewater,Southwest,30,1875000.0,1
+CUST-0154,Triad Industries,Forest Products,Southeast,45,2000000.0,1
+CUST-0155,Valley Forge Industries,General Industrial,Northeast,60,2125000.0,1
+CUST-0156,Vector Industries,Packaging Automation,Midwest,30,2250000.0,1
+CUST-0157,Westbridge Industries,Logistics Automation,Canada,45,2375000.0,1
+CUST-0158,Willow Creek Industries,Food & Beverage Equipment,West,60,2500000.0,1
+CUST-0159,Windward Industries,Water & Wastewater,Southwest,30,2625000.0,1
+CUST-0160,Woodland Industries,Forest Products,Southeast,45,250000.0,1
+CUST-0161,Apex Engineering,General Industrial,Northeast,60,375000.0,1
+CUST-0162,Arbor Ridge Engineering,Packaging Automation,Midwest,30,500000.0,1
+CUST-0163,Beacon Engineering,Logistics Automation,Canada,45,625000.0,1
+CUST-0164,Bluewater Engineering,Food & Beverage Equipment,West,60,750000.0,1
+CUST-0165,Bridgepoint Engineering,Water & Wastewater,Southwest,30,875000.0,1
+CUST-0166,Clearwater Engineering,Forest Products,Southeast,45,1000000.0,1
+CUST-0167,Crescent Engineering,General Industrial,Northeast,60,1125000.0,1
+CUST-0168,Delta Engineering,Packaging Automation,Midwest,30,1250000.0,1
+CUST-0169,Eastgate Engineering,Logistics Automation,Canada,45,1375000.0,1
+CUST-0170,Evergreen Engineering,Food & Beverage Equipment,West,60,1500000.0,1
+CUST-0171,Fairmont Engineering,Water & Wastewater,Southwest,30,1625000.0,1
+CUST-0172,Frontier Engineering,Forest Products,Southeast,45,1750000.0,1
+CUST-0173,Granite Engineering,General Industrial,Northeast,60,1875000.0,1
+CUST-0174,Harbor Engineering,Packaging Automation,Midwest,30,2000000.0,1
+CUST-0175,Highland Engineering,Logistics Automation,Canada,45,2125000.0,1
+CUST-0176,Ironwood Engineering,Food & Beverage Equipment,West,60,2250000.0,1
+CUST-0177,Juniper Engineering,Water & Wastewater,Southwest,30,2375000.0,1
+CUST-0178,Keystone Engineering,Forest Products,Southeast,45,2500000.0,1
+CUST-0179,Lakeshore Engineering,General Industrial,Northeast,60,2625000.0,1
+CUST-0180,Maple Ridge Engineering,Packaging Automation,Midwest,30,250000.0,1
+CUST-0181,Meridian Engineering,Logistics Automation,Canada,45,375000.0,1
+CUST-0182,Monarch Engineering,Food & Beverage Equipment,West,60,500000.0,1
+CUST-0183,Northline Engineering,Water & Wastewater,Southwest,30,625000.0,1
+CUST-0184,Oakmont Engineering,Forest Products,Southeast,45,750000.0,1
+CUST-0185,Parkside Engineering,General Industrial,Northeast,60,875000.0,1
+CUST-0186,Pioneer Engineering,Packaging Automation,Midwest,30,1000000.0,1
+CUST-0187,Prairie State Engineering,Logistics Automation,Canada,45,1125000.0,1
+CUST-0188,Redwood Engineering,Food & Beverage Equipment,West,60,1250000.0,1
+CUST-0189,Riverton Engineering,Water & Wastewater,Southwest,30,1375000.0,1
+CUST-0190,Rockford Engineering,Forest Products,Southeast,45,1500000.0,1
+CUST-0191,Silverline Engineering,General Industrial,Northeast,60,1625000.0,1
+CUST-0192,Summit Engineering,Packaging Automation,Midwest,30,1750000.0,1
+CUST-0193,Timberline Engineering,Logistics Automation,Canada,45,1875000.0,1
+CUST-0194,Triad Engineering,Food & Beverage Equipment,West,60,2000000.0,1
+CUST-0195,Valley Forge Engineering,Water & Wastewater,Southwest,30,2125000.0,1
+CUST-0196,Vector Engineering,Forest Products,Southeast,45,2250000.0,1
+CUST-0197,Westbridge Engineering,General Industrial,Northeast,60,2375000.0,1
+CUST-0198,Willow Creek Engineering,Packaging Automation,Midwest,30,2500000.0,1
+CUST-0199,Windward Engineering,Logistics Automation,Canada,45,2625000.0,1
+CUST-0200,Woodland Engineering,Food & Beverage Equipment,West,60,250000.0,1
+CUST-0201,Apex Process Solutions,Water & Wastewater,Southwest,30,375000.0,1
+CUST-0202,Arbor Ridge Process Solutions,Forest Products,Southeast,45,500000.0,1
+CUST-0203,Beacon Process Solutions,General Industrial,Northeast,60,625000.0,1
+CUST-0204,Bluewater Process Solutions,Packaging Automation,Midwest,30,750000.0,1
+CUST-0205,Bridgepoint Process Solutions,Logistics Automation,Canada,45,875000.0,1
+CUST-0206,Clearwater Process Solutions,Food & Beverage Equipment,West,60,1000000.0,1
+CUST-0207,Crescent Process Solutions,Water & Wastewater,Southwest,30,1125000.0,1
+CUST-0208,Delta Process Solutions,Forest Products,Southeast,45,1250000.0,1
+CUST-0209,Eastgate Process Solutions,General Industrial,Northeast,60,1375000.0,1
+CUST-0210,Evergreen Process Solutions,Packaging Automation,Midwest,30,1500000.0,1
+CUST-0211,Fairmont Process Solutions,Logistics Automation,Canada,45,1625000.0,1
+CUST-0212,Frontier Process Solutions,Food & Beverage Equipment,West,60,1750000.0,1
+CUST-0213,Granite Process Solutions,Water & Wastewater,Southwest,30,1875000.0,1
+CUST-0214,Harbor Process Solutions,Forest Products,Southeast,45,2000000.0,1
+CUST-0215,Highland Process Solutions,General Industrial,Northeast,60,2125000.0,1
+CUST-0216,Ironwood Process Solutions,Packaging Automation,Midwest,30,2250000.0,1
+CUST-0217,Juniper Process Solutions,Logistics Automation,Canada,45,2375000.0,1
+CUST-0218,Keystone Process Solutions,Food & Beverage Equipment,West,60,2500000.0,1
+CUST-0219,Lakeshore Process Solutions,Water & Wastewater,Southwest,30,2625000.0,1
+CUST-0220,Maple Ridge Process Solutions,Forest Products,Southeast,45,250000.0,1
+CUST-0221,Meridian Process Solutions,General Industrial,Northeast,60,375000.0,1
+CUST-0222,Monarch Process Solutions,Packaging Automation,Midwest,30,500000.0,1
+CUST-0223,Northline Process Solutions,Logistics Automation,Canada,45,625000.0,1
+CUST-0224,Oakmont Process Solutions,Food & Beverage Equipment,West,60,750000.0,1
+CUST-0225,Parkside Process Solutions,Water & Wastewater,Southwest,30,875000.0,1
+CUST-0226,Pioneer Process Solutions,Forest Products,Southeast,45,1000000.0,1
+CUST-0227,Prairie State Process Solutions,General Industrial,Northeast,60,1125000.0,1
+CUST-0228,Redwood Process Solutions,Packaging Automation,Midwest,30,1250000.0,1
+CUST-0229,Riverton Process Solutions,Logistics Automation,Canada,45,1375000.0,1
+CUST-0230,Rockford Process Solutions,Food & Beverage Equipment,West,60,1500000.0,1
+CUST-0231,Silverline Process Solutions,Water & Wastewater,Southwest,30,1625000.0,1
+CUST-0232,Summit Process Solutions,Forest Products,Southeast,45,1750000.0,1
+CUST-0233,Timberline Process Solutions,General Industrial,Northeast,60,1875000.0,0
+CUST-0234,Triad Process Solutions,Packaging Automation,Midwest,30,2000000.0,0
+CUST-0235,Valley Forge Process Solutions,Logistics Automation,Canada,45,2125000.0,0
+CUST-0236,Vector Process Solutions,Food & Beverage Equipment,West,60,2250000.0,0
+CUST-0237,Westbridge Process Solutions,Water & Wastewater,Southwest,30,2375000.0,0
+CUST-0238,Willow Creek Process Solutions,Forest Products,Southeast,45,2500000.0,0
+CUST-0239,Windward Process Solutions,General Industrial,Northeast,60,2625000.0,0
+CUST-0240,Woodland Process Solutions,Packaging Automation,Midwest,30,250000.0,0

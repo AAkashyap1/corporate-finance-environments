@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_056",
+  "slug": "summit-synergy-breakeven",
+  "title": "Summit acquisition synergy breakeven",
+  "workflow": "corporate-development",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Determine the cost-synergy level required for the Summit acquisition to meet return hurdles.\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nModel phased procurement, facility, systems, and headcount cost synergies net of dis-synergies and recurring implementation cost. Calculate the year-two synergy needed for zero adjusted EPS dilution, the synergy needed for a 12% five-year equity IRR, the documented actionable cost synergy, and headroom or shortfall to each hurdle. Exclude cross-sell and every other revenue synergy from the base case.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `actionable_year_two_synergy`, `eps_breakeven_synergy`, `irr_hurdle_synergy`, `eps_synergy_headroom`, `irr_synergy_headroom`, `hurdles_met`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_056",
+    "agent_visible": false
+  }
+}

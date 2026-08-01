@@ -1,0 +1,11 @@
+From: Daniel Cho <dcho@alderridgemech.example>
+To: Senior FP&A Analyst <finance.analysis@alderridgemech.example>
+Cc: Natalie Brooks <nbrooks@alderridgemech.example>; treasury@alderridgemech.example
+Date: Wed, 1 Jul 2026 09:04:37 -0700
+Subject: cash refresh + Friday deck
+
+Start with v9 in the cash folder (DCHO edits file). It is a roll from 6/26, so opening cash and all open-item tabs are stale. Pull 6/30 cash/AR/AP and open equipment POs from the system. Natalie's AR notes override terms when she put an actual date in; don't treat her comments as a new system actual. Held AP stays out until the documented release.
+
+Keep the $1.25m line and show the revolver mechanics, including repayment if later collections permit. First get the base schedule tied; the downside working copy should move the named receipts and late equipment commitments exactly as noted, without overwriting the base import.
+
+Daniel

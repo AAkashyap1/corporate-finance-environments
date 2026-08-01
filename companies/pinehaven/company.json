@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "name": "Pinehaven Motion Systems",
+  "industry": "multi-plant discrete manufacturing",
+  "snapshot": "2026-06-30-pre-close",
+  "task_set": {
+    "count": 100,
+    "index": "tasks/index.json",
+    "task_directory": "tasks",
+    "output_modes": {
+      "console": 52,
+      "document": 10,
+      "erp": 8,
+      "presentation": 6,
+      "spreadsheet": 24
+    },
+    "difficulty_labels": {
+      "advanced": 78,
+      "expert": 22
+    },
+    "workflows": {
+      "capital-strategy": 10,
+      "commercial-finance": 10,
+      "executive-synthesis": 10,
+      "inventory-working-capital": 10,
+      "manufacturing-close": 10,
+      "operations-finance": 10,
+      "procurement-finance": 10,
+      "production-execution": 1,
+      "sop-reforecast": 10,
+      "tax-corpdev": 10,
+      "treasury": 9
+    },
+    "submission_index": "tasks/hud-taskset.json",
+    "submission_count": 94
+  },
+  "source_files": {
+    "directory": "source-files",
+    "count": 164,
+    "artifact_types": {
+      "csv": 20,
+      "docx": 20,
+      "eml": 30,
+      "json": 1,
+      "md": 1,
+      "pdf": 20,
+      "pptx": 10,
+      "xlsx": 62
+    }
+  },
+  "agent_interfaces": [
+    {
+      "name": "agent workspace",
+      "type": "filesystem",
+      "description": "164 finance, manufacturing, policy, correspondence, spreadsheet, presentation, document, PDF, and email files"
+    },
+    {
+      "name": "pinehaven_manufacturing_erp",
+      "type": "MCP",
+      "description": "manufacturing ERP reports and tightly scoped authorized workflows"
+    }
+  ],
+  "runtime": {
+    "dockerfile": "Dockerfile",
+    "hud_entrypoint": "pinehaven-manufacturing-finance-v1",
+    "source_directory": "runtime",
+    "agent_visible_paths": [
+      "/workspace"
+    ],
+    "private_paths": [
+      "/environment"
+    ]
+  },
+  "evaluator": {
+    "directory": "evaluator",
+    "reference_directory": "evaluator/reference",
+    "agent_visible": false,
+    "grading_policy": "weighted atomic criteria with fail-closed integrity and artifact checks"
+  },
+  "rights_and_privacy": {
+    "company_and_records": "fictional",
+    "real_client_or_partner_data": false,
+    "commercial_licensing_controlled_by_repository_owner": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_074",
+  "slug": "bank-relationship-scorecard",
+  "title": "Bank relationship profitability scorecard",
+  "workflow": "treasury",
+  "difficulty": "advanced-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Evaluate the economics and concentration of Alder Ridge's current banking relationships.\n\nBegin with the July liquidity, banking, and covenant-outlook thread in `Requests/`, including the bank follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nCombine deposit balances, collected-balance credits, treasury-service fees, card rebates, loan balances, spreads, commitment fees, and capital-attribution charges into a relationship profitability score for each bank. Measure deposit and credit concentration against treasury policy, account for minimum operating balances, and quantify the rebalance needed to cure any violation while preserving available liquidity. Return bank-level net relationship value, concentration percentages, policy exceptions, and the recommended reallocation.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `bank_A_net_relationship_value`, `bank_B_net_relationship_value`, `bank_C_net_relationship_value`, `largest_deposit_concentration`, `largest_credit_concentration`, `policy_exceptions`, `recommended_deposit_reallocation`, `recommended_credit_reallocation`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_074",
+    "agent_visible": false
+  }
+}

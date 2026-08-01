@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_005",
+  "slug": "grand-rapids-june-output-and-variance",
+  "title": "Grand Rapids June output and variance",
+  "workflow": "manufacturing-close",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Grand Rapids June output and variance**.\n\nUse the ERP general ledger, production-cost, WIP, and reconciliation reports together with the Monthly Close Policy, production-order close policy, June close instructions, and the applicable close binder.\n\nAuthoritative reconciliation source set:\n- `ERP production completion and variance reports by site`\n- `Operations/Plant Scorecards`\n- `Finance/Analyses/Production Variance Bridge.xlsx`\n\nCalculation basis: Use production orders whose actual or scheduled finish falls in the specified period and the requested plant.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"date_from\": \"2026-06-01\",\n  \"date_to\": \"2026-06-30\",\n  \"site_code\": \"100\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"order_count\", \"completed_units\", \"scrap_units\", \"yield_rate\", \"standard_output\", \"total_variance\", \"variance_rate\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_005",
+    "agent_visible": false
+  }
+}

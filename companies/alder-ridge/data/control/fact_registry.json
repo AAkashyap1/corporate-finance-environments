@@ -1,0 +1,115 @@
+{
+  "company_id": "alder-ridge-mechanical-v2",
+  "snapshot": "2026-06-30-pre-close",
+  "control_only_not_agent_visible": true,
+  "rules": [
+    "Posted actuals originate in the accounting system.",
+    "Downstream workpapers retain source imports and formula-derived outputs.",
+    "Forecasts, plans, proposed entries and operational judgments are labeled and do not overwrite posted actuals.",
+    "Superseded files remain only when their status and controlling replacement are discoverable."
+  ],
+  "facts": [
+    {
+      "fact_id": "cash-2026-06-30",
+      "value": 3743119.76,
+      "unit": "USD",
+      "source": "Accounting MCP balance sheet / cash account detail"
+    },
+    {
+      "fact_id": "open-ar-2026-06-30",
+      "value": 7970225.8,
+      "unit": "USD",
+      "source": "Accounting MCP invoice population"
+    },
+    {
+      "fact_id": "open-ap-2026-06-30",
+      "value": 4027929.12,
+      "unit": "USD",
+      "source": "Accounting MCP bill population"
+    },
+    {
+      "fact_id": "june-revenue-posted",
+      "value": 3559084.13,
+      "unit": "USD",
+      "source": "Accounting MCP profit-and-loss report"
+    },
+    {
+      "fact_id": "june-gross-profit-posted",
+      "value": -224504.37,
+      "unit": "USD",
+      "source": "Accounting MCP profit-and-loss report"
+    },
+    {
+      "fact_id": "ytd-revenue-posted",
+      "value": 24650000.0,
+      "unit": "USD",
+      "source": "Accounting MCP profit-and-loss report"
+    },
+    {
+      "fact_id": "wip-current-contract",
+      "value": 94429000,
+      "unit": "USD",
+      "source": "Accounting MCP contract values + June WIP policy model"
+    },
+    {
+      "fact_id": "wip-earned-revenue",
+      "value": 56920611.73,
+      "unit": "USD",
+      "source": "June cost-to-cost WIP model"
+    },
+    {
+      "fact_id": "wip-contract-asset",
+      "value": 1902688.86,
+      "unit": "USD",
+      "source": "June WIP model"
+    },
+    {
+      "fact_id": "wip-contract-liability",
+      "value": 626363.16,
+      "unit": "USD",
+      "source": "June WIP model"
+    },
+    {
+      "fact_id": "active-employees",
+      "value": 112,
+      "unit": "employees",
+      "source": "Employee master population"
+    },
+    {
+      "fact_id": "fixed-asset-gross-cost",
+      "value": 5601400.0,
+      "unit": "USD",
+      "source": "Fixed-asset register tied to GL 1500/1510/1520"
+    },
+    {
+      "fact_id": "fixed-asset-accumulated-depreciation",
+      "value": 3287828.05,
+      "unit": "USD",
+      "source": "Fixed-asset register tied to GL 1590"
+    },
+    {
+      "fact_id": "prepaid-net-balance",
+      "value": 191216.64,
+      "unit": "USD",
+      "source": "Insurance/policy/software subledger after cumulative amortization; ties to GL 1300/1310"
+    },
+    {
+      "fact_id": "service-first-time-fix",
+      "value": 0.954368,
+      "unit": "ratio",
+      "source": "Six-month dispatch close population"
+    },
+    {
+      "fact_id": "fleet-availability",
+      "value": 0.911765,
+      "unit": "ratio",
+      "source": "34-unit fleet roster"
+    },
+    {
+      "fact_id": "q1-signed-backlog",
+      "value": 42863198.26,
+      "unit": "USD",
+      "source": "Q1 work-on-hand rebuilt from posted job cost and then-current contract/cost budgets"
+    }
+  ]
+}

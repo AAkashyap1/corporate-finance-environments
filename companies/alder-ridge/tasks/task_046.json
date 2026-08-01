@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_046",
+  "slug": "cad-equipment-fx-hedge",
+  "title": "Foreign-currency equipment hedge",
+  "workflow": "treasury",
+  "difficulty": "expert-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Determine the USD budget and hedge for committed Canadian-dollar equipment purchases.\n\nBegin with the July liquidity, banking, and covenant-outlook thread in `Requests/`, including the bank follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nMap each CAD payment to its settlement month, apply the documented probability only to uncommitted optional purchases, and compare remaining unhedged exposure with forward contracts and options. Include forward points, option premium, and scenario spot rates. Existing forwards cannot be redesignated. Return committed CAD exposure, currently hedged CAD, incremental hedge amount, locked USD cost, downside unhedged USD cost, and recommendation.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `committed_cad_exposure`, `currently_hedged_cad`, `incremental_forward_cad`, `locked_usd_cost`, `downside_unhedged_usd_cost`, `hedge_recommendation`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_046",
+    "agent_visible": false
+  }
+}

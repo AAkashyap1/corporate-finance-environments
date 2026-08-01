@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_054",
+  "slug": "open-quality-and-nonconformance-exposure",
+  "title": "Open quality and nonconformance exposure",
+  "workflow": "operations-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Open quality and nonconformance exposure**.\n\nUse ERP payroll, production confirmations, scrap/yield, quality orders, nonconformances, maintenance work orders, and work-center data together with the plant scorecards and audit summaries.\n\nAuthoritative reconciliation source set:\n- `ERP quality-order, nonconformance, and inventory-hold reports`\n- `Supply Chain/Analyses/Quality Exposure.xlsx`\n- `Presentations/Supplier and Quality Risk Review.pptx`\n\nCalculation basis: Use open quality orders, open nonconformances, and June 30 blocked/quality-held inventory. Rank `top_item` and calculate `top_item_exposure` from open quality-order estimated financial exposure only; report nonconformance count and blocked inventory value separately without adding them to `top_item_exposure`.\n\nNo additional management case inputs.\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"open_quality_orders\", \"failed_quantity\", \"financial_exposure\", \"nonconformances\", \"blocked_inventory_value\", \"top_item\", \"top_item_exposure\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_054",
+    "agent_visible": false
+  }
+}

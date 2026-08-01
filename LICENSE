@@ -1,0 +1,73 @@
+Corporate Finance Environments Commercial Evaluation License 1.0
+
+Copyright (c) 2026. All rights reserved.
+
+1. Scope. “Materials” means the company packages, task prompts, source files,
+databases, software, evaluators, criteria, expected results, documentation, and
+derived datasets supplied by Licensor. “Order Form” means a written commercial
+agreement identifying Licensor, Licensee, the licensed Materials, term, fees,
+authorized users, model use, deployment scope, and negotiated data-use terms.
+
+2. Evaluation license. If Licensor supplies the Materials without an executed
+Order Form, Licensor grants the recipient a revocable, non-exclusive,
+non-transferable right for 30 days to evaluate the Materials internally. The
+recipient may run the company packages and inspect results, but may not train or
+fine-tune a model, publish benchmark results, provide the Materials to another
+party, use them in production, or create a competing task or environment set.
+
+3. Commercial license. An executed Order Form grants only the rights stated in
+that Order Form. Unless it expressly states otherwise, the license is
+non-exclusive, non-transferable, limited to the named legal entity, and permits
+internal evaluation and model post-training during the stated term. Affiliates,
+contractors, hosted-model providers, and redistribution require express written
+authorization.
+
+4. Restrictions. Licensee must not: (a) publish, sublicense, sell, or expose the
+Materials or substantially equivalent reconstructions; (b) make evaluator
+references, private controls, canaries, or holdout variants available to an
+evaluated agent; (c) remove notices or falsify provenance; (d) use the Materials
+or resulting models for unlawful activity; (e) claim that fictional records
+identify real people or operating companies; or (f) represent a disclosed copy
+of the Materials as an uncontaminated holdout.
+
+5. Derived artifacts. Model weights, aggregate metrics, and internal analyses
+created through an authorized use belong to Licensee, subject to the Order Form.
+They may not contain or enable extraction of substantial source files, expected
+results, or other protected Materials. Raw or lightly transformed traces, task
+variants, criteria, and artifact collections remain Materials.
+
+6. Confidentiality and security. Non-public Materials are Licensor confidential
+information. Licensee must apply reasonable administrative, technical, and
+physical safeguards, restrict access to authorized personnel, keep secrets out
+of agent-visible workspaces and logs, and notify Licensor promptly of suspected
+unauthorized access or disclosure.
+
+7. Feedback. Licensee may provide feedback. Licensor may use non-confidential
+feedback without restriction and without identifying Licensee.
+
+8. No trademark license. No right to use a party’s names, marks, or logos is
+granted except as expressly stated in an Order Form.
+
+9. Disclaimer. THE MATERIALS DEPICT FICTIONAL COMPANIES, PEOPLE, TRANSACTIONS,
+AND RECORDS AND ARE PROVIDED “AS IS.” TO THE MAXIMUM EXTENT PERMITTED BY LAW,
+LICENSOR DISCLAIMS ALL WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, NON-INFRINGEMENT, AND THAT ANY MODEL TRAINED OR EVALUATED
+WITH THE MATERIALS WILL BE ACCURATE, SAFE, OR SUITABLE FOR FINANCIAL DECISIONS.
+THE MATERIALS ARE NOT ACCOUNTING, INVESTMENT, TAX, LEGAL, OR OTHER PROFESSIONAL
+ADVICE.
+
+10. Liability. TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR WILL NOT BE
+LIABLE FOR INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE
+DAMAGES, OR FOR LOST PROFITS, DATA, OR GOODWILL. LICENSOR’S AGGREGATE LIABILITY
+UNDER AN EVALUATION LICENSE WILL NOT EXCEED US$100. LIABILITY UNDER A COMMERCIAL
+LICENSE IS GOVERNED BY THE ORDER FORM.
+
+11. Termination. This license terminates automatically upon material breach.
+Licensee must stop use and delete or return the Materials, except for archival
+copies required by law and model weights the Order Form expressly permits
+Licensee to retain. Sections 4 through 12 survive as applicable.
+
+12. General. An Order Form controls over conflicting terms in this license. No
+waiver or amendment is effective unless written. Licensee may not assign this
+license without Licensor’s written consent. Governing law, venue, audit rights,
+indemnities, and negotiated liability terms must be stated in the Order Form.

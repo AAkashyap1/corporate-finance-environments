@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_count": 100,
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "slug": "arm-2409-wip-backcharge",
+      "title": "ARM-2409 disputed-backcharge WIP treatment",
+      "workflow": "project-accounting",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_001.json"
+    },
+    {
+      "task_id": "task_002",
+      "slug": "arm-2417-wip-night-shift",
+      "title": "ARM-2417 pending-change WIP treatment",
+      "workflow": "project-accounting",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_002.json"
+    },
+    {
+      "task_id": "task_003",
+      "slug": "june-wip-proposed-entry",
+      "title": "June gross WIP balances and proposed entry",
+      "workflow": "controllership",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_003.json"
+    },
+    {
+      "task_id": "task_004",
+      "slug": "complete-june-wip-risk-template",
+      "title": "Complete the four-project WIP risk template",
+      "workflow": "controllership",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_004.json"
+    },
+    {
+      "task_id": "task_005",
+      "slug": "base-13-week-liquidity",
+      "title": "Base 13-week liquidity result",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_005.json"
+    },
+    {
+      "task_id": "task_006",
+      "slug": "downside-liquidity-sensitivity",
+      "title": "CFO downside liquidity sensitivity",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_006.json"
+    },
+    {
+      "task_id": "task_007",
+      "slug": "named-ar-concentration",
+      "title": "Named-customer AR concentration",
+      "workflow": "working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_007.json"
+    },
+    {
+      "task_id": "task_008",
+      "slug": "complete-downside-cash-workbook",
+      "title": "Complete the downside cash schedule and chart",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_008.json"
+    },
+    {
+      "task_id": "task_009",
+      "slug": "june-pl-variance",
+      "title": "June P&L actual-versus-plan variance",
+      "workflow": "fpa",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_009.json"
+    },
+    {
+      "task_id": "task_010",
+      "slug": "q2-rework-concentration",
+      "title": "Q2 rework concentration and cost sensitivity",
+      "workflow": "fpa-operations",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_010.json"
+    },
+    {
+      "task_id": "task_011",
+      "slug": "q2-service-kpis",
+      "title": "Q2 service work-order KPI calculation",
+      "workflow": "service-fpa",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_011.json"
+    },
+    {
+      "task_id": "task_012",
+      "slug": "complete-june-flash-bridge",
+      "title": "Complete the June flash bridge and chart",
+      "workflow": "fpa",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_012.json"
+    },
+    {
+      "task_id": "task_013",
+      "slug": "q2-borrowing-base",
+      "title": "Q2 invoice-level borrowing base",
+      "workflow": "lender-reporting",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_013.json"
+    },
+    {
+      "task_id": "task_014",
+      "slug": "q2-covenant-headroom",
+      "title": "Q2 posted and pro-forma covenant headroom",
+      "workflow": "lender-reporting",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_014.json"
+    },
+    {
+      "task_id": "task_015",
+      "slug": "append-q2-covenant-slide",
+      "title": "Append one Q2 covenant-headroom slide",
+      "workflow": "lender-reporting",
+      "difficulty": "advanced",
+      "output_mode": "presentation_edit",
+      "file": "task_015.json"
+    },
+    {
+      "task_id": "task_016",
+      "slug": "june-close-cross-ledger-controls",
+      "title": "June close cross-ledger control reconciliation",
+      "workflow": "controllership",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_016.json"
+    },
+    {
+      "task_id": "task_017",
+      "slug": "working-capital-cash-release",
+      "title": "Working-capital normalization and cash-release sensitivity",
+      "workflow": "working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_017.json"
+    },
+    {
+      "task_id": "task_018",
+      "slug": "h2-backlog-coverage",
+      "title": "H2 backlog and weighted-pipeline coverage",
+      "workflow": "fpa-operations",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_018.json"
+    },
+    {
+      "task_id": "task_019",
+      "slug": "midyear-capex-funding-screen",
+      "title": "Midyear capex funding and release screen",
+      "workflow": "capital-planning",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_019.json"
+    },
+    {
+      "task_id": "task_020",
+      "slug": "payroll-mix-and-loaded-rate",
+      "title": "Payroll mix, overtime, and loaded-rate reconciliation",
+      "workflow": "fpa-labor",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_020.json"
+    },
+    {
+      "task_id": "task_021",
+      "slug": "fixed-assets-debt-capex-proforma",
+      "title": "Fixed-assets, debt, and approved-capex pro forma",
+      "workflow": "treasury-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_021.json"
+    },
+    {
+      "task_id": "task_022",
+      "slug": "service-capacity-van-ramp",
+      "title": "Q2 service-capacity and three-van ramp sensitivity",
+      "workflow": "service-fpa",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_022.json"
+    },
+    {
+      "task_id": "task_023",
+      "slug": "complete-q2-lender-workbook",
+      "title": "Complete the Q2 covenant and borrowing-base workbook",
+      "workflow": "lender-reporting",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_023.json"
+    },
+    {
+      "task_id": "task_024",
+      "slug": "create-capex-funding-workbook",
+      "title": "Create the midyear capex funding screen",
+      "workflow": "capital-planning",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet_create",
+      "file": "task_024.json"
+    },
+    {
+      "task_id": "task_025",
+      "slug": "create-q2-cfo-decision-note",
+      "title": "Create the Q2 close CFO decision note",
+      "workflow": "cfo-synthesis",
+      "difficulty": "advanced",
+      "output_mode": "document_create",
+      "file": "task_025.json"
+    },
+    {
+      "task_id": "task_026",
+      "slug": "fy27-branch-revenue-forecast",
+      "title": "FY27 branch revenue driver forecast",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_026.json"
+    },
+    {
+      "task_id": "task_027",
+      "slug": "complete-fy27-scenario-model",
+      "title": "Complete the FY27 EBITDA scenario model",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_027.json"
+    },
+    {
+      "task_id": "task_028",
+      "slug": "twelve-month-opex-reforecast",
+      "title": "Twelve-month operating-expense reforecast",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_028.json"
+    },
+    {
+      "task_id": "task_029",
+      "slug": "service-price-volume-mix",
+      "title": "Service revenue price-volume-mix variance",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_029.json"
+    },
+    {
+      "task_id": "task_030",
+      "slug": "construction-margin-bridge",
+      "title": "Construction gross-margin driver bridge",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_030.json"
+    },
+    {
+      "task_id": "task_031",
+      "slug": "complete-field-workforce-plan",
+      "title": "Complete the FY27 field workforce plan",
+      "workflow": "fpa-labor",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_031.json"
+    },
+    {
+      "task_id": "task_032",
+      "slug": "forecast-accuracy-bias",
+      "title": "Forecast accuracy and bias backtest",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_032.json"
+    },
+    {
+      "task_id": "task_033",
+      "slug": "branch-contribution-profitability",
+      "title": "Branch contribution and economic-profit ranking",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_033.json"
+    },
+    {
+      "task_id": "task_034",
+      "slug": "service-contract-cohort-forecast",
+      "title": "Service-contract cohort renewal forecast",
+      "workflow": "fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_034.json"
+    },
+    {
+      "task_id": "task_035",
+      "slug": "complete-backlog-capacity-model",
+      "title": "Complete the backlog burn and capacity model",
+      "workflow": "fpa-operations",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_035.json"
+    },
+    {
+      "task_id": "task_036",
+      "slug": "cash-conversion-forecast",
+      "title": "Cash-conversion and working-capital forecast",
+      "workflow": "fpa-treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_036.json"
+    },
+    {
+      "task_id": "task_037",
+      "slug": "create-capital-portfolio-model",
+      "title": "Create the FY27 capital-project portfolio model",
+      "workflow": "capital-planning",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_037.json"
+    },
+    {
+      "task_id": "task_038",
+      "slug": "boise-branch-expansion",
+      "title": "Boise branch expansion business case",
+      "workflow": "capital-planning",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_038.json"
+    },
+    {
+      "task_id": "task_039",
+      "slug": "fleet-alternative-npv",
+      "title": "Fleet replacement financing alternative",
+      "workflow": "capital-planning",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_039.json"
+    },
+    {
+      "task_id": "task_040",
+      "slug": "create-five-year-lrp",
+      "title": "Create the five-year long-range plan",
+      "workflow": "strategic-finance",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_040.json"
+    },
+    {
+      "task_id": "task_041",
+      "slug": "complete-daily-cash-position",
+      "title": "Complete the 30-day daily cash-position model",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_041.json"
+    },
+    {
+      "task_id": "task_042",
+      "slug": "seasonal-liquidity-headroom",
+      "title": "Seasonal liquidity and revolver headroom",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_042.json"
+    },
+    {
+      "task_id": "task_043",
+      "slug": "term-loan-refinancing-npv",
+      "title": "Term-loan refinancing NPV decision",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_043.json"
+    },
+    {
+      "task_id": "task_044",
+      "slug": "interest-rate-hedge-strategy",
+      "title": "Interest-rate hedge strategy",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_044.json"
+    },
+    {
+      "task_id": "task_045",
+      "slug": "bank-rfp-economics",
+      "title": "Bank RFP economics and relationship recommendation",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_045.json"
+    },
+    {
+      "task_id": "task_046",
+      "slug": "cad-equipment-fx-hedge",
+      "title": "Foreign-currency equipment hedge",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_046.json"
+    },
+    {
+      "task_id": "task_047",
+      "slug": "liquidity-investment-allocation",
+      "title": "Short-term liquidity investment allocation",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_047.json"
+    },
+    {
+      "task_id": "task_048",
+      "slug": "complete-eight-quarter-covenant-forecast",
+      "title": "Complete the eight-quarter covenant forecast",
+      "workflow": "treasury",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_048.json"
+    },
+    {
+      "task_id": "task_049",
+      "slug": "corporate-wacc",
+      "title": "Corporate weighted-average cost of capital",
+      "workflow": "strategic-finance",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_049.json"
+    },
+    {
+      "task_id": "task_050",
+      "slug": "shareholder-distribution-capacity",
+      "title": "Shareholder distribution capacity",
+      "workflow": "strategic-finance",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_050.json"
+    },
+    {
+      "task_id": "task_051",
+      "slug": "redwood-qoe",
+      "title": "Redwood Controls quality-of-earnings normalization",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_051.json"
+    },
+    {
+      "task_id": "task_052",
+      "slug": "bluepeak-nwc-peg",
+      "title": "BluePeak normalized working-capital peg",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_052.json"
+    },
+    {
+      "task_id": "task_053",
+      "slug": "create-northstar-dcf",
+      "title": "Create the Northstar standalone DCF",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_053.json"
+    },
+    {
+      "task_id": "task_054",
+      "slug": "controls-trading-comps",
+      "title": "Public-company trading-comparables valuation",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_054.json"
+    },
+    {
+      "task_id": "task_055",
+      "slug": "create-horizon-accretion-model",
+      "title": "Create the Horizon acquisition accretion model",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_055.json"
+    },
+    {
+      "task_id": "task_056",
+      "slug": "summit-synergy-breakeven",
+      "title": "Summit acquisition synergy breakeven",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_056.json"
+    },
+    {
+      "task_id": "task_057",
+      "slug": "evergreen-sources-uses",
+      "title": "Evergreen acquisition sources and uses",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_057.json"
+    },
+    {
+      "task_id": "task_058",
+      "slug": "atlas-earnout",
+      "title": "Atlas acquisition earnout valuation",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_058.json"
+    },
+    {
+      "task_id": "task_059",
+      "slug": "service-division-carveout",
+      "title": "Service division divestiture carve-out",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_059.json"
+    },
+    {
+      "task_id": "task_060",
+      "slug": "complete-orion-integration-plan",
+      "title": "Complete the Orion integration value-capture plan",
+      "workflow": "corporate-development",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_060.json"
+    },
+    {
+      "task_id": "task_061",
+      "slug": "complete-tax-provision-model",
+      "title": "Complete the annual income-tax provision model",
+      "workflow": "controllership-tax",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_061.json"
+    },
+    {
+      "task_id": "task_062",
+      "slug": "quarterly-cash-tax-forecast",
+      "title": "Quarterly cash-tax and estimated-payment forecast",
+      "workflow": "controllership-tax",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_062.json"
+    },
+    {
+      "task_id": "task_063",
+      "slug": "state-tax-apportionment",
+      "title": "Multistate income-tax apportionment",
+      "workflow": "controllership-tax",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_063.json"
+    },
+    {
+      "task_id": "task_064",
+      "slug": "adjusted-ebitda-reconciliation",
+      "title": "Adjusted EBITDA and non-GAAP reconciliation",
+      "workflow": "controllership",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_064.json"
+    },
+    {
+      "task_id": "task_065",
+      "slug": "service-deferred-revenue-forecast",
+      "title": "Service deferred-revenue recognition forecast",
+      "workflow": "controllership-fpa",
+      "difficulty": "expert-long-horizon",
+      "output_mode": "console",
+      "file": "task_065.json"
+    },
+    {
+      "task_id": "task_066",
+      "slug": "create-ir-kpi-fact-sheet",
+      "title": "Create the Q2 investor and lender KPI fact sheet",
+      "workflow": "investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_066.json"
+    },
+    {
+      "task_id": "task_067",
+      "slug": "complete-board-performance-dashboard",
+      "title": "Complete the Q2 board performance dashboard",
+      "workflow": "fpa-investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "spreadsheet_edit",
+      "file": "task_067.json"
+    },
+    {
+      "task_id": "task_068",
+      "slug": "complete-executive-performance-deck",
+      "title": "Complete the June executive performance review",
+      "workflow": "fpa-investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "presentation_edit",
+      "file": "task_068.json"
+    },
+    {
+      "task_id": "task_069",
+      "slug": "competitor-operating-benchmark",
+      "title": "Competitor operating benchmark",
+      "workflow": "strategic-finance-investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "console",
+      "file": "task_069.json"
+    },
+    {
+      "task_id": "task_070",
+      "slug": "commercial-market-sizing",
+      "title": "Commercial service market sizing",
+      "workflow": "strategic-finance",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "console",
+      "file": "task_070.json"
+    },
+    {
+      "task_id": "task_071",
+      "slug": "peer-multiple-bridge",
+      "title": "Peer valuation multiple bridge",
+      "workflow": "investor-relations-strategic-finance",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "console",
+      "file": "task_071.json"
+    },
+    {
+      "task_id": "task_072",
+      "slug": "create-quarterly-financial-narrative",
+      "title": "Create the Q2 earnings and lender narrative",
+      "workflow": "investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "document_create",
+      "file": "task_072.json"
+    },
+    {
+      "task_id": "task_073",
+      "slug": "credit-metrics-debt-capacity",
+      "title": "Credit metrics and incremental debt capacity",
+      "workflow": "treasury-investor-relations",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "console",
+      "file": "task_073.json"
+    },
+    {
+      "task_id": "task_074",
+      "slug": "bank-relationship-scorecard",
+      "title": "Bank relationship profitability scorecard",
+      "workflow": "treasury",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "console",
+      "file": "task_074.json"
+    },
+    {
+      "task_id": "task_075",
+      "slug": "create-capital-allocation-memo",
+      "title": "Create the FY27 strategic capital-allocation memorandum",
+      "workflow": "strategic-finance",
+      "difficulty": "advanced-long-horizon",
+      "output_mode": "document_create",
+      "file": "task_075.json"
+    },
+    {
+      "task_id": "task_076",
+      "slug": "create-integrated-fy27-plan",
+      "title": "Create the integrated FY27 operating plan",
+      "workflow": "fpa",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_076.json"
+    },
+    {
+      "task_id": "task_077",
+      "slug": "rolling-forecast-variance-actions",
+      "title": "Rolling forecast variance and corrective actions",
+      "workflow": "fpa",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_077.json"
+    },
+    {
+      "task_id": "task_078",
+      "slug": "backlog-pipeline-capacity-conversion",
+      "title": "Backlog, pipeline, and capacity conversion",
+      "workflow": "fpa-operations",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_078.json"
+    },
+    {
+      "task_id": "task_079",
+      "slug": "customer-economic-profit",
+      "title": "Customer profitability and economic profit",
+      "workflow": "fpa",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_079.json"
+    },
+    {
+      "task_id": "task_080",
+      "slug": "scenario-earnings-liquidity-risk",
+      "title": "Scenario-weighted earnings and liquidity at risk",
+      "workflow": "fpa-treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_080.json"
+    },
+    {
+      "task_id": "task_081",
+      "slug": "create-budget-reallocation-optimizer",
+      "title": "Create the FY27 budget-reallocation optimizer",
+      "workflow": "fpa",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_081.json"
+    },
+    {
+      "task_id": "task_082",
+      "slug": "create-dynamic-thirteen-week-cash",
+      "title": "Create the dynamic 13-week cash and revolver model",
+      "workflow": "treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_082.json"
+    },
+    {
+      "task_id": "task_083",
+      "slug": "refinancing-hedge-covenant-economics",
+      "title": "Refinancing, hedge, and covenant economics",
+      "workflow": "treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_083.json"
+    },
+    {
+      "task_id": "task_084",
+      "slug": "layered-fx-hedge-plan",
+      "title": "Layered FX hedge plan",
+      "workflow": "treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_084.json"
+    },
+    {
+      "task_id": "task_085",
+      "slug": "abl-borrowing-base-covenant-cure",
+      "title": "ABL borrowing base and covenant cure",
+      "workflow": "treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_085.json"
+    },
+    {
+      "task_id": "task_086",
+      "slug": "cash-investment-liquidity-ladder",
+      "title": "Cash-investment liquidity ladder",
+      "workflow": "treasury",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_086.json"
+    },
+    {
+      "task_id": "task_087",
+      "slug": "create-pioneer-qoe-purchase-price",
+      "title": "Create the Pioneer QoE and purchase-price bridge",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_087.json"
+    },
+    {
+      "task_id": "task_088",
+      "slug": "risk-adjusted-synergy-returns",
+      "title": "Risk-adjusted synergy phasing and returns",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_088.json"
+    },
+    {
+      "task_id": "task_089",
+      "slug": "carveout-standalone-tsa",
+      "title": "Carve-out standalone, TSA, and stranded-cost analysis",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_089.json"
+    },
+    {
+      "task_id": "task_090",
+      "slug": "transaction-structure-accretion-leverage",
+      "title": "Transaction-structure accretion and leverage",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_090.json"
+    },
+    {
+      "task_id": "task_091",
+      "slug": "valuation-triangulation-bid-ceiling",
+      "title": "Valuation triangulation and bid ceiling",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_091.json"
+    },
+    {
+      "task_id": "task_092",
+      "slug": "create-acquisition-financing-ic-memo",
+      "title": "Create the Pioneer financing and downside IC memo",
+      "workflow": "corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "document_create",
+      "file": "task_092.json"
+    },
+    {
+      "task_id": "task_093",
+      "slug": "deferred-tax-nol-163j",
+      "title": "Deferred tax, NOL, and Section 163(j) roll-forward",
+      "workflow": "tax",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_093.json"
+    },
+    {
+      "task_id": "task_094",
+      "slug": "contract-modification-ssp-revenue",
+      "title": "Contract modification, SSP, and revenue bridge",
+      "workflow": "controllership",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_094.json"
+    },
+    {
+      "task_id": "task_095",
+      "slug": "fcf-nongaap-policy-reconciliation",
+      "title": "Free-cash-flow and non-GAAP policy reconciliation",
+      "workflow": "controllership-investor-relations",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_095.json"
+    },
+    {
+      "task_id": "task_096",
+      "slug": "stock-asset-tax-structure",
+      "title": "Stock-versus-asset transaction tax structure",
+      "workflow": "tax-corporate-development",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_096.json"
+    },
+    {
+      "task_id": "task_097",
+      "slug": "earnings-guidance-range",
+      "title": "Earnings guidance range and probability bridge",
+      "workflow": "investor-relations",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_097.json"
+    },
+    {
+      "task_id": "task_098",
+      "slug": "create-restated-kpi-fact-sheet",
+      "title": "Create the restated investor KPI fact sheet",
+      "workflow": "investor-relations",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "spreadsheet_create",
+      "file": "task_098.json"
+    },
+    {
+      "task_id": "task_099",
+      "slug": "repurchase-vs-debt-paydown",
+      "title": "Repurchase-versus-debt-paydown decision",
+      "workflow": "capital-allocation",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "console",
+      "file": "task_099.json"
+    },
+    {
+      "task_id": "task_100",
+      "slug": "create-cfo-board-strategic-finance-deck",
+      "title": "Create the CFO strategic-finance board deck",
+      "workflow": "cfo-synthesis",
+      "difficulty": "expert-adversarial-long-horizon",
+      "output_mode": "presentation_create",
+      "file": "task_100.json"
+    }
+  ]
+}

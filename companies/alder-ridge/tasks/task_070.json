@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_070",
+  "slug": "commercial-market-sizing",
+  "title": "Commercial service market sizing",
+  "workflow": "strategic-finance",
+  "difficulty": "advanced-long-horizon",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Size the addressable commercial HVAC and controls service market in Alder Ridge's expansion territory.\n\nBegin with the Q2 board, lender, and investor-relations thread in `Requests/`, including the source-tie follow-up. Work through the shared finance folders as an Alder Ridge analyst would: identify the current controller-tied workpapers, retain prior versions only for comparison, and resolve source authority from dates, approvals, document status, and the management correspondence. Several nearby files are earlier working versions or belong to a different reporting purpose. Reconcile any Alder Ridge posted baseline through the contractor-accounting MCP; external target, peer, bank, or market evidence remains controlled by the applicable finance source and must not be forced into Alder Ridge's ledger.\n\nThis is an independently reset assignment. Recompute the analysis from the shared company sources and do not rely on a deliverable produced by another task.\n\nTriangulate installed commercial square footage, service spend per square foot, equipment age, outsourced-service penetration, controls attach, and reachable customer segments. Remove government facilities excluded by the strategy memo and avoid double counting controls spend already embedded in full-service contracts. Calculate TAM, serviceable available market, three-year obtainable market, implied year-three revenue, and the technician capacity required to serve it. Return `three_year_obtainable_market` as the obtainable dollar market amount—not a percentage share—and return `year_three_revenue` as that same dollar amount under the stated capture case.\n\nDo not modify files or post transactions. Return only one JSON object with exactly these keys: `total_addressable_market`, `serviceable_available_market`, `three_year_obtainable_market`, `year_three_revenue`, `required_year_three_technicians`, `largest_market_sizing_sensitivity`. Use dollars to two decimals, ratios and percentages as decimal ratios to at least four decimals, and lists as JSON arrays.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_026_100.json",
+    "reference_key": "task_070",
+    "agent_visible": false
+  }
+}

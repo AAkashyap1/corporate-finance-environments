@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "name": "Alder Ridge Mechanical",
+  "industry": "specialty mechanical contracting",
+  "snapshot": "2026-06-30-pre-close",
+  "task_set": {
+    "count": 100,
+    "index": "tasks/index.json",
+    "task_directory": "tasks",
+    "output_modes": {
+      "console": 70,
+      "document_create": 4,
+      "presentation_create": 1,
+      "presentation_edit": 2,
+      "spreadsheet_create": 11,
+      "spreadsheet_edit": 12
+    },
+    "difficulty_labels": {
+      "advanced": 25,
+      "advanced-long-horizon": 10,
+      "expert-adversarial-long-horizon": 25,
+      "expert-long-horizon": 40
+    },
+    "workflows": {
+      "capital-allocation": 1,
+      "capital-planning": 5,
+      "cfo-synthesis": 2,
+      "controllership": 5,
+      "controllership-fpa": 1,
+      "controllership-investor-relations": 1,
+      "controllership-tax": 3,
+      "corporate-development": 16,
+      "fpa": 14,
+      "fpa-investor-relations": 2,
+      "fpa-labor": 2,
+      "fpa-operations": 4,
+      "fpa-treasury": 2,
+      "investor-relations": 4,
+      "investor-relations-strategic-finance": 1,
+      "lender-reporting": 4,
+      "project-accounting": 2,
+      "service-fpa": 2,
+      "strategic-finance": 5,
+      "strategic-finance-investor-relations": 1,
+      "tax": 1,
+      "tax-corporate-development": 1,
+      "treasury": 17,
+      "treasury-capital": 1,
+      "treasury-investor-relations": 1,
+      "working-capital": 2
+    },
+    "submission_index": "tasks/hud-taskset.json",
+    "submission_count": 100
+  },
+  "source_files": {
+    "directory": "source-files",
+    "count": 121,
+    "artifact_types": {
+      "csv": 6,
+      "docx": 14,
+      "eml": 20,
+      "pdf": 19,
+      "pptx": 9,
+      "txt": 1,
+      "xlsx": 52
+    }
+  },
+  "agent_interfaces": [
+    {
+      "name": "agent workspace",
+      "type": "filesystem",
+      "description": "121 finance, operations, correspondence, policy, spreadsheet, presentation, document, PDF, and email files"
+    },
+    {
+      "name": "contractor_accounting",
+      "type": "MCP",
+      "description": "read-only contractor accounting and operating records"
+    }
+  ],
+  "runtime": {
+    "dockerfile": "Dockerfile",
+    "hud_entrypoint": "alder-ridge-corporate-finance-v1",
+    "source_directory": "runtime",
+    "agent_visible_paths": [
+      "/workspace"
+    ],
+    "private_paths": [
+      "/environment"
+    ]
+  },
+  "evaluator": {
+    "directory": "evaluator",
+    "reference_directory": "evaluator/reference",
+    "agent_visible": false,
+    "grading_policy": "weighted atomic criteria with fail-closed integrity and artifact checks"
+  },
+  "rights_and_privacy": {
+    "company_and_records": "fictional",
+    "real_client_or_partner_data": false,
+    "commercial_licensing_controlled_by_repository_owner": true
+  }
+}

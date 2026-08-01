@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_041",
+  "slug": "ytd-purchase-price-variance-summary-and-top-vendor",
+  "title": "YTD purchase-price variance summary and top vendor",
+  "workflow": "procurement-finance",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **YTD purchase-price variance summary and top vendor**.\n\nUse ERP purchase orders, receipts, vendor invoices, standard material cost, supplier performance, quality status, and open commitments. Reconcile to the PPV and supplier-scorecard workbooks and match policy.\n\nAuthoritative reconciliation source set:\n- `ERP purchase-price-variance report`\n- `Supply Chain/Analyses/Purchase Price Variance.xlsx`\n- `Communications/2026-06-09 - June PPV actions.eml`\n- `Accounting Policies/Purchase Price Variance Policy.docx`\n\nCalculation basis: Use YTD posted vendor-invoice quantities and prices against item/site standard material cost. Use the PPV report's exact scope totals, which aggregate atomic invoice-line values before rounding once; do not sum the displayed rounded vendor rows.\n\nNo additional management case inputs.\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"invoice_count\", \"purchase_quantity\", \"actual_cost\", \"standard_cost\", \"purchase_price_variance\", \"ppv_rate\", \"top_vendor\", \"top_vendor_ppv\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_041",
+    "agent_visible": false
+  }
+}

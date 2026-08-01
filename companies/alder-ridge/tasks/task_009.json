@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_009",
+  "slug": "june-pl-variance",
+  "title": "June P&L actual-versus-plan variance",
+  "workflow": "fpa",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Prepare a bounded June P&L variance calculation.\n\nBegin with the June-flash request in `Requests/`. Locate the current accounting actuals, board-approved monthly plan, controller's WIP-close work, signed WIP policy, PM/commercial evidence, and the current flash review materials. Distinguish the board plan from rolling forecasts and distinguish posted results from the proposed WIP close.\n\nUse the contractor-accounting MCP for June posted revenue, cost of revenue, and operating expense. Show the proposed June WIP revenue adjustment separately and add it to posted revenue for the pro-forma close view; do not alter posted cost or opex.\n\nCalculate the revenue bridge and variance, gross profit and gross-margin rate versus plan (including basis-point variance), and operating income versus plan. Do not edit files.\n\nReturn only one JSON object in your final response with exactly these keys: `posted_revenue`, `proposed_wip_adjustment`, `pro_forma_revenue`, `plan_revenue`, `revenue_variance`, `revenue_variance_percent`, `gross_profit`, `plan_gross_profit`, `gross_margin`, `plan_gross_margin`, `gross_margin_variance_bps`, `operating_income`, `plan_operating_income`, `operating_income_variance`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_009",
+    "agent_visible": false
+  }
+}

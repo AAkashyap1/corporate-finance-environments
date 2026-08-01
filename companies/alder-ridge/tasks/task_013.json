@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_013",
+  "slug": "q2-borrowing-base",
+  "title": "Q2 invoice-level borrowing base",
+  "workflow": "lender-reporting",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Calculate the June 30 borrowing base from the invoice-level AR population.\n\nRead the executed amendment and the AR eligibility exhibit. Use the contractor-accounting MCP AR aging. Exclude retainage, invoices over 90 days from invoice date, government receivables without acceptable assignment, and the disputed Columbia Biologics project ARM-2318 close-out population. The dispute is project-specific: ordinary Columbia Biologics service invoices outside ARM-2318 are not disputed. Treat Oregon State University as a government debtor even though the customer-master sector is `Higher Education`. Then cap each customer's eligible balance at a dollar cap equal to 25% of total pre-concentration eligible AR and apply the 80% advance rate.\n\nBuild the full invoice-level eligibility and concentration calculation, then apply the advance rate. Report the invoice-row count, gross open AR, pre-concentration eligible AR, customer cap, post-concentration eligible AR, advance rate, and final borrowing base. Return `customer_cap` as the dollar cap amount in USD—not the 25% rate—and return `advance_rate` as the decimal 0.80. Do not edit files.\n\nReturn only one JSON object in your final response with exactly these keys: `invoice_row_count`, `gross_open_ar`, `pre_concentration_eligible`, `customer_cap`, `post_concentration_eligible`, `advance_rate`, `borrowing_base`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_013",
+    "agent_visible": false
+  }
+}

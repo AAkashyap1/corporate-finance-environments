@@ -1,0 +1,11 @@
+From: Daniel Cho <dcho@alderridgemech.example>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.example>
+Cc: treasury@alderridgemech.example; project.accounting@alderridgemech.example
+Date: Sun, 5 Jul 2026 06:18:00 -0700
+Subject: tax review comments + close version
+
+Use the v4 controller-review book and the signed policy. The v2 file predates the final jurisdiction weighting and several adjustment decisions. Cash-tax timing must follow the estimated-payment policy; deferred revenue follows contract service periods rather than billing date.
+
+Tie every posted baseline to Vista ERP and keep supported tax adjustments, unsupported management adjustments, and timing differences clearly separated. Apply interest-limitation capacity before NOLs, use modification-date SSP for remaining Helix obligations, preserve distinct non-GAAP definitions, and test transaction-tax economics and legal/consideration gates independently.
+
+Daniel

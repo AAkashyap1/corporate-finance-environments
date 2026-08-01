@@ -1,0 +1,907 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_count": 100,
+  "tasks": [
+    {
+      "task_id": "task_001",
+      "slug": "june-cross-ledger-manufacturing-close-control",
+      "title": "June cross-ledger manufacturing close control",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_001.json"
+    },
+    {
+      "task_id": "task_002",
+      "slug": "june-pre-close-profit-and-margin-bridge",
+      "title": "June pre-close profit and margin bridge",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_002.json"
+    },
+    {
+      "task_id": "task_003",
+      "slug": "ytd-settled-production-variance-bridge",
+      "title": "YTD settled production variance bridge",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_003.json"
+    },
+    {
+      "task_id": "task_004",
+      "slug": "june-open-production-wip-concentration",
+      "title": "June open production WIP concentration",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_004.json"
+    },
+    {
+      "task_id": "task_005",
+      "slug": "grand-rapids-june-output-and-variance",
+      "title": "Grand Rapids June output and variance",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_005.json"
+    },
+    {
+      "task_id": "task_006",
+      "slug": "dayton-june-output-and-variance",
+      "title": "Dayton June output and variance",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_006.json"
+    },
+    {
+      "task_id": "task_007",
+      "slug": "june-manufacturing-close-control-workbook",
+      "title": "Build the June manufacturing close control workbook",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_007.json"
+    },
+    {
+      "task_id": "task_008",
+      "slug": "ytd-production-variance-bridge-workbook",
+      "title": "Build the YTD production variance bridge workbook",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_008.json"
+    },
+    {
+      "task_id": "task_009",
+      "slug": "june-close-risk-memorandum",
+      "title": "Write the June close risk memorandum",
+      "workflow": "manufacturing-close",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_009.json"
+    },
+    {
+      "task_id": "task_010",
+      "slug": "approved-june-scrap-reclass-draft",
+      "title": "Create the approved June scrap reclass draft",
+      "workflow": "manufacturing-close",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_010.json"
+    },
+    {
+      "task_id": "task_011",
+      "slug": "inventory-valuation-across-all-sites",
+      "title": "Inventory valuation across all sites",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_011.json"
+    },
+    {
+      "task_id": "task_012",
+      "slug": "fort-worth-aftermarket-availability-and-holds",
+      "title": "Fort Worth aftermarket availability and holds",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_012.json"
+    },
+    {
+      "task_id": "task_013",
+      "slug": "inventory-aging-over-180-days",
+      "title": "Inventory aging over 180 days",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_013.json"
+    },
+    {
+      "task_id": "task_014",
+      "slug": "phase-out-inventory-exposure",
+      "title": "Phase-out inventory exposure",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_014.json"
+    },
+    {
+      "task_id": "task_015",
+      "slug": "company-inventory-turns-and-days-on-hand",
+      "title": "Company inventory turns and days on hand",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_015.json"
+    },
+    {
+      "task_id": "task_016",
+      "slug": "aftermarket-plant-to-dc-transfer-reconciliation",
+      "title": "Aftermarket plant-to-DC transfer reconciliation",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_016.json"
+    },
+    {
+      "task_id": "task_017",
+      "slug": "inventory-aging-and-e-o-workbook",
+      "title": "Build the inventory aging and E&O workbook",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_017.json"
+    },
+    {
+      "task_id": "task_018",
+      "slug": "inventory-reserve-waterfall",
+      "title": "Build the inventory reserve waterfall",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_018.json"
+    },
+    {
+      "task_id": "task_019",
+      "slug": "inventory-turns-dashboard",
+      "title": "Build the inventory turns dashboard",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_019.json"
+    },
+    {
+      "task_id": "task_020",
+      "slug": "inventory-disposition-recommendation",
+      "title": "Write the inventory disposition recommendation",
+      "workflow": "inventory-working-capital",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_020.json"
+    },
+    {
+      "task_id": "task_021",
+      "slug": "second-half-consensus-demand-plan",
+      "title": "Second-half consensus demand plan",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_021.json"
+    },
+    {
+      "task_id": "task_022",
+      "slug": "drv-backlog-coverage-of-consensus-demand",
+      "title": "DRV backlog coverage of consensus demand",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_022.json"
+    },
+    {
+      "task_id": "task_023",
+      "slug": "company-mrp-action-message-profile",
+      "title": "Company MRP action-message profile",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_023.json"
+    },
+    {
+      "task_id": "task_024",
+      "slug": "dayton-q3-work-center-capacity",
+      "title": "Dayton Q3 work-center capacity",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_024.json"
+    },
+    {
+      "task_id": "task_025",
+      "slug": "greenville-q3-work-center-capacity",
+      "title": "Greenville Q3 work-center capacity",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_025.json"
+    },
+    {
+      "task_id": "task_026",
+      "slug": "demand-to-backlog-bridge",
+      "title": "Build the demand-to-backlog bridge",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_026.json"
+    },
+    {
+      "task_id": "task_027",
+      "slug": "q3-constraint-scenario-model",
+      "title": "Build the Q3 constraint scenario model",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_027.json"
+    },
+    {
+      "task_id": "task_028",
+      "slug": "mrp-executive-action-workbook",
+      "title": "Build the MRP executive action workbook",
+      "workflow": "sop-reforecast",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_028.json"
+    },
+    {
+      "task_id": "task_029",
+      "slug": "executive-s-op-decision-deck",
+      "title": "Create the executive S&OP decision deck",
+      "workflow": "sop-reforecast",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_029.json"
+    },
+    {
+      "task_id": "task_030",
+      "slug": "drv-production-order-from-the-approved-plan",
+      "title": "Create the DRV production order from the approved plan",
+      "workflow": "sop-reforecast",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_030.json"
+    },
+    {
+      "task_id": "task_031",
+      "slug": "ytd-product-family-profitability",
+      "title": "YTD product-family profitability",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_031.json"
+    },
+    {
+      "task_id": "task_032",
+      "slug": "ytd-customer-profitability-and-concentration",
+      "title": "YTD customer profitability and concentration",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_032.json"
+    },
+    {
+      "task_id": "task_033",
+      "slug": "ytd-regional-profitability",
+      "title": "YTD regional profitability",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_033.json"
+    },
+    {
+      "task_id": "task_034",
+      "slug": "grand-rapids-drv-standard-cost-composition",
+      "title": "Grand Rapids DRV standard-cost composition",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_034.json"
+    },
+    {
+      "task_id": "task_035",
+      "slug": "drv-price-and-material-cost-sensitivity",
+      "title": "DRV price and material-cost sensitivity",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_035.json"
+    },
+    {
+      "task_id": "task_036",
+      "slug": "customer-profitability-workbook",
+      "title": "Build the customer profitability workbook",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_036.json"
+    },
+    {
+      "task_id": "task_037",
+      "slug": "product-family-margin-bridge",
+      "title": "Build the product-family margin bridge",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_037.json"
+    },
+    {
+      "task_id": "task_038",
+      "slug": "ctl-pricing-sensitivity-model",
+      "title": "Build the CTL pricing sensitivity model",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_038.json"
+    },
+    {
+      "task_id": "task_039",
+      "slug": "drv-pricing-recommendation",
+      "title": "Write the DRV pricing recommendation",
+      "workflow": "commercial-finance",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_039.json"
+    },
+    {
+      "task_id": "task_040",
+      "slug": "commercial-margin-review-deck",
+      "title": "Create the commercial margin review deck",
+      "workflow": "commercial-finance",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_040.json"
+    },
+    {
+      "task_id": "task_041",
+      "slug": "ytd-purchase-price-variance-summary-and-top-vendor",
+      "title": "YTD purchase-price variance summary and top vendor",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_041.json"
+    },
+    {
+      "task_id": "task_042",
+      "slug": "packaging-supplier-delivery-and-quality",
+      "title": "Packaging supplier delivery and quality",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_042.json"
+    },
+    {
+      "task_id": "task_043",
+      "slug": "companywide-open-purchase-commitments",
+      "title": "Companywide open purchase commitments",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_043.json"
+    },
+    {
+      "task_id": "task_044",
+      "slug": "quality-hold-vendor-invoice-exposure",
+      "title": "Quality-hold vendor invoice exposure",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_044.json"
+    },
+    {
+      "task_id": "task_045",
+      "slug": "dayton-open-purchase-commitments",
+      "title": "Dayton open purchase commitments",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_045.json"
+    },
+    {
+      "task_id": "task_046",
+      "slug": "metals-supplier-performance",
+      "title": "Metals supplier performance",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_046.json"
+    },
+    {
+      "task_id": "task_047",
+      "slug": "supplier-recovery-scorecard",
+      "title": "Build the supplier recovery scorecard",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_047.json"
+    },
+    {
+      "task_id": "task_048",
+      "slug": "ytd-ppv-causal-bridge",
+      "title": "Build the YTD PPV causal bridge",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_048.json"
+    },
+    {
+      "task_id": "task_049",
+      "slug": "supplier-risk-council-memorandum",
+      "title": "Write the supplier-risk council memorandum",
+      "workflow": "procurement-finance",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_049.json"
+    },
+    {
+      "task_id": "task_050",
+      "slug": "approved-raw-material-purchase-order",
+      "title": "Create the approved raw-material purchase order",
+      "workflow": "procurement-finance",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_050.json"
+    },
+    {
+      "task_id": "task_051",
+      "slug": "companywide-ytd-payroll-and-overtime",
+      "title": "Companywide YTD payroll and overtime",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_051.json"
+    },
+    {
+      "task_id": "task_052",
+      "slug": "dayton-payroll-and-overtime",
+      "title": "Dayton payroll and overtime",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_052.json"
+    },
+    {
+      "task_id": "task_053",
+      "slug": "ytd-scrap-and-yield-summary-and-top-product-family",
+      "title": "YTD scrap and yield summary and top product family",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_053.json"
+    },
+    {
+      "task_id": "task_054",
+      "slug": "open-quality-and-nonconformance-exposure",
+      "title": "Open quality and nonconformance exposure",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_054.json"
+    },
+    {
+      "task_id": "task_055",
+      "slug": "ytd-maintenance-downtime-and-cost",
+      "title": "YTD maintenance downtime and cost",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_055.json"
+    },
+    {
+      "task_id": "task_056",
+      "slug": "labor-and-overtime-workbook",
+      "title": "Build the labor and overtime workbook",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_056.json"
+    },
+    {
+      "task_id": "task_057",
+      "slug": "cost-of-poor-quality-workbook",
+      "title": "Build the cost-of-poor-quality workbook",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_057.json"
+    },
+    {
+      "task_id": "task_058",
+      "slug": "maintenance-capacity-workbook",
+      "title": "Build the maintenance-capacity workbook",
+      "workflow": "operations-finance",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_058.json"
+    },
+    {
+      "task_id": "task_059",
+      "slug": "multi-plant-operating-review-deck",
+      "title": "Create the multi-plant operating review deck",
+      "workflow": "operations-finance",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_059.json"
+    },
+    {
+      "task_id": "task_060",
+      "slug": "place-the-approved-rm-0001-inventory-quality-hold",
+      "title": "Place the approved RM-0001 inventory quality hold",
+      "workflow": "operations-finance",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_060.json"
+    },
+    {
+      "task_id": "task_061",
+      "slug": "fixed-asset-portfolio-and-ytd-additions",
+      "title": "Fixed-asset portfolio and YTD additions",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_061.json"
+    },
+    {
+      "task_id": "task_062",
+      "slug": "dayton-fixed-asset-replacement-profile",
+      "title": "Dayton fixed-asset replacement profile",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_062.json"
+    },
+    {
+      "task_id": "task_063",
+      "slug": "dayton-machining-automation-npv",
+      "title": "Dayton machining automation NPV",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_063.json"
+    },
+    {
+      "task_id": "task_064",
+      "slug": "cabinet-assembly-make-versus-buy",
+      "title": "Cabinet assembly make-versus-buy",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_064.json"
+    },
+    {
+      "task_id": "task_065",
+      "slug": "greenville-test-cell-automation-npv",
+      "title": "Greenville test-cell automation NPV",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_065.json"
+    },
+    {
+      "task_id": "task_066",
+      "slug": "capital-project-portfolio-workbook",
+      "title": "Build the capital-project portfolio workbook",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_066.json"
+    },
+    {
+      "task_id": "task_067",
+      "slug": "dayton-automation-business-case",
+      "title": "Build the Dayton automation business case",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_067.json"
+    },
+    {
+      "task_id": "task_068",
+      "slug": "cabinet-make-buy-model",
+      "title": "Build the cabinet make-buy model",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_068.json"
+    },
+    {
+      "task_id": "task_069",
+      "slug": "dayton-automation-capital-committee-decision-memorandum",
+      "title": "Write the Dayton automation capital committee decision memorandum",
+      "workflow": "capital-strategy",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_069.json"
+    },
+    {
+      "task_id": "task_070",
+      "slug": "create-and-post-the-approved-depreciation-reclass",
+      "title": "Create and post the approved depreciation reclass",
+      "workflow": "capital-strategy",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_070.json"
+    },
+    {
+      "task_id": "task_071",
+      "slug": "june-cash-debt-and-total-liquidity",
+      "title": "June cash, debt, and total liquidity",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_071.json"
+    },
+    {
+      "task_id": "task_072",
+      "slug": "debt-classification-and-cash-interest-run-rate",
+      "title": "Debt classification and cash-interest run rate",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_072.json"
+    },
+    {
+      "task_id": "task_073",
+      "slug": "abl-borrowing-base-availability",
+      "title": "ABL borrowing-base availability",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_073.json"
+    },
+    {
+      "task_id": "task_074",
+      "slug": "base-13-week-cash-and-revolver-forecast",
+      "title": "Base 13-week cash and revolver forecast",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_074.json"
+    },
+    {
+      "task_id": "task_075",
+      "slug": "june-leverage-and-tangible-net-worth-covenant",
+      "title": "June leverage and tangible-net-worth covenant",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_075.json"
+    },
+    {
+      "task_id": "task_076",
+      "slug": "13-week-cash-forecast-workbook",
+      "title": "Build the 13-week cash forecast workbook",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_076.json"
+    },
+    {
+      "task_id": "task_077",
+      "slug": "covenant-and-liquidity-workbook",
+      "title": "Build the covenant and liquidity workbook",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_077.json"
+    },
+    {
+      "task_id": "task_078",
+      "slug": "liquidity-and-covenant-memorandum",
+      "title": "Write the liquidity and covenant memorandum",
+      "workflow": "treasury",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_078.json"
+    },
+    {
+      "task_id": "task_079",
+      "slug": "q2-lender-update-deck",
+      "title": "Create the Q2 lender update deck",
+      "workflow": "treasury",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_079.json"
+    },
+    {
+      "task_id": "task_080",
+      "slug": "create-and-release-the-approved-aft-production-order",
+      "title": "Create and release the approved AFT production order",
+      "workflow": "production-execution",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_080.json"
+    },
+    {
+      "task_id": "task_081",
+      "slug": "estimated-2026-first-half-tax-provision",
+      "title": "Estimated 2026 first-half tax provision",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_081.json"
+    },
+    {
+      "task_id": "task_082",
+      "slug": "aftermarket-transfer-pricing-adjustment",
+      "title": "Aftermarket transfer-pricing adjustment",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_082.json"
+    },
+    {
+      "task_id": "task_083",
+      "slug": "manufacturing-quality-of-earnings-normalization",
+      "title": "Manufacturing quality-of-earnings normalization",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_083.json"
+    },
+    {
+      "task_id": "task_084",
+      "slug": "pinehaven-standalone-discounted-cash-flow",
+      "title": "Pinehaven standalone discounted cash flow",
+      "workflow": "tax-corpdev",
+      "difficulty": "expert",
+      "output_mode": "console",
+      "file": "task_084.json"
+    },
+    {
+      "task_id": "task_085",
+      "slug": "pinehaven-operating-return-on-invested-capital",
+      "title": "Pinehaven operating return on invested capital",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "console",
+      "file": "task_085.json"
+    },
+    {
+      "task_id": "task_086",
+      "slug": "standalone-dcf-workbook",
+      "title": "Build the standalone DCF workbook",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_086.json"
+    },
+    {
+      "task_id": "task_087",
+      "slug": "quality-of-earnings-bridge",
+      "title": "Build the quality-of-earnings bridge",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "spreadsheet",
+      "file": "task_087.json"
+    },
+    {
+      "task_id": "task_088",
+      "slug": "first-half-tax-provision-memorandum",
+      "title": "Write the first-half tax provision memorandum",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_088.json"
+    },
+    {
+      "task_id": "task_089",
+      "slug": "standalone-valuation-committee-memorandum",
+      "title": "Write the standalone valuation committee memorandum",
+      "workflow": "tax-corpdev",
+      "difficulty": "advanced",
+      "output_mode": "document",
+      "file": "task_089.json"
+    },
+    {
+      "task_id": "task_090",
+      "slug": "valuation-committee-deck",
+      "title": "Create the valuation committee deck",
+      "workflow": "tax-corpdev",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_090.json"
+    },
+    {
+      "task_id": "task_091",
+      "slug": "integrated-june-executive-scorecard",
+      "title": "Integrated June executive scorecard",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "console",
+      "file": "task_091.json"
+    },
+    {
+      "task_id": "task_092",
+      "slug": "second-half-downside-operating-forecast",
+      "title": "Second-half downside operating forecast",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "console",
+      "file": "task_092.json"
+    },
+    {
+      "task_id": "task_093",
+      "slug": "board-and-lender-kpi-reconciliation",
+      "title": "Board and lender KPI reconciliation",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "console",
+      "file": "task_093.json"
+    },
+    {
+      "task_id": "task_094",
+      "slug": "balance-sheet-and-net-debt-bridge",
+      "title": "Balance-sheet and net-debt bridge",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "console",
+      "file": "task_094.json"
+    },
+    {
+      "task_id": "task_095",
+      "slug": "fy27-integrated-operating-plan",
+      "title": "Build the FY27 integrated operating plan",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "spreadsheet",
+      "file": "task_095.json"
+    },
+    {
+      "task_id": "task_096",
+      "slug": "cfo-june-close-decision-note",
+      "title": "Write the CFO June close decision note",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "document",
+      "file": "task_096.json"
+    },
+    {
+      "task_id": "task_097",
+      "slug": "fy27-board-priorities-memorandum",
+      "title": "Write the FY27 board priorities memorandum",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "document",
+      "file": "task_097.json"
+    },
+    {
+      "task_id": "task_098",
+      "slug": "fy26-outlook-and-fy27-priorities-board-deck",
+      "title": "Create the FY26 outlook and FY27 priorities board deck",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "presentation",
+      "file": "task_098.json"
+    },
+    {
+      "task_id": "task_099",
+      "slug": "create-release-and-start-the-approved-ctl-order",
+      "title": "Create, release, and start the approved CTL order",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_099.json"
+    },
+    {
+      "task_id": "task_100",
+      "slug": "place-and-release-the-final-inspection-inventory-hold",
+      "title": "Place and release the final-inspection inventory hold",
+      "workflow": "executive-synthesis",
+      "difficulty": "expert",
+      "output_mode": "erp",
+      "file": "task_100.json"
+    }
+  ]
+}

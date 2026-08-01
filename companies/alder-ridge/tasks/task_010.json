@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_010",
+  "slug": "q2-rework-concentration",
+  "title": "Q2 rework concentration and cost sensitivity",
+  "workflow": "fpa-operations",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Analyze Q2 field rework for April 1 through June 30.\n\nUse the contractor-accounting MCP timecard detail and include only approved project time coded to cost code `06-300` (Rework and Quality Correction). Use the approved Q2 blended loaded rate in `field burden rate approval - 2026 estimator use.pdf` and the supporting rate workbook. Rank projects by rework hours.\n\nRank the projects, sum the top three rework hours, and apply the approved loaded rate. Report the three project IDs in descending-hour order, their individual hours, the combined hours, loaded rate, combined loaded cost, and top-three share of total rework hours. This is an estimate sensitivity, not posted job cost; do not edit files.\n\nReturn only one JSON object in your final response with exactly these keys: `top_three_projects`, `first_project_hours`, `second_project_hours`, `third_project_hours`, `top_three_hours`, `loaded_rate`, `top_three_cost`, `top_three_concentration`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_010",
+    "agent_visible": false
+  }
+}

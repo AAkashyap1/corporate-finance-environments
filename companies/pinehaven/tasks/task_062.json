@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_062",
+  "slug": "dayton-fixed-asset-replacement-profile",
+  "title": "Dayton fixed-asset replacement profile",
+  "workflow": "capital-strategy",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **Dayton fixed-asset replacement profile**.\n\nUse the ERP fixed-asset register, plant output, maintenance, payroll, capacity, and cash/debt data. Treat scenario assumptions as prospective and cite the Capital Committee Charter and capitalization policy.\n\nAuthoritative reconciliation source set:\n- `ERP active fixed-asset register`\n- `Finance/Analyses/Fixed Asset Register.xlsx`\n- `Accounting Policies/Capitalization Policy.docx`\n\nCalculation basis: Use the active fixed-asset register at 2026-06-30; YTD additions are assets placed in service during 2026.\n\nManagement case inputs (use as provided):\n```json\n{\n  \"site_code\": \"200\"\n}\n```\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"asset_count\", \"gross_cost\", \"accumulated_depreciation\", \"net_book_value\", \"ytd_additions\", \"fully_depreciated_assets\", \"average_age_years\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_062",
+    "agent_visible": false
+  }
+}

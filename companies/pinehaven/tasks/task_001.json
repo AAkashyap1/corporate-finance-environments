@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "pinehaven",
+  "task_id": "task_001",
+  "slug": "june-cross-ledger-manufacturing-close-control",
+  "title": "June cross-ledger manufacturing close control",
+  "workflow": "manufacturing-close",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "You are Pinehaven Motion Systems' corporate-finance lead. Complete **June cross-ledger manufacturing close control**.\n\nUse the ERP general ledger, production-cost, WIP, and reconciliation reports together with the Monthly Close Policy, production-order close policy, June close instructions, and the applicable close binder.\n\nAuthoritative reconciliation source set:\n- `ERP production variance, WIP, P&L, and subledger reconciliation`\n- `Finance/Monthly Close/2026-06 Close Binder.xlsx`\n- `Corporate Memos/June 2026 Close Instructions.docx`\n\nCalculation basis: Use the June 30, 2026 pre-close snapshot and reconcile every control account to its authoritative ERP subledger. Production variance and the GL account 5110 control are June-only activity from 2026-06-01 through 2026-06-30, not YTD activity. If you quantify negative WIP residuals, use the WIP report's exact negative-residual scope count and signed value, which aggregate atomic open-order values before rounding once; do not sum rounded detail rows or hardcode an exception amount.\n\nNo additional management case inputs.\n\n\n\nReturn one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:\n[\"system_cash\", \"system_ar\", \"system_ap\", \"system_inventory\", \"system_wip\", \"system_production_variance\", \"gl_5110_production_variance\", \"production_variance_control_delta\", \"system_debt\", \"journal_imbalance\", \"maximum_control_delta\"]\n\nRequirements:\n- Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.\n- Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).\n- Counts are integers. Names, IDs, periods, and statuses are strings.\n- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.\n- Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.\n- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.\n- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks.json",
+    "reference_key": "task_001",
+    "agent_visible": false
+  }
+}

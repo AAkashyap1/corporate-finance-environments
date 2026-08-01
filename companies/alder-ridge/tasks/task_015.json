@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_015",
+  "slug": "append-q2-covenant-slide",
+  "title": "Append one Q2 covenant-headroom slide",
+  "workflow": "lender-reporting",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "presentation_edit",
+    "target_path": "Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx"
+  },
+  "prompt": "Edit this deck in place:\n`Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx`\n\nPreserve the five existing slides exactly and append one final slide titled `Q2 covenant headroom — posted vs pro forma`. Add a real PowerPoint table with rows for Leverage, FCCR, and Tangible Net Worth and columns for Posted, Pro Forma, Threshold, and Status. Use the exact June 30 covenant calculations and source-derived FCCR/TNW inputs described by the executed agreement; do not invent unsupported cash-tax, capex, or principal constants. State that the WIP entry is proposed/unposted and that both bases are compliant. Match the deck's existing visual system.\n\nBegin with the bank-package request in `Requests/` and independently locate the executed agreement, current debt support, posted accounting data, and proposed-WIP evidence chain. Do not copy the prior-quarter submitted slide or the superseded covenant summary. Do not add any other slides and do not represent the deck as submitted. Save to the same path. The deck is graded.\n",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_015",
+    "agent_visible": false
+  }
+}

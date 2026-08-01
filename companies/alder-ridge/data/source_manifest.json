@@ -1,0 +1,20 @@
+{
+  "company_id": "alder-ridge-mechanical-v2",
+  "snapshot": "2026-06-30-pre-close",
+  "authoritative_actuals": "Vista ERP",
+  "system_history_begins": "2018-04-16",
+  "history_treatment": "Detailed accounting and operating records run from incorporation through the 2026-06-30 cutoff.",
+  "agent_workspace": "/workspace",
+  "mutable_deliverables_root": "/workspace/Deliverables",
+  "accounting_agent_interface": "Vista ERP reporting interface; raw accounting storage is not employee-facing",
+  "source_inventory": {
+    "xlsx": 52,
+    "pdf": 19,
+    "docx": 14,
+    "pptx": 9,
+    "eml": 20,
+    "csv": 6,
+    "text": 1
+  },
+  "notes": "Files may contain dated snapshots, forecasts, commentary, and proposed entries; reconcile to Vista ERP. All 52 workbooks derive from the eight-year company history or its versioned corporate-finance workpapers; earlier versions are dated or identified in file content and lineage notes."
+}

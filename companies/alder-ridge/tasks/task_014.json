@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "company_id": "alder-ridge",
+  "task_id": "task_014",
+  "slug": "q2-covenant-headroom",
+  "title": "Q2 posted and pro-forma covenant headroom",
+  "workflow": "lender-reporting",
+  "difficulty": "advanced",
+  "output": {
+    "mode": "console",
+    "target_path": null
+  },
+  "prompt": "Calculate the June 30 leverage, fixed-charge coverage, and tangible-net-worth tests on both posted and pro-forma bases.\n\nBegin with the bank-package request in `Requests/`. Locate the executed amendment rather than the old covenant summary, the AR/lender exhibits, current debt schedule, posted accounting populations, and the complete WIP-close evidence chain. Rebuild the proposed June WIP adjustment rather than treating a downstream review number as posted actual. The WIP entry remains unposted, so do not silently overwrite posted results.\n\nFor FCCR, use LTM cash taxes actually identifiable in the ledger (zero when no income-tax cash-payment population exists), LTM fixed-asset additions less direct LTM equipment-financing proceeds as unfunded capex, cash interest from account 7100, and LTM posted `CD` principal lines as scheduled principal. For tangible net worth, sign trial-balance accounts by normal balance so allowance and accumulated-depreciation contra-assets reduce assets. Apply the executed thresholds and show whether each overall basis is compliant.\n\nReport funded debt, posted/pro-forma LTM adjusted EBITDA, posted/pro-forma leverage and maximum, posted/pro-forma FCCR and minimum, posted/pro-forma tangible net worth and minimum, plus posted and pro-forma compliance status. Do not edit files.\n\nReturn only one JSON object in your final response with exactly these keys: `funded_debt`, `posted_ebitda`, `pro_forma_ebitda`, `posted_leverage`, `pro_forma_leverage`, `maximum_leverage`, `posted_fccr`, `pro_forma_fccr`, `minimum_fccr`, `posted_tangible_net_worth`, `pro_forma_tangible_net_worth`, `minimum_tangible_net_worth`, `posted_compliance`, `pro_forma_compliance`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "evaluation": {
+    "grader": "evaluator/task_grader.py",
+    "reference_file": "evaluator/reference/tasks_001_025.json",
+    "reference_key": "task_014",
+    "agent_visible": false
+  }
+}
