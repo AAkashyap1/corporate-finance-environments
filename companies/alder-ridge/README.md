@@ -38,18 +38,6 @@ Dockerfile                Container entrypoint
 
 The evaluator and `data/` directories are included for reviewer reproducibility but are never mounted into the agent shell. On reset, only `source-files/` is copied to `/workspace`; the accounting database is copied to private mutable state.
 
-## Measured result
-
-Two rollouts were completed for each task:
-
-- infrastructure-valid: 200/200;
-- strict passes: 107/200 (53.50%);
-- tasks passing both rollouts: 46;
-- tasks passing one rollout: 15; and
-- tasks passing neither rollout: 39.
-
-Console tasks passed 96/140 cells. The artifact-producing tasks were materially harder: 11/60 strict passes across spreadsheets, presentations, and documents.
-
 ## Build
 
 Use this directory as the container context:
