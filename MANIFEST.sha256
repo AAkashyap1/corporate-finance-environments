@@ -2,10 +2,10 @@ f32312a07213d5c208a0a188cfac84cb9f72a864401d48b2ab0a1685854e6e19  ./.gitattribut
 b9d8daf151a18081618b53f2a2a3710b9c3cf8f0de762f5fab8c0ec9eb3b2e5f  ./.gitignore
 7719ed98cc00784db44c63437d1791ccb11b5f7e03a5c5549af142f1bbc44cd3  ./LICENSE
 1c8b68bb5685b6248fecd003d4c52df4607e46a9a003efc37d08728ac60928e3  ./README.md
-06d989e3b2a2033ed02addb91ee41f1ac6cda7cf40732150d00961d105c9d794  ./catalog.json
+acbbb5370cb80c0d4071c01fb2bfac633b6e583cc530a973dcc50ba2d1bb90ea  ./catalog.json
 37ac05aeea74d1380a479b3e77ca0140cf560bcca74d00e48bd981e0a9e774b8  ./companies/alder-ridge/.dockerignore
 e3f673f6dd80b4efb778129da3ee8be8d9c7fb51e7f3bd61e98c96094f4dc5b6  ./companies/alder-ridge/Dockerfile
-688402cbed8f1639bb3fc65f72982694e831d694bb312c5068e54d986695f40f  ./companies/alder-ridge/README.md
+be08705b0730aa8df1431d461b1cb7bcb24b521618c52102d2541fde98c932c2  ./companies/alder-ridge/README.md
 f043746084b321d25c8cfd4dd5aa2cf36ae7e355b5cc566cca933ecce2fc48a7  ./companies/alder-ridge/company.json
 dedebb90c790b8f811ad9a332fee0b31c00d5ca56a5d07d7cb46d363cafa4b71  ./companies/alder-ridge/data/accounting_seed.db
 10309e8056166a51d10b47338e3cc4d3d5a37072bebeb5c80a8ca398f492acdf  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
@@ -161,7 +161,7 @@ ef27d77d78bce96640f7638cd717800af0a16b87163194078218cf72880fa051  ./companies/al
 fc436153f8a7d2cc2840ce7800752772e6c16c45c58c93198ef32967e4fa87c4  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/Q2 service pricing + callback cut - 7.1 SA.xlsx
 3c4c11129e0c78cb1c10cee1e0985aa855fe920e6bcaeefc16f70a86433665cf  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx
 608c73e84f0a5bb4a67e9c913536bfc4522710a2903586c85c8080677ba2f518  ./companies/alder-ridge/source-files/Shared/Operations/Service/monthly KPI/service pricing + callback review notes - SA 7.1.docx
-26b643ebfa0b51a7c9714545de6c8e05e832d4bd3ba335af42fdc581b6a17321  ./companies/alder-ridge/tasks/hud-taskset.json
+1b95c74398f78bea301784c8333bbccc166aefd45fd99def0184f626053f9d13  ./companies/alder-ridge/tasks/hud-taskset.json
 b840b9b5cd649355e7a68488b62a46fcba3fe9e816aa664bbdd838c359281821  ./companies/alder-ridge/tasks/index.json
 b59040ce891f039742e6d72d63af1ffa5e1d59d956b460a4a3896ce43075b3cb  ./companies/alder-ridge/tasks/task_001.json
 21b5231cc0de8679182bc92b433f4e6d3ccdf6fea0c8a3549dfae6ea5744ab07  ./companies/alder-ridge/tasks/task_002.json
@@ -265,8 +265,8 @@ a09885b1784164b6002a2ab873ae25b33eafdd827dc79b02a8d4f8c79c537d21  ./companies/al
 404a6a1073cc2a4c187069fc0d15dde1fa4018ec521b5c84b07962355f992520  ./companies/alder-ridge/tasks/task_100.json
 37ac05aeea74d1380a479b3e77ca0140cf560bcca74d00e48bd981e0a9e774b8  ./companies/pinehaven/.dockerignore
 232ce35e51660ced556b5c04b48ca4dda6bfc6404b5ab0ae02d09dbf5b30707e  ./companies/pinehaven/Dockerfile
-5efe75292572c12bd26467ab2e3c9c125203aafef7ce27b2b8e0cd48ec3e491e  ./companies/pinehaven/README.md
-5df1ff1f893e1ba67c21a38b0b264d2f147d1aca19497ab1359c4f5d2e5003ab  ./companies/pinehaven/company.json
+7592af3db1a2870418e9e76ba3df9464530aa1a08300bdbd3c206df609fc1ca3  ./companies/pinehaven/README.md
+4d945aee744623b49abe7cee090d1ee60f5da3a5c10788072930a7013c2c16bf  ./companies/pinehaven/company.json
 45f5cb65f0bc7b02bb7cec5deef03f5732c59ef5a99faabb7ff892a609ac4479  ./companies/pinehaven/data/ERP_SEED_MANIFEST.json
 3161d71957dd1b785d9951086f9506a5663219215e7cb7cd82120cfd99402e6a  ./companies/pinehaven/data/SOURCE_MANIFEST.json
 b8c23f2ecbd6d513c60469f10c8e2a8849927abf8ec4a1ad932eb07d51e84517  ./companies/pinehaven/data/control/canonical_company_model.json
@@ -480,7 +480,7 @@ f848e82fbcaabf07b0ce8d6e876d5a3b21dc997e36931c5669a8ed95dc1eea48  ./companies/pi
 2c4f52540ca4a4992ad7a3c32e7bed523af8b6cd11f3f835f3ea35ef0a3132cf  ./companies/pinehaven/source-files/Treasury/2022 Sponsor Term Loan Summary.pdf
 fdb318562700b375413a9d567c60280d5a6d6f8daf9bcf3334d3a930d75f84ef  ./companies/pinehaven/source-files/Treasury/2025 ABL Facility Summary.pdf
 3617af55451b72a56156291e43cc7f8966692b18bb29673f932a6a33b4c28418  ./companies/pinehaven/source-files/Treasury/Equipment Facility Summary.pdf
-d888fb07fc8cde4927088bc5e67fb6a9119dd6744651431307e508a45fb7f50d  ./companies/pinehaven/tasks/hud-taskset.json
+4e5353ab5857b6c74091005bd7fab82a44a8a69b707eeb25662fbdb4711e8410  ./companies/pinehaven/tasks/hud-taskset.json
 1186973db4ae914627ce99f133ee1084e550ea286bb4827675f350ef626afcd1  ./companies/pinehaven/tasks/index.json
 972ded81f02bb62aa6af93d25b532c183600e34bc76dcf54223b6532077b072a  ./companies/pinehaven/tasks/task_001.json
 b0985599c88dec986c38e078ea70d5f660092c5d92ee45a50519da38a8531ff1  ./companies/pinehaven/tasks/task_002.json

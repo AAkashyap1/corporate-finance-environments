@@ -14,7 +14,7 @@ The task set covers:
 - investor-relations, lender, board, and CFO decision materials; and
 - spreadsheet, presentation, and document creation or editing in addition to structured console answers.
 
-The 100 tasks contain 70 console assignments, 23 spreadsheet assignments, 4 document assignments, and 3 presentation assignments. Difficulty labels comprise 25 advanced tasks and 75 long-horizon advanced or expert tasks. The complete index is [tasks/index.json](tasks/index.json); the deduplicated submission set is [tasks/hud-taskset.json](tasks/hud-taskset.json) and retains all 100 tasks.
+The 100 tasks contain 70 console assignments, 23 spreadsheet assignments, 4 document assignments, and 3 presentation assignments. Difficulty labels comprise 25 advanced tasks and 75 long-horizon advanced or expert tasks. The complete index is [tasks/index.json](tasks/index.json), and [tasks/hud-taskset.json](tasks/hud-taskset.json) includes all 100 tasks.
 
 ## Company sources and tools
 
@@ -27,7 +27,7 @@ The `contractor_accounting` MCP exposes controlled accounting and operating reco
 ```text
 company.json              Structured company, task, source, and runtime metadata
 tasks/index.json          Compact list of all 100 tasks
-tasks/hud-taskset.json    Recommended submission taskset
+tasks/hud-taskset.json    HUD submission taskset with all 100 tasks
 tasks/task_###.json       Prompt, workflow, output mode, and evaluator pointer
 source-files/             Agent-visible company files
 runtime/                  HUD environment, task registration, and accounting MCP

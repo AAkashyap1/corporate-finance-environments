@@ -24,10 +24,10 @@
       "source_file_count": 164,
       "path": "companies/pinehaven",
       "metadata": "companies/pinehaven/company.json",
-      "submission_task_count": 94,
+      "submission_task_count": 100,
       "submission_index": "companies/pinehaven/tasks/hud-taskset.json"
     }
   ],
   "license": "LICENSE",
-  "submission_task_count": 194
+  "submission_task_count": 200
 }

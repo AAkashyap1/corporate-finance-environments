@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "company_id": "alder-ridge",
-  "purpose": "recommended deduplicated HUD submission taskset",
+  "purpose": "HUD submission taskset",
   "task_count": 100,
   "task_ids": [
     "task_001",
@@ -105,8 +105,6 @@
     "task_099",
     "task_100"
   ],
-  "excluded_parameter_variants": [],
-  "selection_policy": "retain distinct success conditions; exclude near-identical parameter variants from the submission set",
   "measured_evaluation": {
     "rollout_cells": 200,
     "infrastructure_valid": 200,

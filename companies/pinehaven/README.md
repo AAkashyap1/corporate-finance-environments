@@ -16,9 +16,7 @@ The task set covers:
 - executive spreadsheets, documents, presentations, and concise structured answers; and
 - eight tightly scoped ERP write tasks with explicit authorization and audit requirements.
 
-The 100-task bank contains 52 console assignments, 24 spreadsheet assignments, 10 document assignments, 6 presentation assignments, and 8 ERP workflow assignments. Difficulty labels comprise 78 advanced and 22 expert tasks. The complete bank is indexed in [tasks/index.json](tasks/index.json).
-
-For HUD review, [tasks/hud-taskset.json](tasks/hud-taskset.json) recommends 94 tasks. It removes six near-identical parameter variants where another retained task already tests the same method and output contract. No prompt, grader, or score was rewritten to create the curated result.
+The 100-task bank contains 52 console assignments, 24 spreadsheet assignments, 10 document assignments, 6 presentation assignments, and 8 ERP workflow assignments. Difficulty labels comprise 78 advanced and 22 expert tasks. The complete bank is indexed in [tasks/index.json](tasks/index.json), and [tasks/hud-taskset.json](tasks/hud-taskset.json) includes all 100 tasks.
 
 ## Company sources and tools
 
@@ -31,7 +29,7 @@ The `pinehaven_manufacturing_erp` MCP provides controlled reporting across gener
 ```text
 company.json              Structured company, task, source, and runtime metadata
 tasks/index.json          Compact list of all 100 tasks
-tasks/hud-taskset.json    Recommended 94-task submission set
+tasks/hud-taskset.json    HUD submission taskset with all 100 tasks
 tasks/task_###.json       Prompt, workflow, output mode, and evaluator pointer
 source-files/             Agent-visible company files
 runtime/                  HUD environment, task registration, and ERP application

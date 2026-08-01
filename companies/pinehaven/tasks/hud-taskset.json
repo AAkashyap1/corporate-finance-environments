@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "company_id": "pinehaven",
-  "purpose": "recommended deduplicated HUD submission taskset",
-  "task_count": 94,
+  "purpose": "HUD submission taskset",
+  "task_count": 100,
   "task_ids": [
     "task_001",
     "task_002",
     "task_003",
     "task_004",
     "task_005",
+    "task_006",
     "task_007",
     "task_008",
     "task_009",
@@ -16,6 +17,7 @@
     "task_011",
     "task_012",
     "task_013",
+    "task_014",
     "task_015",
     "task_016",
     "task_017",
@@ -26,6 +28,7 @@
     "task_022",
     "task_023",
     "task_024",
+    "task_025",
     "task_026",
     "task_027",
     "task_028",
@@ -33,6 +36,7 @@
     "task_030",
     "task_031",
     "task_032",
+    "task_033",
     "task_034",
     "task_035",
     "task_036",
@@ -44,6 +48,8 @@
     "task_042",
     "task_043",
     "task_044",
+    "task_045",
+    "task_046",
     "task_047",
     "task_048",
     "task_049",
@@ -99,37 +105,10 @@
     "task_099",
     "task_100"
   ],
-  "excluded_parameter_variants": [
-    {
-      "task_id": "task_006",
-      "covered_by": "task_005"
-    },
-    {
-      "task_id": "task_014",
-      "covered_by": "task_013"
-    },
-    {
-      "task_id": "task_025",
-      "covered_by": "task_024"
-    },
-    {
-      "task_id": "task_033",
-      "covered_by": "task_031"
-    },
-    {
-      "task_id": "task_045",
-      "covered_by": "task_043"
-    },
-    {
-      "task_id": "task_046",
-      "covered_by": "task_042"
-    }
-  ],
-  "selection_policy": "retain distinct success conditions; exclude near-identical parameter variants from the submission set",
   "measured_evaluation": {
-    "rollout_cells": 188,
-    "infrastructure_valid": 188,
-    "strict_passes": 104,
-    "strict_pass_rate": 0.553191
+    "rollout_cells": 200,
+    "infrastructure_valid": 200,
+    "strict_passes": 116,
+    "strict_pass_rate": 0.58
   }
 }
