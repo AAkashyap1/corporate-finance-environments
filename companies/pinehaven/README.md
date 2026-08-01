@@ -42,20 +42,6 @@ Dockerfile                Container entrypoint
 
 The evaluator and `data/` directories are included for reviewer reproducibility but are never mounted into the agent shell. On reset, only `source-files/` is copied to `/workspace`; ERP state is reconstructed into a private mutable database.
 
-## Measured result
-
-Two rollouts were completed for each task:
-
-- infrastructure-valid: 200/200;
-- strict passes: 116/200 (58.00%);
-- tasks passing both rollouts: 55;
-- tasks passing one rollout: 6; and
-- tasks passing neither rollout: 39.
-
-Console and authorized ERP tasks passed 115/120 cells. The artifact-producing tasks were substantially harder: 1/80 strict passes across spreadsheets, presentations, and documents.
-
-The recommended 94-task submission set scored 104/188 strict passes (55.32%); 39 retained tasks failed both rollouts.
-
 ## Build
 
 Use this directory as the container context:
