@@ -42,7 +42,7 @@ def _hud_result(task_id: str, result: dict[str, Any]):
     outcome.  The frontier runner reads and cross-checks the sidecar before it
     writes the commercial trace.
     """
-    from hud.evaluator import EvaluationResult
+    from hud.graders import EvaluationResult
 
     criteria = [
         {

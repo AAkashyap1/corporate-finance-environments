@@ -37,7 +37,7 @@ fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/al
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
 891305e810681d5d490ef598414527ddc8220811abb322316bcf8897a33ebebc  ./companies/alder-ridge/runtime/task_catalog.py
-a4e0dff2824a20267f349a581d0c2cfc50a1a0eb0229d4bf657898320eed1dae  ./companies/alder-ridge/runtime/task_templates.py
+df2ce549797a5222ce872a5ade0fe80f157b57d798425aba9b6f78a067232524  ./companies/alder-ridge/runtime/task_templates.py
 56b6986c62d647180dd9d3a09c20fac65aa882d9b5d6e91fca61230a5ef35ffa  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
 eddad61a79db5261c31ae0d44d43cb8fd716f2fa84a26be149050ca066fa9224  ./companies/alder-ridge/source-files/Requests/7.1.26_822am - Fwd_ wip close need today.eml
@@ -313,7 +313,7 @@ dcd4e56ff76247f781608851fb65c969d58d4233084c96de3cba741b7e768a21  ./companies/pi
 da4642baeea3ea5a1b07140cd5f55825dc4cc86f061a8ba12465c85290b090f1  ./companies/pinehaven/runtime/scripts/prepare_agent_runtime.py
 508f3d2564d252b5f6b9f6b3f6d1c7303e6e342561c6499e6829b899d4672cfe  ./companies/pinehaven/runtime/task_blueprints.py
 fa022b51016b06dc940e3d52fb8a2b9f7aeeb19c11c8b4cf06d7050f3bea4885  ./companies/pinehaven/runtime/task_catalog.py
-2d38a54cd7bf78d28212fd0ab0a578e414c2a3f1b6f75cdb960160636b428b58  ./companies/pinehaven/runtime/task_templates.py
+b2dd7d28064b7f2905560353f5fb26be614c7ccc3af18cd715dc7800e0f4a87f  ./companies/pinehaven/runtime/task_templates.py
 e14e77fbcf0df3586e0ff6680cdbf96296a642c710827d148088ba28bd38c70c  ./companies/pinehaven/runtime/tasks.py
 55b8a8c19c9c641c672ece2199001465444da6d824dc3d181c047ecab3fafff7  ./companies/pinehaven/runtime/uv.lock
 98369c4f274c001cad1419fd2628eb7b3a19f5dd244d93c2d948ecf31513269d  ./companies/pinehaven/source-files/Accounting Policies/Capitalization Policy.docx

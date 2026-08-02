@@ -35,7 +35,7 @@ def _invalidate_grading_error(result: dict[str, Any]) -> dict[str, Any]:
 
 
 def _hud_result(task_id: str, result: dict[str, Any]):
-    from hud.evaluator import EvaluationResult
+    from hud.graders import EvaluationResult
 
     criteria = [
         {
