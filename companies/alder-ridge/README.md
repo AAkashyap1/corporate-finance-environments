@@ -46,4 +46,4 @@ Use this directory as the container context:
 docker build -t alder-ridge-finance .
 ```
 
-The image starts `alder-ridge-corporate-finance-v1` through HUD on port 8765.
+The image starts `alder-ridge-corporate-finance` through HUD on port 8765.

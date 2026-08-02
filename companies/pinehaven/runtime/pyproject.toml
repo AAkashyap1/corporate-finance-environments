@@ -3,7 +3,7 @@ requires = ["setuptools>=75", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pinehaven-manufacturing-finance"
+name = "pinehaven-corporate-finance"
 version = "1.0.0"
 description = "A HUD-compatible multi-plant manufacturing corporate-finance company package"
 requires-python = ">=3.12,<3.13"

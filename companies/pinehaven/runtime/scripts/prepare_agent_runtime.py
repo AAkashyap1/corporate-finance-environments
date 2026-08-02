@@ -176,7 +176,7 @@ def build_agent_runtime(
         line.startswith(("-e ", "--editable "))
         or " @ file:" in line
         or line.casefold().startswith(
-            "pinehaven-manufacturing-finance"
+            "pinehaven-corporate-finance"
         )
         for line in active_requirements
     ):

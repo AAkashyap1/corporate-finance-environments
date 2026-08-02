@@ -63,7 +63,7 @@
   ],
   "runtime": {
     "dockerfile": "Dockerfile",
-    "hud_entrypoint": "pinehaven-manufacturing-finance-v1",
+    "hud_entrypoint": "pinehaven-corporate-finance",
     "source_directory": "runtime",
     "agent_visible_paths": [
       "/workspace"

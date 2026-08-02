@@ -80,7 +80,7 @@
   ],
   "runtime": {
     "dockerfile": "Dockerfile",
-    "hud_entrypoint": "alder-ridge-corporate-finance-v1",
+    "hud_entrypoint": "alder-ridge-corporate-finance",
     "source_directory": "runtime",
     "agent_visible_paths": [
       "/workspace"

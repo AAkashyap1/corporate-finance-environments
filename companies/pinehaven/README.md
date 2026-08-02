@@ -48,4 +48,4 @@ Use this directory as the container context:
 docker build -t pinehaven-finance .
 ```
 
-The image starts `pinehaven-manufacturing-finance-v1` through HUD on port 8765.
+The image starts `pinehaven-corporate-finance` through HUD on port 8765.

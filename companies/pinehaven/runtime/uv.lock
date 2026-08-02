@@ -879,7 +879,7 @@ wheels = [
 ]
 
 [[package]]
-name = "pinehaven-manufacturing-finance"
+name = "pinehaven-corporate-finance"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [
