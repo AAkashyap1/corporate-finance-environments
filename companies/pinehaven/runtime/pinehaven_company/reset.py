@@ -24,9 +24,9 @@ _BROAD_RESET_ROOTS = frozenset(
         Path("/tmp"),
         Path("/usr"),
         Path("/var"),
-        Path("/workspace"),
     }
 )
+_CONTAINER_RESET_ROOTS = frozenset({Path("/workspace"), Path("/state")})
 
 
 def _path_from_env(name: str, fallback: Path) -> Path:
@@ -46,7 +46,10 @@ def _path_from_env(name: str, fallback: Path) -> Path:
     resolved = candidate.resolve(strict=False)
     if (
         resolved in _BROAD_RESET_ROOTS
-        or len(resolved.parts) < 3
+        or (
+            len(resolved.parts) < 3
+            and resolved not in _CONTAINER_RESET_ROOTS
+        )
         or PROJECT_ROOT.is_relative_to(resolved)
         or seed_root().is_relative_to(resolved)
     ):
@@ -78,6 +81,23 @@ def runtime_roots() -> tuple[Path, Path]:
     return runtime_root, state_root
 
 
+def _handoff_workspace(root: Path) -> None:
+    """Give only the agent workspace to the configured non-root shell UID."""
+
+    raw_uid = os.environ.get("COMPANY_SHELL_UID")
+    if not raw_uid:
+        return
+    uid = int(raw_uid)
+    if uid <= 0:
+        raise RuntimeError("COMPANY_SHELL_UID must be a positive integer")
+    for directory, names, files in os.walk(root):
+        os.chown(directory, uid, uid)
+        for name in names:
+            os.chown(Path(directory) / name, uid, uid, follow_symlinks=False)
+        for name in files:
+            os.chown(Path(directory) / name, uid, uid, follow_symlinks=False)
+
+
 def reset_company() -> tuple[Path, Path]:
     """Create a clean visible workspace and an isolated mutable ERP copy."""
 
@@ -103,11 +123,13 @@ def reset_company() -> tuple[Path, Path]:
         if exact_root.exists():
             shutil.rmtree(exact_root)
         exact_root.mkdir(parents=True, exist_ok=True)
+    state_root.chmod(0o700)
 
     copy_seed_workspace(seed, runtime_root)
     database_path = state_root / "pinehaven_erp.db"
     copy_seed_database(seed, database_path)
     (runtime_root / "Deliverables").mkdir(parents=True, exist_ok=True)
+    _handoff_workspace(runtime_root)
     return runtime_root, database_path
 
 

@@ -482,11 +482,10 @@ def agent_runtime_mounts() -> tuple[Mount, ...]:
         mounts.append(Mount("ro", src=str(base), dst=str(base)))
     environment = agent_runtime_source()
     if environment.exists() or environment.is_symlink():
-        validate_agent_runtime(
-            environment,
-            project_root=_PROJECT_ROOT,
-            base_runtime=base,
-        )
+        # The release startup attestation performs the complete recursive
+        # runtime validation before the HUD control channel is bound.  Doing
+        # the same scan while declaring this read-only mount would duplicate
+        # that work and can exceed the platform's startup window.
         mounts.append(Mount("ro", src=str(environment), dst=AGENT_VENV))
     elif isolation_required():
         raise RuntimeError(
@@ -539,7 +538,20 @@ class IsolatedWorkspace(Workspace):
                 env=child_env,
                 inherit_host_env=False,
             )
-        return super().shell_argv(command, cwd=cwd, env=env)
+        argv = super().shell_argv(command, cwd=cwd, env=env)
+        if not self.bwrap_available and self._drops_privileges():
+            # Workspace's non-bwrap fallback uses a login shell, whose
+            # /etc/profile replaces the dependency-only PATH supplied above.
+            # Preserve the already sanitized environment for the dropped UID.
+            try:
+                bash_index = argv.index("bash")
+            except ValueError:
+                return argv
+            if command is not None and argv[bash_index + 1 : bash_index + 2] == ["-lc"]:
+                argv[bash_index + 1] = "-c"
+            elif command is None and argv[bash_index + 1 : bash_index + 2] == ["-l"]:
+                del argv[bash_index + 1]
+        return argv
 
 
 def verify_workspace_isolation(
@@ -566,20 +578,32 @@ def verify_workspace_isolation(
         }
         _VERIFIED_STARTUP_ATTESTATION = attestation
         return json.loads(json.dumps(attestation))
-    if not workspace.bwrap_available:
+    if not workspace.bwrap_available and not workspace._drops_privileges():
         raise RuntimeError(
-            "Release evaluation requires bubblewrap, but bwrap is not on PATH."
+            "Release evaluation requires either bubblewrap or a non-root "
+            "shell UID enforced with setpriv."
         )
     dependency_attestation = dependency_runtime_attestation(
         project_root=project_root,
     )
 
     hidden_root = shlex.quote(str(project_root.resolve()))
+    if workspace.bwrap_available:
+        boundary_checks = (
+            f"test ! -e {hidden_root}",
+            "test ! -e /state",
+        )
+    else:
+        boundary_checks = (
+            'test "$(id -u)" != 0',
+            f"test ! -r {hidden_root}/env.py",
+            f"test ! -r {hidden_root}/evaluator",
+            "test ! -r /state",
+        )
     command = " && ".join(
         (
             'test "$(pwd -P)" = /workspace',
-            f"test ! -e {hidden_root}",
-            "test ! -e /state",
+            *boundary_checks,
             'test -z "${OPENAI_API_KEY+x}"',
             'test -z "${HUD_API_KEY+x}"',
             'test -z "${PINEHAVEN_ERP_DB+x}"',

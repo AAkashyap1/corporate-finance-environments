@@ -33,6 +33,9 @@ WORKSPACE = IsolatedWorkspace(
     RUNTIME_ROOT,
     mounts=agent_runtime_mounts(),
     env=safe_agent_environment(),
+    shell_uid=int(os.environ["COMPANY_SHELL_UID"])
+    if os.environ.get("COMPANY_SHELL_UID")
+    else None,
 )
 
 

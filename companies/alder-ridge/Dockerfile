@@ -5,12 +5,12 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
     ALDER_RIDGE_REQUIRE_SHELL_ISOLATION=1 \
     ALDER_RIDGE_PROJECT_ROOT=/environment \
+    COMPANY_SHELL_UID=1000 \
     COMPANY_SEED_ROOT=/environment/company/seed \
     COMPANY_RUNTIME_ROOT=/workspace \
     COMPANY_STATE_ROOT=/state
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-      bubblewrap \
       ca-certificates \
       curl \
       fonts-dejavu-core \
@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
       nodejs \
       npm \
       poppler-utils \
+      util-linux \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /environment
@@ -37,7 +38,13 @@ RUN pip install --no-cache-dir uv==0.11.29 \
 
 ENV PATH="/environment/.venv/bin:${PATH}"
 
-RUN mkdir -p /workspace /state && chmod 0777 /workspace /state
+RUN cp -a /environment/.build/agent-runtime /opt/alder-ridge-agent-venv \
+    && chmod -R a+rX,go-w /opt/alder-ridge-agent-venv \
+    && chmod -R go-rwx /environment \
+    && chmod 0711 /environment \
+    && mkdir -p /workspace /state \
+    && chmod 0777 /workspace \
+    && chmod 0700 /state
 
 EXPOSE 8765
 CMD ["hud", "serve", "env.py", "--host", "0.0.0.0", "--port", "8765"]
