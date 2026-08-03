@@ -23,7 +23,7 @@ dependencies = [
 ]
 
 [tool.setuptools]
-py-modules = ["env", "tasks", "task_catalog", "task_templates"]
+py-modules = ["env", "tasks", "task_catalog", "task_prompts", "task_templates"]
 
 [tool.setuptools.packages.find]
 include = ["pinehaven_company*", "evaluator*"]

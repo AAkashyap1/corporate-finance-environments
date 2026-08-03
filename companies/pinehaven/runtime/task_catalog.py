@@ -9,6 +9,7 @@ from task_blueprints import (
     TaskBlueprint,
     authoritative_sources,
 )
+from task_prompts import TASK_PROMPTS
 
 
 @dataclass(frozen=True)
@@ -159,7 +160,7 @@ PERIOD_GUIDANCE = {
         "qualifying receipt IDs. `on_time_percent` is the pooled on-time "
         "receipt count divided by pooled `receipt_count`; "
         "`accepted_percent` is the pooled Accepted receipt count divided by "
-        "pooled `receipt_count`—do not average vendor percentages. "
+        "pooled `receipt_count`; do not average vendor percentages. "
         "`receipt_value` is the sum of receipt-line quantity times "
         "receipt-line unit price. A receipt is on time only when it was "
         "received on or before the PO expected date. For each vendor, calculate "
@@ -399,14 +400,14 @@ PERIOD_GUIDANCE = {
         "`(1 + volume_change)`. Scenario gross profit is scenario revenue "
         "less those two costs. Hold posted operating expense from the same "
         "baseline date range fixed when calculating scenario operating "
-        "income. Use June 30 operating working capital—AR plus inventory plus "
-        "WIP less AP and accrued payroll—divided by baseline revenue as the "
+        "income. Use June 30 operating working capital (AR plus inventory plus "
+        "WIP less AP and accrued payroll) divided by baseline revenue as the "
         "working-capital rate; apply that rate only to the scenario revenue "
         "change. Do not round intermediate calculations."
     ),
     "kpi_reconciliation": (
-        "Compare the eight package KPIs—revenue, gross profit, operating "
-        "income, inventory, WIP, backlog, cash, and debt—with independent "
+        "Compare the eight package KPIs (revenue, gross profit, operating "
+        "income, inventory, WIP, backlog, cash, and debt) with independent "
         "recomputations from their authoritative ERP modules. Compare money "
         "after rounding both sides to cents; a KPI passes only when the "
         "absolute difference is no more than $0.005. Count exactly the eight "
@@ -431,8 +432,8 @@ PERIOD_GUIDANCE = {
 
 def _format_parameters(blueprint: TaskBlueprint) -> str:
     if not blueprint.parameters:
-        return "No additional management case inputs."
-    return "Management case inputs (use as provided):\n```json\n" + json.dumps(
+        return ""
+    return "Use these assumptions:\n```json\n" + json.dumps(
         blueprint.parameters, indent=2, sort_keys=True
     ) + "\n```"
 
@@ -440,9 +441,33 @@ def _format_parameters(blueprint: TaskBlueprint) -> str:
 def _format_source_contract(blueprint: TaskBlueprint) -> str:
     sources = authoritative_sources(blueprint)
     return (
-        "Authoritative reconciliation source set:\n"
+        "Use these as the controlling sources:\n"
         + "\n".join(f"- `{source}`" for source in sources)
     )
+
+
+def _request_line(blueprint: TaskBlueprint, *, context: str = "") -> str:
+    number = int(blueprint.task_id.rsplit("_", 1)[1])
+    title = blueprint.title.rstrip(".")
+    lower_title = title[:1].lower() + title[1:]
+    starts_with_action = title.split(maxsplit=1)[0].lower() in {
+        "build", "create", "enter", "place", "post", "prepare", "reverse", "write"
+    }
+    if starts_with_action:
+        options = (
+            f"Please {lower_title}{context}.",
+            f"Can you {lower_title}{context}?",
+            f"I need you to {lower_title}{context}.",
+            f"Please {lower_title}{context}.",
+        )
+    else:
+        options = (
+            f"Please complete {lower_title}{context}.",
+            f"Can you prepare {lower_title}{context}?",
+            f"I need {lower_title}{context}.",
+            f"Please run {lower_title}{context}.",
+        )
+    return options[(number - 1) % len(options)]
 
 
 def _console_prompt(blueprint: TaskBlueprint) -> str:
@@ -455,47 +480,41 @@ def _console_prompt(blueprint: TaskBlueprint) -> str:
         ),
         "task_032": (
             "Return the customer display name, not the customer ID, in "
-            "`top_group` and `lowest_margin_group`. The grader treats the "
-            "authoritative ID and display name as equivalent identifiers."
+            "`top_group` and `lowest_margin_group`."
         ),
         "task_063": (
-            "Report `irr` and `profitability_index` to four decimal places; "
-            "the authoritative comparison uses that declared precision."
+            "Report `irr` and `profitability_index` to four decimal places."
         ),
         "task_064": (
             "For non-positive annual savings, return `No payback` and a "
-            "plain-language no-recovery status; punctuation, optional "
-            "linking words, and `nonpositive`/`non-positive` are equivalent."
+            "plain-language status explaining that the investment does not "
+            "recover its cost."
         ),
         "task_065": (
-            "Report `irr` and `profitability_index` to four decimal places; "
-            "the authoritative comparison uses that declared precision."
+            "Report `irr` and `profitability_index` to four decimal places."
         ),
     }.get(blueprint.task_id, "")
-    return f"""You are Pinehaven Motion Systems' corporate-finance lead. Complete **{blueprint.title}**.
-
-{blueprint.source_hint}
-
-{_format_source_contract(blueprint)}
-
-Calculation basis: {PERIOD_GUIDANCE[blueprint.bundle]}
-
-{_format_parameters(blueprint)}
-
-{task_specific}
-
-Return one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:
+    response = f"""Return one valid JSON object and no surrounding prose. Use exactly these top-level keys, in this order:
 {json.dumps(list(keys))}
 
-Requirements:
+Formatting requirements:
 - Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.
 - Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).
 - Counts are integers. Names, IDs, periods, and statuses are strings.
 - Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.
 - Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.
-- Reconcile the result across the ERP and visible source files internally. The fixed schema has no citation field, so do not add source or narrative keys.
-- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.
+- Reconcile the result across the ERP and the listed source files. Do not add narrative or citation fields to the response.
 """
+    sections = (
+        _request_line(blueprint),
+        blueprint.source_hint,
+        _format_source_contract(blueprint),
+        f"Use this calculation basis: {PERIOD_GUIDANCE[blueprint.bundle]}",
+        _format_parameters(blueprint),
+        task_specific,
+        response,
+    )
+    return "\n\n".join(section.strip() for section in sections if section.strip()) + "\n"
 
 
 def _artifact_prompt(blueprint: TaskBlueprint) -> str:
@@ -540,14 +559,13 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "\nWorking-capital decision: Use the reconciled turns and days on "
             "hand to recommend a source-supported working-capital action. A "
             "quantified aged- or slow-moving-inventory reduction/disposition "
-            "plan is a valid action; do not merely restate the metrics.\n"
+            "plan is appropriate; do not merely restate the metrics.\n"
         ),
         "task_026": (
             "\nBacklog decision: Recommend a source-supported backlog-to-cash, "
             "overdue-risk, capacity-mitigation, or re-promise action. Identify "
             "the top customer exposure when concentration is material. The "
-            "decision need not use a prescribed phrase if the quantified "
-            "action is supported by the bridge.\n"
+            "recommendation must be supported by the quantified bridge.\n"
         ),
         "task_027": (
             "\nScenario input precision: Use the approved capacity report's "
@@ -609,8 +627,8 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "dependency, and country exposure. Select a concrete mitigation "
             "such as recovery, dual-source qualification, or safety stock, "
             "with the supplied owner and decision date. Use natural business "
-            "labels for those authoritative fields; no unsupplied risk-tier "
-            "classification is required.\n"
+            "labels for those fields; do not add a risk tier that is not in "
+            "the supplied sources.\n"
         ),
         "task_056": (
             "\nRequired detail: Include one filterable row for every in-scope "
@@ -626,7 +644,7 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "rework as unavailable exclusions rather than implying they are "
             "zero. Recommend a source-supported COPQ action; prioritizing the "
             "largest scrap family and resolving the top open-quality item is "
-            "valid without any prescribed `launch recovery` wording.\n"
+            "an appropriate course of action.\n"
         ),
         "task_058": (
             "\nMaintenance-capacity scope: Separate corrective and preventive "
@@ -749,8 +767,10 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "\nCFO-note scope: State which June close controls are complete or "
             "open, identify the largest margin, backlog-to-cash, working-"
             "capital, and liquidity exposures, and make explicit approve/hold "
-            "decisions. Assign an accountable owner and dated next action for "
-            "each priority; June must remain labeled pre-close.\n"
+            "decisions for the KPI package, final period lock, and discretionary "
+            "capital. Include every open close control in the decision register, "
+            "with an accountable owner and dated next action for each priority; "
+            "June must remain labeled pre-close.\n"
         ),
         "task_097": (
             "\nBoard-priorities scope: Connect the FY27 monthly operating plan "
@@ -774,25 +794,30 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
         ),
     }
     project_scope += task_specific_scope.get(blueprint.task_id, "")
-    common = f"""You are Pinehaven Motion Systems' corporate-finance lead. Complete **{blueprint.title}**.
-
-{blueprint.source_hint}
-
-{_format_source_contract(blueprint)}
-
-Calculation basis: {PERIOD_GUIDANCE[blueprint.bundle]}
-
-{_format_parameters(blueprint)}
-{project_scope}
-
-Create exactly this deliverable: `{blueprint.target_path}`. Do not modify any existing source file. The deliverable must visibly include the authoritative calculation chain for these metrics:
-{json.dumps(metric_keys)}
-
-Access boundary: use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.
-"""
+    common = "\n\n".join(
+        section.strip()
+        for section in (
+            _request_line(blueprint),
+            blueprint.source_hint,
+            _format_source_contract(blueprint),
+            f"Use this calculation basis: {PERIOD_GUIDANCE[blueprint.bundle]}",
+            _format_parameters(blueprint),
+            project_scope,
+            (
+                f"Create the deliverable at `{blueprint.target_path}` and leave the source files "
+                "unchanged. The finished file must show the calculation chain for these metrics:\n"
+                f"{json.dumps(metric_keys)}"
+            ),
+            (
+                "Keep the shared company workspace clean: create only the requested deliverable "
+                "and do not leave behind draft scripts or temporary exports."
+            ),
+        )
+        if section.strip()
+    )
     if blueprint.output_mode == "spreadsheet":
         body = """
-Workbook contract:
+For the workbook:
 - Include sheets named `Read Me`, `Inputs`, `Analysis`, and `Control`.
 - Preserve source lineage in Inputs with source object/file, date or version, and extraction cutoff.
 - Put scenario assumptions in visibly distinct input cells. Drive Analysis and Control by formulas; do not hard-code calculated results.
@@ -804,24 +829,24 @@ Workbook contract:
 """
     elif blueprint.output_mode == "document":
         body = """
-Document contract:
-- Maximum 3 pages, with a clear title, date, audience, and June pre-close labeling.
-- Use sections `Executive conclusion`, `Evidence`, `Economics`, `Risks and controls`, and `Sources`.
-- Include a native decision table, exact central metrics, the recommended decision/action, named owner, and timing.
+For the document:
+- Maximum 3 pages, with a clear title, date, audience, and June pre-close labeling. Use Word's built-in Title style for the title.
+- Use Word's built-in heading styles for `Executive conclusion`, `Evidence`, `Economics`, `Risks and controls`, and `Sources`.
+- Include a native calculation table with metric, source/input, calculation logic, and result columns, plus a native decision table with the recommended decision/action, named owner, and timing.
 - Cite visible source filenames and ERP report names. Distinguish facts from assumptions and do not claim June is closed.
 - Number every page in the footer with native page numbering and render every page to confirm the number is visible.
 """
     else:
         body = """
-Presentation contract:
+For the presentation:
 - Exactly 5 slides titled `Decision`, `Evidence`, `Economics`, `Risks`, and `Actions`.
 - Include exact central metrics, one native editable chart, one native editable table, a clear decision, named owners, timing, and source footnotes.
 - Use a coherent executive visual hierarchy; no screenshots of tables, overlapping objects, clipped text, placeholders, or unsupported claims.
 """
-    return common + body + f"""
-When the file is complete, return one JSON object only:
+    completion = f"""When the file is complete, return one JSON object only:
 {{"deliverable":"{blueprint.target_path}","status":"complete","central_decision":"<concise decision>","sources_checked":["<source 1>","<source 2>"]}}
 """
+    return "\n\n".join(part.strip() for part in (common, body, completion)) + "\n"
 
 
 def _erp_prompt(blueprint: TaskBlueprint) -> str:
@@ -862,21 +887,22 @@ def _erp_prompt(blueprint: TaskBlueprint) -> str:
             f"{blueprint.source_hint}\n\n"
             f"{_format_source_contract(blueprint)}\n\n"
         )
-    return f"""You are an authorized Pinehaven ERP operator. Complete **{blueprint.title}**.
-
-{source_context}Authorized scope: {action}
-
-{_format_parameters(blueprint)}
-
-Controls:
-- Use only the Pinehaven ERP MCP workflow tools; never alter files or attempt raw database access.
-- Use only the supplied Pinehaven workspace and approved ERP application tools. Do not access system configuration, credentials, application internals, or unrelated storage.
+    controls = f"""Before you finish:
+- Use the Pinehaven ERP workflow tools; do not alter files or use direct database access.
 - Make no additional ERP write, retry duplicate, substitute item/site/account, or amount change.
 - Confirm the returned business object and audit events after the write.
 
 Return one valid JSON object and no surrounding prose, with exactly these keys:
 {json.dumps(list(BUNDLE_KEYS[blueprint.bundle]))}
 """
+    sections = (
+        _request_line(blueprint, context=" in Pinehaven ERP"),
+        source_context,
+        action,
+        _format_parameters(blueprint),
+        controls,
+    )
+    return "\n\n".join(section.strip() for section in sections if section.strip()) + "\n"
 
 
 def _difficulty(blueprint: TaskBlueprint) -> str:
@@ -890,7 +916,9 @@ def _difficulty(blueprint: TaskBlueprint) -> str:
 
 
 def _spec(blueprint: TaskBlueprint) -> TaskSpec:
-    if blueprint.output_mode == "console":
+    if blueprint.task_id in TASK_PROMPTS:
+        prompt = TASK_PROMPTS[blueprint.task_id]
+    elif blueprint.output_mode == "console":
         prompt = _console_prompt(blueprint)
     elif blueprint.output_mode in {"spreadsheet", "document", "presentation"}:
         prompt = _artifact_prompt(blueprint)
