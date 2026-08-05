@@ -291,12 +291,12 @@ def _source_context(task_id: str, project_root: Path) -> dict[str, Any]:
 def _client(*, hud_api_key: str | None, openai_api_key: str | None):
     from openai import AsyncOpenAI
 
+    if openai_api_key:
+        return AsyncOpenAI(api_key=openai_api_key), "openai_direct"
     if hud_api_key:
         from hud.settings import settings
 
         return AsyncOpenAI(api_key=hud_api_key, base_url=settings.hud_gateway_url), "hud_gateway"
-    if openai_api_key:
-        return AsyncOpenAI(api_key=openai_api_key), "openai_direct"
     raise RuntimeError(
         "production semantic verification requires a grader-isolated HUD_API_KEY or "
         "OPENAI_API_KEY; semantic scoring cannot fall back to lexical matching"

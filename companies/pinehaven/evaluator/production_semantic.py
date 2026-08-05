@@ -562,6 +562,15 @@ def _client(
 ) -> tuple[Any, str]:
     from openai import AsyncOpenAI
 
+    if openai_api_key:
+        return (
+            AsyncOpenAI(
+                api_key=openai_api_key,
+                max_retries=SEMANTIC_MAX_RETRIES,
+                timeout=SEMANTIC_REQUEST_TIMEOUT_SECONDS,
+            ),
+            "openai_direct",
+        )
     if hud_api_key:
         from hud.settings import settings
 
@@ -573,15 +582,6 @@ def _client(
                 timeout=SEMANTIC_REQUEST_TIMEOUT_SECONDS,
             ),
             "hud_gateway",
-        )
-    if openai_api_key:
-        return (
-            AsyncOpenAI(
-                api_key=openai_api_key,
-                max_retries=SEMANTIC_MAX_RETRIES,
-                timeout=SEMANTIC_REQUEST_TIMEOUT_SECONDS,
-            ),
-            "openai_direct",
         )
     raise RuntimeError(
         "production semantic verification requires a grader-isolated "
@@ -595,10 +595,10 @@ _MISSING = object()
 def _provider_name(
     *, hud_api_key: str | None, openai_api_key: str | None
 ) -> str:
-    if hud_api_key:
-        return "hud_gateway"
     if openai_api_key:
         return "openai_direct"
+    if hud_api_key:
+        return "hud_gateway"
     return "unavailable"
 
 
