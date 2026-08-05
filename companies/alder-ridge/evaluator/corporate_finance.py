@@ -1645,10 +1645,30 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
         expected: Any,
         *,
         required_sheet_concept: str,
+        concepts: tuple[str, ...] = (
+            "first covenant breach",
+            "first leverage breach",
+            "first breach quarter",
+            "initial covenant breach",
+        ),
     ) -> tuple[float, str]:
         expected_index = _task_048_quarter_index(expected)
         if expected_index is None:
-            return 0.0, "expected quarter is invalid"
+            expected_text = _normalize(expected)
+            if expected_text not in {"none", "no breach"}:
+                return 0.0, "expected quarter is invalid"
+            for sheet_name in workbook.sheetnames:
+                if not contains_concept(sheet_name, required_sheet_concept):
+                    continue
+                sheet = workbook[sheet_name]
+                for row_number in range(1, sheet.max_row + 1):
+                    text = row_text(sheet, row_number)
+                    if row_has_concept(text, concepts) and (
+                        contains_concept(text, "no breach")
+                        or re.search(r"\bnone\b", text, flags=re.I)
+                    ):
+                        return 0.5, f"no-breach conclusion appears in a labeled schedule at {sheet_name}!{row_number}"
+            return 0.0, f"no-breach conclusion is absent from the {required_sheet_concept} schedule"
         candidates: list[tuple[int, str]] = []
         for sheet_name in workbook.sheetnames:
             if not contains_concept(sheet_name, required_sheet_concept):
@@ -1657,15 +1677,7 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
             value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
             for row_number in range(1, sheet.max_row + 1):
                 text = row_text(sheet, row_number)
-                if not row_has_concept(
-                    text,
-                    (
-                        "first covenant breach",
-                        "first leverage breach",
-                        "first breach quarter",
-                        "initial covenant breach",
-                    ),
-                ):
+                if not row_has_concept(text, concepts):
                     continue
                 for cell in value_sheet[row_number]:
                     quarter = _task_048_quarter_index(cell.value)
@@ -1793,6 +1805,66 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
         ("fixed charge coverage", "fccr"),
         required_sheet_concept="downside",
     )
+    liquidity_breach_score, liquidity_breach_evidence = quarter_row_support(
+        answer["first_liquidity_floor_breach"],
+        required_sheet_concept="covenant",
+        concepts=("first liquidity floor breach", "first cash floor breach", "initial liquidity shortfall"),
+    )
+    minimum_cash_score, minimum_cash_evidence = numeric_row_support(
+        float(answer["minimum_pre_financing_cash"]),
+        ("minimum pre financing cash", "minimum cash before financing", "lowest pre financing cash"),
+        required_sheet_concept="covenant",
+    )
+    cure_cash_score, cure_cash_evidence = numeric_row_support(
+        float(answer["cash_available_for_cure"]),
+        ("cash available for cure", "cash funded cure capacity", "cash cure capacity"),
+        required_sheet_concept="covenant",
+    )
+    cure_shortfall_score, cure_shortfall_evidence = numeric_row_support(
+        float(answer["cash_cure_funding_shortfall"]),
+        ("cash cure funding shortfall", "cure funding shortfall", "unfunded covenant cure"),
+        required_sheet_concept="covenant",
+    )
+    tangible_net_worth_breach_score, tangible_net_worth_breach_evidence = quarter_row_support(
+        answer["first_tangible_net_worth_breach"],
+        required_sheet_concept="covenant",
+        concepts=("first tangible net worth breach", "first tnw breach", "initial tangible net worth breach"),
+    )
+    minimum_tangible_net_worth_score, minimum_tangible_net_worth_evidence = numeric_row_support(
+        float(answer["minimum_tangible_net_worth"]),
+        ("minimum tangible net worth", "minimum tnw", "lowest tangible net worth"),
+        required_sheet_concept="covenant",
+    )
+    downside_liquidity_breach_score, downside_liquidity_breach_evidence = quarter_row_support(
+        answer["downside_first_liquidity_floor_breach"],
+        required_sheet_concept="downside",
+        concepts=("first liquidity floor breach", "first cash floor breach", "initial liquidity shortfall"),
+    )
+    downside_minimum_cash_score, downside_minimum_cash_evidence = numeric_row_support(
+        float(answer["downside_minimum_pre_financing_cash"]),
+        ("minimum pre financing cash", "minimum cash before financing", "lowest pre financing cash"),
+        required_sheet_concept="downside",
+    )
+    downside_cure_cash_score, downside_cure_cash_evidence = numeric_row_support(
+        float(answer["downside_cash_available_for_cure"]),
+        ("cash available for cure", "cash funded cure capacity", "cash cure capacity"),
+        required_sheet_concept="downside",
+    )
+    downside_cure_shortfall_score, downside_cure_shortfall_evidence = numeric_row_support(
+        float(answer["downside_cash_cure_funding_shortfall"]),
+        ("cash cure funding shortfall", "cure funding shortfall", "unfunded covenant cure"),
+        required_sheet_concept="downside",
+    )
+    downside_tangible_net_worth_breach_score, downside_tangible_net_worth_breach_evidence = quarter_row_support(
+        answer["downside_first_tangible_net_worth_breach"],
+        required_sheet_concept="downside",
+        concepts=("first tangible net worth breach", "first tnw breach", "initial tangible net worth breach"),
+    )
+    downside_minimum_tangible_net_worth_score, downside_minimum_tangible_net_worth_evidence = numeric_row_support(
+        float(answer["downside_minimum_tangible_net_worth"]),
+        ("minimum tangible net worth", "minimum tnw", "lowest tangible net worth"),
+        required_sheet_concept="downside",
+    )
 
     return {
         "method": "deterministic_professional_schedule_support_v2",
@@ -1818,6 +1890,30 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
                 "score": coverage_score,
                 "evidence": coverage_evidence,
             },
+            "headline_values__first_liquidity_floor_breach": {
+                "score": liquidity_breach_score,
+                "evidence": liquidity_breach_evidence,
+            },
+            "headline_values__minimum_pre_financing_cash": {
+                "score": minimum_cash_score,
+                "evidence": minimum_cash_evidence,
+            },
+            "headline_values__cash_available_for_cure": {
+                "score": cure_cash_score,
+                "evidence": cure_cash_evidence,
+            },
+            "headline_values__cash_cure_funding_shortfall": {
+                "score": cure_shortfall_score,
+                "evidence": cure_shortfall_evidence,
+            },
+            "headline_values__first_tangible_net_worth_breach": {
+                "score": tangible_net_worth_breach_score,
+                "evidence": tangible_net_worth_breach_evidence,
+            },
+            "headline_values__minimum_tangible_net_worth": {
+                "score": minimum_tangible_net_worth_score,
+                "evidence": minimum_tangible_net_worth_evidence,
+            },
             "downside_values__downside_first_covenant_breach": {
                 "score": downside_breach_score,
                 "evidence": downside_breach_evidence,
@@ -1833,6 +1929,30 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
             "downside_values__downside_minimum_fixed_charge_coverage": {
                 "score": downside_coverage_score,
                 "evidence": downside_coverage_evidence,
+            },
+            "downside_values__downside_first_liquidity_floor_breach": {
+                "score": downside_liquidity_breach_score,
+                "evidence": downside_liquidity_breach_evidence,
+            },
+            "downside_values__downside_minimum_pre_financing_cash": {
+                "score": downside_minimum_cash_score,
+                "evidence": downside_minimum_cash_evidence,
+            },
+            "downside_values__downside_cash_available_for_cure": {
+                "score": downside_cure_cash_score,
+                "evidence": downside_cure_cash_evidence,
+            },
+            "downside_values__downside_cash_cure_funding_shortfall": {
+                "score": downside_cure_shortfall_score,
+                "evidence": downside_cure_shortfall_evidence,
+            },
+            "downside_values__downside_first_tangible_net_worth_breach": {
+                "score": downside_tangible_net_worth_breach_score,
+                "evidence": downside_tangible_net_worth_breach_evidence,
+            },
+            "downside_values__downside_minimum_tangible_net_worth": {
+                "score": downside_minimum_tangible_net_worth_score,
+                "evidence": downside_minimum_tangible_net_worth_evidence,
             },
         },
     }

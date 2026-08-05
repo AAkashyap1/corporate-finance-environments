@@ -1,5 +1,5 @@
 {
-  "company_id": "alder-ridge-mechanical-v2",
+  "world_id": "alder-ridge-mechanical-v2",
   "snapshot": "2026-06-30-pre-close",
   "control_only_not_agent_visible": true,
   "tasks": {
@@ -28,7 +28,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 30,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -61,7 +61,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 50,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -95,7 +95,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 160,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -128,7 +128,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 31,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -157,7 +157,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 44,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -192,7 +192,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 68,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -225,7 +225,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 123,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -260,7 +260,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 45,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -292,7 +292,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 61,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -325,7 +325,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 141,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -362,7 +362,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 43,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -393,7 +393,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 165,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -424,7 +424,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 61,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -454,7 +454,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 23,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -490,7 +490,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 140,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -527,7 +527,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 83,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -563,7 +563,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 88,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -598,7 +598,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 29,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -634,7 +634,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 32,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -666,7 +666,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 38,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -700,7 +700,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 36,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -736,7 +736,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 38,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -748,6 +748,7 @@
     "task_048": {
       "accounting_mcp_required": true,
       "mcp_anchor_types": [
+        "cash",
         "debt"
       ],
       "source_synthesis_task": true,
@@ -770,11 +771,12 @@
         "Debt Schedule",
         "Forecast Inputs",
         "Historical Covenant Inputs",
+        "Opening Balances",
         "Management instructions and decision rules",
         "Current-versus-prior source authority and reconciliation"
       ],
-      "native_fact_rows": 98,
-      "shared_company_navigation": true,
+      "native_fact_rows": 119,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -805,7 +807,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 46,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -839,7 +841,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 23,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -869,7 +871,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 69,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -899,7 +901,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 88,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -929,7 +931,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 44,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -960,7 +962,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 36,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -988,7 +990,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 28,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1017,7 +1019,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 35,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1050,7 +1052,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 23,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1080,7 +1082,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 33,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1110,7 +1112,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 56,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1140,7 +1142,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 32,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1175,7 +1177,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 72,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1206,7 +1208,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 32,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1237,7 +1239,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 35,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1271,7 +1273,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 25,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1303,7 +1305,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 56,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1338,7 +1340,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 40,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1377,7 +1379,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 63,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1416,7 +1418,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 63,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1449,7 +1451,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 46,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1481,7 +1483,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 34,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1515,7 +1517,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 25,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1554,7 +1556,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 65,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1588,7 +1590,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 23,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1620,7 +1622,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 27,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1655,7 +1657,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 43,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1693,7 +1695,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 72,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1727,7 +1729,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 68,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1762,7 +1764,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 115,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1796,7 +1798,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 80,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1833,7 +1835,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 87,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1866,7 +1868,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 117,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1903,7 +1905,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 126,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1938,7 +1940,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 65,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -1972,7 +1974,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 54,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2008,7 +2010,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 77,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2042,7 +2044,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 77,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2077,7 +2079,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 86,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2110,7 +2112,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 65,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2142,7 +2144,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 69,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2174,7 +2176,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 59,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2207,7 +2209,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 62,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2242,7 +2244,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 55,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2275,7 +2277,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 60,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2308,7 +2310,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 55,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2341,7 +2343,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 65,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2372,7 +2374,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 50,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2406,7 +2408,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 60,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2440,7 +2442,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 57,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2476,7 +2478,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 71,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [
@@ -2512,7 +2514,7 @@
         "Current-versus-prior source authority and reconciliation"
       ],
       "native_fact_rows": 83,
-      "shared_company_navigation": true,
+      "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
       "request_threads": [

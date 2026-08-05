@@ -1,13 +1,13 @@
 {
-  "company_id": "alder-ridge-mechanical-v2",
+  "world_id": "alder-ridge-mechanical-v2",
   "snapshot": "2026-06-30-pre-close",
   "control_only_not_agent_visible": true,
   "files": [
     {
       "path": "Requests/7.1.26_822am - Fwd_ wip close need today.eml",
       "type": "eml",
-      "bytes": 941,
-      "sha256": "eddad61a79db5261c31ae0d44d43cb8fd716f2fa84a26be149050ca066fa9224",
+      "bytes": 925,
+      "sha256": "52e1669145212e230512674b56bec896a5f2d18f25bc1157dd2f8ac57dc85d57",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -15,8 +15,8 @@
     {
       "path": "Requests/7.1.26_904am - cash refresh + Fri deck.eml",
       "type": "eml",
-      "bytes": 911,
-      "sha256": "571958964020731db19c32d40b0b9c4539f9c86700297350595ff14304ec3f47",
+      "bytes": 895,
+      "sha256": "82e17582f1ff16e67a7e3110e02b1e51ee39d44110af168716ef188da9a0eeb4",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -24,8 +24,8 @@
     {
       "path": "Requests/7.2.26_1027am - Q2 bank compliance package.eml",
       "type": "eml",
-      "bytes": 962,
-      "sha256": "b398dab68ee2acd512f953869ddf1366fc14bc6d9cf7dc607cda4ce99d057fa1",
+      "bytes": 946,
+      "sha256": "6902b57fe575680db258c2263080de4492ba23c26416299251116b2fe51e0038",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -33,8 +33,8 @@
     {
       "path": "Requests/7.2.26_1103am - CFO close decision note - internal only.eml",
       "type": "eml",
-      "bytes": 801,
-      "sha256": "05e644590cad7c918433192d2798d91723eefb5d6fb1442c58316f636fadedac",
+      "bytes": 789,
+      "sha256": "125ccd309f5832012818529df727e99962dd8a88c8dc45f6f73cd5ab78f0a58e",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -42,8 +42,8 @@
     {
       "path": "Requests/7.2.26_611am - June ops review deck + notes.eml",
       "type": "eml",
-      "bytes": 713,
-      "sha256": "653cc9572d865817a16fb1503022f022a1cd89c67b6bd834e1411e36b70f3284",
+      "bytes": 697,
+      "sha256": "577de977992c61b903403626f6569470d1443c6d16b14870aaf92c3683cd5d6b",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -51,8 +51,8 @@
     {
       "path": "Requests/7.2.26_736am - FW_ wc cleanup + backlog coverage.eml",
       "type": "eml",
-      "bytes": 979,
-      "sha256": "768adc58b3d2f26580c1cf59695c65eeb34440b03edf40f209da728a911993aa",
+      "bytes": 963,
+      "sha256": "22b257c942553bb0863c67090b93ec2a13a20597ab1493996017044b4b01ef5d",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -60,8 +60,8 @@
     {
       "path": "Requests/7.2.26_805am - payroll bridge + capex before noon.eml",
       "type": "eml",
-      "bytes": 1105,
-      "sha256": "6c15c6ad155b95cf241755473014422e9349a029aeff081fa8a068f7dd3cc960",
+      "bytes": 1089,
+      "sha256": "c09d1da6d54dc3eaf87260560b78210984fa940771474c598361cd4d51d3558c",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -69,8 +69,8 @@
     {
       "path": "Requests/7.2.26_842am - service vans capacity check - LT fwd.eml",
       "type": "eml",
-      "bytes": 968,
-      "sha256": "edd6a6eee3e84faa52aa9c8dd48cc5c731433a041b32f8b0abc83d39c5df5ad5",
+      "bytes": 952,
+      "sha256": "09ef2b12e8b1c3398ae8bf8397a5112c1bfd6971cc7211434b9cb7b06f2a5186",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -78,8 +78,8 @@
     {
       "path": "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
       "type": "eml",
-      "bytes": 1581,
-      "sha256": "a11e7397582605eb0101cb484ae843f567c594f1f5f8c7935b5cb80f577fd78a",
+      "bytes": 1565,
+      "sha256": "1be19d2e99dfa8d1c60e31c79b6a4af50dbd4220e16a3c7708e6f75d4eb62740",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -87,8 +87,8 @@
     {
       "path": "Requests/7.4.26_0838am - capital committee + five year plan.eml",
       "type": "eml",
-      "bytes": 1170,
-      "sha256": "5f5c0cbe7a4a33a824a4cc2ace32fb6ca838882ba478379bee002590ab83a99e",
+      "bytes": 1154,
+      "sha256": "7e0e78a286b91c6e775c9f10ffcfc756a38e26510599f02f42d574699c18a896",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -96,8 +96,8 @@
     {
       "path": "Requests/7.4.26_0956am - July liquidity bank work + covenant outlook.eml",
       "type": "eml",
-      "bytes": 1333,
-      "sha256": "f95d98c951e6563a01b4394804ee3910295509936685eab5bbba7efbdd964c5d",
+      "bytes": 1317,
+      "sha256": "cd4b283387c318fe0b7e0897737a43c4c85d3f6e09b12709b900fa869d0067c0",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -105,8 +105,8 @@
     {
       "path": "Requests/7.4.26_1106am - corp dev IC workstream status.eml",
       "type": "eml",
-      "bytes": 1303,
-      "sha256": "171f71bf5d3a28c6b6b038697e0ef63d033d60c12a494904d7a00130d2bd99d3",
+      "bytes": 1287,
+      "sha256": "4cf64bc351cd7a6a68e8c23d3e43daf3330cf9d8bdda16871c598c930c1937f3",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -114,8 +114,8 @@
     {
       "path": "Requests/7.4.26_1216pm - tax provision + EBITDA definitions.eml",
       "type": "eml",
-      "bytes": 1207,
-      "sha256": "386ff0c1e667f44f564d54ebe8c384e0949785c74d6bad493c25bc72ce43a803",
+      "bytes": 1191,
+      "sha256": "5f0cf4373eeda6051bf1d9da2c91974ad1b35c0f14f0f0d432be4dbdc3578644",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -123,8 +123,8 @@
     {
       "path": "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
       "type": "eml",
-      "bytes": 1195,
-      "sha256": "ab1c852eb41898d53562be795e6be32d86931e696090186baf6879bf481bbf5a",
+      "bytes": 1179,
+      "sha256": "1d5917863fbb30ddd4b70e33bcc8f829a7194968529ca172a67c455582b4c498",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -132,8 +132,8 @@
     {
       "path": "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
       "type": "eml",
-      "bytes": 1162,
-      "sha256": "3b8bcbbd8eeacd93a39d31e02edb1e27c4b21bd78ac4005b5c72171b59308bc5",
+      "bytes": 1146,
+      "sha256": "21ad1ee43db3b409a90cf9ef53c98f5b81db4d84f7dddb838dbdcd6f9effc798",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -141,8 +141,8 @@
     {
       "path": "Requests/7.5.26_0642am - capital cases after committee review.eml",
       "type": "eml",
-      "bytes": 916,
-      "sha256": "90427d33cf66239984aa801548e59129c0b9d5a518bc19fd12fb49b58e58594f",
+      "bytes": 900,
+      "sha256": "2ef2ed5223517786bbcc82886000c1b08eaddcf5e739c4e2c7a686ba6035454d",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -150,8 +150,8 @@
     {
       "path": "Requests/7.5.26_0709am - bank follow-up + treasury version check.eml",
       "type": "eml",
-      "bytes": 1036,
-      "sha256": "07ac43c78b64a71ac23087cf00f2972a07090bcb57caa428d277dcb35aa27132",
+      "bytes": 1020,
+      "sha256": "7ee07e198ebb2dbe243b5bd0dbf4bef27e766375a103fceec882985bb0637236",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -159,8 +159,8 @@
     {
       "path": "Requests/7.5.26_0727am - deal IC follow-up + banker case warning.eml",
       "type": "eml",
-      "bytes": 1083,
-      "sha256": "54db9e90721ac95a942ec0ad169b30ede79aab758b940cba4878e8b152d9716e",
+      "bytes": 1067,
+      "sha256": "91391f800c937b2cc6fe69228053a83c48abd6fe441d3e627601c7b7d39b586c",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -168,8 +168,8 @@
     {
       "path": "Requests/7.5.26_0751am - tax review comments + close version.eml",
       "type": "eml",
-      "bytes": 946,
-      "sha256": "4d5e3f11160f221bf70a4acec6a4bb363586524dfe094919d063364730c35491",
+      "bytes": 930,
+      "sha256": "316288e2c4821b48af43d4221892ebf3dca689b6d8995a3cc49d1ed41defc0e3",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -177,8 +177,8 @@
     {
       "path": "Requests/7.5.26_0812am - board review changes + source tie.eml",
       "type": "eml",
-      "bytes": 957,
-      "sha256": "a320606ee794627e98f50dada43c678bace14da737f36eb1fde64f8715ef7203",
+      "bytes": 941,
+      "sha256": "8f3f9afdf3d4b2f876a76d72ee5ac5f8b125f90cf91503d39399cf3dd4ee81f7",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -897,8 +897,8 @@
     {
       "path": "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx",
       "type": "xlsx",
-      "bytes": 12690,
-      "sha256": "d97612e8be2683dc4788c3ef23217ec024c8522dc02f7a36c9c911688adce201",
+      "bytes": 14331,
+      "sha256": "1a56fc2031b46e30d87dcf43934ae7792621eb918d4003e314b874130163e9b3",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -915,8 +915,8 @@
     {
       "path": "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
       "type": "csv",
-      "bytes": 36563,
-      "sha256": "3b00df0452335e88face522e65ae239b6fa1b495370b618d2ab71e4b70629348",
+      "bytes": 38739,
+      "sha256": "783eb84798a727f8b173cf14584d542ca34c3eccab142c7ecd71822f78306c7d",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -942,8 +942,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
       "type": "docx",
-      "bytes": 44198,
-      "sha256": "e76e53d72963acd4cbf124cc0ddd4092bc0f1c5ce8cfd2d5ba3de4fd1d312391",
+      "bytes": 44417,
+      "sha256": "54ab6aa869fcdca4ee3355d2158c208c62138af469fce44d0dfa3f1dbfefec6d",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -951,8 +951,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
       "type": "xlsx",
-      "bytes": 25230,
-      "sha256": "c5b314668a63ac1cbee10e68bf2ac2219b4aa032a7dee69eae48a8f089c18d3f",
+      "bytes": 26028,
+      "sha256": "f21c702b637cfd996e87f220313aa65a1ab2adf99ca0e53ef30505eb998de844",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -960,8 +960,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
       "type": "xlsx",
-      "bytes": 41984,
-      "sha256": "b4a9b0ee9ec8b6020b4d4d1c50b09903dfdad083941ab9786695fff4f428a315",
+      "bytes": 43929,
+      "sha256": "0112e9d8f25903bb738bcb05ec6cbd0b5e111b4bb4fee62be2d023cdece8eea0",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -969,8 +969,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
       "type": "pdf",
-      "bytes": 12612,
-      "sha256": "bd39ccdc94dc3c45d68e0dde25ba9612a0ee413a7ca248c77e2361af4e50c36b",
+      "bytes": 13074,
+      "sha256": "cb34608ea293f5daf2f7cd4526a961da6ec9bf74a3a7ac8bcf41d13e2acd1a56",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
