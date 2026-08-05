@@ -1566,6 +1566,186 @@ def _extreme_headline_association_present(
     )
 
 
+def _task_048_quarter_index(value: Any) -> int | None:
+    """Convert a professional year-quarter label into a sortable index."""
+
+    match = re.search(r"\b(20\d{2})\s*[- /]?\s*q([1-4])\b", str(value or ""), flags=re.I)
+    if not match:
+        return None
+    return int(match.group(1)) * 4 + int(match.group(2)) - 1
+
+
+def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[str, Any]:
+    """Measure useful covenant decision support without relaxing exact headlines.
+
+    The four headline criteria remain binary strict-pass requirements.  This
+    companion signal distinguishes a workbook whose detailed schedule contains
+    the right decision fact from one that omits the fact entirely.  It is
+    intentionally capped at 0.5 for any non-passing headline and is consumed
+    only by task_048's partial-reward cap.
+    """
+
+    answer = gold["answer"]
+    expected_quarter = _task_048_quarter_index(answer["first_covenant_breach"])
+    if expected_quarter is None:
+        raise ValueError("task_048 gold has an invalid first-covenant-breach quarter")
+
+    def row_text(sheet, row_number: int) -> str:
+        return " ".join(
+            _normalize(cell.value)
+            for cell in sheet[row_number]
+            if cell.value is not None and not (
+                isinstance(cell.value, str) and cell.value.startswith("=")
+            )
+        )
+
+    def row_has_concept(text: str, concepts: tuple[str, ...]) -> bool:
+        return any(contains_concept(text, concept) for concept in concepts)
+
+    def numeric_row_support(
+        expected: float,
+        concepts: tuple[str, ...],
+    ) -> tuple[float, str]:
+        targets = _workbook_numeric_targets(values, expected)
+        for sheet_name in workbook.sheetnames:
+            sheet = workbook[sheet_name]
+            value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+            for row_number in range(1, sheet.max_row + 1):
+                text = row_text(sheet, row_number)
+                if not row_has_concept(text, concepts):
+                    continue
+                for cell in value_sheet[row_number]:
+                    candidate = cell.value
+                    if not isinstance(candidate, (int, float)) or isinstance(candidate, bool):
+                        continue
+                    if any(
+                        _close(
+                            candidate,
+                            target,
+                            abs_tol=max(0.00002, abs(target) * 0.000001),
+                            rel_tol=0.0,
+                        )
+                        for target in targets
+                    ):
+                        return (
+                            0.5,
+                            f"correct fact appears in a labeled supporting schedule at "
+                            f"{sheet_name}!{cell.coordinate}",
+                        )
+        return 0.0, "correct fact is absent from a professionally labeled supporting schedule"
+
+    direct_quarters: list[tuple[int, str]] = []
+    scheduled_quarters: list[tuple[int, str]] = []
+    direct_labels = (
+        "first covenant breach",
+        "first leverage breach",
+        "first breach quarter",
+        "initial covenant breach",
+    )
+    status_labels = (
+        "covenant status",
+        "leverage status",
+        "covenant compliance",
+        "breach status",
+    )
+    breach_markers = ("breach", "fail", "not compliant", "noncompliant")
+
+    for sheet_name in workbook.sheetnames:
+        sheet = workbook[sheet_name]
+        value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+        for row_number in range(1, sheet.max_row + 1):
+            text = row_text(sheet, row_number)
+            if row_has_concept(text, direct_labels):
+                for cell in value_sheet[row_number]:
+                    quarter = _task_048_quarter_index(cell.value)
+                    if quarter is not None:
+                        direct_quarters.append((quarter, f"{sheet_name}!{cell.coordinate}"))
+                if row_number < value_sheet.max_row:
+                    for cell in value_sheet[row_number + 1]:
+                        quarter = _task_048_quarter_index(cell.value)
+                        if quarter is not None:
+                            direct_quarters.append((quarter, f"{sheet_name}!{cell.coordinate}"))
+
+            if not row_has_concept(text, status_labels):
+                continue
+            for cell in value_sheet[row_number]:
+                marker = _normalize(cell.value)
+                if not marker or not any(contains_concept(marker, term) for term in breach_markers):
+                    continue
+                for header_row in range(row_number - 1, max(0, row_number - 6), -1):
+                    quarter = _task_048_quarter_index(value_sheet.cell(header_row, cell.column).value)
+                    if quarter is not None:
+                        scheduled_quarters.append(
+                            (quarter, f"{sheet_name}!{cell.coordinate} under row {header_row}")
+                        )
+                        break
+
+    if direct_quarters:
+        distance, location = min(
+            ((abs(quarter - expected_quarter), location) for quarter, location in direct_quarters),
+            key=lambda item: item[0],
+        )
+        if distance == 0:
+            breach_score = 0.5
+            breach_evidence = f"correct breach quarter appears beside a breach headline at {location}"
+        elif distance == 1:
+            breach_score = 0.5
+            breach_evidence = f"breach headline is one quarter from the executed-definition result at {location}"
+        elif distance == 2:
+            breach_score = 0.25
+            breach_evidence = f"breach headline is two quarters from the executed-definition result at {location}"
+        else:
+            breach_score = 0.0
+            breach_evidence = f"breach headline is {distance} quarters from the executed-definition result"
+    elif scheduled_quarters and any(quarter == expected_quarter for quarter, _ in scheduled_quarters):
+        location = next(location for quarter, location in scheduled_quarters if quarter == expected_quarter)
+        breach_score = 0.4
+        breach_evidence = f"correct first breach is identified in the supporting schedule at {location}"
+    else:
+        breach_score = 0.0
+        breach_evidence = "correct first breach is not identified in a headline or status schedule"
+
+    paydown_score, paydown_evidence = numeric_row_support(
+        float(answer["required_debt_paydown"]),
+        ("debt paydown", "required paydown", "covenant cure", "debt cure"),
+    )
+    leverage_score, leverage_evidence = numeric_row_support(
+        float(answer["maximum_leverage"]),
+        ("leverage", "funded debt leverage"),
+    )
+    coverage_score, coverage_evidence = numeric_row_support(
+        float(answer["minimum_fixed_charge_coverage"]),
+        ("fixed charge coverage", "fccr"),
+    )
+
+    return {
+        "method": "deterministic_professional_schedule_support_v1",
+        "policy": (
+            "Exact professionally associated headlines are required for strict pass; "
+            "non-passing headlines can earn at most 0.5 support credit when the correct "
+            "fact is present in a relevant schedule."
+        ),
+        "criteria": {
+            "headline_values__first_covenant_breach": {
+                "score": breach_score,
+                "evidence": breach_evidence,
+            },
+            "headline_values__required_debt_paydown": {
+                "score": paydown_score,
+                "evidence": paydown_evidence,
+            },
+            "headline_values__maximum_leverage": {
+                "score": leverage_score,
+                "evidence": leverage_evidence,
+            },
+            "headline_values__minimum_fixed_charge_coverage": {
+                "score": coverage_score,
+                "evidence": coverage_evidence,
+            },
+        },
+    }
+
+
 _FORMULA_REFERENCE_PATTERN = re.compile(
     r"(?:(?:'(?P<quoted>[^']+)'|(?P<plain>[A-Za-z_][A-Za-z0-9_. -]*))!)?"
     r"\$?[A-Z]{1,3}\$?(?P<row_start>\d+)"
@@ -3257,6 +3437,12 @@ def _grade_artifact(task_id: str, workspace_root: Path) -> dict[str, Any]:
             raise ValueError(f"Unsupported artifact criterion: {kind}")
         criteria.append(Criterion(spec["id"], spec["description"], met, evidence))
     result = _attach_gold_policy(_result(criteria), gold)
+    if task_id == "task_048":
+        result["decision_support"] = _task_048_decision_support(
+            workbook,
+            values,
+            gold,
+        )
     semantic_review = _hybrid_semantic_review(
         task_id, gold, path, workbook, values, criteria
     )

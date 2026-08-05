@@ -768,10 +768,11 @@
         "Covenant policy",
         "Debt Schedule",
         "Forecast Inputs",
+        "Historical Covenant Inputs",
         "Management instructions and decision rules",
         "Current-versus-prior source authority and reconciliation"
       ],
-      "native_fact_rows": 65,
+      "native_fact_rows": 80,
       "shared_company_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,

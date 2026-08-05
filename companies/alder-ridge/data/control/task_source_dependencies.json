@@ -2,7 +2,7 @@
   "company_id": "alder-ridge-mechanical-v2",
   "snapshot": "2026-06-30-pre-close",
   "control_only_not_agent_visible": true,
-  "purpose": "Minimum independently useful sources required by task design; evaluator do not reward opening files by count.",
+  "purpose": "Minimum independently useful sources required by task design; evaluators do not reward opening files by count.",
   "tasks": {
     "task_001": {
       "accounting_mcp_required": true,
@@ -1328,10 +1328,11 @@
         "Covenant policy",
         "Debt Schedule",
         "Forecast Inputs",
+        "Historical Covenant Inputs",
         "Management instructions and decision rules",
         "Current-versus-prior source authority and reconciliation"
       ],
-      "native_fact_rows": 65,
+      "native_fact_rows": 80,
       "shared_company_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,

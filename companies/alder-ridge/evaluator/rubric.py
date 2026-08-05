@@ -6,7 +6,7 @@ from typing import Any, Iterable, Mapping
 
 
 RUBRIC_SCHEMA_VERSION = 3
-REWARD_SCHEMA_VERSION = 6
+REWARD_SCHEMA_VERSION = 7
 ALLOWED_WEIGHTS = frozenset({1, 3, 5, 10})
 
 # A covenant forecast is not professionally usable when its headline decision
@@ -467,16 +467,40 @@ def apply_reward_policy(
         if supporting_weight_total <= 0:
             raise ValueError(f"missing supporting criteria for {task_id}")
         supporting_accuracy = supporting_weight_earned / supporting_weight_total
+        support_payload = updated.get("decision_support")
+        support_by_id = (
+            support_payload.get("criteria", {})
+            if isinstance(support_payload, Mapping) else {}
+        )
+        decision_quality_scores: dict[str, float] = {}
+        for row in critical_rows:
+            criterion_id = str(row.get("id"))
+            if bool(row.get("value")):
+                score = 1.0
+            else:
+                support = support_by_id.get(criterion_id, {})
+                score = float(support.get("score", 0.0)) if isinstance(support, Mapping) else 0.0
+                if not 0.0 <= score <= 0.5:
+                    raise ValueError(
+                        f"invalid non-passing decision-support score for {criterion_id}: {score}"
+                    )
+            decision_quality_scores[criterion_id] = score
         decision_accuracy = critical_met / len(critical_ids)
-        maximum_reward_factor = 0.25 + 0.75 * decision_accuracy
+        decision_support_quality = sum(decision_quality_scores.values()) / len(critical_ids)
+        maximum_reward_factor = 0.25 + 0.75 * decision_support_quality
         decision_adjusted_reward = supporting_accuracy * maximum_reward_factor
         reward = min(raw_reward, decision_adjusted_reward)
         decision_accuracy_adjustment = {
-            "method": "cap_by_supporting_accuracy_and_decision_accuracy",
+            "method": "cap_by_supporting_accuracy_and_decision_quality",
             "criteria_ids": list(critical_ids),
             "criteria_met": critical_met,
             "criteria_total": len(critical_ids),
             "decision_accuracy": round(decision_accuracy, 6),
+            "decision_support_quality": round(decision_support_quality, 6),
+            "decision_quality_scores": {
+                criterion_id: round(score, 6)
+                for criterion_id, score in decision_quality_scores.items()
+            },
             "supporting_weight_earned": supporting_weight_earned,
             "supporting_weight_total": supporting_weight_total,
             "supporting_accuracy": round(supporting_accuracy, 6),
@@ -519,7 +543,8 @@ def apply_reward_policy(
             "reward_schema_version": REWARD_SCHEMA_VERSION,
             "reward_definition": (
                 "weighted binary criteria using 1/3/5/10 importance; task-declared "
-                "decision-accuracy caps preserve supporting-work credit while preventing "
+                "decision-quality caps preserve supporting-work credit, distinguish correct "
+                "schedule support from omitted facts, and prevent "
                 "wrong critical business outputs from being masked; non-zero declared quality thresholds block strict "
                 "pass without clipping partial credit; "
                 "declared zero-reward criteria and environment-integrity failures score zero"

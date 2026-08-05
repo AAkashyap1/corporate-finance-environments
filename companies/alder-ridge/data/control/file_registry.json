@@ -897,8 +897,8 @@
     {
       "path": "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx",
       "type": "xlsx",
-      "bytes": 12721,
-      "sha256": "b36f1fc74dc383ce3a75ef75beffb5a26208f67137cd29198ffea08fef661922",
+      "bytes": 13520,
+      "sha256": "8e7ec456d91d7637aeb1f177be068cdbde6a137ed1456d07d986867a59e3aac8",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -915,8 +915,8 @@
     {
       "path": "Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv",
       "type": "csv",
-      "bytes": 36684,
-      "sha256": "c5e00c543474b7bd0d46db8dadbd39f3a069fadcae7ab181d1959e7ed1c690eb",
+      "bytes": 36563,
+      "sha256": "3b00df0452335e88face522e65ae239b6fa1b495370b618d2ab71e4b70629348",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -942,8 +942,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx",
       "type": "docx",
-      "bytes": 44046,
-      "sha256": "d3da75ac396c6f3b1ddd063ae342c5d7dc17a9b59c6b4b3fca0f7b5eaf79c206",
+      "bytes": 44091,
+      "sha256": "5a44d500b9752a5d927f548b5fcedf2c82b636541917af33216bbfa55e4cf55d",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -951,8 +951,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx",
       "type": "xlsx",
-      "bytes": 25948,
-      "sha256": "eb512ab3a9c9fbf7a2d2bcd9da29b1b93049e134fba45c1cc07e5f1b66c79fb6",
+      "bytes": 25204,
+      "sha256": "bae49ab5228e4cca7d36555831628f0d8e6313131a9ffdf7a8ff05a3ed7a7baf",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -960,8 +960,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx",
       "type": "xlsx",
-      "bytes": 41379,
-      "sha256": "60ff9789d9ffce610d1654d58ff902f6ee8e3450387af848b4e9ebbf1a6db83c",
+      "bytes": 40918,
+      "sha256": "d76e4dc1fd0dbcfddbb501163316c3343fc10b37f439343428852219fce94806",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -969,8 +969,8 @@
     {
       "path": "Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf",
       "type": "pdf",
-      "bytes": 12412,
-      "sha256": "4a80c379390260ab8af45b37212a6a40e215c97da7864ede520e7be8db48bfd2",
+      "bytes": 12477,
+      "sha256": "da9fb4a93afc2f44b2dc9ab0741304ec595c544c6fbd2769919a99ee3bbf079e",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
