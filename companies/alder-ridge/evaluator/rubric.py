@@ -6,7 +6,7 @@ from typing import Any, Iterable, Mapping
 
 
 RUBRIC_SCHEMA_VERSION = 3
-REWARD_SCHEMA_VERSION = 3
+REWARD_SCHEMA_VERSION = 4
 ALLOWED_WEIGHTS = frozenset({1, 3, 5, 10})
 
 
@@ -404,13 +404,20 @@ def apply_reward_policy(
     *,
     integrity: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
-    """Compute strict pass and a weighted training reward with hard caps."""
+    """Compute a monotonic training reward and independent quality gates.
+
+    Partial credit must preserve the professional ordering of two valid but
+    incomplete submissions.  Non-zero legacy caps therefore remain visible as
+    critical quality-gate metadata and strict-pass blockers, but they do not
+    flatten distinct weighted scores.  Only declared zero-reward criteria and
+    environment-integrity failures invalidate the scalar reward.
+    """
 
     updated = copy.deepcopy(dict(result))
     criteria = [row for row in updated.get("criteria", []) if isinstance(row, dict)]
     total_weight = 0
     earned_weight = 0
-    criterion_caps: list[tuple[float, str]] = []
+    failed_declared_gates: list[tuple[float, str]] = []
     for row in criteria:
         policy = criterion_policy(row)
         row.update(policy)
@@ -419,7 +426,9 @@ def apply_reward_policy(
         total_weight += policy["weight"]
         earned_weight += policy["weight"] * value
         if not value and policy["failure_cap"] is not None:
-            criterion_caps.append((float(policy["failure_cap"]), str(row.get("id"))))
+            failed_declared_gates.append(
+                (float(policy["failure_cap"]), str(row.get("id")))
+            )
 
     raw_reward = earned_weight / total_weight if total_weight else 0.0
     reward = raw_reward
@@ -434,11 +443,16 @@ def apply_reward_policy(
         if hard_failures:
             reward = 0.0
     applied_caps = []
-    for cap, criterion_id in sorted(criterion_caps):
-        before = reward
-        reward = min(reward, cap)
-        if reward < before:
+    quality_gate_failures = []
+    for cap, criterion_id in sorted(failed_declared_gates):
+        gate = {"criterion_id": criterion_id, "declared_threshold": cap}
+        if cap == 0.0:
+            reward = 0.0
             applied_caps.append({"criterion_id": criterion_id, "cap": cap})
+            gate["reward_effect"] = "zero_reward_hard_failure"
+        else:
+            gate["reward_effect"] = "strict_pass_blocker_only"
+        quality_gate_failures.append(gate)
 
     met_count = sum(int(bool(row.get("value"))) for row in criteria)
     updated.update(
@@ -452,10 +466,12 @@ def apply_reward_policy(
             "weight_total": total_weight,
             "reward_schema_version": REWARD_SCHEMA_VERSION,
             "reward_definition": (
-                "weighted binary criteria using 1/3/5/10 importance, followed by declared "
-                "criterion caps and zero-reward environment-integrity hard failures"
+                "weighted binary criteria using 1/3/5/10 importance; non-zero declared "
+                "quality thresholds block strict pass without clipping partial credit; "
+                "declared zero-reward criteria and environment-integrity failures score zero"
             ),
             "applied_reward_caps": applied_caps,
+            "quality_gate_failures": quality_gate_failures,
             "hard_failures": hard_failures,
         }
     )

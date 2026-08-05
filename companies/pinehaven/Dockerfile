@@ -9,6 +9,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     COMPANY_STATE_ROOT=/state
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+      bubblewrap \
       libreoffice-calc \
       libreoffice-impress \
       libreoffice-writer \
@@ -19,14 +20,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /environment
 COPY runtime/ /environment/
 COPY evaluator/ /environment/evaluator/
-COPY data/ /environment/company/seed/
-COPY source-files/ /environment/company/seed/workspace/
 
 RUN pip install --no-cache-dir uv==0.11.29 \
     && uv lock --check \
     && uv sync --frozen --no-dev --no-editable \
     && uv run python scripts/prepare_agent_runtime.py \
     && rm -rf /root/.cache
+
+COPY data/ /environment/company/seed/
+COPY source-files/ /environment/company/seed/workspace/
 
 ENV PATH="/environment/.venv/bin:${PATH}"
 

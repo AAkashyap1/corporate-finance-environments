@@ -1,8 +1,8 @@
-# Corporate Finance Environments
+# Long-Horizon Corporate Finance Tasks
 
 ## Overview
 
-This repository contains two simulated companies designed for evaluating agents on corporate finance work:
+Two runnable company environments for evaluating agents on long-horizon corporate finance work.
 
 - **Alder Ridge Mechanical** is a specialty mechanical contractor with project-based accounting, percentage-of-completion revenue recognition, WIP, change orders, service operations, treasury, and contractor-accounting records.
 - **Pinehaven Motion Systems** is a multi-plant industrial manufacturer with production, inventory, procurement, sales, quality, fixed-asset, treasury, and general-ledger activity maintained through a manufacturing ERP.

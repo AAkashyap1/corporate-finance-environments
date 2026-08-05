@@ -586,7 +586,7 @@ def get_trial_balance(as_of: str = "2026-06-30") -> dict[str, Any]:
 def get_profit_and_loss(
     date_from: str, date_to: str, site_code: str | None = None
 ) -> dict[str, Any]:
-    """Return posted revenue, expense, and net income for a date window."""
+    """Return exact P&L summary totals plus rounded account rows."""
     return _erp().get_profit_and_loss(date_from, date_to, site_code)
 
 

@@ -133,7 +133,10 @@ def register_task_templates(
         prompt = spec.prompt
         target_path = spec.target_path
 
-        @env.template(id=task_id, description=spec.title)
+        @env.template(
+            id=task_id,
+            description=spec.title,
+        )
         async def task_template(
             _task_id: str = task_id,
             _prompt: str = prompt,

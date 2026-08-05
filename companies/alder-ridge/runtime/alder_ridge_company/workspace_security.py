@@ -562,14 +562,25 @@ class IsolatedWorkspace(Workspace):
         cwd: str | None = None,
         env: Mapping[str, str] | None = None,
     ) -> list[str]:
-        if (
-            sys.platform != "win32"
-            and self.bwrap_available
-            and not self._drops_privileges()
-        ):
+        if sys.platform != "win32" and self.bwrap_available:
             inner: list[str] = (
                 ["bash", "-c", command] if command is not None else ["bash"]
             )
+            if self._drops_privileges():
+                setpriv = self._setpriv()
+                assert setpriv is not None
+                uid = str(self._shell_uid)
+                inner = [
+                    setpriv,
+                    "--reuid",
+                    uid,
+                    "--regid",
+                    uid,
+                    "--clear-groups",
+                    "--no-new-privs",
+                    "--",
+                    *inner,
+                ]
             child_env = {**self.env, **(env or {})}
             return self.bwrap_argv(
                 inner,
@@ -602,6 +613,24 @@ def verify_workspace_isolation(
 
     global _VERIFIED_STARTUP_ATTESTATION
     _VERIFIED_STARTUP_ATTESTATION = None
+    if workspace.bwrap_available:
+        try:
+            namespace_probe = subprocess.run(
+                workspace.shell_argv("true"),
+                cwd=workspace.root,
+                capture_output=True,
+                text=True,
+                timeout=5,
+                check=False,
+            )
+        except (OSError, subprocess.TimeoutExpired):
+            namespace_probe = None
+        if namespace_probe is None or namespace_probe.returncode != 0:
+            # Some hosted Docker runtimes block creation of nested user
+            # namespaces. Retain the existing non-root UID and filesystem
+            # permission wall instead of making the environment unavailable.
+            workspace._bwrap = None
+            workspace._guest_path = workspace.root.as_posix()
     if not isolation_required():
         attestation = {
             "schema_version": STARTUP_ATTESTATION_SCHEMA_VERSION,

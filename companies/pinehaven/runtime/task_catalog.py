@@ -53,16 +53,22 @@ PERIOD_GUIDANCE = {
     "inventory_value": "Use the June 30 perpetual on-hand dimensions. Available quantity is on hand less reserved and quality-held quantity.",
     "inventory_aging": (
         "Age positive on-hand value from the last movement date through "
-        "2026-06-30 and apply the supplied lifecycle/site filter to the entire "
-        "in-scope population. `item_site_rows`, `inventory_value`, and the "
+        "2026-06-30. If the assumptions include a lifecycle status or site, "
+        "apply that filter to the entire in-scope population. If neither is "
+        "provided, include all lifecycle statuses and sites. `item_site_rows`, "
+        "`inventory_value`, and the "
         "`over_threshold_percent` denominator are that full filtered "
         "positive-on-hand population; they are not the aged subset. "
+        "`quality_hold_value` is quality-held quantity multiplied by "
+        "standard unit cost across that population. "
         "`value_over_threshold`, the top item, and the top item/site use the "
         "strict `age_days > days` test. `top_item` aggregates across sites; "
         "`top_item_site` ranks one item/site exposure in accordance with the "
         "reserve policy. `phase_out_value` is the full positive-on-hand Phase "
         "Out population within the same other filters, independent of age, "
-        "without double-counting it into the aged measure."
+        "without double-counting it into the aged measure. "
+        "`over_threshold_percent` is `value_over_threshold` divided by "
+        "`inventory_value`."
     ),
     "inventory_reserve": (
         "Build an item/site-specific candidate reserve-exposure waterfall at "
@@ -90,7 +96,11 @@ PERIOD_GUIDANCE = {
         "reference's raw `quantity * unit_cost` before rounding final money "
         "values. Preserve the ledger signs: `transfer_out` is negative and "
         "`transfer_in` is positive. Calculate `net_difference` as "
-        "`transfer_out + transfer_in` so balanced references reconcile to zero."
+        "`transfer_out + transfer_in` so balanced references reconcile to zero. "
+        "Return `transfer_out_references` and `transfer_in_references` as the "
+        "integer counts of distinct reference IDs on each side. Return "
+        "`unmatched_references` as the integer count of reference IDs present "
+        "on only one side."
     ),
     "forecast": (
         "Use approved forecast version 2026-06-SOP for July through December "
@@ -472,11 +482,22 @@ def _request_line(blueprint: TaskBlueprint, *, context: str = "") -> str:
 
 def _console_prompt(blueprint: TaskBlueprint) -> str:
     keys = BUNDLE_KEYS[blueprint.bundle]
+    item_site_format = (
+        "- `item_site_rows` is the integer count of in-scope item/site "
+        "records, not a row array.\n"
+        if "item_site_rows" in keys
+        else ""
+    )
     task_specific = {
         "task_021": (
             "For `top_month_revenue`, use the selected month's raw atomic "
             "forecast-row sum and round the final sum once to cents; do not "
             "sum already-rounded detail groups."
+        ),
+        "task_052": (
+            "Site scope: Because `site_code` is supplied, filter every payroll "
+            "record and all eight outputs to site 200 (Dayton). The companywide "
+            "rule applies only when `site_code` is omitted."
         ),
         "task_032": (
             "Return the customer display name, not the customer ID, in "
@@ -501,7 +522,7 @@ Formatting requirements:
 - Money is a JSON number in USD rounded to 2 decimals; quantities use up to 4 decimals.
 - Rates are decimal ratios, not percentage points (for example, 0.125 means 12.5%).
 - Counts are integers. Names, IDs, periods, and statuses are strings.
-- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.
+{item_site_format}- Every top-level value is a scalar JSON number, integer, string, or boolean; do not return nested objects or arrays.
 - Show signed values exactly as calculated. Do not omit a key, add a key, use `null`, or invent evidence.
 - Reconcile the result across the ERP and the listed source files. Do not add narrative or citation fields to the response.
 """
@@ -753,7 +774,13 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "committee actions; use separate visuals for dollars and rates.\n"
         ),
         "task_095": (
-            "\nIntegrated-plan scope: Build a January-through-December FY27 "
+            "\nSource and cutoff scope: Use posted 2025 ERP invoice, cost, and "
+            "operating-expense records as the sole baseline for the FY27 monthly "
+            "schedule. Use June 30, 2026 ERP balance data only for operating "
+            "working capital. Use the June pre-close presentation and email only "
+            "to document assumptions, cutoff, and management context; do not "
+            "replace the 2025 monthly baseline with May or June 2026 operating "
+            "results.\n\nIntegrated-plan scope: Build a January-through-December FY27 "
             "schedule using the corresponding 2025 monthly actual pattern as "
             "the baseline. For every month, visibly formula-calculate revenue, "
             "material cost, nonmaterial cost, gross profit, gross margin, "
@@ -768,9 +795,27 @@ def _artifact_prompt(blueprint: TaskBlueprint) -> str:
             "open, identify the largest margin, backlog-to-cash, working-"
             "capital, and liquidity exposures, and make explicit approve/hold "
             "decisions for the KPI package, final period lock, and discretionary "
-            "capital. Include every open close control in the decision register, "
-            "with an accountable owner and dated next action for each priority; "
-            "June must remain labeled pre-close.\n"
+            "capital. Explicitly authorize or hold the margin, backlog-to-cash, "
+            "and working-capital recovery actions identified in the source "
+            "package. June must remain labeled pre-close.\n\n"
+            "Build a native close-control table from the authoritative ERP and "
+            "close sources. Use separate columns named `Control`, `Status`, "
+            "`Evidence`, `Accountable owner`, and `Dated next action`; include "
+            "exactly these four controls: `Subledger and GL reconciliation`, "
+            "`Posted journal balance`, `Negative WIP residual review`, and "
+            "`June period lock`. Quantify the negative WIP residual and state "
+            "its order count.\n\n"
+            "Include a native exposure table with separate `Exposure`, `Basis`, "
+            "and `Amount` columns for margin, backlog-to-cash, working capital, "
+            "and liquidity. Use the authoritative exact scope totals and these "
+            "bases: margin is FY26 YTD operating income; backlog-to-cash is "
+            "open sales backlog; working capital is inventory plus open WIP; "
+            "and liquidity is cash plus the undrawn revolver.\n\n"
+            "Use a native decision table with separate `Decision`, `Gate`, "
+            "`Owner`, and `Due` columns. Carry the four decision gates from "
+            "`Communications/2026-06-29 - June 30 executive package.eml` into "
+            "that table as written, without combining the decision and gate "
+            "columns or changing the gate, owner, or due-date wording.\n"
         ),
         "task_097": (
             "\nBoard-priorities scope: Connect the FY27 monthly operating plan "

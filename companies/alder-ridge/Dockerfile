@@ -12,6 +12,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
       ca-certificates \
+      bubblewrap \
       curl \
       fonts-dejavu-core \
       fonts-liberation \

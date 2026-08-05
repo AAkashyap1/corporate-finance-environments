@@ -2367,14 +2367,14 @@ class PinehavenERP:
             clauses.append("(l.site_code=? OR l.site_code IS NULL)")
             params.append(site_code)
         with self._connect() as connection:
-            rows = [
+            raw_rows = [
                 dict(row)
                 for row in connection.execute(
                     f"""
                     SELECT a.code AS account_code,a.name,a.account_type,
-                           ROUND(SUM(CASE WHEN a.account_type='Revenue'
-                                          THEN l.credit-l.debit
-                                          ELSE l.debit-l.credit END),2) AS amount
+                           SUM(CASE WHEN a.account_type='Revenue'
+                                    THEN l.credit-l.debit
+                                    ELSE l.debit-l.credit END) AS amount
                     FROM journal_lines l JOIN journal_headers h ON h.id=l.journal_id
                     JOIN accounts a ON a.code=l.account_code
                     WHERE {' AND '.join(clauses)}
@@ -2384,20 +2384,50 @@ class PinehavenERP:
                     tuple(params),
                 )
             ]
-            revenue = _money(
-                sum(row["amount"] for row in rows if row["account_type"] == "Revenue")
+            rows = [
+                {**row, "amount": _money(row["amount"])}
+                for row in raw_rows
+            ]
+            raw_revenue = sum(
+                row["amount"]
+                for row in raw_rows
+                if row["account_type"] == "Revenue"
             )
-            expenses = _money(
-                sum(row["amount"] for row in rows if row["account_type"] != "Revenue")
+            raw_expenses = sum(
+                row["amount"]
+                for row in raw_rows
+                if row["account_type"] != "Revenue"
             )
+            raw_cogs = sum(
+                row["amount"]
+                for row in raw_rows
+                if 5000 <= int(row["account_code"]) < 6000
+            )
+            raw_operating_expense = sum(
+                row["amount"]
+                for row in raw_rows
+                if 6000 <= int(row["account_code"]) < 7000
+            )
+            raw_gross_profit = raw_revenue - raw_cogs
             return {
                 "date_from": date_from,
                 "date_to": date_to,
                 "site_code": site_code,
                 "rows": rows,
-                "revenue": revenue,
-                "expenses": expenses,
-                "net_income": _money(revenue - expenses),
+                "revenue": _money(raw_revenue),
+                "cost_of_goods_sold": _money(raw_cogs),
+                "gross_profit": _money(raw_gross_profit),
+                "gross_margin": _ratio(raw_gross_profit, raw_revenue),
+                "operating_expense": _money(raw_operating_expense),
+                "operating_income": _money(
+                    raw_gross_profit - raw_operating_expense
+                ),
+                "expenses": _money(raw_expenses),
+                "net_income": _money(raw_revenue - raw_expenses),
+                "aggregation_note": (
+                    "Summary values aggregate unrounded journal amounts and "
+                    "round once; displayed account rows are rounded separately."
+                ),
             }
 
     def get_operating_scenario_baseline(

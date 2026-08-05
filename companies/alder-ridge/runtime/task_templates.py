@@ -82,6 +82,7 @@ def _hud_result(task_id: str, result: dict[str, Any]):
             "reward_schema_version": result.get("reward_schema_version"),
             "raw_weighted_reward": result.get("raw_weighted_reward"),
             "applied_reward_caps": result.get("applied_reward_caps"),
+            "quality_gate_failures": result.get("quality_gate_failures"),
             "hard_failures": result.get("hard_failures"),
             "integrity": result.get("integrity"),
             "semantic_review_result": result.get("semantic_review_result"),
@@ -128,7 +129,10 @@ def register_task_templates(
         task_id = spec.task_id
         prompt = spec.prompt
 
-        @env.template(id=task_id, description=spec.title)
+        @env.template(
+            id=task_id,
+            description=spec.title,
+        )
         async def task_template(_task_id: str = task_id, _prompt: str = prompt):
             database_path = state_root / "accounting.db"
             before = capture_integrity_snapshot(runtime_root, database_path)
