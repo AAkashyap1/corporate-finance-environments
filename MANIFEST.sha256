@@ -36,7 +36,7 @@ f78886c0b14aa5dd0425ad95f8969515794d22fc7146c895b1806f39e3f09768  ./companies/al
 fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/alder-ridge/runtime/env.py
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
-c72a1a65158be51c3fab4de2cbc0e00d744cc5f6b6c6e21f5d57347e4821e63e  ./companies/alder-ridge/runtime/task_catalog.py
+ac287dd53f85a666c54a4cf0d25175771b93c1775616b260f16761d618a69370  ./companies/alder-ridge/runtime/task_catalog.py
 a79bb795ae0ccd751c91d952b72b342cce104641d310899aded0ec8277db30c4  ./companies/alder-ridge/runtime/task_templates.py
 8a373d9db4e385ebde4b9e09d751b913ef3954eed9155c52d845b4742e02e802  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
