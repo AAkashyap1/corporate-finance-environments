@@ -1578,7 +1578,7 @@ def _task_048_quarter_index(value: Any) -> int | None:
 def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[str, Any]:
     """Measure useful covenant decision support without relaxing exact headlines.
 
-    The four headline criteria remain binary strict-pass requirements.  This
+    The approved-case and downside headline criteria remain binary strict-pass requirements. This
     companion signal distinguishes a workbook whose detailed schedule contains
     the right decision fact from one that omits the fact entirely.  It is
     intentionally capped at 0.5 for any non-passing headline and is consumed
@@ -1605,9 +1605,16 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
     def numeric_row_support(
         expected: float,
         concepts: tuple[str, ...],
+        *,
+        required_sheet_concept: str | None = None,
     ) -> tuple[float, str]:
         targets = _workbook_numeric_targets(values, expected)
         for sheet_name in workbook.sheetnames:
+            if required_sheet_concept and not contains_concept(
+                sheet_name,
+                required_sheet_concept,
+            ):
+                continue
             sheet = workbook[sheet_name]
             value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
             for row_number in range(1, sheet.max_row + 1):
@@ -1633,6 +1640,56 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
                             f"{sheet_name}!{cell.coordinate}",
                         )
         return 0.0, "correct fact is absent from a professionally labeled supporting schedule"
+
+    def quarter_row_support(
+        expected: Any,
+        *,
+        required_sheet_concept: str,
+    ) -> tuple[float, str]:
+        expected_index = _task_048_quarter_index(expected)
+        if expected_index is None:
+            return 0.0, "expected quarter is invalid"
+        candidates: list[tuple[int, str]] = []
+        for sheet_name in workbook.sheetnames:
+            if not contains_concept(sheet_name, required_sheet_concept):
+                continue
+            sheet = workbook[sheet_name]
+            value_sheet = values[sheet_name] if sheet_name in values.sheetnames else sheet
+            for row_number in range(1, sheet.max_row + 1):
+                text = row_text(sheet, row_number)
+                if not row_has_concept(
+                    text,
+                    (
+                        "first covenant breach",
+                        "first leverage breach",
+                        "first breach quarter",
+                        "initial covenant breach",
+                    ),
+                ):
+                    continue
+                for cell in value_sheet[row_number]:
+                    quarter = _task_048_quarter_index(cell.value)
+                    if quarter is not None:
+                        candidates.append((quarter, f"{sheet_name}!{cell.coordinate}"))
+                if row_number < value_sheet.max_row:
+                    for cell in value_sheet[row_number + 1]:
+                        quarter = _task_048_quarter_index(cell.value)
+                        if quarter is not None:
+                            candidates.append((quarter, f"{sheet_name}!{cell.coordinate}"))
+        if not candidates:
+            return 0.0, f"correct breach quarter is absent from the {required_sheet_concept} schedule"
+        distance, location = min(
+            (
+                (abs(quarter - expected_index), location)
+                for quarter, location in candidates
+            ),
+            key=lambda item: item[0],
+        )
+        if distance <= 1:
+            return 0.5, f"breach headline is within one quarter of the expected result at {location}"
+        if distance == 2:
+            return 0.25, f"breach headline is two quarters from the expected result at {location}"
+        return 0.0, f"breach headline is {distance} quarters from the expected result"
 
     direct_quarters: list[tuple[int, str]] = []
     scheduled_quarters: list[tuple[int, str]] = []
@@ -1717,9 +1774,28 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
         float(answer["minimum_fixed_charge_coverage"]),
         ("fixed charge coverage", "fccr"),
     )
+    downside_breach_score, downside_breach_evidence = quarter_row_support(
+        answer["downside_first_covenant_breach"],
+        required_sheet_concept="downside",
+    )
+    downside_paydown_score, downside_paydown_evidence = numeric_row_support(
+        float(answer["downside_required_debt_paydown"]),
+        ("debt paydown", "required paydown", "covenant cure", "debt cure"),
+        required_sheet_concept="downside",
+    )
+    downside_leverage_score, downside_leverage_evidence = numeric_row_support(
+        float(answer["downside_maximum_leverage"]),
+        ("leverage", "funded debt leverage"),
+        required_sheet_concept="downside",
+    )
+    downside_coverage_score, downside_coverage_evidence = numeric_row_support(
+        float(answer["downside_minimum_fixed_charge_coverage"]),
+        ("fixed charge coverage", "fccr"),
+        required_sheet_concept="downside",
+    )
 
     return {
-        "method": "deterministic_professional_schedule_support_v1",
+        "method": "deterministic_professional_schedule_support_v2",
         "policy": (
             "Exact professionally associated headlines are required for strict pass; "
             "non-passing headlines can earn at most 0.5 support credit when the correct "
@@ -1741,6 +1817,22 @@ def _task_048_decision_support(workbook, values, gold: dict[str, Any]) -> dict[s
             "headline_values__minimum_fixed_charge_coverage": {
                 "score": coverage_score,
                 "evidence": coverage_evidence,
+            },
+            "downside_values__downside_first_covenant_breach": {
+                "score": downside_breach_score,
+                "evidence": downside_breach_evidence,
+            },
+            "downside_values__downside_required_debt_paydown": {
+                "score": downside_paydown_score,
+                "evidence": downside_paydown_evidence,
+            },
+            "downside_values__downside_maximum_leverage": {
+                "score": downside_leverage_score,
+                "evidence": downside_leverage_evidence,
+            },
+            "downside_values__downside_minimum_fixed_charge_coverage": {
+                "score": downside_coverage_score,
+                "evidence": downside_coverage_evidence,
             },
         },
     }

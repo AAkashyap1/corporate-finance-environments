@@ -1325,6 +1325,7 @@
         "Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx"
       ],
       "independent_fact_groups": [
+        "Covenant Downside",
         "Covenant policy",
         "Debt Schedule",
         "Forecast Inputs",
@@ -1332,7 +1333,7 @@
         "Management instructions and decision rules",
         "Current-versus-prior source authority and reconciliation"
       ],
-      "native_fact_rows": 80,
+      "native_fact_rows": 98,
       "shared_company_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,

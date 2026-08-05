@@ -4114,7 +4114,11 @@
       "first_covenant_breach": "2026-Q3",
       "required_debt_paydown": 671666.5,
       "maximum_leverage": 3.2562925,
-      "minimum_fixed_charge_coverage": 1.14150943
+      "minimum_fixed_charge_coverage": 1.14150943,
+      "downside_first_covenant_breach": "2026-Q3",
+      "downside_required_debt_paydown": 1805666.5,
+      "downside_maximum_leverage": 3.70033239,
+      "downside_minimum_fixed_charge_coverage": 0.82890263
     },
     "criteria": [
       {
@@ -4242,6 +4246,46 @@
         "headline_label": "minimum_fixed_charge_coverage"
       },
       {
+        "id": "formula_lineage__headline_downside_first_covenant_breach",
+        "description": "Headline output 'downside_first_covenant_breach' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "downside_first_covenant_breach"
+      },
+      {
+        "id": "formula_lineage__headline_downside_required_debt_paydown",
+        "description": "Headline output 'downside_required_debt_paydown' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "downside_required_debt_paydown"
+      },
+      {
+        "id": "formula_lineage__headline_downside_maximum_leverage",
+        "description": "Headline output 'downside_maximum_leverage' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "downside_maximum_leverage"
+      },
+      {
+        "id": "formula_lineage__headline_downside_minimum_fixed_charge_coverage",
+        "description": "Headline output 'downside_minimum_fixed_charge_coverage' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "downside_minimum_fixed_charge_coverage"
+      },
+      {
         "id": "formula_lineage__formula_sheet_covenant_forecast",
         "description": "Required model worksheet 'Covenant Forecast' contains formulas",
         "kind": "xlsx_formula_sheet",
@@ -4280,7 +4324,7 @@
       },
       {
         "id": "headline_values__first_covenant_breach",
-        "description": "Every required headline output is labeled and correct: `first_covenant_breach` is correctly labeled and associated",
+        "description": "The approved-case covenant conclusions are correct: `first_covenant_breach` is correctly labeled and associated",
         "kind": "xlsx_label_values",
         "category": "decision",
         "weight": 10,
@@ -4292,7 +4336,7 @@
       },
       {
         "id": "headline_values__required_debt_paydown",
-        "description": "Every required headline output is labeled and correct: `required_debt_paydown` is correctly labeled and associated",
+        "description": "The approved-case covenant conclusions are correct: `required_debt_paydown` is correctly labeled and associated",
         "kind": "xlsx_label_values",
         "category": "decision",
         "weight": 10,
@@ -4304,7 +4348,7 @@
       },
       {
         "id": "headline_values__maximum_leverage",
-        "description": "Every required headline output is labeled and correct: `maximum_leverage` is correctly labeled and associated",
+        "description": "The approved-case covenant conclusions are correct: `maximum_leverage` is correctly labeled and associated",
         "kind": "xlsx_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -4315,13 +4359,59 @@
       },
       {
         "id": "headline_values__minimum_fixed_charge_coverage",
-        "description": "Every required headline output is labeled and correct: `minimum_fixed_charge_coverage` is correctly labeled and associated",
+        "description": "The approved-case covenant conclusions are correct: `minimum_fixed_charge_coverage` is correctly labeled and associated",
         "kind": "xlsx_label_values",
         "category": "core_finance",
         "weight": 10,
         "semantic": true,
         "label_values": {
           "minimum_fixed_charge_coverage": 1.14150943
+        }
+      },
+      {
+        "id": "downside_values__downside_first_covenant_breach",
+        "description": "The documented-downside covenant conclusions are correct: `downside_first_covenant_breach` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "failure_cap": 0.49,
+        "label_values": {
+          "downside_first_covenant_breach": "2026-Q3"
+        }
+      },
+      {
+        "id": "downside_values__downside_required_debt_paydown",
+        "description": "The documented-downside covenant conclusions are correct: `downside_required_debt_paydown` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "failure_cap": 0.49,
+        "label_values": {
+          "downside_required_debt_paydown": 1805666.5
+        }
+      },
+      {
+        "id": "downside_values__downside_maximum_leverage",
+        "description": "The documented-downside covenant conclusions are correct: `downside_maximum_leverage` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "downside_maximum_leverage": 3.70033239
+        }
+      },
+      {
+        "id": "downside_values__downside_minimum_fixed_charge_coverage",
+        "description": "The documented-downside covenant conclusions are correct: `downside_minimum_fixed_charge_coverage` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "downside_minimum_fixed_charge_coverage": 0.82890263
         }
       },
       {

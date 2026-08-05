@@ -20,6 +20,10 @@ DECISION_ACCURACY_CRITERIA = {
         "headline_values__required_debt_paydown",
         "headline_values__maximum_leverage",
         "headline_values__minimum_fixed_charge_coverage",
+        "downside_values__downside_first_covenant_breach",
+        "downside_values__downside_required_debt_paydown",
+        "downside_values__downside_maximum_leverage",
+        "downside_values__downside_minimum_fixed_charge_coverage",
     ),
 }
 

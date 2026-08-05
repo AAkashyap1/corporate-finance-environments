@@ -8,23 +8,23 @@ ab2c6fe95f3796f74603c987438fdf9fd88a52ea669ce5ade489d6a52c9e74bd  ./companies/al
 cfa4241167e8d12c64bcd510605143a128d043e3caef2822dfeb997776b902e0  ./companies/alder-ridge/README.md
 ffff4d8c12459831f42238c9dfd4e34cedbe7288b942f65426577c1d54506584  ./companies/alder-ridge/company.json
 dedebb90c790b8f811ad9a332fee0b31c00d5ca56a5d07d7cb46d363cafa4b71  ./companies/alder-ridge/data/accounting_seed.db
-10309e8056166a51d10b47338e3cc4d3d5a37072bebeb5c80a8ca398f492acdf  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
-9d2d5ddccb6e69f803443d99753086f9f4a6c359322c452c5722acc4f61bb8c7  ./companies/alder-ridge/data/control/corporate_finance_source_map.json
-b987fecbbfb05000fa287efb857af9fa8c2df03eead39f257b71a9f513134279  ./companies/alder-ridge/data/control/corporate_finance_template_inputs.json
+983eabfd0f6ef104d3eaed8d1eb3b4f73529510051c58cefb507a3d0275d57bf  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
+bbd5756c46ea71ede5a081babd1c0e611657ce47bb87a205250013daede32ac2  ./companies/alder-ridge/data/control/corporate_finance_source_map.json
+1ff60eabec26c94c1bcad300c4ead7c6e4579ed2a8064acf652570c2fbfc1764  ./companies/alder-ridge/data/control/corporate_finance_template_inputs.json
 ca77e0601d1a77cf2efe5f35f86a61d14a843723ce2995994968f143fe7487cc  ./companies/alder-ridge/data/control/fact_registry.json
-b0a852d089248fbd778f0516e30bb32fb0edf3ded6d0ce845d7566737b0d637c  ./companies/alder-ridge/data/control/file_registry.json
-bb2fbf64c63993050edc0db61a4d77feb29b744f409c93d66e09006b58342133  ./companies/alder-ridge/data/control/task_source_dependencies.json
+b0658ed09809e2895fd9873d014970be4b8f7814cf989dd3b3ecd915524d1c53  ./companies/alder-ridge/data/control/file_registry.json
+fe0967cb80bdc33bc09b072b4ca4f689392242e1b55ae7c76aa2200edd0cb981  ./companies/alder-ridge/data/control/task_source_dependencies.json
 1802a9e40fd71de68e9776d79efda3d3e1a49688a743e93ed31e2167f67e55af  ./companies/alder-ridge/data/control/task_support.json
 c257d7f23d8f69232613f991bbeb418047925326010341f14df7a30f67bb8bd2  ./companies/alder-ridge/data/source_manifest.json
 3766cd3e8e59d2d2fc228e450fca42a77072dcfc89c19a48998ec90080d2c8ff  ./companies/alder-ridge/evaluator/__init__.py
 0547f0eb4c4398870d0a49547a58f92db9121a6f99af6129d9efe3b1289f305b  ./companies/alder-ridge/evaluator/common.py
-812dbc89a6dd02e50dc8db75520b9dc0e0d88127d163f7261c6af8c967329cd2  ./companies/alder-ridge/evaluator/corporate_finance.py
+b25c42594f51e953577ab36fc72b1f0786f1aa2efd338f18178284c3ccc9dfbf  ./companies/alder-ridge/evaluator/corporate_finance.py
 7f374ba210b0fe2e27349ad879a292ce3a8c3a1437c56cfa1c54d5c6c2aff4c1  ./companies/alder-ridge/evaluator/hybrid_semantic.py
 cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/alder-ridge/evaluator/integrity.py
-33e77b9db4232a9ee14a4d941c4a8b7b4d7528f477b418b2f0b2804e12503810  ./companies/alder-ridge/evaluator/production_semantic.py
+c54b288c87c7d3cc4dabb86f989114d7b70149061e4c18f81202096948225c09  ./companies/alder-ridge/evaluator/production_semantic.py
 83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
-9c696643bd56814ed263e49caa6d1bd386e12b21e60b81bf89a171e5f4ea8ac3  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
-9aa262d0a2dbb067c35e08696180420bb0425157f8beddd9763ddb4b85f55cd7  ./companies/alder-ridge/evaluator/rubric.py
+cf14b51587a27cb722342d4db775b8cd744eda19bab6032b79360453489b0855  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
+042c15bae04d3767725cceeacf3a3f05d9dca16eeb4f2212ba2b10a9c6ac3bc3  ./companies/alder-ridge/evaluator/rubric.py
 f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
 26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
 df65f8eab8194955e61cf83217c70a0ade8d30c9a99d5be9ea5f58e831d690de  ./companies/alder-ridge/runtime/alder_ridge_company/__init__.py
@@ -36,7 +36,7 @@ f78886c0b14aa5dd0425ad95f8969515794d22fc7146c895b1806f39e3f09768  ./companies/al
 fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/alder-ridge/runtime/env.py
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
-ac287dd53f85a666c54a4cf0d25175771b93c1775616b260f16761d618a69370  ./companies/alder-ridge/runtime/task_catalog.py
+5acbbae0984af511dad6125cce2fa9e5eb834d003b77a32b6d74d15149bac54f  ./companies/alder-ridge/runtime/task_catalog.py
 a79bb795ae0ccd751c91d952b72b342cce104641d310899aded0ec8277db30c4  ./companies/alder-ridge/runtime/task_templates.py
 8a373d9db4e385ebde4b9e09d751b913ef3954eed9155c52d845b4742e02e802  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
@@ -139,15 +139,15 @@ d56382d476de8ddc750463032e509616ed337303df34d0f702d7aa959f2d17ff  ./companies/al
 295d682e6ca0a25f7fe7dc8ae8955269073567fc43ebf8e44b2eb875f3763dc6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/2026 Q2 working/Q2 lender update - review working v3.pptx
 37237cb34990407a635bbabe20372acb811322b26137778797cdb8683e6b5b57  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank AR eligibility exhibit - closing set copy.pdf
 7f5ecc930f690c2926eee41216ea5094b281041def46838363d74f1d853be124  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/Agreement + amendments/USBank_Amdt2_9.30.25_EXECUTED scan.pdf
-b36f1fc74dc383ce3a75ef75beffb5a26208f67137cd29198ffea08fef661922  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx
+d97612e8be2683dc4788c3ef23217ec024c8522dc02f7a36c9c911688adce201  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Bank - covenants/FY27 covenant forecast - WORKING.xlsx
 5fdab1830a88eb1e4c5001f68f52608097daffc20753a66110e6b6a5c734c930  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Cash positioning/July daily cash position - WORKING.xlsx
-c5e00c543474b7bd0d46db8dadbd39f3a069fadcae7ab181d1959e7ed1c690eb  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv
+3b00df0452335e88face522e65ae239b6fa1b495370b618d2ab71e4b70629348  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Cash positioning/bank portal settlements + expected items_7.3.csv
 f3ee4a488e34799d7980b5606c07aef84df79156046506853ef8aab984179be0  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Debt/debt sched - 6.30 before bank pkg.xlsx
 8810ac6933e748e517a3cb3dd8a35e66219735b37580266dc018f784b169e1e6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/Debt/equipment line proposal - bank copy 6.18.26.pdf
-d3da75ac396c6f3b1ddd063ae342c5d7dc17a9b59c6b4b3fca0f7b5eaf79c206  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx
-eb512ab3a9c9fbf7a2d2bcd9da29b1b93049e134fba45c1cc07e5f1b66c79fb6  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx
-60ff9789d9ffce610d1654d58ff902f6ee8e3450387af848b4e9ebbf1a6db83c  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx
-4a80c379390260ab8af45b37212a6a40e215c97da7864ede520e7be8db48bfd2  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf
+e76e53d72963acd4cbf124cc0ddd4092bc0f1c5ce8cfd2d5ba3de4fd1d312391  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury and bank review notes - 7.4 DC.docx
+c5b314668a63ac1cbee10e68bf2ac2219b4aa032a7dee69eae48a8f089c18d3f  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v6 pre-bank.xlsx
+b4a9b0ee9ec8b6020b4d4d1c50b09903dfdad083941ab9786695fff4f428a315  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury outlook support - July v8 controller tie.xlsx
+bd39ccdc94dc3c45d68e0dde25ba9612a0ee413a7ca248c77e2361af4e50c36b  ./companies/alder-ridge/source-files/Shared/Finance/Treasury/FY27 working/treasury risk limits + funding policy - board approved.pdf
 b92bdd4fc970d9dc29918e91aa5a2d4ab8d5070f3a671de1e18aa1fdb1aae6a3  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2409_PCO11_backcharge backup - draft2.pdf
 f1953bf990445e5758986c81bb84b06887ff56d49f3c39f5ca958dbaf03b7dec  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2417_PCO17_owner emails + FD summary_6.30.pdf
 c0ff6f1546f2267e74f36013a0153b3a2dd0aab2d3917ec4ec12bdba10a9073f  ./companies/alder-ridge/source-files/Shared/Operations/Commercial/CO Log/6.30 support - not all final/2506_PCO6_DB27 backup + cost est (working).pdf
@@ -210,7 +210,7 @@ f033c97dbab00fce4954dc17f676fe1c5707bc9f8de3540a7c54e49ea2d289ad  ./companies/al
 29089d0e13ecfa327aed5b3128814fc006330bc7925010cb5590593e7dc15ca8  ./companies/alder-ridge/tasks/task_045.json
 9f9dcdd18a0f3b461f5eee59f1c48c6b69f03b6b2bdd18b3768448f166036633  ./companies/alder-ridge/tasks/task_046.json
 61021d25a229862135a46ec6b9d26844b28e38c233bc04639db43009ded27706  ./companies/alder-ridge/tasks/task_047.json
-2e82e38ab4d354363bc225f19d2a9a98c667534fe31b32d3e6ee89b45c67e9ba  ./companies/alder-ridge/tasks/task_048.json
+c935b10c6f61d80132cb8977eb45ce0a5ab22954a477e5e7edb79349d795afc2  ./companies/alder-ridge/tasks/task_048.json
 0dfcd69cd07eb822b10db62dfec9b551cd2ada8705c9aaafd5704c5022748439  ./companies/alder-ridge/tasks/task_049.json
 33bd82653efd3f819afd2ab4de6572e021181cc5274715c60b5049826bc3826f  ./companies/alder-ridge/tasks/task_050.json
 835d174b901e6e6f2166f5bbe39e80edce66fddd85383596ad2271cbce938183  ./companies/alder-ridge/tasks/task_051.json
@@ -294,7 +294,7 @@ bc1c206e050a67046e184a6463aa74ebf4a3e1d6ccc186c079119ffb4a3d4b36  ./companies/pi
 f971a45ed053f1749bbf840a2cd1cc011406fe9062de38c07981eed19a0614b4  ./companies/pinehaven/evaluator/__init__.py
 b4c534c5a0bb0333c7524e9e6626648dcf0eefe24a339371e153dfb270f33dce  ./companies/pinehaven/evaluator/integrity.py
 7139aae9f738af2ca6d9c94509435179325bb47c58833947b8e6c26d8d767a58  ./companies/pinehaven/evaluator/native_artifacts.py
-aad6b908e5d5ed5f59fa3422d3abed45bf6e3985d6368013b249d94ad6a7288e  ./companies/pinehaven/evaluator/production_semantic.py
+df8decfd3510659850fc30f6941f59234ccfc91efd6e71049d9a9dfcedc15fff  ./companies/pinehaven/evaluator/production_semantic.py
 d30617150006ed4b3640a803dbd6919a670074d51c2f04ba07bd2a7c3dbb5c91  ./companies/pinehaven/evaluator/reference/summary.json
 73d5f64e008fc3a4d5be0566401519f5fe632641575cecc3fe1b10e1520b7563  ./companies/pinehaven/evaluator/reference/tasks.json
 d3dea000aa6cb6adbabfeb5efd80e7a78ee6bb711b7f0d1b45674322b7000833  ./companies/pinehaven/evaluator/rubric.py
