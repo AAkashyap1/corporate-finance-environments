@@ -4111,10 +4111,10 @@
   },
   "task_048": {
     "answer": {
-      "first_covenant_breach": "2028-Q2",
-      "required_debt_paydown": 61666.5,
+      "first_covenant_breach": "2028-Q1",
+      "required_debt_paydown": 1061666.5,
       "maximum_leverage": 3.2562925,
-      "minimum_fixed_charge_coverage": 1.41823444
+      "minimum_fixed_charge_coverage": 1.14150943
     },
     "criteria": [
       {
@@ -4287,7 +4287,7 @@
         "semantic": true,
         "failure_cap": 0.49,
         "label_values": {
-          "first_covenant_breach": "2028-Q2"
+          "first_covenant_breach": "2028-Q1"
         }
       },
       {
@@ -4299,7 +4299,7 @@
         "semantic": true,
         "failure_cap": 0.49,
         "label_values": {
-          "required_debt_paydown": 61666.5
+          "required_debt_paydown": 1061666.5
         }
       },
       {
@@ -4321,7 +4321,7 @@
         "weight": 10,
         "semantic": true,
         "label_values": {
-          "minimum_fixed_charge_coverage": 1.41823444
+          "minimum_fixed_charge_coverage": 1.14150943
         }
       },
       {

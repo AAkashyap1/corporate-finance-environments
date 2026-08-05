@@ -6,13 +6,14 @@ from typing import Any, Iterable, Mapping
 
 
 RUBRIC_SCHEMA_VERSION = 3
-REWARD_SCHEMA_VERSION = 5
+REWARD_SCHEMA_VERSION = 6
 ALLOWED_WEIGHTS = frozenset({1, 3, 5, 10})
 
 # A covenant forecast is not professionally usable when its headline decision
 # outputs are wrong, even if its workbook structure and audit trail are strong.
-# Preserve partial credit for the work that is correct, but scale that credit by
-# the share of decision-critical headline outputs that are also correct.
+# Preserve credit for correct supporting work without allowing that work to mask
+# wrong business conclusions. The task-specific policy below caps the ordinary
+# weighted score using both supporting-model quality and headline accuracy.
 DECISION_ACCURACY_CRITERIA = {
     "task_048": (
         "headline_values__first_covenant_breach",
@@ -454,15 +455,33 @@ def apply_reward_policy(
             raise ValueError(
                 f"missing decision-accuracy criteria for {task_id}: {missing_ids}"
             )
-        critical_met = sum(int(bool(by_id[criterion_id].get("value"))) for criterion_id in critical_ids)
-        decision_accuracy_factor = critical_met / len(critical_ids)
-        reward *= decision_accuracy_factor
+        critical_rows = [by_id[criterion_id] for criterion_id in critical_ids]
+        critical_met = sum(int(bool(row.get("value"))) for row in critical_rows)
+        critical_weight_total = sum(int(row.get("weight", 10)) for row in critical_rows)
+        critical_weight_earned = sum(
+            int(row.get("weight", 10)) * int(bool(row.get("value")))
+            for row in critical_rows
+        )
+        supporting_weight_total = total_weight - critical_weight_total
+        supporting_weight_earned = earned_weight - critical_weight_earned
+        if supporting_weight_total <= 0:
+            raise ValueError(f"missing supporting criteria for {task_id}")
+        supporting_accuracy = supporting_weight_earned / supporting_weight_total
+        decision_accuracy = critical_met / len(critical_ids)
+        maximum_reward_factor = 0.25 + 0.75 * decision_accuracy
+        decision_adjusted_reward = supporting_accuracy * maximum_reward_factor
+        reward = min(raw_reward, decision_adjusted_reward)
         decision_accuracy_adjustment = {
-            "method": "multiply_raw_weighted_reward",
+            "method": "cap_by_supporting_accuracy_and_decision_accuracy",
             "criteria_ids": list(critical_ids),
             "criteria_met": critical_met,
             "criteria_total": len(critical_ids),
-            "factor": round(decision_accuracy_factor, 6),
+            "decision_accuracy": round(decision_accuracy, 6),
+            "supporting_weight_earned": supporting_weight_earned,
+            "supporting_weight_total": supporting_weight_total,
+            "supporting_accuracy": round(supporting_accuracy, 6),
+            "maximum_reward_factor": round(maximum_reward_factor, 6),
+            "decision_adjusted_reward": round(decision_adjusted_reward, 6),
         }
     hard_failures: list[dict[str, Any]] = []
     if integrity is not None:
@@ -500,8 +519,8 @@ def apply_reward_policy(
             "reward_schema_version": REWARD_SCHEMA_VERSION,
             "reward_definition": (
                 "weighted binary criteria using 1/3/5/10 importance; task-declared "
-                "decision-accuracy factors scale partial credit when critical business "
-                "outputs are wrong; non-zero declared quality thresholds block strict "
+                "decision-accuracy caps preserve supporting-work credit while preventing "
+                "wrong critical business outputs from being masked; non-zero declared quality thresholds block strict "
                 "pass without clipping partial credit; "
                 "declared zero-reward criteria and environment-integrity failures score zero"
             ),
