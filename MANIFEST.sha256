@@ -24,7 +24,7 @@ cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/al
 33e77b9db4232a9ee14a4d941c4a8b7b4d7528f477b418b2f0b2804e12503810  ./companies/alder-ridge/evaluator/production_semantic.py
 83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
 21664fe74a8d7071f8d99046b087bdff015cd4d4e926d47d8abda0d2afe60ee5  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
-0857341ef73a9adea48b42a61fb27257eca8eddbe554501c2978a903c1e8bf8b  ./companies/alder-ridge/evaluator/rubric.py
+d25e379ff3f2ece5fe5720ec51c035f6b0c5b9263f940f32fddeed0d4b42d509  ./companies/alder-ridge/evaluator/rubric.py
 f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
 26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
 df65f8eab8194955e61cf83217c70a0ade8d30c9a99d5be9ea5f58e831d690de  ./companies/alder-ridge/runtime/alder_ridge_company/__init__.py
@@ -37,7 +37,7 @@ fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/al
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
 d9c1ffa7c21614cb738f27ef67f5adbf0ae5932c173ac22bdd23c28297b40924  ./companies/alder-ridge/runtime/task_catalog.py
-a538a048362682e3d094370a73b4a4f84ba513056e59f0e547c33673856dfb4b  ./companies/alder-ridge/runtime/task_templates.py
+a79bb795ae0ccd751c91d952b72b342cce104641d310899aded0ec8277db30c4  ./companies/alder-ridge/runtime/task_templates.py
 8a373d9db4e385ebde4b9e09d751b913ef3954eed9155c52d845b4742e02e802  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
 eddad61a79db5261c31ae0d44d43cb8fd716f2fa84a26be149050ca066fa9224  ./companies/alder-ridge/source-files/Requests/7.1.26_822am - Fwd_ wip close need today.eml

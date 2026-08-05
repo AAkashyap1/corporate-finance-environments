@@ -6,8 +6,21 @@ from typing import Any, Iterable, Mapping
 
 
 RUBRIC_SCHEMA_VERSION = 3
-REWARD_SCHEMA_VERSION = 4
+REWARD_SCHEMA_VERSION = 5
 ALLOWED_WEIGHTS = frozenset({1, 3, 5, 10})
+
+# A covenant forecast is not professionally usable when its headline decision
+# outputs are wrong, even if its workbook structure and audit trail are strong.
+# Preserve partial credit for the work that is correct, but scale that credit by
+# the share of decision-critical headline outputs that are also correct.
+DECISION_ACCURACY_CRITERIA = {
+    "task_048": (
+        "headline_values__first_covenant_breach",
+        "headline_values__required_debt_paydown",
+        "headline_values__maximum_leverage",
+        "headline_values__minimum_fixed_charge_coverage",
+    ),
+}
 
 
 def _slug(value: Any) -> str:
@@ -432,6 +445,25 @@ def apply_reward_policy(
 
     raw_reward = earned_weight / total_weight if total_weight else 0.0
     reward = raw_reward
+    decision_accuracy_adjustment = None
+    critical_ids = DECISION_ACCURACY_CRITERIA.get(task_id)
+    if critical_ids:
+        by_id = {str(row.get("id")): row for row in criteria}
+        missing_ids = [criterion_id for criterion_id in critical_ids if criterion_id not in by_id]
+        if missing_ids:
+            raise ValueError(
+                f"missing decision-accuracy criteria for {task_id}: {missing_ids}"
+            )
+        critical_met = sum(int(bool(by_id[criterion_id].get("value"))) for criterion_id in critical_ids)
+        decision_accuracy_factor = critical_met / len(critical_ids)
+        reward *= decision_accuracy_factor
+        decision_accuracy_adjustment = {
+            "method": "multiply_raw_weighted_reward",
+            "criteria_ids": list(critical_ids),
+            "criteria_met": critical_met,
+            "criteria_total": len(critical_ids),
+            "factor": round(decision_accuracy_factor, 6),
+        }
     hard_failures: list[dict[str, Any]] = []
     if integrity is not None:
         updated["integrity"] = copy.deepcopy(dict(integrity))
@@ -459,6 +491,7 @@ def apply_reward_policy(
         {
             "reward": round(reward, 6),
             "raw_weighted_reward": round(raw_reward, 6),
+            "decision_accuracy_adjustment": decision_accuracy_adjustment,
             "strict_pass": bool(criteria) and met_count == len(criteria) and not hard_failures,
             "criteria_met": met_count,
             "criteria_total": len(criteria),
@@ -466,8 +499,10 @@ def apply_reward_policy(
             "weight_total": total_weight,
             "reward_schema_version": REWARD_SCHEMA_VERSION,
             "reward_definition": (
-                "weighted binary criteria using 1/3/5/10 importance; non-zero declared "
-                "quality thresholds block strict pass without clipping partial credit; "
+                "weighted binary criteria using 1/3/5/10 importance; task-declared "
+                "decision-accuracy factors scale partial credit when critical business "
+                "outputs are wrong; non-zero declared quality thresholds block strict "
+                "pass without clipping partial credit; "
                 "declared zero-reward criteria and environment-integrity failures score zero"
             ),
             "applied_reward_caps": applied_caps,

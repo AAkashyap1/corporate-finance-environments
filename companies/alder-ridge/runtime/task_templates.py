@@ -81,6 +81,7 @@ def _hud_result(task_id: str, result: dict[str, Any]):
             "reward_definition": result.get("reward_definition"),
             "reward_schema_version": result.get("reward_schema_version"),
             "raw_weighted_reward": result.get("raw_weighted_reward"),
+            "decision_accuracy_adjustment": result.get("decision_accuracy_adjustment"),
             "applied_reward_caps": result.get("applied_reward_caps"),
             "quality_gate_failures": result.get("quality_gate_failures"),
             "hard_failures": result.get("hard_failures"),
