@@ -5440,8 +5440,7 @@
         "kind": "xlsx_no_errors",
         "category": "integrity",
         "weight": 10,
-        "semantic": false,
-        "failure_cap": 0.0
+        "semantic": false
       },
       {
         "id": "formula_lineage__headline_enterprise_value",
@@ -5685,19 +5684,8 @@
         ]
       },
       {
-        "id": "sources__contractor_accounting_mcp",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'contractor accounting mcp'",
-        "kind": "artifact_tokens",
-        "category": "provenance",
-        "weight": 3,
-        "semantic": true,
-        "tokens": [
-          "contractor accounting mcp"
-        ]
-      },
-      {
         "id": "sources__controller_tied",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
+        "description": "The workbook documents controlling source versions, management correspondence, and policy authority for the external target analysis: the artifact substantively addresses 'controller-tied'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,
@@ -5708,7 +5696,7 @@
       },
       {
         "id": "sources__management_correspondence",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
+        "description": "The workbook documents controlling source versions, management correspondence, and policy authority for the external target analysis: the artifact substantively addresses 'management correspondence'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,
@@ -5719,7 +5707,7 @@
       },
       {
         "id": "sources__policy",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'policy'",
+        "description": "The workbook documents controlling source versions, management correspondence, and policy authority for the external target analysis: the artifact substantively addresses 'policy'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,

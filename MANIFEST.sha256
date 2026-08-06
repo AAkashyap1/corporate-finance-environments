@@ -23,7 +23,7 @@ c257d7f23d8f69232613f991bbeb418047925326010341f14df7a30f67bb8bd2  ./companies/al
 cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/alder-ridge/evaluator/integrity.py
 c54b288c87c7d3cc4dabb86f989114d7b70149061e4c18f81202096948225c09  ./companies/alder-ridge/evaluator/production_semantic.py
 83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
-edbaca067eb973ae69298cb0cecf3d4f2f866e3b4cd26e926378f7a829d03cae  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
+5a7dbda36f3d6e65c8509c905e04f3378ffa1d7b92a07dd4792fc4949b9ab011  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
 3f591f3b1eac6821bd521c3bb2206fc189cab662c9b36afa2aba1167dffad581  ./companies/alder-ridge/evaluator/rubric.py
 f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
 26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
@@ -36,7 +36,7 @@ f78886c0b14aa5dd0425ad95f8969515794d22fc7146c895b1806f39e3f09768  ./companies/al
 fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/alder-ridge/runtime/env.py
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
-aef93d66e5f0b0a2fa9ff892c0bf3c82767358bb354f1922a5144c6bf215b583  ./companies/alder-ridge/runtime/task_catalog.py
+b1fbdde6847cb41dfce618c65842fed91fa75e3d97cee3dd528259564dec43b7  ./companies/alder-ridge/runtime/task_catalog.py
 a79bb795ae0ccd751c91d952b72b342cce104641d310899aded0ec8277db30c4  ./companies/alder-ridge/runtime/task_templates.py
 8a373d9db4e385ebde4b9e09d751b913ef3954eed9155c52d845b4742e02e802  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
@@ -213,9 +213,9 @@ f033c97dbab00fce4954dc17f676fe1c5707bc9f8de3540a7c54e49ea2d289ad  ./companies/al
 287c920a31571a04ece351e2a79d95ed6def4bcf3ea77a7d6c1ebf587aba953b  ./companies/alder-ridge/tasks/task_048.json
 0dfcd69cd07eb822b10db62dfec9b551cd2ada8705c9aaafd5704c5022748439  ./companies/alder-ridge/tasks/task_049.json
 33bd82653efd3f819afd2ab4de6572e021181cc5274715c60b5049826bc3826f  ./companies/alder-ridge/tasks/task_050.json
-835d174b901e6e6f2166f5bbe39e80edce66fddd85383596ad2271cbce938183  ./companies/alder-ridge/tasks/task_051.json
-7f8d69c6a3fac20b448748628ddf2ac0fb2f86b3a2bdfff4bae0fabfb588a36c  ./companies/alder-ridge/tasks/task_052.json
-956f7d92e8edaf9c218b45e9b295f1f2caa14b72ad9b1ba5027ad6a89ea5f5c4  ./companies/alder-ridge/tasks/task_053.json
+813b746cb707465bf6c56fbafbcc10cc726bcc288b03fc2948f6fc464666534b  ./companies/alder-ridge/tasks/task_051.json
+7c5240000079603dc901467e70e7346af96b54f9667e859529bf3c0ed441445a  ./companies/alder-ridge/tasks/task_052.json
+4aa7d581761c6730c4ac92c99ec94844483ce0f0d3cc060be4f8cbd623a4539f  ./companies/alder-ridge/tasks/task_053.json
 e96de219ab8655b78e8e8d91edcd21bd39bcc61181b394930c7e16420910a228  ./companies/alder-ridge/tasks/task_054.json
 74bcc226a03e48b7b08efc1bb3117378bd6f65f2d398ad03be70351152b2a314  ./companies/alder-ridge/tasks/task_055.json
 e194331c4d959cecb586701386df17e59a41c1f0d0d2a76341acbd07868b37ce  ./companies/alder-ridge/tasks/task_056.json
