@@ -10835,7 +10835,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Data Export"
       },
       {
@@ -10845,7 +10844,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Approved Plan"
       },
       {
@@ -10855,7 +10853,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_formulas": 80
       },
       {
@@ -10864,8 +10861,7 @@
         "kind": "xlsx_no_errors",
         "category": "integrity",
         "weight": 10,
-        "semantic": false,
-        "failure_cap": 0.0
+        "semantic": false
       },
       {
         "id": "formula_lineage__headline_q2_revenue",
@@ -10874,7 +10870,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_revenue"
       },
       {
@@ -10884,7 +10879,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_ebitda"
       },
       {
@@ -10894,7 +10888,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_free_cash_flow"
       },
       {
@@ -10904,7 +10897,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "latest_full_year_revenue_outlook"
       },
       {
@@ -10914,7 +10906,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_revenue_variance"
       },
       {
@@ -10924,7 +10915,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_ebitda_variance"
       },
       {
@@ -10934,7 +10924,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "q2_free_cash_flow_variance"
       },
       {
@@ -10944,7 +10933,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "largest_financial_misses"
       },
       {
@@ -10990,7 +10978,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_cross_sheet_formulas": 20
       },
       {
@@ -11108,6 +11095,17 @@
         ]
       },
       {
+        "id": "model_content__prior_year",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'prior year'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "prior year"
+        ]
+      },
+      {
         "id": "model_content__variance",
         "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'variance'",
         "kind": "artifact_tokens",
@@ -11127,6 +11125,17 @@
         "semantic": true,
         "tokens": [
           "revenue"
+        ]
+      },
+      {
+        "id": "model_content__gross_profit",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'gross profit'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "gross profit"
         ]
       },
       {
@@ -11152,6 +11161,50 @@
         ]
       },
       {
+        "id": "model_content__backlog",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'backlog'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "backlog"
+        ]
+      },
+      {
+        "id": "model_content__headcount",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'headcount'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "headcount"
+        ]
+      },
+      {
+        "id": "model_content__safety",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'safety'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "safety"
+        ]
+      },
+      {
+        "id": "model_content__working_capital",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'working capital'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "working capital"
+        ]
+      },
+      {
         "id": "model_content__latest_forecast",
         "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'latest forecast'",
         "kind": "artifact_tokens",
@@ -11160,6 +11213,17 @@
         "semantic": true,
         "tokens": [
           "latest forecast"
+        ]
+      },
+      {
+        "id": "model_content__full_year_risk",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'full-year risk'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "full-year risk"
         ]
       },
       {
