@@ -5144,8 +5144,24 @@
     "answer": {
       "ltm_revenue": 30132000.0,
       "reported_ebitda": 1766988.0,
+      "jul_dec_revenue": 14130000.0,
+      "jan_jun_revenue": 16002000.0,
+      "jul_dec_reported_ebitda": 698958.0,
+      "jan_jun_reported_ebitda": 1068030.0,
+      "jul_dec_reported_ebitda_margin": 0.04946624,
+      "jan_jun_reported_ebitda_margin": 0.06674353,
+      "jan_jun_revenue_growth_vs_jul_dec": 0.13248408,
+      "jan_jun_ebitda_growth_vs_jul_dec": 0.52803173,
+      "jan_jun_annualized_reported_ebitda": 2136060.0,
+      "jan_jun_annualized_headroom_to_normalized_ebitda": 109072.0,
+      "latest_quarter_revenue": 8190000.0,
+      "latest_quarter_reported_ebitda": 565074.0,
+      "latest_quarter_reported_ebitda_margin": 0.0689956,
+      "latest_quarter_annualized_reported_ebitda": 2260296.0,
+      "latest_quarter_annualized_headroom_to_normalized_ebitda": 233308.0,
       "seller_proposed_adjustments": 1215000.0,
       "seller_adjusted_ebitda": 2981988.0,
+      "seller_adjusted_ebitda_margin": 0.09896416,
       "owner_compensation_adjustment": 240000.0,
       "legal_settlement_adjustment": 175000.0,
       "vacant_cfo_adjustment": -155000.0,
@@ -5159,6 +5175,11 @@
         "Uncommitted facility savings"
       ],
       "net_accepted_adjustments": 260000.0,
+      "owner_compensation_seller_to_underwriting_gap": 60000.0,
+      "legal_settlement_seller_to_underwriting_gap": 60000.0,
+      "vacant_cfo_seller_to_underwriting_gap": 155000.0,
+      "procurement_synergy_seller_to_underwriting_gap": 420000.0,
+      "facility_savings_seller_to_underwriting_gap": 260000.0,
       "normalized_ebitda": 2026988.0,
       "normalized_ebitda_margin": 0.06727028,
       "seller_to_underwriting_ebitda_gap": 955000.0,
@@ -5166,9 +5187,25 @@
       "seller_to_underwriting_enterprise_value_gap": 7162500.0,
       "largest_remaining_qoe_risk": "Top-customer concentration",
       "largest_risk_expected_impact": 960000.0,
+      "technician_attrition_expected_impact": 429000.0,
+      "deferred_maintenance_expected_impact": 288000.0,
+      "remaining_risk_ranking": [
+        "Top-customer concentration",
+        "Technician attrition",
+        "Deferred maintenance"
+      ],
       "aggregate_probability_weighted_risk": 1677000.0,
+      "largest_risk_share_of_aggregate": 0.57245081,
       "risk_adjusted_ebitda": 349988.0,
-      "risk_adjusted_ebitda_margin": 0.01161516
+      "risk_adjusted_ebitda_margin": 0.01161516,
+      "seller_adjusted_enterprise_value": 22364910.0,
+      "normalized_enterprise_value": 15202410.0,
+      "risk_adjusted_enterprise_value": 2624910.0,
+      "risk_overlay_enterprise_value_haircut": 12577500.0,
+      "seller_to_risk_adjusted_enterprise_value_gap": 19740000.0,
+      "risk_adjusted_enterprise_value_pct_of_normalized": 0.17266407,
+      "recommended_valuation_earnings_basis": "Supported normalized EBITDA",
+      "recommended_residual_risk_treatment": "Separate downside diagnostic"
     },
     "criteria": [
       {
@@ -5196,6 +5233,186 @@
         "abs_tol": 0.02
       },
       {
+        "id": "jul_dec_revenue__jul_dec_revenue",
+        "description": "Jul dec revenue is correctly derived from the shared company workpapers and controlling definitions: `jul_dec_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jul_dec_revenue": 14130000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "jan_jun_revenue__jan_jun_revenue",
+        "description": "Jan jun revenue is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_revenue": 16002000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "jul_dec_reported_ebitda__jul_dec_reported_ebitda",
+        "description": "Jul dec reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `jul_dec_reported_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jul_dec_reported_ebitda": 698958.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "jan_jun_reported_ebitda__jan_jun_reported_ebitda",
+        "description": "Jan jun reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_reported_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_reported_ebitda": 1068030.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "jul_dec_reported_ebitda_margin__jul_dec_reported_ebitda_margin",
+        "description": "Jul dec reported ebitda margin is correctly derived from the shared company workpapers and controlling definitions: `jul_dec_reported_ebitda_margin` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jul_dec_reported_ebitda_margin": 0.04946624
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "jan_jun_reported_ebitda_margin__jan_jun_reported_ebitda_margin",
+        "description": "Jan jun reported ebitda margin is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_reported_ebitda_margin` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_reported_ebitda_margin": 0.06674353
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "jan_jun_revenue_growth_vs_jul_dec__jan_jun_revenue_growth_vs_jul_dec",
+        "description": "Jan jun revenue growth vs jul dec is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_revenue_growth_vs_jul_dec` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_revenue_growth_vs_jul_dec": 0.13248408
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "jan_jun_ebitda_growth_vs_jul_dec__jan_jun_ebitda_growth_vs_jul_dec",
+        "description": "Jan jun ebitda growth vs jul dec is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_ebitda_growth_vs_jul_dec` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_ebitda_growth_vs_jul_dec": 0.52803173
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "jan_jun_annualized_reported_ebitda__jan_jun_annualized_reported_ebitda",
+        "description": "Jan jun annualized reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_annualized_reported_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_annualized_reported_ebitda": 2136060.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "jan_jun_annualized_headroom_to_normalized_ebitda__jan_jun_annualized_headroom_to_normalized_ebitda",
+        "description": "Jan jun annualized headroom to normalized ebitda is correctly derived from the shared company workpapers and controlling definitions: `jan_jun_annualized_headroom_to_normalized_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "jan_jun_annualized_headroom_to_normalized_ebitda": 109072.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "latest_quarter_revenue__latest_quarter_revenue",
+        "description": "Latest quarter revenue is correctly derived from the shared company workpapers and controlling definitions: `latest_quarter_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "latest_quarter_revenue": 8190000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "latest_quarter_reported_ebitda__latest_quarter_reported_ebitda",
+        "description": "Latest quarter reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `latest_quarter_reported_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "latest_quarter_reported_ebitda": 565074.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "latest_quarter_reported_ebitda_margin__latest_quarter_reported_ebitda_margin",
+        "description": "Latest quarter reported ebitda margin is correctly derived from the shared company workpapers and controlling definitions: `latest_quarter_reported_ebitda_margin` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "latest_quarter_reported_ebitda_margin": 0.0689956
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "latest_quarter_annualized_reported_ebitda__latest_quarter_annualized_reported_ebitda",
+        "description": "Latest quarter annualized reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `latest_quarter_annualized_reported_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "latest_quarter_annualized_reported_ebitda": 2260296.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "latest_quarter_annualized_headroom_to_normalized_ebitda__latest_quarter_annualized_headroom_to_normalized_ebitda",
+        "description": "Latest quarter annualized headroom to normalized ebitda is correctly derived from the shared company workpapers and controlling definitions: `latest_quarter_annualized_headroom_to_normalized_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "latest_quarter_annualized_headroom_to_normalized_ebitda": 233308.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "seller_proposed_adjustments__seller_proposed_adjustments",
         "description": "Seller proposed adjustments is correctly derived from the shared company workpapers and controlling definitions: `seller_proposed_adjustments` is correct",
         "kind": "numeric",
@@ -5218,6 +5435,18 @@
           "seller_adjusted_ebitda": 2981988.0
         },
         "abs_tol": 0.02
+      },
+      {
+        "id": "seller_adjusted_ebitda_margin__seller_adjusted_ebitda_margin",
+        "description": "Seller adjusted ebitda margin is correctly derived from the shared company workpapers and controlling definitions: `seller_adjusted_ebitda_margin` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_adjusted_ebitda_margin": 0.09896416
+        },
+        "abs_tol": 5e-05
       },
       {
         "id": "owner_compensation_adjustment__owner_compensation_adjustment",
@@ -5367,6 +5596,66 @@
         "abs_tol": 0.02
       },
       {
+        "id": "owner_compensation_seller_to_underwriting_gap__owner_compensation_seller_to_underwriting_gap",
+        "description": "Owner compensation seller to underwriting gap is correctly derived from the shared company workpapers and controlling definitions: `owner_compensation_seller_to_underwriting_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "owner_compensation_seller_to_underwriting_gap": 60000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "legal_settlement_seller_to_underwriting_gap__legal_settlement_seller_to_underwriting_gap",
+        "description": "Legal settlement seller to underwriting gap is correctly derived from the shared company workpapers and controlling definitions: `legal_settlement_seller_to_underwriting_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "legal_settlement_seller_to_underwriting_gap": 60000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "vacant_cfo_seller_to_underwriting_gap__vacant_cfo_seller_to_underwriting_gap",
+        "description": "Vacant cfo seller to underwriting gap is correctly derived from the shared company workpapers and controlling definitions: `vacant_cfo_seller_to_underwriting_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "vacant_cfo_seller_to_underwriting_gap": 155000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "procurement_synergy_seller_to_underwriting_gap__procurement_synergy_seller_to_underwriting_gap",
+        "description": "Procurement synergy seller to underwriting gap is correctly derived from the shared company workpapers and controlling definitions: `procurement_synergy_seller_to_underwriting_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "procurement_synergy_seller_to_underwriting_gap": 420000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "facility_savings_seller_to_underwriting_gap__facility_savings_seller_to_underwriting_gap",
+        "description": "Facility savings seller to underwriting gap is correctly derived from the shared company workpapers and controlling definitions: `facility_savings_seller_to_underwriting_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "facility_savings_seller_to_underwriting_gap": 260000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "normalized_ebitda__normalized_ebitda",
         "description": "Normalized ebitda is correctly derived from the shared company workpapers and controlling definitions: `normalized_ebitda` is correct",
         "kind": "numeric",
@@ -5450,6 +5739,78 @@
         "abs_tol": 0.02
       },
       {
+        "id": "technician_attrition_expected_impact__technician_attrition_expected_impact",
+        "description": "Technician attrition expected impact is correctly derived from the shared company workpapers and controlling definitions: `technician_attrition_expected_impact` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "technician_attrition_expected_impact": 429000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "deferred_maintenance_expected_impact__deferred_maintenance_expected_impact",
+        "description": "Deferred maintenance expected impact is correctly derived from the shared company workpapers and controlling definitions: `deferred_maintenance_expected_impact` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "deferred_maintenance_expected_impact": 288000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "remaining_risk_ranking__item_01_top_customer_concentration",
+        "description": "Remaining risk ranking is correctly derived from the shared company workpapers and controlling definitions: required item 'Top-customer concentration' is correctly included and classified",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "remaining_risk_ranking",
+        "expected_item": "Top-customer concentration",
+        "unordered": false
+      },
+      {
+        "id": "remaining_risk_ranking__item_02_technician_attrition",
+        "description": "Remaining risk ranking is correctly derived from the shared company workpapers and controlling definitions: required item 'Technician attrition' is correctly included and classified",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "remaining_risk_ranking",
+        "expected_item": "Technician attrition",
+        "unordered": false
+      },
+      {
+        "id": "remaining_risk_ranking__item_03_deferred_maintenance",
+        "description": "Remaining risk ranking is correctly derived from the shared company workpapers and controlling definitions: required item 'Deferred maintenance' is correctly included and classified",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "remaining_risk_ranking",
+        "expected_item": "Deferred maintenance",
+        "unordered": false
+      },
+      {
+        "id": "remaining_risk_ranking__complete_set",
+        "description": "Remaining risk ranking is correctly derived from the shared company workpapers and controlling definitions: the submitted set has no missing, extra, or duplicated items",
+        "kind": "list_exact",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "remaining_risk_ranking",
+        "expected": [
+          "Top-customer concentration",
+          "Technician attrition",
+          "Deferred maintenance"
+        ],
+        "unordered": false
+      },
+      {
         "id": "aggregate_probability_weighted_risk__aggregate_probability_weighted_risk",
         "description": "Aggregate probability weighted risk is correctly derived from the shared company workpapers and controlling definitions: `aggregate_probability_weighted_risk` is correct",
         "kind": "numeric",
@@ -5460,6 +5821,18 @@
           "aggregate_probability_weighted_risk": 1677000.0
         },
         "abs_tol": 0.02
+      },
+      {
+        "id": "largest_risk_share_of_aggregate__largest_risk_share_of_aggregate",
+        "description": "Largest risk share of aggregate is correctly derived from the shared company workpapers and controlling definitions: `largest_risk_share_of_aggregate` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "largest_risk_share_of_aggregate": 0.57245081
+        },
+        "abs_tol": 5e-05
       },
       {
         "id": "risk_adjusted_ebitda__risk_adjusted_ebitda",
@@ -5484,6 +5857,100 @@
           "risk_adjusted_ebitda_margin": 0.01161516
         },
         "abs_tol": 5e-05
+      },
+      {
+        "id": "seller_adjusted_enterprise_value__seller_adjusted_enterprise_value",
+        "description": "Seller adjusted enterprise value is correctly derived from the shared company workpapers and controlling definitions: `seller_adjusted_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_adjusted_enterprise_value": 22364910.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "normalized_enterprise_value__normalized_enterprise_value",
+        "description": "Normalized enterprise value is correctly derived from the shared company workpapers and controlling definitions: `normalized_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "normalized_enterprise_value": 15202410.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "risk_adjusted_enterprise_value__risk_adjusted_enterprise_value",
+        "description": "Risk adjusted enterprise value is correctly derived from the shared company workpapers and controlling definitions: `risk_adjusted_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "risk_adjusted_enterprise_value": 2624910.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "risk_overlay_enterprise_value_haircut__risk_overlay_enterprise_value_haircut",
+        "description": "Risk overlay enterprise value haircut is correctly derived from the shared company workpapers and controlling definitions: `risk_overlay_enterprise_value_haircut` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "risk_overlay_enterprise_value_haircut": 12577500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "seller_to_risk_adjusted_enterprise_value_gap__seller_to_risk_adjusted_enterprise_value_gap",
+        "description": "Seller to risk adjusted enterprise value gap is correctly derived from the shared company workpapers and controlling definitions: `seller_to_risk_adjusted_enterprise_value_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_to_risk_adjusted_enterprise_value_gap": 19740000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "risk_adjusted_enterprise_value_pct_of_normalized__risk_adjusted_enterprise_value_pct_of_normalized",
+        "description": "Risk adjusted enterprise value pct of normalized is correctly derived from the shared company workpapers and controlling definitions: `risk_adjusted_enterprise_value_pct_of_normalized` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "risk_adjusted_enterprise_value_pct_of_normalized": 0.17266407
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "recommended_valuation_earnings_basis__recommended_valuation_earnings_basis",
+        "description": "Recommended valuation earnings basis is correctly derived from the shared company workpapers and controlling definitions: `recommended_valuation_earnings_basis` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "recommended_valuation_earnings_basis": "Supported normalized EBITDA"
+        }
+      },
+      {
+        "id": "recommended_residual_risk_treatment__recommended_residual_risk_treatment",
+        "description": "Recommended residual risk treatment is correctly derived from the shared company workpapers and controlling definitions: `recommended_residual_risk_treatment` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "recommended_residual_risk_treatment": "Separate downside diagnostic"
+        }
       }
     ],
     "rubric_schema_version": 3
