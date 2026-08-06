@@ -9025,6 +9025,15 @@
   },
   "task_065": {
     "answer": {
+      "authoritative_contract_schedule": "tax jurisdiction + book trial balance detail_6.30.csv",
+      "authoritative_schedule_version": "Current approved",
+      "authoritative_schedule_case": "Approved case",
+      "authoritative_schedule_cutoff": "2026-06-30",
+      "approved_prepaid_contract_count": 5,
+      "active_service_agreement_arr": 6334500.0,
+      "total_advance_billings": 7160000.0,
+      "opening_deferred_revenue": 6036145.65,
+      "h2_deferred_revenue_reduction": 3764642.02,
       "july_revenue": 560403.7,
       "august_revenue": 685229.79,
       "september_revenue": 875094.05,
@@ -9045,6 +9054,110 @@
       "largest_ending_deferred_revenue_contract": "Cascade Health C-1013"
     },
     "criteria": [
+      {
+        "id": "authoritative_contract_schedule__authoritative_contract_schedule",
+        "description": "Authoritative contract schedule is correctly derived from the shared company workpapers and controlling definitions: `authoritative_contract_schedule` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "authoritative_contract_schedule": "tax jurisdiction + book trial balance detail_6.30.csv"
+        }
+      },
+      {
+        "id": "authoritative_schedule_version__authoritative_schedule_version",
+        "description": "Authoritative schedule version is correctly derived from the shared company workpapers and controlling definitions: `authoritative_schedule_version` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "authoritative_schedule_version": "Current approved"
+        }
+      },
+      {
+        "id": "authoritative_schedule_case__authoritative_schedule_case",
+        "description": "Authoritative schedule case is correctly derived from the shared company workpapers and controlling definitions: `authoritative_schedule_case` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "authoritative_schedule_case": "Approved case"
+        }
+      },
+      {
+        "id": "authoritative_schedule_cutoff__authoritative_schedule_cutoff",
+        "description": "Authoritative schedule cutoff is correctly derived from the shared company workpapers and controlling definitions: `authoritative_schedule_cutoff` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "authoritative_schedule_cutoff": "2026-06-30"
+        }
+      },
+      {
+        "id": "approved_prepaid_contract_count__approved_prepaid_contract_count",
+        "description": "Approved prepaid contract count is correctly derived from the shared company workpapers and controlling definitions: `approved_prepaid_contract_count` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "approved_prepaid_contract_count": 5
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "active_service_agreement_arr__active_service_agreement_arr",
+        "description": "Active service agreement arr is correctly derived from the shared company workpapers and controlling definitions: `active_service_agreement_arr` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "active_service_agreement_arr": 6334500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "total_advance_billings__total_advance_billings",
+        "description": "Total advance billings is correctly derived from the shared company workpapers and controlling definitions: `total_advance_billings` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "total_advance_billings": 7160000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "opening_deferred_revenue__opening_deferred_revenue",
+        "description": "Opening deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `opening_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "opening_deferred_revenue": 6036145.65
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "h2_deferred_revenue_reduction__h2_deferred_revenue_reduction",
+        "description": "H2 deferred revenue reduction is correctly derived from the shared company workpapers and controlling definitions: `h2_deferred_revenue_reduction` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "h2_deferred_revenue_reduction": 3764642.02
+        },
+        "abs_tol": 0.02
+      },
       {
         "id": "july_revenue__july_revenue",
         "description": "July revenue is correctly derived from the shared company workpapers and controlling definitions: `july_revenue` is correct",
