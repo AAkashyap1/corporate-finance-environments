@@ -1,0 +1,14 @@
+name: Debug Alder image build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+      - name: Build Alder image
+        run: docker build --progress=plain --tag alder-ridge-debug companies/alder-ridge
