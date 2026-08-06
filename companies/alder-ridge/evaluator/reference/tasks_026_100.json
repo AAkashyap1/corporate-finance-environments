@@ -9581,9 +9581,15 @@
       "authoritative_schedule_case": "Approved case",
       "authoritative_schedule_cutoff": "2026-06-30",
       "approved_prepaid_contract_count": 5,
+      "active_service_agreement_count": 90,
       "active_service_agreement_arr": 6334500.0,
+      "source_unit_normalization_exception_count": 6,
+      "source_unit_normalization_affected_contract_count": 5,
       "total_advance_billings": 7160000.0,
       "opening_deferred_revenue": 6036145.65,
+      "pre_july_recognized_revenue": 1123854.35,
+      "pre_july_implementation_revenue": 300000.0,
+      "pre_july_implementation_contract": "Eastbank Data C-1042",
       "h2_deferred_revenue_reduction": 3764642.02,
       "july_revenue": 560403.7,
       "august_revenue": 685229.79,
@@ -9601,8 +9607,24 @@
       "h2_monitoring_revenue": 1031599.58,
       "h2_implementation_revenue": 1200333.33,
       "h2_total_revenue": 3764642.02,
+      "cascade_health_h2_revenue": 839664.8,
+      "eastbank_data_h2_revenue": 604931.51,
+      "boise_medical_h2_revenue": 656025.64,
+      "northline_campus_h2_revenue": 393846.15,
+      "port_authority_h2_revenue": 1270173.91,
+      "cascade_health_ending_deferred_revenue": 1070530.73,
+      "eastbank_data_ending_deferred_revenue": 295890.41,
+      "boise_medical_ending_deferred_revenue": 329102.56,
+      "northline_campus_ending_deferred_revenue": 406153.85,
+      "port_authority_ending_deferred_revenue": 169826.09,
+      "ending_maintenance_deferred_revenue": 1450593.66,
+      "ending_monitoring_deferred_revenue": 820909.97,
+      "ending_implementation_deferred_revenue": 0.0,
       "ending_deferred_revenue": 2271503.63,
-      "largest_ending_deferred_revenue_contract": "Cascade Health C-1013"
+      "largest_h2_revenue_contract": "Port Authority C-1131",
+      "largest_h2_revenue_contract_amount": 1270173.91,
+      "largest_ending_deferred_revenue_contract": "Cascade Health C-1013",
+      "largest_ending_deferred_revenue_amount": 1070530.73
     },
     "criteria": [
       {
@@ -9662,6 +9684,18 @@
         "abs_tol": 5e-05
       },
       {
+        "id": "active_service_agreement_count__active_service_agreement_count",
+        "description": "Active service agreement count is correctly derived from the shared company workpapers and controlling definitions: `active_service_agreement_count` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "active_service_agreement_count": 90
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "active_service_agreement_arr__active_service_agreement_arr",
         "description": "Active service agreement arr is correctly derived from the shared company workpapers and controlling definitions: `active_service_agreement_arr` is correct",
         "kind": "numeric",
@@ -9672,6 +9706,30 @@
           "active_service_agreement_arr": 6334500.0
         },
         "abs_tol": 0.02
+      },
+      {
+        "id": "source_unit_normalization_exception_count__source_unit_normalization_exception_count",
+        "description": "Source unit normalization exception count is correctly derived from the shared company workpapers and controlling definitions: `source_unit_normalization_exception_count` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "source_unit_normalization_exception_count": 6
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "source_unit_normalization_affected_contract_count__source_unit_normalization_affected_contract_count",
+        "description": "Source unit normalization affected contract count is correctly derived from the shared company workpapers and controlling definitions: `source_unit_normalization_affected_contract_count` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "source_unit_normalization_affected_contract_count": 5
+        },
+        "abs_tol": 5e-05
       },
       {
         "id": "total_advance_billings__total_advance_billings",
@@ -9696,6 +9754,41 @@
           "opening_deferred_revenue": 6036145.65
         },
         "abs_tol": 0.02
+      },
+      {
+        "id": "pre_july_recognized_revenue__pre_july_recognized_revenue",
+        "description": "Pre july recognized revenue is correctly derived from the shared company workpapers and controlling definitions: `pre_july_recognized_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "pre_july_recognized_revenue": 1123854.35
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "pre_july_implementation_revenue__pre_july_implementation_revenue",
+        "description": "Pre july implementation revenue is correctly derived from the shared company workpapers and controlling definitions: `pre_july_implementation_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "pre_july_implementation_revenue": 300000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "pre_july_implementation_contract__pre_july_implementation_contract",
+        "description": "Pre july implementation contract is correctly derived from the shared company workpapers and controlling definitions: `pre_july_implementation_contract` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "pre_july_implementation_contract": "Eastbank Data C-1042"
+        }
       },
       {
         "id": "h2_deferred_revenue_reduction__h2_deferred_revenue_reduction",
@@ -9902,6 +9995,162 @@
         "abs_tol": 0.02
       },
       {
+        "id": "cascade_health_h2_revenue__cascade_health_h2_revenue",
+        "description": "Cascade health h2 revenue is correctly derived from the shared company workpapers and controlling definitions: `cascade_health_h2_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "cascade_health_h2_revenue": 839664.8
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "eastbank_data_h2_revenue__eastbank_data_h2_revenue",
+        "description": "Eastbank data h2 revenue is correctly derived from the shared company workpapers and controlling definitions: `eastbank_data_h2_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "eastbank_data_h2_revenue": 604931.51
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "boise_medical_h2_revenue__boise_medical_h2_revenue",
+        "description": "Boise medical h2 revenue is correctly derived from the shared company workpapers and controlling definitions: `boise_medical_h2_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "boise_medical_h2_revenue": 656025.64
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "northline_campus_h2_revenue__northline_campus_h2_revenue",
+        "description": "Northline campus h2 revenue is correctly derived from the shared company workpapers and controlling definitions: `northline_campus_h2_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "northline_campus_h2_revenue": 393846.15
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "port_authority_h2_revenue__port_authority_h2_revenue",
+        "description": "Port authority h2 revenue is correctly derived from the shared company workpapers and controlling definitions: `port_authority_h2_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "port_authority_h2_revenue": 1270173.91
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "cascade_health_ending_deferred_revenue__cascade_health_ending_deferred_revenue",
+        "description": "Cascade health ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `cascade_health_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "cascade_health_ending_deferred_revenue": 1070530.73
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "eastbank_data_ending_deferred_revenue__eastbank_data_ending_deferred_revenue",
+        "description": "Eastbank data ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `eastbank_data_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "eastbank_data_ending_deferred_revenue": 295890.41
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "boise_medical_ending_deferred_revenue__boise_medical_ending_deferred_revenue",
+        "description": "Boise medical ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `boise_medical_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "boise_medical_ending_deferred_revenue": 329102.56
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "northline_campus_ending_deferred_revenue__northline_campus_ending_deferred_revenue",
+        "description": "Northline campus ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `northline_campus_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "northline_campus_ending_deferred_revenue": 406153.85
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "port_authority_ending_deferred_revenue__port_authority_ending_deferred_revenue",
+        "description": "Port authority ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `port_authority_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "port_authority_ending_deferred_revenue": 169826.09
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "ending_maintenance_deferred_revenue__ending_maintenance_deferred_revenue",
+        "description": "Ending maintenance deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `ending_maintenance_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "ending_maintenance_deferred_revenue": 1450593.66
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "ending_monitoring_deferred_revenue__ending_monitoring_deferred_revenue",
+        "description": "Ending monitoring deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `ending_monitoring_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "ending_monitoring_deferred_revenue": 820909.97
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "ending_implementation_deferred_revenue__ending_implementation_deferred_revenue",
+        "description": "Ending implementation deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `ending_implementation_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "ending_implementation_deferred_revenue": 0.0
+        },
+        "abs_tol": 5e-05
+      },
+      {
         "id": "ending_deferred_revenue__ending_deferred_revenue",
         "description": "Ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `ending_deferred_revenue` is correct",
         "kind": "numeric",
@@ -9910,6 +10159,29 @@
         "semantic": false,
         "expected": {
           "ending_deferred_revenue": 2271503.63
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "largest_h2_revenue_contract__largest_h2_revenue_contract",
+        "description": "Largest h2 revenue contract is correctly derived from the shared company workpapers and controlling definitions: `largest_h2_revenue_contract` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "largest_h2_revenue_contract": "Port Authority C-1131"
+        }
+      },
+      {
+        "id": "largest_h2_revenue_contract_amount__largest_h2_revenue_contract_amount",
+        "description": "Largest h2 revenue contract amount is correctly derived from the shared company workpapers and controlling definitions: `largest_h2_revenue_contract_amount` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "largest_h2_revenue_contract_amount": 1270173.91
         },
         "abs_tol": 0.02
       },
@@ -9923,6 +10195,18 @@
         "expected": {
           "largest_ending_deferred_revenue_contract": "Cascade Health C-1013"
         }
+      },
+      {
+        "id": "largest_ending_deferred_revenue_amount__largest_ending_deferred_revenue_amount",
+        "description": "Largest ending deferred revenue amount is correctly derived from the shared company workpapers and controlling definitions: `largest_ending_deferred_revenue_amount` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "largest_ending_deferred_revenue_amount": 1070530.73
+        },
+        "abs_tol": 0.02
       }
     ],
     "rubric_schema_version": 3
