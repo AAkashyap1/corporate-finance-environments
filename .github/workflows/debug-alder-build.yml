@@ -1,7 +1,9 @@
 name: Debug Alder image build
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - codex/alder-batch-051-053
 
 jobs:
   build:
