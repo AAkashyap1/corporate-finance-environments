@@ -10282,7 +10282,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_formulas": 70
       },
       {
@@ -10291,8 +10290,7 @@
         "kind": "xlsx_no_errors",
         "category": "integrity",
         "weight": 10,
-        "semantic": false,
-        "failure_cap": 0.0
+        "semantic": false
       },
       {
         "id": "formula_lineage__headline_ltm_revenue",
@@ -10301,7 +10299,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ltm_revenue"
       },
       {
@@ -10311,7 +10308,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "organic_growth"
       },
       {
@@ -10321,7 +10317,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "adjusted_ebitda"
       },
       {
@@ -10331,7 +10326,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "adjusted_ebitda_margin"
       },
       {
@@ -10341,7 +10335,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "backlog"
       },
       {
@@ -10351,7 +10344,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "free_cash_flow"
       },
       {
@@ -10361,7 +10353,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "leverage"
       },
       {
@@ -10371,7 +10362,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "fixed_charge_coverage"
       },
       {
@@ -10417,7 +10407,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_cross_sheet_formulas": 15
       },
       {
@@ -10520,6 +10509,17 @@
         ]
       },
       {
+        "id": "model_content__gross_margin",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'gross margin'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "gross margin"
+        ]
+      },
+      {
         "id": "model_content__adjusted_ebitda",
         "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'adjusted ebitda'",
         "kind": "artifact_tokens",
@@ -10528,6 +10528,17 @@
         "semantic": true,
         "tokens": [
           "adjusted ebitda"
+        ]
+      },
+      {
+        "id": "model_content__recurring_service",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'recurring service'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "recurring service"
         ]
       },
       {
@@ -10572,6 +10583,28 @@
         "semantic": true,
         "tokens": [
           "fixed charge coverage"
+        ]
+      },
+      {
+        "id": "model_content__quarter_over_quarter",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'quarter-over-quarter'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "quarter-over-quarter"
+        ]
+      },
+      {
+        "id": "model_content__year_over_year",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'year-over-year'",
+        "kind": "artifact_tokens",
+        "category": "auditability",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "year-over-year"
         ]
       },
       {

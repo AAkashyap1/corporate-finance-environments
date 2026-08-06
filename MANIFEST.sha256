@@ -23,7 +23,7 @@ c257d7f23d8f69232613f991bbeb418047925326010341f14df7a30f67bb8bd2  ./companies/al
 cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/alder-ridge/evaluator/integrity.py
 c54b288c87c7d3cc4dabb86f989114d7b70149061e4c18f81202096948225c09  ./companies/alder-ridge/evaluator/production_semantic.py
 83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
-32b1329b5d113808ea44d5426e372f38d270e3d9865d718a1749ee585aca61d9  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
+a07fd582a76f422bccdc043ed088fdc28c8db072d181612ad5cdf5f5d980610b  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
 3f591f3b1eac6821bd521c3bb2206fc189cab662c9b36afa2aba1167dffad581  ./companies/alder-ridge/evaluator/rubric.py
 f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
 26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
