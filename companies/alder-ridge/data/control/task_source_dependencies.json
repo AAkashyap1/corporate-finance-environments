@@ -1424,7 +1424,8 @@
         "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
       ],
       "independent_fact_groups": [
-        "QoE adjustment register",
+        "IC valuation assumptions",
+        "QoE adjustment evidence",
         "Redwood monthly P&L",
         "Remaining risk register",
         "Management instructions and decision rules",
@@ -1454,7 +1455,9 @@
         "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv"
       ],
       "independent_fact_groups": [
-        "Estimated closing NWC",
+        "Closing eligibility condition",
+        "Diligence peg treatment",
+        "Estimated closing balance sheet",
         "Historical normalized NWC",
         "Purchase agreement",
         "Management instructions and decision rules",

@@ -5142,7 +5142,13 @@
   },
   "task_051": {
     "answer": {
+      "ltm_revenue": 30132000.0,
       "reported_ebitda": 1766988.0,
+      "seller_proposed_adjustments": 1215000.0,
+      "seller_adjusted_ebitda": 2981988.0,
+      "owner_compensation_adjustment": 240000.0,
+      "legal_settlement_adjustment": 175000.0,
+      "vacant_cfo_adjustment": -155000.0,
       "accepted_adjustments": [
         "Excess owner compensation",
         "Nonrecurring legal settlement",
@@ -5152,11 +5158,31 @@
         "Buyer procurement synergies",
         "Uncommitted facility savings"
       ],
+      "net_accepted_adjustments": 260000.0,
       "normalized_ebitda": 2026988.0,
       "normalized_ebitda_margin": 0.06727028,
-      "largest_remaining_qoe_risk": "Top-customer concentration"
+      "seller_to_underwriting_ebitda_gap": 955000.0,
+      "working_entry_multiple": 7.5,
+      "seller_to_underwriting_enterprise_value_gap": 7162500.0,
+      "largest_remaining_qoe_risk": "Top-customer concentration",
+      "largest_risk_expected_impact": 960000.0,
+      "aggregate_probability_weighted_risk": 1677000.0,
+      "risk_adjusted_ebitda": 349988.0,
+      "risk_adjusted_ebitda_margin": 0.01161516
     },
     "criteria": [
+      {
+        "id": "ltm_revenue__ltm_revenue",
+        "description": "Ltm revenue is correctly derived from the shared company workpapers and controlling definitions: `ltm_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "ltm_revenue": 30132000.0
+        },
+        "abs_tol": 0.02
+      },
       {
         "id": "reported_ebitda__reported_ebitda",
         "description": "Reported ebitda is correctly derived from the shared company workpapers and controlling definitions: `reported_ebitda` is correct",
@@ -5170,40 +5196,106 @@
         "abs_tol": 0.02
       },
       {
+        "id": "seller_proposed_adjustments__seller_proposed_adjustments",
+        "description": "Seller proposed adjustments is correctly derived from the shared company workpapers and controlling definitions: `seller_proposed_adjustments` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_proposed_adjustments": 1215000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "seller_adjusted_ebitda__seller_adjusted_ebitda",
+        "description": "Seller adjusted ebitda is correctly derived from the shared company workpapers and controlling definitions: `seller_adjusted_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_adjusted_ebitda": 2981988.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "owner_compensation_adjustment__owner_compensation_adjustment",
+        "description": "Owner compensation adjustment is correctly derived from the shared company workpapers and controlling definitions: `owner_compensation_adjustment` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "owner_compensation_adjustment": 240000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "legal_settlement_adjustment__legal_settlement_adjustment",
+        "description": "Legal settlement adjustment is correctly derived from the shared company workpapers and controlling definitions: `legal_settlement_adjustment` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "legal_settlement_adjustment": 175000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "vacant_cfo_adjustment__vacant_cfo_adjustment",
+        "description": "Vacant cfo adjustment is correctly derived from the shared company workpapers and controlling definitions: `vacant_cfo_adjustment` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "vacant_cfo_adjustment": -155000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "accepted_adjustments__item_01_excess_owner_compensation",
-        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Excess owner compensation' is correctly included and classified",
+        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Excess owner compensation' is correctly included and classified; the item is absent from the conflicting classification buckets ['rejected_adjustments']",
         "kind": "list_item",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Excess owner compensation",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__item_02_nonrecurring_legal_settlement",
-        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Nonrecurring legal settlement' is correctly included and classified",
+        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Nonrecurring legal settlement' is correctly included and classified; the item is absent from the conflicting classification buckets ['rejected_adjustments']",
         "kind": "list_item",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Nonrecurring legal settlement",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__item_03_vacant_cfo_run_rate_cost",
-        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Vacant CFO run-rate cost' is correctly included and classified",
+        "description": "Accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Vacant CFO run-rate cost' is correctly included and classified; the item is absent from the conflicting classification buckets ['rejected_adjustments']",
         "kind": "list_item",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Vacant CFO run-rate cost",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__complete_set",
@@ -5212,7 +5304,6 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected": [
           "Excess owner compensation",
@@ -5223,27 +5314,31 @@
       },
       {
         "id": "rejected_adjustments__item_01_buyer_procurement_synergies",
-        "description": "Rejected adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Buyer procurement synergies' is correctly included and classified",
+        "description": "Rejected adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Buyer procurement synergies' is correctly included and classified; the item is absent from the conflicting classification buckets ['accepted_adjustments']",
         "kind": "list_item",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected_item": "Buyer procurement synergies",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "accepted_adjustments"
+        ]
       },
       {
         "id": "rejected_adjustments__item_02_uncommitted_facility_savings",
-        "description": "Rejected adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Uncommitted facility savings' is correctly included and classified",
+        "description": "Rejected adjustments is correctly derived from the shared company workpapers and controlling definitions: required item 'Uncommitted facility savings' is correctly included and classified; the item is absent from the conflicting classification buckets ['accepted_adjustments']",
         "kind": "list_item",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected_item": "Uncommitted facility savings",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "accepted_adjustments"
+        ]
       },
       {
         "id": "rejected_adjustments__complete_set",
@@ -5252,13 +5347,24 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected": [
           "Buyer procurement synergies",
           "Uncommitted facility savings"
         ],
         "unordered": true
+      },
+      {
+        "id": "net_accepted_adjustments__net_accepted_adjustments",
+        "description": "Net accepted adjustments is correctly derived from the shared company workpapers and controlling definitions: `net_accepted_adjustments` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "net_accepted_adjustments": 260000.0
+        },
+        "abs_tol": 0.02
       },
       {
         "id": "normalized_ebitda__normalized_ebitda",
@@ -5285,29 +5391,230 @@
         "abs_tol": 5e-05
       },
       {
+        "id": "seller_to_underwriting_ebitda_gap__seller_to_underwriting_ebitda_gap",
+        "description": "Seller to underwriting ebitda gap is correctly derived from the shared company workpapers and controlling definitions: `seller_to_underwriting_ebitda_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_to_underwriting_ebitda_gap": 955000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "working_entry_multiple__working_entry_multiple",
+        "description": "Working entry multiple is correctly derived from the shared company workpapers and controlling definitions: `working_entry_multiple` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "working_entry_multiple": 7.5
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "seller_to_underwriting_enterprise_value_gap__seller_to_underwriting_enterprise_value_gap",
+        "description": "Seller to underwriting enterprise value gap is correctly derived from the shared company workpapers and controlling definitions: `seller_to_underwriting_enterprise_value_gap` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "seller_to_underwriting_enterprise_value_gap": 7162500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "largest_remaining_qoe_risk__largest_remaining_qoe_risk",
         "description": "Largest remaining qoe risk is correctly derived from the shared company workpapers and controlling definitions: `largest_remaining_qoe_risk` is correct",
         "kind": "string",
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "expected": {
           "largest_remaining_qoe_risk": "Top-customer concentration"
         }
+      },
+      {
+        "id": "largest_risk_expected_impact__largest_risk_expected_impact",
+        "description": "Largest risk expected impact is correctly derived from the shared company workpapers and controlling definitions: `largest_risk_expected_impact` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "largest_risk_expected_impact": 960000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "aggregate_probability_weighted_risk__aggregate_probability_weighted_risk",
+        "description": "Aggregate probability weighted risk is correctly derived from the shared company workpapers and controlling definitions: `aggregate_probability_weighted_risk` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "aggregate_probability_weighted_risk": 1677000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "risk_adjusted_ebitda__risk_adjusted_ebitda",
+        "description": "Risk adjusted ebitda is correctly derived from the shared company workpapers and controlling definitions: `risk_adjusted_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "risk_adjusted_ebitda": 349988.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "risk_adjusted_ebitda_margin__risk_adjusted_ebitda_margin",
+        "description": "Risk adjusted ebitda margin is correctly derived from the shared company workpapers and controlling definitions: `risk_adjusted_ebitda_margin` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "risk_adjusted_ebitda_margin": 0.01161516
+        },
+        "abs_tol": 5e-05
       }
     ],
     "rubric_schema_version": 3
   },
   "task_052": {
     "answer": {
+      "excluded_peg_months": [
+        "2025-12",
+        "2026-01"
+      ],
+      "median_lower_month": "2025-11",
+      "median_lower_nwc": 2576000.0,
+      "median_upper_month": "2026-02",
+      "median_upper_nwc": 2663000.0,
       "normalized_nwc_peg": 2619500.0,
+      "included_closing_nwc_components": [
+        "Undisputed trade receivables",
+        "Inventory",
+        "Trade accounts payable",
+        "Payroll and benefits accrual",
+        "Warranty and service accrual",
+        "Customer deposits and deferred revenue"
+      ],
+      "excluded_closing_nwc_components": [
+        "Disputed change-order receivable",
+        "Prepaid insurance",
+        "Income tax receivable",
+        "Intercompany receivable"
+      ],
+      "debt_like_closing_components": [
+        "Seller transaction bonuses",
+        "Capital expenditure accrual"
+      ],
+      "included_closing_nwc_assets": 5520000.0,
+      "included_closing_nwc_liabilities": 3370000.0,
+      "excluded_closing_nwc_balance": 765000.0,
+      "debt_like_closing_balance": 455000.0,
       "estimated_closing_nwc": 2150000.0,
       "gross_nwc_shortfall": 469500.0,
       "collar_absorbed": 250000.0,
-      "purchase_price_adjustment": -219500.0
+      "purchase_price_adjustment": -219500.0,
+      "minimum_additional_eligible_nwc": 219500.0,
+      "accepted_change_order_estimated_closing_nwc": 2470000.0,
+      "accepted_change_order_gross_shortfall": 149500.0,
+      "accepted_change_order_collar_absorbed": 149500.0,
+      "accepted_change_order_purchase_price_adjustment": 0.0,
+      "recommended_closing_action": "Obtain signed customer acceptance for the disputed change-order receivable before closing"
     },
     "criteria": [
+      {
+        "id": "excluded_peg_months__item_01_2025_12",
+        "description": "Excluded peg months is correctly derived from the shared company workpapers and controlling definitions: required item '2025-12' is correctly included and classified",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_peg_months",
+        "expected_item": "2025-12",
+        "unordered": true
+      },
+      {
+        "id": "excluded_peg_months__item_02_2026_01",
+        "description": "Excluded peg months is correctly derived from the shared company workpapers and controlling definitions: required item '2026-01' is correctly included and classified",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_peg_months",
+        "expected_item": "2026-01",
+        "unordered": true
+      },
+      {
+        "id": "excluded_peg_months__complete_set",
+        "description": "Excluded peg months is correctly derived from the shared company workpapers and controlling definitions: the submitted set has no missing, extra, or duplicated items",
+        "kind": "list_exact",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_peg_months",
+        "expected": [
+          "2025-12",
+          "2026-01"
+        ],
+        "unordered": true
+      },
+      {
+        "id": "median_lower_month__median_lower_month",
+        "description": "Median lower month is correctly derived from the shared company workpapers and controlling definitions: `median_lower_month` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "median_lower_month": "2025-11"
+        }
+      },
+      {
+        "id": "median_lower_nwc__median_lower_nwc",
+        "description": "Median lower nwc is correctly derived from the shared company workpapers and controlling definitions: `median_lower_nwc` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "median_lower_nwc": 2576000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "median_upper_month__median_upper_month",
+        "description": "Median upper month is correctly derived from the shared company workpapers and controlling definitions: `median_upper_month` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "median_upper_month": "2026-02"
+        }
+      },
+      {
+        "id": "median_upper_nwc__median_upper_nwc",
+        "description": "Median upper nwc is correctly derived from the shared company workpapers and controlling definitions: `median_upper_nwc` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "median_upper_nwc": 2663000.0
+        },
+        "abs_tol": 0.02
+      },
       {
         "id": "normalized_nwc_peg__normalized_nwc_peg",
         "description": "Normalized nwc peg is correctly derived from the shared company workpapers and controlling definitions: `normalized_nwc_peg` is correct",
@@ -5317,6 +5624,282 @@
         "semantic": false,
         "expected": {
           "normalized_nwc_peg": 2619500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "included_closing_nwc_components__item_01_undisputed_trade_receivables",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Undisputed trade receivables' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Undisputed trade receivables",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__item_02_inventory",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Inventory' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Inventory",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__item_03_trade_accounts_payable",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Trade accounts payable' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Trade accounts payable",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__item_04_payroll_and_benefits_accrual",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Payroll and benefits accrual' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Payroll and benefits accrual",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__item_05_warranty_and_service_accrual",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Warranty and service accrual' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Warranty and service accrual",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__item_06_customer_deposits_and_deferred_revenue",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Customer deposits and deferred revenue' is correctly included and classified; the item is absent from the conflicting classification buckets ['excluded_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected_item": "Customer deposits and deferred revenue",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "excluded_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "included_closing_nwc_components__complete_set",
+        "description": "Included closing nwc components is correctly derived from the shared company workpapers and controlling definitions: the submitted set has no missing, extra, or duplicated items",
+        "kind": "list_exact",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "included_closing_nwc_components",
+        "expected": [
+          "Undisputed trade receivables",
+          "Inventory",
+          "Trade accounts payable",
+          "Payroll and benefits accrual",
+          "Warranty and service accrual",
+          "Customer deposits and deferred revenue"
+        ],
+        "unordered": true
+      },
+      {
+        "id": "excluded_closing_nwc_components__item_01_disputed_change_order_receivable",
+        "description": "Excluded closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Disputed change-order receivable' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_closing_nwc_components",
+        "expected_item": "Disputed change-order receivable",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "excluded_closing_nwc_components__item_02_prepaid_insurance",
+        "description": "Excluded closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Prepaid insurance' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_closing_nwc_components",
+        "expected_item": "Prepaid insurance",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "excluded_closing_nwc_components__item_03_income_tax_receivable",
+        "description": "Excluded closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Income tax receivable' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_closing_nwc_components",
+        "expected_item": "Income tax receivable",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "excluded_closing_nwc_components__item_04_intercompany_receivable",
+        "description": "Excluded closing nwc components is correctly derived from the shared company workpapers and controlling definitions: required item 'Intercompany receivable' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'debt_like_closing_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_closing_nwc_components",
+        "expected_item": "Intercompany receivable",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "debt_like_closing_components"
+        ]
+      },
+      {
+        "id": "excluded_closing_nwc_components__complete_set",
+        "description": "Excluded closing nwc components is correctly derived from the shared company workpapers and controlling definitions: the submitted set has no missing, extra, or duplicated items",
+        "kind": "list_exact",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "excluded_closing_nwc_components",
+        "expected": [
+          "Disputed change-order receivable",
+          "Prepaid insurance",
+          "Income tax receivable",
+          "Intercompany receivable"
+        ],
+        "unordered": true
+      },
+      {
+        "id": "debt_like_closing_components__item_01_seller_transaction_bonuses",
+        "description": "Debt like closing components is correctly derived from the shared company workpapers and controlling definitions: required item 'Seller transaction bonuses' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'excluded_closing_nwc_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "debt_like_closing_components",
+        "expected_item": "Seller transaction bonuses",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "excluded_closing_nwc_components"
+        ]
+      },
+      {
+        "id": "debt_like_closing_components__item_02_capital_expenditure_accrual",
+        "description": "Debt like closing components is correctly derived from the shared company workpapers and controlling definitions: required item 'Capital expenditure accrual' is correctly included and classified; the item is absent from the conflicting classification buckets ['included_closing_nwc_components', 'excluded_closing_nwc_components']",
+        "kind": "list_item",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "debt_like_closing_components",
+        "expected_item": "Capital expenditure accrual",
+        "unordered": true,
+        "exclusive_with_keys": [
+          "included_closing_nwc_components",
+          "excluded_closing_nwc_components"
+        ]
+      },
+      {
+        "id": "debt_like_closing_components__complete_set",
+        "description": "Debt like closing components is correctly derived from the shared company workpapers and controlling definitions: the submitted set has no missing, extra, or duplicated items",
+        "kind": "list_exact",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "key": "debt_like_closing_components",
+        "expected": [
+          "Seller transaction bonuses",
+          "Capital expenditure accrual"
+        ],
+        "unordered": true
+      },
+      {
+        "id": "included_closing_nwc_assets__included_closing_nwc_assets",
+        "description": "Included closing nwc assets is correctly derived from the shared company workpapers and controlling definitions: `included_closing_nwc_assets` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "included_closing_nwc_assets": 5520000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "included_closing_nwc_liabilities__included_closing_nwc_liabilities",
+        "description": "Included closing nwc liabilities is correctly derived from the shared company workpapers and controlling definitions: `included_closing_nwc_liabilities` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "included_closing_nwc_liabilities": 3370000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "excluded_closing_nwc_balance__excluded_closing_nwc_balance",
+        "description": "Excluded closing nwc balance is correctly derived from the shared company workpapers and controlling definitions: `excluded_closing_nwc_balance` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "excluded_closing_nwc_balance": 765000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "debt_like_closing_balance__debt_like_closing_balance",
+        "description": "Debt like closing balance is correctly derived from the shared company workpapers and controlling definitions: `debt_like_closing_balance` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "debt_like_closing_balance": 455000.0
         },
         "abs_tol": 0.02
       },
@@ -5367,6 +5950,77 @@
           "purchase_price_adjustment": -219500.0
         },
         "abs_tol": 0.02
+      },
+      {
+        "id": "minimum_additional_eligible_nwc__minimum_additional_eligible_nwc",
+        "description": "Minimum additional eligible nwc is correctly derived from the shared company workpapers and controlling definitions: `minimum_additional_eligible_nwc` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "minimum_additional_eligible_nwc": 219500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "accepted_change_order_estimated_closing_nwc__accepted_change_order_estimated_closing_nwc",
+        "description": "Accepted change order estimated closing nwc is correctly derived from the shared company workpapers and controlling definitions: `accepted_change_order_estimated_closing_nwc` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "accepted_change_order_estimated_closing_nwc": 2470000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "accepted_change_order_gross_shortfall__accepted_change_order_gross_shortfall",
+        "description": "Accepted change order gross shortfall is correctly derived from the shared company workpapers and controlling definitions: `accepted_change_order_gross_shortfall` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "accepted_change_order_gross_shortfall": 149500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "accepted_change_order_collar_absorbed__accepted_change_order_collar_absorbed",
+        "description": "Accepted change order collar absorbed is correctly derived from the shared company workpapers and controlling definitions: `accepted_change_order_collar_absorbed` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "accepted_change_order_collar_absorbed": 149500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "accepted_change_order_purchase_price_adjustment__accepted_change_order_purchase_price_adjustment",
+        "description": "Accepted change order purchase price adjustment is correctly derived from the shared company workpapers and controlling definitions: `accepted_change_order_purchase_price_adjustment` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "accepted_change_order_purchase_price_adjustment": 0.0
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "recommended_closing_action__recommended_closing_action",
+        "description": "Recommended closing action is correctly derived from the shared company workpapers and controlling definitions: `recommended_closing_action` is correct",
+        "kind": "string",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "expected": {
+          "recommended_closing_action": "Obtain signed customer acceptance for the disputed change-order receivable before closing"
+        }
       }
     ],
     "rubric_schema_version": 3

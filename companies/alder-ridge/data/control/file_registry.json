@@ -303,8 +303,8 @@
     {
       "path": "Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx",
       "type": "docx",
-      "bytes": 44413,
-      "sha256": "f38eed507a249ca49efa8941cb3efad6ae97bc2dab0b28eda21c8c994cdd40d4",
+      "bytes": 44967,
+      "sha256": "8c1d70a2ed1d8ec6a4600e1cb925de053017e7085ef709844fe25792a6ad6dfb",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -312,8 +312,8 @@
     {
       "path": "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx",
       "type": "xlsx",
-      "bytes": 26686,
-      "sha256": "ee8f8cad04dcefdf5556161078c4c39b648363ba62a1a6ae8b459d8159403c0e",
+      "bytes": 26700,
+      "sha256": "c8dbfe14e8b93fcf6fd1fa5e661535e632ffaa0767c686e939719aa56db9c27b",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -321,8 +321,8 @@
     {
       "path": "Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx",
       "type": "xlsx",
-      "bytes": 39867,
-      "sha256": "92579174f8639dd176f4e3d24f863b568995cac5fdef4868471b6e28d375a587",
+      "bytes": 40261,
+      "sha256": "16e69d1c86085df33b04922811c5b91fdbceab39db5da9b4a9fb0083ccf7f158",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -330,8 +330,8 @@
     {
       "path": "Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf",
       "type": "pdf",
-      "bytes": 12961,
-      "sha256": "9a663926cbe57e5fc41e26b50a2a9b6e9d7a4714ad0563a9a30e295e91132a55",
+      "bytes": 13806,
+      "sha256": "cba81a0ceb2851dc6509eee46a7c4bab3f8ef95ce623ea014d08f0cc5d2ccc2e",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -339,8 +339,8 @@
     {
       "path": "Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv",
       "type": "csv",
-      "bytes": 30376,
-      "sha256": "49a3b0a7113a3f00304f536aaf2c3458b6de3266e018b7974b4673a355e09050",
+      "bytes": 30911,
+      "sha256": "86df27d68018d562fd563267d3bfc03d6802d8793df025af180180d041b98ed2",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."

@@ -8,22 +8,22 @@ ab2c6fe95f3796f74603c987438fdf9fd88a52ea669ce5ade489d6a52c9e74bd  ./companies/al
 cfa4241167e8d12c64bcd510605143a128d043e3caef2822dfeb997776b902e0  ./companies/alder-ridge/README.md
 ffff4d8c12459831f42238c9dfd4e34cedbe7288b942f65426577c1d54506584  ./companies/alder-ridge/company.json
 dedebb90c790b8f811ad9a332fee0b31c00d5ca56a5d07d7cb46d363cafa4b71  ./companies/alder-ridge/data/accounting_seed.db
-73c3e54254698c9be124c7a871500862a3c8725d8a884e234815ec2fdebde09c  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
-ee8c30971ca0a55eb8a06a65e7452b954c240878f97b8b098c2b28f53a071605  ./companies/alder-ridge/data/control/corporate_finance_source_map.json
+4cdcbc13f7603496872baa71fbf80b283acf8d719089954365009bf3eba44a7d  ./companies/alder-ridge/data/control/corporate_finance_shared_workbook_data.json
+14c33187f03bb8cb854f968602264c48a3e077cf4848e9f265c510590a2d5d44  ./companies/alder-ridge/data/control/corporate_finance_source_map.json
 932c79c7228b9640ad2b32a48247d7e4419816b0f0e86708c724ce4d8b3880ff  ./companies/alder-ridge/data/control/corporate_finance_template_inputs.json
 ca77e0601d1a77cf2efe5f35f86a61d14a843723ce2995994968f143fe7487cc  ./companies/alder-ridge/data/control/fact_registry.json
-7eb7c89c44b60ef41e76af8422d66614b3a54312e49b07a48fabaebfd9ada714  ./companies/alder-ridge/data/control/file_registry.json
-c23943fb27f72b6043f8996bffb91b9ebfc96cc57e0171a8565126cbe4877ddf  ./companies/alder-ridge/data/control/task_source_dependencies.json
+1ca8a45e5008daa68d2131a51155361f9cf1da0756d8de226ef0ac606d284056  ./companies/alder-ridge/data/control/file_registry.json
+1906e6dd2d94086d7a1d55aa374daae9eb64d073869cea41ef2e89441400af1f  ./companies/alder-ridge/data/control/task_source_dependencies.json
 1802a9e40fd71de68e9776d79efda3d3e1a49688a743e93ed31e2167f67e55af  ./companies/alder-ridge/data/control/task_support.json
 c257d7f23d8f69232613f991bbeb418047925326010341f14df7a30f67bb8bd2  ./companies/alder-ridge/data/source_manifest.json
 3766cd3e8e59d2d2fc228e450fca42a77072dcfc89c19a48998ec90080d2c8ff  ./companies/alder-ridge/evaluator/__init__.py
 0547f0eb4c4398870d0a49547a58f92db9121a6f99af6129d9efe3b1289f305b  ./companies/alder-ridge/evaluator/common.py
-227794b2216134a43f879c39e0e7c680f3cd4a59d8251b90767ba9fbdcdee34d  ./companies/alder-ridge/evaluator/corporate_finance.py
+a5b126f82e2f8d07f3ee8a7424a335163a3e59304168fc158edc98ea398340fc  ./companies/alder-ridge/evaluator/corporate_finance.py
 7f374ba210b0fe2e27349ad879a292ce3a8c3a1437c56cfa1c54d5c6c2aff4c1  ./companies/alder-ridge/evaluator/hybrid_semantic.py
 cb2a94f35c0f161552a2b3d4f6739f2cf181cf2447101fdb9cbc16bb346a9ead  ./companies/alder-ridge/evaluator/integrity.py
 c54b288c87c7d3cc4dabb86f989114d7b70149061e4c18f81202096948225c09  ./companies/alder-ridge/evaluator/production_semantic.py
 83f831ae13d860bad89e2d8cbeb3476a31658f915f2a254f18b818971feea7ab  ./companies/alder-ridge/evaluator/reference/tasks_001_025.json
-5a7dbda36f3d6e65c8509c905e04f3378ffa1d7b92a07dd4792fc4949b9ab011  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
+16294d65bcffae6026ab8579e1fb1100eb2c491255fc4edaa0ad97050a23157e  ./companies/alder-ridge/evaluator/reference/tasks_026_100.json
 3f591f3b1eac6821bd521c3bb2206fc189cab662c9b36afa2aba1167dffad581  ./companies/alder-ridge/evaluator/rubric.py
 f3c23287bcc5a792b6cc082d18cbf4c1ff4269c144b9e11851af9d2e9417c6e7  ./companies/alder-ridge/evaluator/semantic.py
 26fe05e9023e74af16cf547e648920b84821f6f2db83e100bd9ba36fd1816346  ./companies/alder-ridge/evaluator/task_grader.py
@@ -36,7 +36,7 @@ f78886c0b14aa5dd0425ad95f8969515794d22fc7146c895b1806f39e3f09768  ./companies/al
 fb14e6ef0b6e56bbf1aa7a5ac230f86bf759d862d7776b0c6c8735ff482b2228  ./companies/alder-ridge/runtime/env.py
 3466be6e6df1b5d677b2b19078613452cf7bdf72383628696b54770509ec29e8  ./companies/alder-ridge/runtime/pyproject.toml
 4527b89bdd463ac22f88a528279515cd682a3d8420101767657c44432d79de26  ./companies/alder-ridge/runtime/scripts/prepare_agent_runtime.py
-b1fbdde6847cb41dfce618c65842fed91fa75e3d97cee3dd528259564dec43b7  ./companies/alder-ridge/runtime/task_catalog.py
+3e3dd38ea422a780f2488a200fd73b6f9866621eab96f94652ef96535d7f044c  ./companies/alder-ridge/runtime/task_catalog.py
 a79bb795ae0ccd751c91d952b72b342cce104641d310899aded0ec8277db30c4  ./companies/alder-ridge/runtime/task_templates.py
 8a373d9db4e385ebde4b9e09d751b913ef3954eed9155c52d845b4742e02e802  ./companies/alder-ridge/runtime/tasks.py
 3da21043fe60e3b013aa12ff656fa12963c3b6a42f416f5610e3697614678d6e  ./companies/alder-ridge/runtime/uv.lock
@@ -73,11 +73,11 @@ aff9acf6b5fe75405f797b203ac0f53f175c16ae55479a3966560be56b9f24e8  ./companies/al
 5b51d824adf1c1ce42bc35b159866c1d18ed03ec4313406eed220149ecd4030e  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/4 WIP/WIP risk cases_7.1 847am - NB REVIEW COPY.xlsx
 bd7c1dc8cbaea27cc29156a7e2d43c870e972d24c1e540285c8274c21c0b41f9  ./companies/alder-ridge/source-files/Shared/Finance/Close/2026/06 June/5 fixed assets/FA + CIP rollforward_June26 rev2.xlsx
 2343e866a3f8ecb3b5f91b8e569d6087e056098a7e7b7ceddabc292eb17a5d15  ./companies/alder-ridge/source-files/Shared/Finance/Controllership/Q2 working/FY26 tax + non-GAAP reporting policy - signed.pdf
-f38eed507a249ca49efa8941cb3efad6ae97bc2dab0b28eda21c8c994cdd40d4  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx
-ee8f8cad04dcefdf5556161078c4c39b648363ba62a1a6ae8b459d8159403c0e  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx
-92579174f8639dd176f4e3d24f863b568995cac5fdef4868471b6e28d375a587  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx
-9a663926cbe57e5fc41e26b50a2a9b6e9d7a4714ad0563a9a30e295e91132a55  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf
-49a3b0a7113a3f00304f536aaf2c3458b6de3266e018b7974b4673a355e09050  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv
+8c1d70a2ed1d8ec6a4600e1cb925de053017e7085ef709844fe25792a6ad6dfb  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC diligence review notes - 7.5 DC.docx
+c8dbfe14e8b93fcf6fd1fa5e661535e632ffaa0767c686e939719aa56db9c27b  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 6.29 banker case.xlsx
+16e69d1c86085df33b04922811c5b91fdbceab39db5da9b4a9fb0083ccf7f158  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/IC model inputs - 7.5 controller tie.xlsx
+cba81a0ceb2851dc6509eee46a7c4bab3f8ef95ce623ea014d08f0cc5d2ccc2e  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Active analyses/M&A underwriting policy + IC return definitions.pdf
+86df27d68018d562fd563267d3bfc03d6802d8793df025af180180d041b98ed2  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Data room exports/target monthly financials + diligence index_7.3.csv
 a38c949d85be8626e3597fcfc7edfa104d0839aa8311b6591c21e771a3e0a2a2  ./companies/alder-ridge/source-files/Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx
 b2364b05fd1cc2edbaeb4833cac9d7ae066c53c3dd8c9296dae2a54009fa899b  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx
 7420b603202cf0cb5c1e870500817e40c6c0ac15184160a3dc01545dc2a5af38  ./companies/alder-ridge/source-files/Shared/Finance/FP&A/Backlog/backlog burn + award pipeline_6.30 v6.xlsx
@@ -213,8 +213,8 @@ f033c97dbab00fce4954dc17f676fe1c5707bc9f8de3540a7c54e49ea2d289ad  ./companies/al
 287c920a31571a04ece351e2a79d95ed6def4bcf3ea77a7d6c1ebf587aba953b  ./companies/alder-ridge/tasks/task_048.json
 0dfcd69cd07eb822b10db62dfec9b551cd2ada8705c9aaafd5704c5022748439  ./companies/alder-ridge/tasks/task_049.json
 33bd82653efd3f819afd2ab4de6572e021181cc5274715c60b5049826bc3826f  ./companies/alder-ridge/tasks/task_050.json
-813b746cb707465bf6c56fbafbcc10cc726bcc288b03fc2948f6fc464666534b  ./companies/alder-ridge/tasks/task_051.json
-7c5240000079603dc901467e70e7346af96b54f9667e859529bf3c0ed441445a  ./companies/alder-ridge/tasks/task_052.json
+2c67f997a7cdc6099197cc5512a12e2f91cd9d7b87f5bc392fb4fd1416668a8d  ./companies/alder-ridge/tasks/task_051.json
+592970740bfdf25e41e6a5e3c68226767dc8c6bf432c3092b1bdc09b23004569  ./companies/alder-ridge/tasks/task_052.json
 4aa7d581761c6730c4ac92c99ec94844483ce0f0d3cc060be4f8cbd623a4539f  ./companies/alder-ridge/tasks/task_053.json
 e96de219ab8655b78e8e8d91edcd21bd39bcc61181b394930c7e16420910a228  ./companies/alder-ridge/tasks/task_054.json
 74bcc226a03e48b7b08efc1bb3117378bd6f65f2d398ad03be70351152b2a314  ./companies/alder-ridge/tasks/task_055.json

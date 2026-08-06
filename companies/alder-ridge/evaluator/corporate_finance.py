@@ -499,15 +499,42 @@ def _console_criterion(mapping: dict[str, Any], spec: dict[str, Any]) -> Criteri
     elif kind == "list_item":
         actual = _semantic_get(mapping, spec["key"])
         expected = spec["expected_item"]
-        flattened = []
         if isinstance(actual, dict):
             flattened = [item for key, value in actual.items() for item in (key, value)]
         elif isinstance(actual, (list, tuple, set)):
             flattened = list(actual)
         elif actual is not None:
             flattened = [actual]
-        met = any(semantic_value_matches(item, str(expected)) for item in flattened)
-        evidence = f"actual={actual!r}; required_item={expected!r}"
+        else:
+            flattened = []
+        present_in_required_bucket = any(
+            semantic_value_matches(item, str(expected)) for item in flattened
+        )
+        conflicting_matches = {}
+        for conflicting_key in spec.get("exclusive_with_keys", []):
+            conflicting_actual = _semantic_get(mapping, conflicting_key)
+            if isinstance(conflicting_actual, dict):
+                conflicting_items = [
+                    item
+                    for key, value in conflicting_actual.items()
+                    for item in (key, value)
+                ]
+            elif isinstance(conflicting_actual, (list, tuple, set)):
+                conflicting_items = list(conflicting_actual)
+            elif conflicting_actual is not None:
+                conflicting_items = [conflicting_actual]
+            else:
+                conflicting_items = []
+            if any(
+                semantic_value_matches(item, str(expected))
+                for item in conflicting_items
+            ):
+                conflicting_matches[str(conflicting_key)] = conflicting_actual
+        met = present_in_required_bucket and not conflicting_matches
+        evidence = (
+            f"actual={actual!r}; required_item={expected!r}; "
+            f"conflicting_matches={conflicting_matches!r}"
+        )
     elif kind in {"list", "list_exact"}:
         actual = _semantic_get(mapping, spec["key"])
         expected_values = list(spec["expected"])
@@ -536,7 +563,18 @@ def _grade_console(task_id: str, answer: Any) -> dict[str, Any]:
         if spec["kind"] in {"string", "boolean"}:
             expected_facts = dict(spec["expected"])
         elif spec["kind"] == "list_item":
-            expected_facts = {spec["key"]: spec["expected_item"]}
+            if spec.get("exclusive_with_keys"):
+                expected_facts = {
+                    spec["key"]: {"must_include": spec["expected_item"]}
+                }
+                expected_facts.update(
+                    {
+                        conflicting_key: {"must_exclude": spec["expected_item"]}
+                        for conflicting_key in spec["exclusive_with_keys"]
+                    }
+                )
+            else:
+                expected_facts = {spec["key"]: spec["expected_item"]}
         else:
             expected_facts = {spec["key"]: list(spec["expected"])}
         reviews.append(
@@ -551,6 +589,10 @@ def _grade_console(task_id: str, answer: Any) -> dict[str, Any]:
                     " For a list criterion, require the complete requested set: reject missing, "
                     "extra, duplicated, or wrongly classified items."
                     if spec["kind"] in {"list", "list_exact"} else ""
+                ) + (
+                    " For this membership criterion, require the item in the named bucket and "
+                    "absent from every conflicting bucket."
+                    if spec.get("exclusive_with_keys") else ""
                 ),
                 # Boolean conclusions are objective typed facts.  They must
                 # match deterministically before the semantic verifier may
@@ -559,12 +601,24 @@ def _grade_console(task_id: str, answer: Any) -> dict[str, Any]:
                 # pass merely because the field name is present.
                 "hard_gate_met": (
                     bool(by_id[spec["id"]].met)
-                    if spec["kind"] == "boolean"
+                    if (
+                        spec["kind"] == "boolean"
+                        or (
+                            spec["kind"] == "list_item"
+                            and spec.get("exclusive_with_keys")
+                        )
+                    )
                     else bool(mapping)
                 ),
                 "hard_gate_evidence": (
                     by_id[spec["id"]].evidence
-                    if spec["kind"] == "boolean"
+                    if (
+                        spec["kind"] == "boolean"
+                        or (
+                            spec["kind"] == "list_item"
+                            and spec.get("exclusive_with_keys")
+                        )
+                    )
                     else (
                         "answer parsed into a non-empty field mapping"
                         if mapping else "answer did not parse into a non-empty field mapping"
