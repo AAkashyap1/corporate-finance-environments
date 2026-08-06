@@ -9451,10 +9451,12 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Acquisition diligence costs",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__item_02_executed_restructuring_severance",
@@ -9463,10 +9465,12 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Executed restructuring severance",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__item_03_flood_loss_net_of_insurance_recovery",
@@ -9475,10 +9479,12 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected_item": "Flood loss net of insurance recovery",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "rejected_adjustments"
+        ]
       },
       {
         "id": "accepted_adjustments__complete_set",
@@ -9487,7 +9493,6 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "accepted_adjustments",
         "expected": [
           "Acquisition diligence costs",
@@ -9503,10 +9508,12 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected_item": "ERP implementation cost",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "accepted_adjustments"
+        ]
       },
       {
         "id": "rejected_adjustments__item_02_normal_recruiting_expense",
@@ -9515,10 +9522,12 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected_item": "Normal recruiting expense",
-        "unordered": true
+        "unordered": true,
+        "exclusive_with_keys": [
+          "accepted_adjustments"
+        ]
       },
       {
         "id": "rejected_adjustments__complete_set",
@@ -9527,7 +9536,6 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "key": "rejected_adjustments",
         "expected": [
           "ERP implementation cost",
@@ -9566,7 +9574,6 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "expected": {
           "largest_rejected_item": "ERP implementation cost"
         }
