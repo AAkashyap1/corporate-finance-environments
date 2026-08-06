@@ -8869,6 +8869,18 @@
   },
   "task_065": {
     "answer": {
+      "july_revenue": 560403.7,
+      "august_revenue": 685229.79,
+      "september_revenue": 875094.05,
+      "october_revenue": 695376.98,
+      "november_revenue": 466493.86,
+      "december_revenue": 482043.65,
+      "july_ending_deferred_revenue": 5475741.96,
+      "august_ending_deferred_revenue": 4790512.17,
+      "september_ending_deferred_revenue": 3915418.12,
+      "october_ending_deferred_revenue": 3220041.14,
+      "november_ending_deferred_revenue": 2753547.29,
+      "december_ending_deferred_revenue": 2271503.63,
       "h2_maintenance_revenue": 1532709.1,
       "h2_monitoring_revenue": 1031599.58,
       "h2_implementation_revenue": 1200333.33,
@@ -8877,6 +8889,150 @@
       "largest_ending_deferred_revenue_contract": "Cascade Health C-1013"
     },
     "criteria": [
+      {
+        "id": "july_revenue__july_revenue",
+        "description": "July revenue is correctly derived from the shared company workpapers and controlling definitions: `july_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "july_revenue": 560403.7
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "august_revenue__august_revenue",
+        "description": "August revenue is correctly derived from the shared company workpapers and controlling definitions: `august_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "august_revenue": 685229.79
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "september_revenue__september_revenue",
+        "description": "September revenue is correctly derived from the shared company workpapers and controlling definitions: `september_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "september_revenue": 875094.05
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "october_revenue__october_revenue",
+        "description": "October revenue is correctly derived from the shared company workpapers and controlling definitions: `october_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "october_revenue": 695376.98
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "november_revenue__november_revenue",
+        "description": "November revenue is correctly derived from the shared company workpapers and controlling definitions: `november_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "november_revenue": 466493.86
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "december_revenue__december_revenue",
+        "description": "December revenue is correctly derived from the shared company workpapers and controlling definitions: `december_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "december_revenue": 482043.65
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "july_ending_deferred_revenue__july_ending_deferred_revenue",
+        "description": "July ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `july_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "july_ending_deferred_revenue": 5475741.96
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "august_ending_deferred_revenue__august_ending_deferred_revenue",
+        "description": "August ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `august_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "august_ending_deferred_revenue": 4790512.17
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "september_ending_deferred_revenue__september_ending_deferred_revenue",
+        "description": "September ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `september_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "september_ending_deferred_revenue": 3915418.12
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "october_ending_deferred_revenue__october_ending_deferred_revenue",
+        "description": "October ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `october_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "october_ending_deferred_revenue": 3220041.14
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "november_ending_deferred_revenue__november_ending_deferred_revenue",
+        "description": "November ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `november_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "november_ending_deferred_revenue": 2753547.29
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "december_ending_deferred_revenue__december_ending_deferred_revenue",
+        "description": "December ending deferred revenue is correctly derived from the shared company workpapers and controlling definitions: `december_ending_deferred_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "december_ending_deferred_revenue": 2271503.63
+        },
+        "abs_tol": 0.02
+      },
       {
         "id": "h2_maintenance_revenue__h2_maintenance_revenue",
         "description": "H2 maintenance revenue is correctly derived from the shared company workpapers and controlling definitions: `h2_maintenance_revenue` is correct",
@@ -8944,7 +9100,6 @@
         "category": "decision",
         "weight": 10,
         "semantic": true,
-        "failure_cap": 0.49,
         "expected": {
           "largest_ending_deferred_revenue_contract": "Cascade Health C-1013"
         }
@@ -10312,6 +10467,11 @@
       "peer_median_adjusted_ebitda_margin": 0.1305,
       "peer_median_capex_intensity": 0.0235,
       "peer_median_cash_conversion": 0.85,
+      "alder_ridge_organic_growth_gap_to_peer_median": 0.001,
+      "alder_ridge_gross_margin_gap_to_peer_median": -0.0075,
+      "alder_ridge_adjusted_ebitda_margin_gap_to_peer_median": -0.0095,
+      "alder_ridge_capex_intensity_gap_to_peer_median": 0.0035,
+      "alder_ridge_cash_conversion_gap_to_peer_median": -0.06,
       "alder_ridge_growth_percentile": 0.5,
       "alder_ridge_margin_percentile": 0.16666667,
       "ebitda_improvement_to_median_margin": 463921.37
@@ -10374,6 +10534,66 @@
         "semantic": false,
         "expected": {
           "peer_median_cash_conversion": 0.85
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "alder_ridge_organic_growth_gap_to_peer_median__alder_ridge_organic_growth_gap_to_peer_median",
+        "description": "Alder ridge organic growth gap to peer median is correctly derived from the shared company workpapers and controlling definitions: `alder_ridge_organic_growth_gap_to_peer_median` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "alder_ridge_organic_growth_gap_to_peer_median": 0.001
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "alder_ridge_gross_margin_gap_to_peer_median__alder_ridge_gross_margin_gap_to_peer_median",
+        "description": "Alder ridge gross margin gap to peer median is correctly derived from the shared company workpapers and controlling definitions: `alder_ridge_gross_margin_gap_to_peer_median` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "alder_ridge_gross_margin_gap_to_peer_median": -0.0075
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "alder_ridge_adjusted_ebitda_margin_gap_to_peer_median__alder_ridge_adjusted_ebitda_margin_gap_to_peer_median",
+        "description": "Alder ridge adjusted ebitda margin gap to peer median is correctly derived from the shared company workpapers and controlling definitions: `alder_ridge_adjusted_ebitda_margin_gap_to_peer_median` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "alder_ridge_adjusted_ebitda_margin_gap_to_peer_median": -0.0095
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "alder_ridge_capex_intensity_gap_to_peer_median__alder_ridge_capex_intensity_gap_to_peer_median",
+        "description": "Alder ridge capex intensity gap to peer median is correctly derived from the shared company workpapers and controlling definitions: `alder_ridge_capex_intensity_gap_to_peer_median` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "alder_ridge_capex_intensity_gap_to_peer_median": 0.0035
+        },
+        "abs_tol": 5e-05
+      },
+      {
+        "id": "alder_ridge_cash_conversion_gap_to_peer_median__alder_ridge_cash_conversion_gap_to_peer_median",
+        "description": "Alder ridge cash conversion gap to peer median is correctly derived from the shared company workpapers and controlling definitions: `alder_ridge_cash_conversion_gap_to_peer_median` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "alder_ridge_cash_conversion_gap_to_peer_median": -0.06
         },
         "abs_tol": 5e-05
       },
