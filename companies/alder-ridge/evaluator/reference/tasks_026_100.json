@@ -14554,7 +14554,8 @@
         "abs_tol": 0.02,
         "aggregate_field": "eligible_receivable",
         "aggregate_field_aliases": [
-          "eligible_accounts_receivable"
+          "eligible_accounts_receivable",
+          "eligible_amount"
         ]
       },
       {
@@ -14567,7 +14568,11 @@
         "expected": {
           "single_customer_concentration_exclusion": 512000.0
         },
-        "abs_tol": 0.02
+        "abs_tol": 0.02,
+        "aggregate_field": "excluded_amount",
+        "aggregate_field_aliases": [
+          "concentration_exclusion"
+        ]
       },
       {
         "id": "detailed_eligible_inventory__detailed_eligible_inventory",
@@ -14580,7 +14585,10 @@
           "detailed_eligible_inventory": 4740000.0
         },
         "abs_tol": 0.02,
-        "aggregate_field": "eligible_inventory"
+        "aggregate_field": "eligible_inventory",
+        "aggregate_field_aliases": [
+          "eligible_amount"
+        ]
       },
       {
         "id": "borrowing_base_reconciliation_check__borrowing_base_reconciliation_check",
