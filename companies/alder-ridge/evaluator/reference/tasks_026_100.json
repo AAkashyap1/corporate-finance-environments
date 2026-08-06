@@ -6030,7 +6030,16 @@
       "enterprise_value": 84868410.92,
       "equity_value": 73168410.92,
       "wacc": 0.091312,
-      "terminal_growth_rate": 0.025
+      "terminal_growth_rate": 0.025,
+      "cost_of_equity": 0.1024,
+      "present_value_of_explicit_forecast": 20116052.09,
+      "terminal_value": 100230580.88,
+      "present_value_of_terminal_value": 64752358.84,
+      "terminal_value_share_of_enterprise_value": 0.76297362,
+      "net_debt": 11700000.0,
+      "downside_equity_value": 55010370.65,
+      "upside_equity_value": 106937715.29,
+      "equity_value_sensitivity_range": 51927344.64
     },
     "criteria": [
       {
@@ -6127,6 +6136,86 @@
         "headline_label": "wacc"
       },
       {
+        "id": "formula_lineage__headline_cost_of_equity",
+        "description": "Headline output 'cost_of_equity' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "cost_of_equity"
+      },
+      {
+        "id": "formula_lineage__headline_present_value_of_explicit_forecast",
+        "description": "Headline output 'present_value_of_explicit_forecast' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "present_value_of_explicit_forecast"
+      },
+      {
+        "id": "formula_lineage__headline_terminal_value",
+        "description": "Headline output 'terminal_value' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "terminal_value"
+      },
+      {
+        "id": "formula_lineage__headline_present_value_of_terminal_value",
+        "description": "Headline output 'present_value_of_terminal_value' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "present_value_of_terminal_value"
+      },
+      {
+        "id": "formula_lineage__headline_terminal_value_share_of_enterprise_value",
+        "description": "Headline output 'terminal_value_share_of_enterprise_value' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "terminal_value_share_of_enterprise_value"
+      },
+      {
+        "id": "formula_lineage__headline_downside_equity_value",
+        "description": "Headline output 'downside_equity_value' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "downside_equity_value"
+      },
+      {
+        "id": "formula_lineage__headline_upside_equity_value",
+        "description": "Headline output 'upside_equity_value' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "upside_equity_value"
+      },
+      {
+        "id": "formula_lineage__headline_equity_value_sensitivity_range",
+        "description": "Headline output 'equity_value_sensitivity_range' is formula-driven from workbook references",
+        "kind": "xlsx_headline_formula",
+        "category": "auditability",
+        "weight": 5,
+        "semantic": false,
+        "failure_cap": 0.69,
+        "headline_label": "equity_value_sensitivity_range"
+      },
+      {
         "id": "formula_lineage__formula_sheet_forecast",
         "description": "Required model worksheet 'Forecast' contains formulas",
         "kind": "xlsx_formula_sheet",
@@ -6214,6 +6303,105 @@
         "semantic": true,
         "label_values": {
           "terminal_growth_rate": 0.025
+        }
+      },
+      {
+        "id": "headline_values__cost_of_equity",
+        "description": "Every required headline output is labeled and correct: `cost_of_equity` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "cost_of_equity": 0.1024
+        }
+      },
+      {
+        "id": "headline_values__present_value_of_explicit_forecast",
+        "description": "Every required headline output is labeled and correct: `present_value_of_explicit_forecast` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "present_value_of_explicit_forecast": 20116052.09
+        }
+      },
+      {
+        "id": "headline_values__terminal_value",
+        "description": "Every required headline output is labeled and correct: `terminal_value` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "terminal_value": 100230580.88
+        }
+      },
+      {
+        "id": "headline_values__present_value_of_terminal_value",
+        "description": "Every required headline output is labeled and correct: `present_value_of_terminal_value` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "present_value_of_terminal_value": 64752358.84
+        }
+      },
+      {
+        "id": "headline_values__terminal_value_share_of_enterprise_value",
+        "description": "Every required headline output is labeled and correct: `terminal_value_share_of_enterprise_value` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "terminal_value_share_of_enterprise_value": 0.76297362
+        }
+      },
+      {
+        "id": "headline_values__net_debt",
+        "description": "Every required headline output is labeled and correct: `net_debt` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "net_debt": 11700000.0
+        }
+      },
+      {
+        "id": "headline_values__downside_equity_value",
+        "description": "Every required headline output is labeled and correct: `downside_equity_value` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "downside_equity_value": 55010370.65
+        }
+      },
+      {
+        "id": "headline_values__upside_equity_value",
+        "description": "Every required headline output is labeled and correct: `upside_equity_value` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "upside_equity_value": 106937715.29
+        }
+      },
+      {
+        "id": "headline_values__equity_value_sensitivity_range",
+        "description": "Every required headline output is labeled and correct: `equity_value_sensitivity_range` is correctly labeled and associated",
+        "kind": "xlsx_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "equity_value_sensitivity_range": 51927344.64
         }
       },
       {

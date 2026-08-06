@@ -52,6 +52,7 @@ _TASK_037_LABEL_ALIASES = {
 
 _TASK_053_LABEL_ALIASES = {
     "terminal_growth_rate": ["Terminal growth"],
+    "cost_of_equity": ["Cost of equity", "CAPM cost of equity"],
     "enterprise_value": [
         "Enterprise value - Gordon growth",
         "Primary enterprise value",
@@ -59,6 +60,38 @@ _TASK_053_LABEL_ALIASES = {
     "equity_value": [
         "Equity value - Gordon growth",
         "Primary equity value",
+    ],
+    "present_value_of_explicit_forecast": [
+        "Present value of explicit forecast",
+        "PV of explicit forecast",
+        "PV of forecast cash flows",
+        "PV of explicit-period FCF",
+    ],
+    "terminal_value": [
+        "Terminal value - Gordon growth",
+        "Gordon growth terminal value",
+    ],
+    "present_value_of_terminal_value": [
+        "Present value of terminal value",
+        "PV of terminal value",
+    ],
+    "terminal_value_share_of_enterprise_value": [
+        "Terminal value share of enterprise value",
+        "PV of terminal value / enterprise value",
+        "PV of terminal value as % of EV",
+    ],
+    "net_debt": ["Net debt"],
+    "downside_equity_value": [
+        "Downside equity value",
+        "High WACC / low growth equity value",
+    ],
+    "upside_equity_value": [
+        "Upside equity value",
+        "Low WACC / high growth equity value",
+    ],
+    "equity_value_sensitivity_range": [
+        "Equity value sensitivity range",
+        "Equity value range",
     ],
 }
 
@@ -968,7 +1001,7 @@ def _task_053_row_match(
     *,
     require_formula: bool,
 ) -> tuple[bool, str]:
-    """Read professional DCF labels presented in explicitly disclosed $mm."""
+    """Read professional DCF labels in clearly disclosed USD units."""
 
     unit_text = " ".join(
         str(cell.value)
@@ -977,11 +1010,18 @@ def _task_053_row_match(
         for cell in row
         if cell.value is not None
     ).casefold()
-    if not any(
+    millions_disclosed = any(
         marker in unit_text
         for marker in ("$mm", "usd millions", "usd in millions")
-    ):
-        return False, "workbook does not explicitly disclose USD-millions units"
+    )
+    usd_disclosed = bool(re.search(r"\busd\b", unit_text))
+    monetary = (
+        isinstance(expected, (int, float))
+        and not isinstance(expected, bool)
+        and abs(float(expected)) > 10_000
+    )
+    if monetary and not (millions_disclosed or usd_disclosed):
+        return False, "workbook does not explicitly disclose USD units"
 
     aliases = [
         label.replace("_", " "),
@@ -1015,9 +1055,10 @@ def _task_053_row_match(
                     or isinstance(cached, bool)
                 ):
                     continue
-                targets = [float(expected)]
-                if abs(float(expected)) > 10_000:
-                    targets.append(float(expected) / 1_000_000.0)
+                if monetary and millions_disclosed:
+                    targets = [float(expected) / 1_000_000.0]
+                else:
+                    targets = [float(expected)]
                 if any(
                     _close(
                         float(cached),
