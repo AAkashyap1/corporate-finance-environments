@@ -34,8 +34,8 @@ COPY source-files/ /environment/company/seed/workspace/
 
 RUN pip install --no-cache-dir uv==0.11.29 \
     && uv lock --check \
-    && uv sync --frozen --no-dev --no-editable \
-    && uv run python scripts/prepare_agent_runtime.py \
+    && uv sync --frozen --no-dev --no-install-project \
+    && .venv/bin/python scripts/prepare_agent_runtime.py \
     && rm -rf /root/.cache
 
 ENV PATH="/environment/.venv/bin:${PATH}"

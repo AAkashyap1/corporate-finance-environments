@@ -4,7 +4,7 @@ b9d8daf151a18081618b53f2a2a3710b9c3cf8f0de762f5fab8c0ec9eb3b2e5f  ./.gitignore
 5b2519cf42433bb6dc0b85655539316e3c33c6d898ab5204aae78dc92ee1fb9b  ./README.md
 34e66037a735c53372b890d135d904247c390ebd26e9496c8c4a06d7caa1bb64  ./catalog.json
 dd4f77037034b380d5d2c221eef738da2f4437ae5880b7a47fb8f07051650c20  ./companies/alder-ridge/.dockerignore
-9894579c93323a233c7bfaca009fc9042dde87c5172be44b6c7fb472971edf20  ./companies/alder-ridge/Dockerfile
+a75e5e5871fa2a583775699267fbad361545d581c4c5b967f70f24fe187c2cfc  ./companies/alder-ridge/Dockerfile
 cfa4241167e8d12c64bcd510605143a128d043e3caef2822dfeb997776b902e0  ./companies/alder-ridge/README.md
 ffff4d8c12459831f42238c9dfd4e34cedbe7288b942f65426577c1d54506584  ./companies/alder-ridge/company.json
 dedebb90c790b8f811ad9a332fee0b31c00d5ca56a5d07d7cb46d363cafa4b71  ./companies/alder-ridge/data/accounting_seed.db
