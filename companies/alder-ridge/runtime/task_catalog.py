@@ -552,7 +552,7 @@ _TASKS: tuple[TaskSpec, ...] = (
         title='Complete the Orion integration value-capture plan',
         workflow='corporate-development',
         output_mode='spreadsheet_edit',
-        prompt="Edit this file in place:\n`Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx`\n\nBegin with the July corporate-development investment-committee thread in `Requests/`, including the controller's banker-case warning. Use the current controller-tied workpapers and operating extracts, keeping earlier versions only for comparison. Resolve conflicts using dates, approvals, document status, and management correspondence. Reconcile posted Alder Ridge balances through the contractor-accounting MCP; keep external targets, peer data, bank terms, and market evidence tied to their controlling finance sources.\n\nPreserve `Initiatives` and `Baseline`. Complete `Phasing`, `Cash Costs`, `P&L Impact`, `Value Capture`, and `Checks`. Model initiative owner, start date, probability, one-time cost, recurring run-rate benefit, dis-synergy, cash timing, and dependency gates. Calculate monthly gross and probability-weighted synergies, integration cash cost, net EBITDA benefit, payback, and NPV without recognizing benefits before dependencies. Include initiative, phasing, cash, P&L, and source controls.\n\nDocument the controlling sources in the deliverable, recalculate or render the finished file as appropriate, and save it to the exact target path.",
+        prompt="Edit this file in place:\n`Shared/Finance/Corporate Development/Orion integration value capture - WORKING.xlsx`\n\nFinish the Orion value-capture plan for the next investment-committee review. Use the July corporate-development correspondence, the 7/5 controller-tied IC book, the current data-room export, the diligence review notes, and the approved underwriting policy. Treat the 6/29 banker case as change history only. Orion is an external target, so keep the analysis tied to the controlling transaction sources rather than Alder Ridge's posted ledger.\n\nPreserve `Initiatives` and `Baseline`. Complete `Phasing`, `Cash Costs`, `P&L Impact`, `Value Capture`, and `Checks` for the 24-month committee case. Probability-weight each approved initiative and phase its monthly benefit linearly to its own full-run-rate month. Deduct the recurring baseline dis-synergy from the monthly benefit. Keep integration cash costs separate from EBITDA and treat the approved costs as opening cash outflows for payback and NPV. Use a monthly rate derived from the approved annual discount rate.\n\nShow gross and probability-weighted run-rate synergy, integration cash cost, net EBITDA benefit, payback, and NPV. Include the monthly initiative phasing, cash, P&L, source, unit, version, and model-status controls needed to support the committee case.\n\nDocument the controlling sources in the workbook, recalculate the finished file, and save it to the exact target path. Leave no spreadsheet errors or temporary files in the shared company workspace.\n",
         difficulty='expert-long-horizon',
     ),
     TaskSpec(
@@ -941,7 +941,7 @@ TASKS: tuple[TaskSpec, ...] = tuple(
             f"{' ' + _SPREADSHEET_FINAL_CHECK if task.output_mode in {'spreadsheet_edit', 'spreadsheet_create'} else ''}\n"
         ),
     )
-    if task.output_mode in _ARTIFACT_OUTPUT_MODES and task.task_id not in {"task_048", "task_072"}
+    if task.output_mode in _ARTIFACT_OUTPUT_MODES and task.task_id not in {"task_048", "task_060", "task_072"}
     else task
     for task in _TASKS
 )

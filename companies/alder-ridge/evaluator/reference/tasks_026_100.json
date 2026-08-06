@@ -8033,7 +8033,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Initiatives"
       },
       {
@@ -8043,7 +8042,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Baseline"
       },
       {
@@ -8053,7 +8051,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_formulas": 130
       },
       {
@@ -8062,8 +8059,7 @@
         "kind": "xlsx_no_errors",
         "category": "integrity",
         "weight": 10,
-        "semantic": false,
-        "failure_cap": 0.0
+        "semantic": false
       },
       {
         "id": "formula_lineage__headline_gross_run_rate_synergy",
@@ -8072,7 +8068,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "gross_run_rate_synergy"
       },
       {
@@ -8082,7 +8077,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "probability_weighted_synergy"
       },
       {
@@ -8092,7 +8086,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "integration_cash_cost"
       },
       {
@@ -8102,7 +8095,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "net_ebitda_benefit"
       },
       {
@@ -8112,7 +8104,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "payback_months"
       },
       {
@@ -8122,7 +8113,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "integration_npv"
       },
       {
@@ -8177,7 +8167,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_cross_sheet_formulas": 25
       },
       {
@@ -8335,19 +8324,8 @@
         ]
       },
       {
-        "id": "sources__contractor_accounting_mcp",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'contractor accounting mcp'",
-        "kind": "artifact_tokens",
-        "category": "provenance",
-        "weight": 3,
-        "semantic": true,
-        "tokens": [
-          "contractor accounting mcp"
-        ]
-      },
-      {
         "id": "sources__controller_tied",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,
@@ -8358,7 +8336,7 @@
       },
       {
         "id": "sources__management_correspondence",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,
@@ -8369,7 +8347,7 @@
       },
       {
         "id": "sources__policy",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'policy'",
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'policy'",
         "kind": "artifact_tokens",
         "category": "provenance",
         "weight": 3,
