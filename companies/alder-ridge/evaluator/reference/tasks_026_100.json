@@ -6457,18 +6457,137 @@
   },
   "task_054": {
     "answer": {
+      "peer_a_included": true,
+      "peer_b_included": true,
+      "peer_c_included": true,
+      "peer_d_included": true,
+      "peer_e_included": true,
+      "peer_f_included": false,
+      "peer_g_included": true,
+      "excluded_peer_ev_ebitda": 17.5,
+      "excluded_peer_ev_revenue": 3.1,
       "lower_quartile_ev_ebitda": 8.975,
       "median_ev_ebitda": 9.45,
       "upper_quartile_ev_ebitda": 10.0,
       "lower_quartile_ev_revenue": 1.275,
       "median_ev_revenue": 1.35,
       "upper_quartile_ev_revenue": 1.425,
+      "lower_quartile_ebitda_implied_enterprise_value": 50260000.0,
       "ebitda_implied_enterprise_value": 52920000.0,
+      "upper_quartile_ebitda_implied_enterprise_value": 56000000.0,
+      "lower_quartile_revenue_implied_enterprise_value": 45135000.0,
       "revenue_implied_enterprise_value": 47790000.0,
+      "upper_quartile_revenue_implied_enterprise_value": 50445000.0,
+      "lower_quartile_weighted_enterprise_value": 48722500.0,
       "weighted_enterprise_value": 51381000.0,
-      "implied_equity_value": 42981000.0
+      "upper_quartile_weighted_enterprise_value": 54333500.0,
+      "lower_quartile_implied_equity_value": 40322500.0,
+      "implied_equity_value": 42981000.0,
+      "upper_quartile_implied_equity_value": 45933500.0,
+      "implied_equity_value_range_width": 5611000.0
     },
     "criteria": [
+      {
+        "id": "peer_a_included__peer_a_included",
+        "description": "Peer a included is correctly derived from the shared company workpapers and controlling definitions: `peer_a_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_a_included": true
+        }
+      },
+      {
+        "id": "peer_b_included__peer_b_included",
+        "description": "Peer b included is correctly derived from the shared company workpapers and controlling definitions: `peer_b_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_b_included": true
+        }
+      },
+      {
+        "id": "peer_c_included__peer_c_included",
+        "description": "Peer c included is correctly derived from the shared company workpapers and controlling definitions: `peer_c_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_c_included": true
+        }
+      },
+      {
+        "id": "peer_d_included__peer_d_included",
+        "description": "Peer d included is correctly derived from the shared company workpapers and controlling definitions: `peer_d_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_d_included": true
+        }
+      },
+      {
+        "id": "peer_e_included__peer_e_included",
+        "description": "Peer e included is correctly derived from the shared company workpapers and controlling definitions: `peer_e_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_e_included": true
+        }
+      },
+      {
+        "id": "peer_f_included__peer_f_included",
+        "description": "Peer f included is correctly derived from the shared company workpapers and controlling definitions: `peer_f_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_f_included": false
+        }
+      },
+      {
+        "id": "peer_g_included__peer_g_included",
+        "description": "Peer g included is correctly derived from the shared company workpapers and controlling definitions: `peer_g_included` is correct",
+        "kind": "boolean",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "peer_g_included": true
+        }
+      },
+      {
+        "id": "excluded_peer_ev_ebitda__excluded_peer_ev_ebitda",
+        "description": "Excluded peer ev ebitda is correctly derived from the shared company workpapers and controlling definitions: `excluded_peer_ev_ebitda` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "excluded_peer_ev_ebitda": 17.5
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "excluded_peer_ev_revenue__excluded_peer_ev_revenue",
+        "description": "Excluded peer ev revenue is correctly derived from the shared company workpapers and controlling definitions: `excluded_peer_ev_revenue` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "excluded_peer_ev_revenue": 3.1
+        },
+        "abs_tol": 5e-05
+      },
       {
         "id": "lower_quartile_ev_ebitda__lower_quartile_ev_ebitda",
         "description": "Lower quartile ev ebitda is correctly derived from the shared company workpapers and controlling definitions: `lower_quartile_ev_ebitda` is correct",
@@ -6542,6 +6661,18 @@
         "abs_tol": 5e-05
       },
       {
+        "id": "lower_quartile_ebitda_implied_enterprise_value__lower_quartile_ebitda_implied_enterprise_value",
+        "description": "Lower quartile ebitda implied enterprise value is correctly derived from the shared company workpapers and controlling definitions: `lower_quartile_ebitda_implied_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "lower_quartile_ebitda_implied_enterprise_value": 50260000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "ebitda_implied_enterprise_value__ebitda_implied_enterprise_value",
         "description": "Ebitda implied enterprise value is correctly derived from the shared company workpapers and controlling definitions: `ebitda_implied_enterprise_value` is correct",
         "kind": "numeric",
@@ -6550,6 +6681,30 @@
         "semantic": false,
         "expected": {
           "ebitda_implied_enterprise_value": 52920000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "upper_quartile_ebitda_implied_enterprise_value__upper_quartile_ebitda_implied_enterprise_value",
+        "description": "Upper quartile ebitda implied enterprise value is correctly derived from the shared company workpapers and controlling definitions: `upper_quartile_ebitda_implied_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "upper_quartile_ebitda_implied_enterprise_value": 56000000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "lower_quartile_revenue_implied_enterprise_value__lower_quartile_revenue_implied_enterprise_value",
+        "description": "Lower quartile revenue implied enterprise value is correctly derived from the shared company workpapers and controlling definitions: `lower_quartile_revenue_implied_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "lower_quartile_revenue_implied_enterprise_value": 45135000.0
         },
         "abs_tol": 0.02
       },
@@ -6566,6 +6721,30 @@
         "abs_tol": 0.02
       },
       {
+        "id": "upper_quartile_revenue_implied_enterprise_value__upper_quartile_revenue_implied_enterprise_value",
+        "description": "Upper quartile revenue implied enterprise value is correctly derived from the shared company workpapers and controlling definitions: `upper_quartile_revenue_implied_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "upper_quartile_revenue_implied_enterprise_value": 50445000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "lower_quartile_weighted_enterprise_value__lower_quartile_weighted_enterprise_value",
+        "description": "Lower quartile weighted enterprise value is correctly derived from the shared company workpapers and controlling definitions: `lower_quartile_weighted_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "lower_quartile_weighted_enterprise_value": 48722500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "weighted_enterprise_value__weighted_enterprise_value",
         "description": "Weighted enterprise value is correctly derived from the shared company workpapers and controlling definitions: `weighted_enterprise_value` is correct",
         "kind": "numeric",
@@ -6578,6 +6757,30 @@
         "abs_tol": 0.02
       },
       {
+        "id": "upper_quartile_weighted_enterprise_value__upper_quartile_weighted_enterprise_value",
+        "description": "Upper quartile weighted enterprise value is correctly derived from the shared company workpapers and controlling definitions: `upper_quartile_weighted_enterprise_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "upper_quartile_weighted_enterprise_value": 54333500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "lower_quartile_implied_equity_value__lower_quartile_implied_equity_value",
+        "description": "Lower quartile implied equity value is correctly derived from the shared company workpapers and controlling definitions: `lower_quartile_implied_equity_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "lower_quartile_implied_equity_value": 40322500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
         "id": "implied_equity_value__implied_equity_value",
         "description": "Implied equity value is correctly derived from the shared company workpapers and controlling definitions: `implied_equity_value` is correct",
         "kind": "numeric",
@@ -6586,6 +6789,30 @@
         "semantic": false,
         "expected": {
           "implied_equity_value": 42981000.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "upper_quartile_implied_equity_value__upper_quartile_implied_equity_value",
+        "description": "Upper quartile implied equity value is correctly derived from the shared company workpapers and controlling definitions: `upper_quartile_implied_equity_value` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "upper_quartile_implied_equity_value": 45933500.0
+        },
+        "abs_tol": 0.02
+      },
+      {
+        "id": "implied_equity_value_range_width__implied_equity_value_range_width",
+        "description": "Implied equity value range width is correctly derived from the shared company workpapers and controlling definitions: `implied_equity_value_range_width` is correct",
+        "kind": "numeric",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": false,
+        "expected": {
+          "implied_equity_value_range_width": 5611000.0
         },
         "abs_tol": 0.02
       }
