@@ -11992,11 +11992,31 @@
   "task_072": {
     "answer": {
       "q2_revenue": 13064500.0,
+      "q2_approved_plan_revenue": 12792000.0,
+      "q2_revenue_variance_to_plan": 272500.0,
       "q2_organic_growth": 0.10432314,
       "q2_adjusted_ebitda": 1661281.82,
+      "q2_approved_plan_adjusted_ebitda": 1772459.52,
+      "q2_adjusted_ebitda_variance_to_plan": -111177.7,
+      "construction_gross_profit_impact": 410000.0,
+      "service_labor_productivity_impact": 285000.0,
+      "controls_mix_impact": 95000.0,
       "q2_free_cash_flow": 1650000.0,
       "maximum_revolver": 5350000.0,
-      "latest_full_year_revenue_outlook": 50800000.0
+      "latest_full_year_revenue_outlook": 50800000.0,
+      "ltm_adjusted_ebitda": 6218011.41,
+      "funded_debt": 1111666.5,
+      "lender_leverage": 0.17878168,
+      "fixed_charge_coverage": 1.97397188,
+      "revenue_guidance_low": 52000000.0,
+      "revenue_guidance_high": 55000000.0,
+      "ebitda_guidance_low": 3000000.0,
+      "ebitda_guidance_high": 4250000.0,
+      "largest_downside_driver": "Copper escalation",
+      "combined_stress_ebitda": 2811475.35,
+      "ebitda_shortfall_to_guidance_low": 188524.65,
+      "additional_revenue_decline_to_update_trigger": 650532.8,
+      "guidance_update_required": false
     },
     "criteria": [
       {
@@ -12072,8 +12092,8 @@
         "min_tables": 1
       },
       {
-        "id": "headline_values__q2_revenue",
-        "description": "All decision-relevant financial values are correct: `q2_revenue` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__q2_revenue",
+        "description": "The controller-tied Q2 headline values are correct: `q2_revenue` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -12083,8 +12103,8 @@
         }
       },
       {
-        "id": "headline_values__q2_organic_growth",
-        "description": "All decision-relevant financial values are correct: `q2_organic_growth` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__q2_organic_growth",
+        "description": "The controller-tied Q2 headline values are correct: `q2_organic_growth` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -12094,8 +12114,8 @@
         }
       },
       {
-        "id": "headline_values__q2_adjusted_ebitda",
-        "description": "All decision-relevant financial values are correct: `q2_adjusted_ebitda` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__q2_adjusted_ebitda",
+        "description": "The controller-tied Q2 headline values are correct: `q2_adjusted_ebitda` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -12105,8 +12125,8 @@
         }
       },
       {
-        "id": "headline_values__q2_free_cash_flow",
-        "description": "All decision-relevant financial values are correct: `q2_free_cash_flow` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__q2_free_cash_flow",
+        "description": "The controller-tied Q2 headline values are correct: `q2_free_cash_flow` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -12116,8 +12136,8 @@
         }
       },
       {
-        "id": "headline_values__maximum_revolver",
-        "description": "All decision-relevant financial values are correct: `maximum_revolver` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__maximum_revolver",
+        "description": "The controller-tied Q2 headline values are correct: `maximum_revolver` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
@@ -12127,14 +12147,234 @@
         }
       },
       {
-        "id": "headline_values__latest_full_year_revenue_outlook",
-        "description": "All decision-relevant financial values are correct: `latest_full_year_revenue_outlook` is correctly labeled and associated",
+        "id": "controller_tie_headline_values__latest_full_year_revenue_outlook",
+        "description": "The controller-tied Q2 headline values are correct: `latest_full_year_revenue_outlook` is correctly labeled and associated",
         "kind": "artifact_label_values",
         "category": "core_finance",
         "weight": 10,
         "semantic": true,
         "label_values": {
           "latest_full_year_revenue_outlook": 50800000.0
+        }
+      },
+      {
+        "id": "q2_plan_bridge_values__q2_approved_plan_revenue",
+        "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_approved_plan_revenue` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "q2_approved_plan_revenue": 12792000.0
+        }
+      },
+      {
+        "id": "q2_plan_bridge_values__q2_revenue_variance_to_plan",
+        "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_revenue_variance_to_plan` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "q2_revenue_variance_to_plan": 272500.0
+        }
+      },
+      {
+        "id": "q2_plan_bridge_values__q2_approved_plan_adjusted_ebitda",
+        "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "q2_approved_plan_adjusted_ebitda": 1772459.52
+        }
+      },
+      {
+        "id": "q2_plan_bridge_values__q2_adjusted_ebitda_variance_to_plan",
+        "description": "The Q2 revenue and adjusted EBITDA bridges to approved plan are correct: `q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "q2_adjusted_ebitda_variance_to_plan": -111177.7
+        }
+      },
+      {
+        "id": "operating_driver_values__construction_gross_profit_impact",
+        "description": "The ranked operating drivers use their documented financial impacts: `construction_gross_profit_impact` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "construction_gross_profit_impact": 410000.0
+        }
+      },
+      {
+        "id": "operating_driver_values__service_labor_productivity_impact",
+        "description": "The ranked operating drivers use their documented financial impacts: `service_labor_productivity_impact` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "service_labor_productivity_impact": 285000.0
+        }
+      },
+      {
+        "id": "operating_driver_values__controls_mix_impact",
+        "description": "The ranked operating drivers use their documented financial impacts: `controls_mix_impact` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "controls_mix_impact": 95000.0
+        }
+      },
+      {
+        "id": "lender_metric_values__ltm_adjusted_ebitda",
+        "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `ltm_adjusted_ebitda` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "ltm_adjusted_ebitda": 6218011.41
+        }
+      },
+      {
+        "id": "lender_metric_values__funded_debt",
+        "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `funded_debt` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "funded_debt": 1111666.5
+        }
+      },
+      {
+        "id": "lender_metric_values__lender_leverage",
+        "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `lender_leverage` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "lender_leverage": 0.17878168
+        }
+      },
+      {
+        "id": "lender_metric_values__fixed_charge_coverage",
+        "description": "The lender metrics use posted funded debt and the approved LTM EBITDA basis: `fixed_charge_coverage` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "fixed_charge_coverage": 1.97397188
+        }
+      },
+      {
+        "id": "guidance_decision_values__revenue_guidance_low",
+        "description": "The guidance recommendation uses the signed range and downside stress: `revenue_guidance_low` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "revenue_guidance_low": 52000000.0
+        }
+      },
+      {
+        "id": "guidance_decision_values__revenue_guidance_high",
+        "description": "The guidance recommendation uses the signed range and downside stress: `revenue_guidance_high` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "revenue_guidance_high": 55000000.0
+        }
+      },
+      {
+        "id": "guidance_decision_values__ebitda_guidance_low",
+        "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_guidance_low` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "ebitda_guidance_low": 3000000.0
+        }
+      },
+      {
+        "id": "guidance_decision_values__ebitda_guidance_high",
+        "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_guidance_high` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "ebitda_guidance_high": 4250000.0
+        }
+      },
+      {
+        "id": "guidance_decision_values__largest_downside_driver",
+        "description": "The guidance recommendation uses the signed range and downside stress: `largest_downside_driver` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "largest_downside_driver": "Copper escalation"
+        }
+      },
+      {
+        "id": "guidance_decision_values__combined_stress_ebitda",
+        "description": "The guidance recommendation uses the signed range and downside stress: `combined_stress_ebitda` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "combined_stress_ebitda": 2811475.35
+        }
+      },
+      {
+        "id": "guidance_decision_values__ebitda_shortfall_to_guidance_low",
+        "description": "The guidance recommendation uses the signed range and downside stress: `ebitda_shortfall_to_guidance_low` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "ebitda_shortfall_to_guidance_low": 188524.65
+        }
+      },
+      {
+        "id": "guidance_decision_values__additional_revenue_decline_to_update_trigger",
+        "description": "The guidance recommendation uses the signed range and downside stress: `additional_revenue_decline_to_update_trigger` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "core_finance",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "additional_revenue_decline_to_update_trigger": 650532.8
+        }
+      },
+      {
+        "id": "guidance_decision_values__guidance_update_required",
+        "description": "The guidance recommendation uses the signed range and downside stress: `guidance_update_required` is correctly labeled and associated",
+        "kind": "artifact_label_values",
+        "category": "decision",
+        "weight": 10,
+        "semantic": true,
+        "label_values": {
+          "guidance_update_required": false
         }
       },
       {
@@ -12188,7 +12428,6 @@
         "category": "decision_quality",
         "weight": 5,
         "semantic": true,
-        "failure_cap": 0.49,
         "tokens": [
           "recommend"
         ]
@@ -12200,21 +12439,8 @@
         "category": "decision_quality",
         "weight": 5,
         "semantic": true,
-        "failure_cap": 0.49,
         "tokens": [
           "risk"
-        ]
-      },
-      {
-        "id": "decision_logic__gate",
-        "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'gate'",
-        "kind": "artifact_tokens",
-        "category": "decision_quality",
-        "weight": 5,
-        "semantic": true,
-        "failure_cap": 0.49,
-        "tokens": [
-          "gate"
         ]
       },
       {
@@ -12240,6 +12466,17 @@
         ]
       },
       {
+        "id": "decision_logic__trigger",
+        "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'trigger'",
+        "kind": "artifact_tokens",
+        "category": "decision_quality",
+        "weight": 5,
+        "semantic": true,
+        "tokens": [
+          "trigger"
+        ]
+      },
+      {
         "id": "decision_logic__headroom",
         "description": "The narrative explains recommendation, risks, decision gates, owners, timing, and headroom: the artifact substantively addresses 'headroom'",
         "kind": "artifact_tokens",
@@ -12262,36 +12499,47 @@
         ]
       },
       {
-        "id": "reconciliation__total",
-        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'total'",
+        "id": "reconciliation__board_performance",
+        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'board performance'",
         "kind": "artifact_tokens",
         "category": "controls",
         "weight": 3,
         "semantic": true,
         "tokens": [
-          "total"
+          "board performance"
         ]
       },
       {
-        "id": "reconciliation__source",
-        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'source'",
+        "id": "reconciliation__gaap_posted",
+        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'gaap-posted'",
         "kind": "artifact_tokens",
         "category": "controls",
         "weight": 3,
         "semantic": true,
         "tokens": [
-          "source"
+          "gaap-posted"
         ]
       },
       {
-        "id": "reconciliation__check",
-        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'check'",
+        "id": "reconciliation__ir_comparable",
+        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'ir-comparable'",
         "kind": "artifact_tokens",
         "category": "controls",
         "weight": 3,
         "semantic": true,
         "tokens": [
-          "check"
+          "ir-comparable"
+        ]
+      },
+      {
+        "id": "reconciliation__lender_covenant",
+        "description": "The memorandum includes an explicit quantitative capacity or headline reconciliation: the artifact substantively addresses 'lender covenant'",
+        "kind": "artifact_tokens",
+        "category": "controls",
+        "weight": 3,
+        "semantic": true,
+        "tokens": [
+          "lender covenant"
         ]
       }
     ],

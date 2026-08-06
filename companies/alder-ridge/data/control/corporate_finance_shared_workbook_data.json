@@ -53040,6 +53040,216 @@
             "system_tie": ""
           },
           {
+            "source_ref": "RPT-072X01",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "LTM 2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Adjusted EBITDA",
+            "numeric_value": 6218011.41,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X02",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Funded debt",
+            "numeric_value": 1.0,
+            "text_or_decision": "",
+            "units": "ledger allocation factor",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": "Vista ERP balance sheet as of 2026-06-30; accounts 2200, 2210, and 2300"
+          },
+          {
+            "source_ref": "RPT-072X03",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "LTM 2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Cash interest LTM",
+            "numeric_value": 620.0,
+            "text_or_decision": "",
+            "units": "USD thousands",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X04",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "LTM 2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Cash taxes LTM",
+            "numeric_value": 880000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X05",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "LTM 2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Maintenance capex LTM",
+            "numeric_value": 1250000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X06",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Approved lender metric basis",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "LTM 2026-06-30",
+            "case": "Approved case",
+            "metric_or_driver": "Distributions LTM",
+            "numeric_value": 400000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X07",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Revenue guidance low",
+            "numeric_value": 52000.0,
+            "text_or_decision": "",
+            "units": "USD thousands",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X08",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Revenue guidance high",
+            "numeric_value": 55000000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X09",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "EBITDA guidance low",
+            "numeric_value": 3000000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X10",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "EBITDA guidance high",
+            "numeric_value": 4250000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X11",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Signed combined stress EBITDA",
+            "numeric_value": 2811.47535,
+            "text_or_decision": "",
+            "units": "USD thousands",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X12",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Guidance update EBITDA buffer",
+            "numeric_value": 250000.0,
+            "text_or_decision": "",
+            "units": "USD",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X13",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Stress contribution per revenue dollar",
+            "numeric_value": 0.0945,
+            "text_or_decision": "",
+            "units": "decimal ratio",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
+            "source_ref": "RPT-072X14",
+            "workstream": "Create the Q2 earnings and lender narrative",
+            "schedule": "Signed guidance decision",
+            "entity_or_item": "Alder Ridge",
+            "period_or_as_of": "FY26",
+            "case": "Approved case",
+            "metric_or_driver": "Largest downside driver",
+            "numeric_value": "",
+            "text_or_decision": "Copper escalation",
+            "units": "classification",
+            "source_or_owner": "Finance operating schedule",
+            "source_date": "2026-06-30",
+            "system_tie": ""
+          },
+          {
             "source_ref": "RPT-00232",
             "workstream": "Earnings guidance range and probability bridge",
             "schedule": "Guidance scenarios",
@@ -154229,6 +154439,440 @@
         "location": {
           "kind": "workbook",
           "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v5 CFO scratch.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X01",
+        "fact": {
+          "record_id": "072-F0066",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "LTM 2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Adjusted EBITDA",
+          "numeric_value": 6218011.41,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0066",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0066",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X02",
+        "fact": {
+          "record_id": "072-F0067",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Funded debt",
+          "numeric_value": 1.0,
+          "text_value": "",
+          "unit": "MCP multiplier",
+          "evidence_id": "072-E0067",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": "debt"
+        },
+        "evidence": {
+          "evidence_id": "072-E0067",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X03",
+        "fact": {
+          "record_id": "072-F0068",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "LTM 2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Cash interest LTM",
+          "numeric_value": 620.0,
+          "text_value": "",
+          "unit": "USD thousands",
+          "evidence_id": "072-E0068",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0068",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X04",
+        "fact": {
+          "record_id": "072-F0069",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "LTM 2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Cash taxes LTM",
+          "numeric_value": 880000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0069",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0069",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X05",
+        "fact": {
+          "record_id": "072-F0070",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "LTM 2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Maintenance capex LTM",
+          "numeric_value": 1250000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0070",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0070",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X06",
+        "fact": {
+          "record_id": "072-F0071",
+          "schedule": "Approved lender metric basis",
+          "entity": "Alder Ridge",
+          "period": "LTM 2026-06-30",
+          "scenario": "Approved case",
+          "measure": "Distributions LTM",
+          "numeric_value": 400000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0071",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0071",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X07",
+        "fact": {
+          "record_id": "072-F0072",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Revenue guidance low",
+          "numeric_value": 52000.0,
+          "text_value": "",
+          "unit": "USD thousands",
+          "evidence_id": "072-E0072",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0072",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X08",
+        "fact": {
+          "record_id": "072-F0073",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Revenue guidance high",
+          "numeric_value": 55000000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0073",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0073",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X09",
+        "fact": {
+          "record_id": "072-F0074",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "EBITDA guidance low",
+          "numeric_value": 3000000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0074",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0074",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X10",
+        "fact": {
+          "record_id": "072-F0075",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "EBITDA guidance high",
+          "numeric_value": 4250000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0075",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0075",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X11",
+        "fact": {
+          "record_id": "072-F0076",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Signed combined stress EBITDA",
+          "numeric_value": 2811.47535,
+          "text_value": "",
+          "unit": "USD thousands",
+          "evidence_id": "072-E0076",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0076",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X12",
+        "fact": {
+          "record_id": "072-F0077",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Guidance update EBITDA buffer",
+          "numeric_value": 250000.0,
+          "text_value": "",
+          "unit": "USD",
+          "evidence_id": "072-E0077",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0077",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X13",
+        "fact": {
+          "record_id": "072-F0078",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Stress contribution per revenue dollar",
+          "numeric_value": 0.0945,
+          "text_value": "",
+          "unit": "decimal ratio",
+          "evidence_id": "072-E0078",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0078",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
+          "sheet": "Board Performance"
+        }
+      },
+      {
+        "source_ref": "RPT-072X14",
+        "fact": {
+          "record_id": "072-F0079",
+          "schedule": "Signed guidance decision",
+          "entity": "Alder Ridge",
+          "period": "FY26",
+          "scenario": "Approved case",
+          "measure": "Largest downside driver",
+          "numeric_value": null,
+          "text_value": "Copper escalation",
+          "unit": "classification",
+          "evidence_id": "072-E0079",
+          "source_version": "Current approved",
+          "source_document": "Finance operating schedule",
+          "anchor_type": ""
+        },
+        "evidence": {
+          "evidence_id": "072-E0079",
+          "status": "Supported at cutoff",
+          "effective_date": "2026-06-30",
+          "include": true,
+          "authority_rank": 1,
+          "review_note": "Included under the controlling assumptions"
+        },
+        "location": {
+          "kind": "workbook",
+          "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
           "sheet": "Board Performance"
         }
       }

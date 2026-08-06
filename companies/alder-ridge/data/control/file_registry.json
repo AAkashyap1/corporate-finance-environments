@@ -555,8 +555,8 @@
     {
       "path": "Shared/Finance/Investor Relations/Q2 working/KPI definitions + lender presentation policy.pdf",
       "type": "pdf",
-      "bytes": 8356,
-      "sha256": "cf3c4d14c2b0dc454b33070928a447884e69514e3cc3924c7272573065a5e186",
+      "bytes": 8361,
+      "sha256": "5aacbe4b454fbafdb449dd20859d30b04926d31a21f64b0b4aa71fbc6aa55dca",
       "version_status": "current-working",
       "permitted_use": "judgment/support subject to review",
       "discoverability": "Working status is visible in the filename and document status banner."
@@ -618,8 +618,8 @@
     {
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 board + lender narrative review notes - 7.4 DC.docx",
       "type": "docx",
-      "bytes": 41691,
-      "sha256": "ce64f8c96fbe60ec471681171bea87eadcbe5802883f04be426cbdb76bf9e5fd",
+      "bytes": 41724,
+      "sha256": "6cc4cc1a9ceb5e03b32f4db98a20e948bb69c9d52f05fc0424e625fcf4addde3",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -645,8 +645,8 @@
     {
       "path": "Shared/Finance/Reporting/2026/06 June/Q2 management reporting data book - v7 controller tie.xlsx",
       "type": "xlsx",
-      "bytes": 24345,
-      "sha256": "9ade4fa388cabf9670c93c4ec2b8d27e05bc3cc2ca06009beb20125a1c60f908",
+      "bytes": 25424,
+      "sha256": "0262e2299e30b6bac07b64863e2b8161d6f572ef13b513547d5be8c3d84c776b",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."

@@ -145,8 +145,16 @@ _TASK_061_LABEL_ALIASES = {
 }
 
 _TASK_072_LABEL_ALIASES = {
+    "q2_revenue": ["Q2 revenue", "Board Performance Q2 revenue"],
+    "q2_approved_plan_revenue": ["Q2 revenue plan", "Approved Q2 plan revenue"],
+    "q2_revenue_variance_to_plan": ["Q2 revenue variance to plan", "Revenue variance vs plan", "Revenue variance to plan"],
     "q2_organic_growth": ["Organic growth"],
     "q2_adjusted_ebitda": ["Adjusted EBITDA"],
+    "q2_approved_plan_adjusted_ebitda": ["Q2 adjusted EBITDA plan", "Approved Q2 plan adjusted EBITDA"],
+    "q2_adjusted_ebitda_variance_to_plan": ["Q2 adjusted EBITDA variance to plan", "Adjusted EBITDA variance vs plan", "EBITDA variance to plan"],
+    "construction_gross_profit_impact": ["Construction gross profit impact", "Construction gross profit downside"],
+    "service_labor_productivity_impact": ["Service labor productivity impact", "Service labor downside"],
+    "controls_mix_impact": ["Controls mix impact", "Controls mix downside"],
     "q2_free_cash_flow": ["Free cash flow"],
     "maximum_revolver": [
         "Maximum downside revolver",
@@ -157,6 +165,19 @@ _TASK_072_LABEL_ALIASES = {
         "Latest approved outlook",
         "Revenue outlook",
     ],
+    "ltm_adjusted_ebitda": ["LTM adjusted EBITDA", "Approved LTM adjusted EBITDA", "Lender adjusted EBITDA"],
+    "funded_debt": ["Posted funded debt", "Lender funded debt"],
+    "lender_leverage": ["Lender leverage", "Covenant leverage", "Gross leverage"],
+    "fixed_charge_coverage": ["Fixed-charge coverage", "Fixed charge coverage", "FCCR", "Lender FCCR"],
+    "revenue_guidance_low": ["Revenue guidance low", "Published revenue guidance low"],
+    "revenue_guidance_high": ["Revenue guidance high", "Published revenue guidance high"],
+    "ebitda_guidance_low": ["EBITDA guidance low", "Published EBITDA guidance low"],
+    "ebitda_guidance_high": ["EBITDA guidance high", "Published EBITDA guidance high"],
+    "largest_downside_driver": ["Largest downside driver", "Principal downside driver"],
+    "combined_stress_ebitda": ["Combined stress EBITDA", "Signed downside stress EBITDA"],
+    "ebitda_shortfall_to_guidance_low": ["EBITDA shortfall to guidance low", "Shortfall to published EBITDA low end"],
+    "additional_revenue_decline_to_update_trigger": ["Additional revenue decline to update trigger", "Headroom to formal update trigger"],
+    "guidance_update_required": ["Guidance update required", "Revise published guidance"],
 }
 
 _TASK_081_LABEL_ALIASES = {

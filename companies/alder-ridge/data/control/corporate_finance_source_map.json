@@ -1532,6 +1532,7 @@
     "task_072": {
       "accounting_mcp_required": true,
       "mcp_anchor_types": [
+        "debt",
         "ytd_revenue"
       ],
       "source_synthesis_task": true,
@@ -1548,6 +1549,7 @@
         "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx"
       ],
       "independent_fact_groups": [
+        "Approved lender metric basis",
         "Cash and capital",
         "Full-year outlook",
         "IR comparability bridge",
@@ -1555,10 +1557,11 @@
         "Performance diagnostics",
         "Q2 actual export",
         "Q2 approved plan",
+        "Signed guidance decision",
         "Management instructions and decision rules",
         "Current-versus-prior source authority and reconciliation"
       ],
-      "native_fact_rows": 65,
+      "native_fact_rows": 79,
       "shared_world_navigation": true,
       "single_file_shortcut_designed_out": true,
       "standalone": true,
