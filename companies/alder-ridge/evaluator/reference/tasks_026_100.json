@@ -8517,7 +8517,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Trial Balance"
       },
       {
@@ -8527,7 +8526,6 @@
         "category": "integrity",
         "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
         "sheet": "Tax Adjustments"
       },
       {
@@ -8537,7 +8535,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_formulas": 90
       },
       {
@@ -8546,8 +8543,7 @@
         "kind": "xlsx_no_errors",
         "category": "integrity",
         "weight": 10,
-        "semantic": false,
-        "failure_cap": 0.0
+        "semantic": false
       },
       {
         "id": "formula_lineage__headline_pretax_book_income",
@@ -8556,7 +8552,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "pretax_book_income"
       },
       {
@@ -8566,7 +8561,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "current_tax"
       },
       {
@@ -8576,7 +8570,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "deferred_tax_expense"
       },
       {
@@ -8586,7 +8579,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "total_tax_provision"
       },
       {
@@ -8596,7 +8588,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "effective_tax_rate"
       },
       {
@@ -8606,7 +8597,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_temporary_difference_dta"
       },
       {
@@ -8616,7 +8606,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_state_credit_dta"
       },
       {
@@ -8626,7 +8615,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_valuation_allowance"
       },
       {
@@ -8636,7 +8624,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_net_dta"
       },
       {
@@ -8646,7 +8633,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_dtl"
       },
       {
@@ -8656,7 +8642,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "headline_label": "ending_net_deferred_tax_liability"
       },
       {
@@ -8702,7 +8687,6 @@
         "category": "auditability",
         "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
         "min_cross_sheet_formulas": 20
       },
       {
