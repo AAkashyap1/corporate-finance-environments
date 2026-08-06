@@ -528,8 +528,8 @@
     {
       "path": "Shared/Finance/Investor Relations/Peer analysis/market study + valuation methodology - approved.pdf",
       "type": "pdf",
-      "bytes": 4950,
-      "sha256": "783b327341ef9c6b6a2b078e1962d82323180bed4a5222d0473801b1b300b387",
+      "bytes": 4993,
+      "sha256": "47ad024313a8bc8e435fdf3b526bda066dcbd30afe775e8232f511919c92b677",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
@@ -546,8 +546,8 @@
     {
       "path": "Shared/Finance/Investor Relations/Peer analysis/peer review notes + comparability decisions - 7.3 DC.docx",
       "type": "docx",
-      "bytes": 40220,
-      "sha256": "73609b1adc76198037864e76fc3df86ce0cf0779b16ecc829e84c833b10d1096",
+      "bytes": 40260,
+      "sha256": "afa94fe745a46bd51a613c505271844b5d16f68b58bf146640b6eb20046e9670",
       "version_status": "current-support",
       "permitted_use": "use for its stated purpose and cutoff",
       "discoverability": "Purpose, date, and source/cutoff are stated in the artifact."
