@@ -6,10 +6,10 @@
     {
       "task_id": "task_001",
       "slug": "arm-2409-wip-backcharge",
-      "title": "ARM-2409 disputed-backcharge WIP treatment",
+      "title": "ARM-2409 June WIP controller sign-off memorandum",
       "workflow": "project-accounting",
       "difficulty": "advanced",
-      "output_mode": "console",
+      "output_mode": "document_edit",
       "file": "task_001.json"
     },
     {

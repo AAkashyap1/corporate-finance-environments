@@ -10,11 +10,11 @@
   "source_inventory": {
     "xlsx": 52,
     "pdf": 19,
-    "docx": 14,
+    "docx": 15,
     "pptx": 9,
     "eml": 20,
     "csv": 6,
     "text": 1
   },
-  "notes": "Files may contain dated snapshots, forecasts, commentary, and proposed entries; reconcile to Vista ERP. All 52 workbooks derive from the eight-year company history or its versioned corporate-finance workpapers; earlier versions are dated or identified in file content and lineage notes."
+  "notes": "Files may contain dated snapshots, forecasts, commentary, and proposed entries; reconcile to Vista ERP. Current-source authority is documented in each artifact and the private control registry."
 }

@@ -9,8 +9,9 @@
     "index": "tasks/index.json",
     "task_directory": "tasks",
     "output_modes": {
-      "console": 70,
+      "console": 69,
       "document_create": 4,
+      "document_edit": 1,
       "presentation_create": 1,
       "presentation_edit": 2,
       "spreadsheet_create": 11,
@@ -55,10 +56,10 @@
   },
   "source_files": {
     "directory": "source-files",
-    "count": 121,
+    "count": 122,
     "artifact_types": {
       "csv": 6,
-      "docx": 14,
+      "docx": 15,
       "eml": 20,
       "pdf": 19,
       "pptx": 9,
@@ -70,7 +71,7 @@
     {
       "name": "agent workspace",
       "type": "filesystem",
-      "description": "121 finance, operations, correspondence, policy, spreadsheet, presentation, document, PDF, and email files"
+      "description": "122 finance, operations, correspondence, policy, spreadsheet, presentation, document, PDF, and email files"
     },
     {
       "name": "contractor_accounting",

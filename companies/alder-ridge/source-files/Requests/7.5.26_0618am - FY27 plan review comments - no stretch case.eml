@@ -1,6 +1,6 @@
-From: Daniel Cho <dcho@alderridgemech.example>
-To: Senior Finance Analyst <finance.analysis@alderridgemech.example>
-Cc: treasury@alderridgemech.example; project.accounting@alderridgemech.example
+From: Daniel Cho <dcho@alderridgemech.com>
+To: Senior Finance Analyst <finance.analysis@alderridgemech.com>
+Cc: treasury@alderridgemech.com; project.accounting@alderridgemech.com
 Date: Sun, 5 Jul 2026 06:18:00 -0700
 Subject: FY27 plan review comments - no stretch case
 
@@ -9,5 +9,7 @@ Yesterday's steering review did not approve the stretch case. Use the controller
 Keep the base, downside, and upside cases internally consistent through EBITDA, cash taxes, capex, working capital, and free cash flow. Flag any conclusion that depends on a stale branch submission or on a management-stretch row from the earlier book.
 
 Rebuild the new analyses independently from the shared sources. Probability-weight corrective actions and initiatives, keep customer cost-allocation drivers distinct, and do not let pipeline, capacity, or scenario assumptions migrate between analyses without documented approval.
+
+For the backlog/capacity review, distinguish the approved probability plan from the full signed-commitment stress. Determine the portfolio that can actually be delivered under approved labor and response authority, then carry deferrals, contract consequences, gross profit, damages, and the recovery requirement into the release decision. Use required hours less available hours for the capacity gap: positive means a shortfall and negative means spare capacity.
 
 Daniel

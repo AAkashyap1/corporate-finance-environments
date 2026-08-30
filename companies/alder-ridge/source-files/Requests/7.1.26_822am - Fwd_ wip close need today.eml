@@ -1,11 +1,19 @@
-From: Natalie Brooks <nbrooks@alderridgemech.example>
-To: Senior FP&A Analyst <finance.analysis@alderridgemech.example>
-Cc: Daniel Cho <dcho@alderridgemech.example>; project.accounting@alderridgemech.example
+From: Natalie Brooks <nbrooks@alderridgemech.com>
+To: Senior FP&A Analyst <finance.analysis@alderridgemech.com>
+Cc: Daniel Cho <dcho@alderridgemech.com>; project.accounting@alderridgemech.com
 Date: Wed, 1 Jul 2026 08:22:14 -0700
 Subject: Fwd: wip close - need first pass today
 
 Use the May final-ish file (the v7 one in May/4_WIP, not the earlier copy) and roll it to 6/30. The dump tabs in there are May and a couple formulas still point at the old PM pull, so current contract/cost/billings have to come from the system. PM file is the 5:30 combined copy. PR updated the CO master last night.
 
 Same policy as discussed: no pending PCO revenue, but don't ignore cost we know we're going to eat. Flag >100bp moves, losses and anything where the PM netted a claim/backcharge. Please update the four risk cases in the controller review copy before the 2pm review. Proposed JE only--nothing gets posted from your file.
+
+For ARM-2409, keep unbooked commercial upside separate from the close recommendation, and leave a direct accounting-to-workpaper control that a reviewer can follow from the posted June population through any proposed adjustment. The memo needs a clear PCO-011/backcharge disposition under the signed policy, with the evidence gap and owner action visible if it cannot be cleared.
+
+Two items came in for the 2pm controller WIP entry. Keep them in this entry review and do not flow them into the flash, lender, cash, or other close schedules until the separate AP accrual is approved.
+
+AP sent over Prime Electric & Controls invoice PECI-68417 for $96,000 on ARM-2522. It covers work completed June 28, is dated June 29 and arrived July 1. It is still pending in the AP queue and is not on the June 30 job-cost register. Elliot confirmed the full $96,000 is already in ARM-2522's $1.982 million remaining-cost estimate. Please include the cost in the June entry review without adding it to EAC twice. AP will post the accrual separately before we book WIP.
+
+ARM-2318's underbilling is scheduled for the July 8 closeout pay application. PCO-029's $68,000 recovery remains disputed and stays out of contract value. I approved the unavoidable $45,000 validation-retest cost for the June close; it is not in PM ETC, so add it once to close ETC. The current billing explanation and planned billing date are supported in the close file. Apply the signed policy when you make the review call.
 
 Natalie

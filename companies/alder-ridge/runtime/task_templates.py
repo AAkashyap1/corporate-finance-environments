@@ -5,6 +5,9 @@ from pathlib import Path
 from typing import Any, Mapping
 
 from evaluator.task_grader import grade_task
+from evaluator import featured_integrity
+from evaluator import featured_production_semantic
+from evaluator import featured_rubric
 from evaluator.integrity import assess_integrity, capture_integrity_snapshot
 from evaluator.production_semantic import (
     submission_integrity_evidence,
@@ -12,6 +15,15 @@ from evaluator.production_semantic import (
 )
 from evaluator.rubric import apply_reward_policy, attach_default_policy
 from task_catalog import TASKS
+
+
+FEATURED_HARDENED_TASKS = {
+    "task_001",
+    "task_004",
+    "task_015",
+    "task_035",
+    "task_068",
+}
 
 
 def invalidate_on_grading_error(result: dict[str, Any]) -> dict[str, Any]:
@@ -136,19 +148,34 @@ def register_task_templates(
         )
         async def task_template(_task_id: str = task_id, _prompt: str = prompt):
             database_path = state_root / "accounting.db"
-            before = capture_integrity_snapshot(runtime_root, database_path)
+            featured = _task_id in FEATURED_HARDENED_TASKS
+            before = (
+                featured_integrity.capture_integrity_snapshot(runtime_root, database_path)
+                if featured
+                else capture_integrity_snapshot(runtime_root, database_path)
+            )
             answer = yield _prompt
             result = grade_task(_task_id, answer, runtime_root)
             semantic_integrity: dict[str, Any] = {}
             try:
-                result, semantic_integrity = await verify_semantic_review(
+                semantic_verifier = (
+                    featured_production_semantic.verify_semantic_review
+                    if featured
+                    else verify_semantic_review
+                )
+                submission_evidence = (
+                    featured_production_semantic.submission_integrity_evidence
+                    if featured
+                    else submission_integrity_evidence
+                )
+                result, semantic_integrity = await semantic_verifier(
                     task_id=_task_id,
                     prompt=_prompt,
                     result=result,
                     project_root=project_root,
                     hud_api_key=semantic_credentials.get("hud_api_key"),
                     openai_api_key=semantic_credentials.get("openai_api_key"),
-                    submission_evidence=submission_integrity_evidence(
+                    submission_evidence=submission_evidence(
                         task_id=_task_id,
                         final_answer=answer,
                         workspace_root=runtime_root,
@@ -160,7 +187,10 @@ def register_task_templates(
                 result["grading_error"] = (
                     f"production semantic verifier failed: {type(exc).__name__}: {exc}"
                 )
-            integrity = assess_integrity(
+            integrity_assessor = (
+                featured_integrity.assess_integrity if featured else assess_integrity
+            )
+            integrity = integrity_assessor(
                 task_id=_task_id,
                 before=before,
                 workspace_root=runtime_root,
@@ -168,9 +198,15 @@ def register_task_templates(
                 final_answer=answer,
                 semantic_integrity=semantic_integrity,
             )
-            result = apply_reward_policy(
+            reward_policy = (
+                featured_rubric.apply_reward_policy if featured else apply_reward_policy
+            )
+            default_policy = (
+                featured_rubric.attach_default_policy if featured else attach_default_policy
+            )
+            result = reward_policy(
                 _task_id,
-                attach_default_policy(result),
+                default_policy(result),
                 integrity=integrity,
             )
             # Verifier availability is part of the grader contract.  Never

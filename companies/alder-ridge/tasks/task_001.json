@@ -3,14 +3,14 @@
   "company_id": "alder-ridge",
   "task_id": "task_001",
   "slug": "arm-2409-wip-backcharge",
-  "title": "ARM-2409 disputed-backcharge WIP treatment",
+  "title": "ARM-2409 June WIP controller sign-off memorandum",
   "workflow": "project-accounting",
   "difficulty": "advanced",
   "output": {
-    "mode": "console",
-    "target_path": null
+    "mode": "document_edit",
+    "target_path": "Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx"
   },
-  "prompt": "Please review one June WIP estimate for Alder Ridge Mechanical and determine the June 30 gross contract asset for project ARM-2409 only.\n\nUse the contractor-accounting MCP for current contract value, posted cost to date, and billings. Read the latest PM ETC submission, the commercial change-order log, the ARM-2409 backcharge support PDF, and the revenue-recognition/WIP policy. The PM forecast assumes a disputed $185,000 concrete-trade recovery. Apply the policy as written; do not recognize unsupported recovery revenue or net a disputed recovery against forecast cost.\n\nReconcile current contract, posted cost and billings; bridge PM ETC to policy-compliant close ETC; then calculate EAC, percent complete and earned revenue before deriving the contract position. Show the complete calculation chain. Do not modify files or post a journal.\n\nReturn only one JSON object in your final response with exactly these keys: `current_contract`, `posted_cost`, `billings`, `pm_etc`, `required_etc_adjustment`, `close_etc`, `eac`, `percent_complete`, `earned_revenue`, `contract_asset`. Use dollar values to two decimals, ratios and percentages as decimal ratios to at least four decimals (for example, return 0.1863 for 18.63%), and dates as YYYY-MM-DD.",
+  "prompt": "Finalize the ARM-2409 June WIP sign-off memorandum at\n`Shared/Finance/Close/2026/06 June/4 WIP/ARM-2409 June WIP controller sign-off - WORKING.docx`.\n\nGive the Controller a review-ready June 30 close recommendation. Reconcile the current accounting population to the prior close and the current operating and commercial evidence, resolve the PCO-011/backcharge treatment under the signed policy, and make the proposed close and posting consequences auditable. Surface material exceptions, source authority, approval state, and the evidence, owners, and actions still needed.\n\nPreserve the working memo and save it in place. This is preparer support only: do not post a journal, imply Controller approval, or alter another close file. A brief completion note is sufficient in the final response.\n",
   "evaluation": {
     "grader": "evaluator/task_grader.py",
     "reference_file": "evaluator/reference/tasks_001_025.json",

@@ -2273,8 +2273,20 @@ FILE_GRADERS: dict[str, Callable[[Path], dict[str, Any]]] = {
     "task_025": _grade_task_025,
 }
 
+FEATURED_HARDENED_TASKS = {
+    "task_001",
+    "task_004",
+    "task_015",
+    "task_035",
+    "task_068",
+}
+
 
 def grade_task(task_id: str, answer: Any, workspace_root: str | Path) -> dict[str, Any]:
+    if task_id in FEATURED_HARDENED_TASKS:
+        from evaluator.featured_apex import grade_apex_task
+
+        return grade_apex_task(task_id, answer, workspace_root)
     if 26 <= int(task_id[-3:]) <= 100:
         from evaluator.corporate_finance import grade_corporate_finance_task
         result = grade_corporate_finance_task(task_id, answer, workspace_root)

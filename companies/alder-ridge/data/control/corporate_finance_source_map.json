@@ -303,8 +303,21 @@
     },
     "task_035": {
       "accounting_mcp_required": false,
+      "data_group": "planning",
+      "independent_fact_groups": [
+        "Capacity remediation",
+        "Execution authority",
+        "Monthly capacity",
+        "Project burn curve",
+        "Signed contract backlog",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation",
+        "Probability-plan versus full signed-commitment exposure",
+        "Capacity sign convention and approved response authority",
+        "Executable project sequencing and contractual consequences",
+        "Earnings bridge and executive recovery release decision"
+      ],
       "mcp_anchor_types": [],
-      "source_synthesis_task": true,
       "minimum_source_artifacts": [
         "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
         "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml",
@@ -317,22 +330,15 @@
         "Shared/Operations/Project Controls/cash curves/major jobs cash curves_6.30 scenario B.xlsx",
         "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx"
       ],
-      "independent_fact_groups": [
-        "Monthly capacity",
-        "Project burn curve",
-        "Signed contract backlog",
-        "Management instructions and decision rules",
-        "Current-versus-prior source authority and reconciliation"
-      ],
-      "native_fact_rows": 141,
-      "shared_world_navigation": true,
-      "single_file_shortcut_designed_out": true,
-      "standalone": true,
+      "native_fact_rows": 213,
       "request_threads": [
         "Requests/7.4.26_0711am - FY27 plan first pass + branch submissions.eml",
         "Requests/7.5.26_0618am - FY27 plan review comments - no stretch case.eml"
       ],
-      "data_group": "planning"
+      "shared_world_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "source_synthesis_task": true,
+      "standalone": true
     },
     "task_036": {
       "accounting_mcp_required": true,
@@ -1393,10 +1399,29 @@
     },
     "task_068": {
       "accounting_mcp_required": true,
+      "data_group": "reporting",
+      "independent_fact_groups": [
+        "Approved lender metric basis",
+        "Cash and capital",
+        "Credit metrics",
+        "Full-year outlook",
+        "IR comparability bridge",
+        "Investor KPI controls",
+        "Liquidity",
+        "Performance diagnostics",
+        "Q2 actual export",
+        "Q2 approved plan",
+        "Signed guidance decision",
+        "Management instructions and decision rules",
+        "Current-versus-prior source authority and reconciliation",
+        "Accounting and reporting tie",
+        "Combined downside and executable mitigation conversion",
+        "Guidance buffer, trigger, owners, and dated release gates"
+      ],
       "mcp_anchor_types": [
+        "debt",
         "ytd_revenue"
       ],
-      "source_synthesis_task": true,
       "minimum_source_artifacts": [
         "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
         "Requests/7.5.26_0812am - board review changes + source tie.eml",
@@ -1410,25 +1435,15 @@
         "Shared/Operations/Service/monthly KPI/service KPI pack source_6.30 - LT edits.xlsx",
         "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx"
       ],
-      "independent_fact_groups": [
-        "Cash and capital",
-        "Full-year outlook",
-        "Liquidity",
-        "Performance diagnostics",
-        "Q2 actual export",
-        "Q2 approved plan",
-        "Management instructions and decision rules",
-        "Current-versus-prior source authority and reconciliation"
-      ],
-      "native_fact_rows": 63,
-      "shared_world_navigation": true,
-      "single_file_shortcut_designed_out": true,
-      "standalone": true,
+      "native_fact_rows": 83,
       "request_threads": [
         "Requests/7.4.26_1344pm - Q2 board lender + IR refresh.eml",
         "Requests/7.5.26_0812am - board review changes + source tie.eml"
       ],
-      "data_group": "reporting"
+      "shared_world_navigation": true,
+      "single_file_shortcut_designed_out": true,
+      "source_synthesis_task": true,
+      "standalone": true
     },
     "task_069": {
       "accounting_mcp_required": true,

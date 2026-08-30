@@ -3,14 +3,14 @@
   "title": "Long-Horizon Corporate Finance Tasks",
   "company_count": 2,
   "task_count": 200,
-  "source_file_count": 285,
+  "source_file_count": 286,
   "companies": [
     {
       "company_id": "alder-ridge",
       "name": "Alder Ridge Mechanical",
       "industry": "specialty mechanical contracting",
       "task_count": 100,
-      "source_file_count": 121,
+      "source_file_count": 122,
       "path": "companies/alder-ridge",
       "metadata": "companies/alder-ridge/company.json",
       "submission_task_count": 100,

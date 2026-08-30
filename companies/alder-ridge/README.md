@@ -14,11 +14,11 @@ The task set covers:
 - investor-relations, lender, board, and CFO decision materials; and
 - spreadsheet, presentation, and document creation or editing in addition to structured console answers.
 
-The 100 tasks contain 70 console assignments, 23 spreadsheet assignments, 4 document assignments, and 3 presentation assignments. Difficulty labels comprise 25 advanced tasks and 75 long-horizon advanced or expert tasks. The complete index is [tasks/index.json](tasks/index.json), and [tasks/hud-taskset.json](tasks/hud-taskset.json) includes all 100 tasks.
+The 100 tasks contain 69 console assignments, 23 spreadsheet assignments, 5 document assignments, and 3 presentation assignments. Difficulty labels comprise 25 advanced tasks and 75 long-horizon advanced or expert tasks. The complete index is [tasks/index.json](tasks/index.json), and [tasks/hud-taskset.json](tasks/hud-taskset.json) includes all 100 tasks.
 
 ## Company sources and tools
 
-`source-files/` contains 121 files: 52 spreadsheets, 20 emails, 19 PDFs, 14 documents, 9 presentations, 6 CSV extracts, and 1 text note. The directory preserves the company’s natural `Requests/`, `Shared/Finance/`, and `Shared/Operations/` organization so reviewers can trace each task through the same materials available to the agent.
+`source-files/` contains 122 files: 52 spreadsheets, 20 emails, 19 PDFs, 15 documents, 9 presentations, 6 CSV extracts, and 1 text note. The directory preserves the company’s natural `Requests/`, `Shared/Finance/`, and `Shared/Operations/` organization so reviewers can trace each task through the same materials available to the agent.
 
 The `contractor_accounting` MCP exposes controlled accounting and operating records. It is read-only for analytical assignments. File-editing tasks write only to the reset workspace.
 

@@ -1543,439 +1543,2019 @@
   },
   "task_035": {
     "answer": {
-      "signed_backlog": 44700000.0,
-      "fy27_backlog_revenue_burn": 41902500.0,
+      "2026_07_available_hours": 38520,
+      "2026_07_base_capacity_shortfall": 0,
+      "2026_07_capacity_gap_hours": -37607.35,
+      "2026_07_capacity_release_status": "Capacity cleared",
+      "2026_07_contingent_subcontract_capacity": 2500,
+      "2026_07_contingent_subcontract_deployed": 0,
+      "2026_07_emergency_overtime_capacity": 1260,
+      "2026_07_emergency_overtime_deployed": 0,
+      "2026_07_incremental_remediation_cost": 0,
+      "2026_07_permitted_overtime_hours": 2520,
+      "2026_07_productive_internal_hours": 31500,
+      "2026_07_remediated_available_hours": 38520,
+      "2026_07_required_hours": 912.65,
+      "2026_07_revenue_burn": 107692.31,
+      "2026_07_shortfall_after_emergency_overtime": 0,
+      "2026_07_subcontractable_hours": 4500,
+      "2026_07_unresolved_capacity_shortfall": 0,
+      "2026_08_available_hours": 38822.4,
+      "2026_08_base_capacity_shortfall": 0,
+      "2026_08_capacity_gap_hours": -36208.87,
+      "2026_08_capacity_release_status": "Capacity cleared",
+      "2026_08_contingent_subcontract_capacity": 2500,
+      "2026_08_contingent_subcontract_deployed": 0,
+      "2026_08_emergency_overtime_capacity": 1271.2,
+      "2026_08_emergency_overtime_deployed": 0,
+      "2026_08_incremental_remediation_cost": 0,
+      "2026_08_permitted_overtime_hours": 2542.4,
+      "2026_08_productive_internal_hours": 31780,
+      "2026_08_remediated_available_hours": 38822.4,
+      "2026_08_required_hours": 2613.53,
+      "2026_08_revenue_burn": 314702.8,
+      "2026_08_shortfall_after_emergency_overtime": 0,
+      "2026_08_subcontractable_hours": 4500,
+      "2026_08_unresolved_capacity_shortfall": 0,
+      "2026_09_available_hours": 39124.8,
+      "2026_09_base_capacity_shortfall": 0,
+      "2026_09_capacity_gap_hours": -34810.38,
+      "2026_09_capacity_release_status": "Capacity cleared",
+      "2026_09_contingent_subcontract_capacity": 2500,
+      "2026_09_contingent_subcontract_deployed": 0,
+      "2026_09_emergency_overtime_capacity": 1282.4,
+      "2026_09_emergency_overtime_deployed": 0,
+      "2026_09_incremental_remediation_cost": 0,
+      "2026_09_permitted_overtime_hours": 2564.8,
+      "2026_09_productive_internal_hours": 32060,
+      "2026_09_remediated_available_hours": 39124.8,
+      "2026_09_required_hours": 4314.42,
+      "2026_09_revenue_burn": 521713.29,
+      "2026_09_shortfall_after_emergency_overtime": 0,
+      "2026_09_subcontractable_hours": 4500,
+      "2026_09_unresolved_capacity_shortfall": 0,
+      "2026_10_available_hours": 39427.2,
+      "2026_10_base_capacity_shortfall": 0,
+      "2026_10_capacity_gap_hours": -32469.13,
+      "2026_10_capacity_release_status": "Capacity cleared",
+      "2026_10_contingent_subcontract_capacity": 2500,
+      "2026_10_contingent_subcontract_deployed": 0,
+      "2026_10_emergency_overtime_capacity": 1293.6,
+      "2026_10_emergency_overtime_deployed": 0,
+      "2026_10_incremental_remediation_cost": 0,
+      "2026_10_permitted_overtime_hours": 2587.2,
+      "2026_10_productive_internal_hours": 32340,
+      "2026_10_remediated_available_hours": 39427.2,
+      "2026_10_required_hours": 6958.07,
+      "2026_10_revenue_burn": 853168.22,
+      "2026_10_shortfall_after_emergency_overtime": 0,
+      "2026_10_subcontractable_hours": 4500,
+      "2026_10_unresolved_capacity_shortfall": 0,
+      "2026_11_available_hours": 39729.6,
+      "2026_11_base_capacity_shortfall": 0,
+      "2026_11_capacity_gap_hours": -30127.89,
+      "2026_11_capacity_release_status": "Capacity cleared",
+      "2026_11_contingent_subcontract_capacity": 2500,
+      "2026_11_contingent_subcontract_deployed": 0,
+      "2026_11_emergency_overtime_capacity": 1304.8,
+      "2026_11_emergency_overtime_deployed": 0,
+      "2026_11_incremental_remediation_cost": 0,
+      "2026_11_permitted_overtime_hours": 2609.6,
+      "2026_11_productive_internal_hours": 32620,
+      "2026_11_remediated_available_hours": 39729.6,
+      "2026_11_required_hours": 9601.71,
+      "2026_11_revenue_burn": 1184623.15,
+      "2026_11_shortfall_after_emergency_overtime": 0,
+      "2026_11_subcontractable_hours": 4500,
+      "2026_11_unresolved_capacity_shortfall": 0,
+      "2026_12_available_hours": 37008,
+      "2026_12_base_capacity_shortfall": 0,
+      "2026_12_capacity_gap_hours": -23561,
+      "2026_12_capacity_release_status": "Capacity cleared",
+      "2026_12_contingent_subcontract_capacity": 2500,
+      "2026_12_contingent_subcontract_deployed": 0,
+      "2026_12_emergency_overtime_capacity": 1204,
+      "2026_12_emergency_overtime_deployed": 0,
+      "2026_12_incremental_remediation_cost": 0,
+      "2026_12_permitted_overtime_hours": 2408,
+      "2026_12_productive_internal_hours": 30100,
+      "2026_12_remediated_available_hours": 37008,
+      "2026_12_required_hours": 13447,
+      "2026_12_revenue_burn": 1660274.52,
+      "2026_12_shortfall_after_emergency_overtime": 0,
+      "2026_12_subcontractable_hours": 4500,
+      "2026_12_unresolved_capacity_shortfall": 0,
+      "2027_01_available_hours": 37310.4,
+      "2027_01_base_capacity_shortfall": 0,
+      "2027_01_capacity_gap_hours": -17782.09,
+      "2027_01_capacity_release_status": "Capacity cleared",
+      "2027_01_contingent_subcontract_capacity": 2500,
+      "2027_01_contingent_subcontract_deployed": 0,
+      "2027_01_emergency_overtime_capacity": 1215.2,
+      "2027_01_emergency_overtime_deployed": 0,
+      "2027_01_incremental_remediation_cost": 0,
+      "2027_01_permitted_overtime_hours": 2430.4,
+      "2027_01_productive_internal_hours": 30380,
+      "2027_01_remediated_available_hours": 37310.4,
+      "2027_01_required_hours": 19528.31,
+      "2027_01_revenue_burn": 2444497.31,
+      "2027_01_shortfall_after_emergency_overtime": 0,
+      "2027_01_subcontractable_hours": 4500,
+      "2027_01_unresolved_capacity_shortfall": 0,
+      "2027_02_available_hours": 39336.8,
+      "2027_02_base_capacity_shortfall": 0,
+      "2027_02_capacity_gap_hours": -11647.18,
+      "2027_02_capacity_release_status": "Capacity cleared",
+      "2027_02_contingent_subcontract_capacity": 4000,
+      "2027_02_contingent_subcontract_deployed": 0,
+      "2027_02_emergency_overtime_capacity": 1338.4,
+      "2027_02_emergency_overtime_deployed": 0,
+      "2027_02_incremental_remediation_cost": 0,
+      "2027_02_permitted_overtime_hours": 2676.8,
+      "2027_02_productive_internal_hours": 33460,
+      "2027_02_remediated_available_hours": 39336.8,
+      "2027_02_required_hours": 27689.62,
+      "2027_02_revenue_burn": 3488720.1,
+      "2027_02_shortfall_after_emergency_overtime": 0,
+      "2027_02_subcontractable_hours": 3200,
+      "2027_02_unresolved_capacity_shortfall": 0,
+      "2027_03_available_hours": 38627,
+      "2027_03_base_capacity_shortfall": 37.72,
+      "2027_03_capacity_gap_hours": 37.72,
+      "2027_03_capacity_release_status": "Capacity cleared",
+      "2027_03_contingent_subcontract_capacity": 4000,
+      "2027_03_contingent_subcontract_deployed": 0,
+      "2027_03_emergency_overtime_capacity": 1349.6,
+      "2027_03_emergency_overtime_deployed": 37.72,
+      "2027_03_incremental_remediation_cost": 1602.99,
+      "2027_03_permitted_overtime_hours": 1687,
+      "2027_03_productive_internal_hours": 33740,
+      "2027_03_remediated_available_hours": 38664.72,
+      "2027_03_required_hours": 38664.72,
+      "2027_03_revenue_burn": 4940942.89,
+      "2027_03_shortfall_after_emergency_overtime": 0,
+      "2027_03_subcontractable_hours": 3200,
+      "2027_03_unresolved_capacity_shortfall": 0,
+      "2027_04_available_hours": 38921,
+      "2027_04_base_capacity_shortfall": 14372.67,
+      "2027_04_capacity_gap_hours": 14372.67,
+      "2027_04_capacity_release_status": "Executive sequencing required",
+      "2027_04_contingent_subcontract_capacity": 4000,
+      "2027_04_contingent_subcontract_deployed": 4000,
+      "2027_04_emergency_overtime_capacity": 1360.8,
+      "2027_04_emergency_overtime_deployed": 1360.8,
+      "2027_04_incremental_remediation_cost": 557834,
+      "2027_04_permitted_overtime_hours": 1701,
+      "2027_04_productive_internal_hours": 34020,
+      "2027_04_remediated_available_hours": 44281.8,
+      "2027_04_required_hours": 53293.67,
+      "2027_04_revenue_burn": 6868165.68,
+      "2027_04_shortfall_after_emergency_overtime": 13011.87,
+      "2027_04_subcontractable_hours": 3200,
+      "2027_04_unresolved_capacity_shortfall": 9011.87,
+      "2027_05_available_hours": 40244,
+      "2027_05_base_capacity_shortfall": 27678.61,
+      "2027_05_capacity_gap_hours": 27678.61,
+      "2027_05_capacity_release_status": "Executive sequencing required",
+      "2027_05_contingent_subcontract_capacity": 4000,
+      "2027_05_contingent_subcontract_deployed": 4000,
+      "2027_05_emergency_overtime_capacity": 1372,
+      "2027_05_emergency_overtime_deployed": 1372,
+      "2027_05_incremental_remediation_cost": 558310,
+      "2027_05_permitted_overtime_hours": 2744,
+      "2027_05_productive_internal_hours": 34300,
+      "2027_05_remediated_available_hours": 45616,
+      "2027_05_required_hours": 67922.61,
+      "2027_05_revenue_burn": 8795388.47,
+      "2027_05_shortfall_after_emergency_overtime": 26306.61,
+      "2027_05_subcontractable_hours": 3200,
+      "2027_05_unresolved_capacity_shortfall": 22306.61,
+      "2027_06_available_hours": 40546.4,
+      "2027_06_base_capacity_shortfall": 42005.16,
+      "2027_06_capacity_gap_hours": 42005.16,
+      "2027_06_capacity_release_status": "Executive sequencing required",
+      "2027_06_contingent_subcontract_capacity": 4000,
+      "2027_06_contingent_subcontract_deployed": 4000,
+      "2027_06_emergency_overtime_capacity": 1383.2,
+      "2027_06_emergency_overtime_deployed": 1383.2,
+      "2027_06_incremental_remediation_cost": 558786,
+      "2027_06_permitted_overtime_hours": 2766.4,
+      "2027_06_productive_internal_hours": 34580,
+      "2027_06_remediated_available_hours": 45929.6,
+      "2027_06_required_hours": 82551.56,
+      "2027_06_revenue_burn": 10722611.26,
+      "2027_06_shortfall_after_emergency_overtime": 40621.96,
+      "2027_06_subcontractable_hours": 3200,
+      "2027_06_unresolved_capacity_shortfall": 36621.96,
+      "constrained_month_count": 4,
+      "controlling_capacity_case": "Gross commitment",
+      "execution_2026_07_available_hours": 42280,
+      "execution_2026_07_capacity_utilization": 0.02158578,
+      "execution_2026_07_completed_gross_profit": 25846.15,
+      "execution_2026_07_completed_hours": 912.65,
+      "execution_2026_07_completed_revenue": 107692.31,
+      "execution_2026_07_due_hours": 912.65,
+      "execution_2026_07_ending_deferred_hours": 0,
+      "execution_2026_07_ending_deferred_revenue": 0,
+      "execution_2026_07_liquidated_damages": 0,
+      "execution_2026_07_release_status": "Capacity cleared",
+      "execution_2026_08_available_hours": 42593.6,
+      "execution_2026_08_capacity_utilization": 0.06233376,
+      "execution_2026_08_completed_gross_profit": 74692.31,
+      "execution_2026_08_completed_hours": 2655.02,
+      "execution_2026_08_completed_revenue": 319930.07,
+      "execution_2026_08_due_hours": 2655.02,
+      "execution_2026_08_ending_deferred_hours": 0,
+      "execution_2026_08_ending_deferred_revenue": 0,
+      "execution_2026_08_liquidated_damages": 0,
+      "execution_2026_08_release_status": "Capacity cleared",
+      "execution_2026_09_available_hours": 42907.2,
+      "execution_2026_09_capacity_utilization": 0.1024861,
+      "execution_2026_09_completed_gross_profit": 123538.46,
+      "execution_2026_09_completed_hours": 4397.39,
+      "execution_2026_09_completed_revenue": 532167.83,
+      "execution_2026_09_due_hours": 4397.39,
+      "execution_2026_09_ending_deferred_hours": 0,
+      "execution_2026_09_ending_deferred_revenue": 0,
+      "execution_2026_09_liquidated_damages": 0,
+      "execution_2026_09_release_status": "Capacity cleared",
+      "execution_2026_10_available_hours": 43220.8,
+      "execution_2026_10_capacity_utilization": 0.16386844,
+      "execution_2026_10_completed_gross_profit": 205984.62,
+      "execution_2026_10_completed_hours": 7082.53,
+      "execution_2026_10_completed_revenue": 868850.04,
+      "execution_2026_10_due_hours": 7082.53,
+      "execution_2026_10_ending_deferred_hours": 0,
+      "execution_2026_10_ending_deferred_revenue": 0,
+      "execution_2026_10_liquidated_damages": 0,
+      "execution_2026_10_release_status": "Capacity cleared",
+      "execution_2026_11_available_hours": 43534.4,
+      "execution_2026_11_capacity_utilization": 0.22436645,
+      "execution_2026_11_completed_gross_profit": 288430.77,
+      "execution_2026_11_completed_hours": 9767.66,
+      "execution_2026_11_completed_revenue": 1205532.25,
+      "execution_2026_11_due_hours": 9767.66,
+      "execution_2026_11_ending_deferred_hours": 0,
+      "execution_2026_11_ending_deferred_revenue": 0,
+      "execution_2026_11_liquidated_damages": 0,
+      "execution_2026_11_release_status": "Capacity cleared",
+      "execution_2026_12_available_hours": 40712,
+      "execution_2026_12_capacity_utilization": 0.34059939,
+      "execution_2026_12_completed_gross_profit": 404805.49,
+      "execution_2026_12_completed_hours": 13866.48,
+      "execution_2026_12_completed_revenue": 1711857.31,
+      "execution_2026_12_due_hours": 13866.48,
+      "execution_2026_12_ending_deferred_hours": 0,
+      "execution_2026_12_ending_deferred_revenue": 0,
+      "execution_2026_12_liquidated_damages": 0,
+      "execution_2026_12_release_status": "Capacity cleared",
+      "execution_2027_01_available_hours": 41025.6,
+      "execution_2027_01_capacity_utilization": 0.49846385,
+      "execution_2027_01_completed_gross_profit": 606894.51,
+      "execution_2027_01_completed_hours": 20449.78,
+      "execution_2027_01_completed_revenue": 2561039.52,
+      "execution_2027_01_due_hours": 20449.78,
+      "execution_2027_01_ending_deferred_hours": 0,
+      "execution_2027_01_ending_deferred_revenue": 0,
+      "execution_2027_01_liquidated_damages": 0,
+      "execution_2027_01_release_status": "Capacity cleared",
+      "execution_2027_02_available_hours": 44675.2,
+      "execution_2027_02_capacity_utilization": 0.65166075,
+      "execution_2027_02_completed_gross_profit": 855783.52,
+      "execution_2027_02_completed_hours": 29113.07,
+      "execution_2027_02_completed_revenue": 3670221.72,
+      "execution_2027_02_due_hours": 29113.07,
+      "execution_2027_02_ending_deferred_hours": 0,
+      "execution_2027_02_ending_deferred_revenue": 0,
+      "execution_2027_02_liquidated_damages": 0,
+      "execution_2027_02_release_status": "Capacity cleared",
+      "execution_2027_03_available_hours": 43976.6,
+      "execution_2027_03_capacity_utilization": 0.93899055,
+      "execution_2027_03_completed_gross_profit": 1252572.53,
+      "execution_2027_03_completed_hours": 41293.61,
+      "execution_2027_03_completed_revenue": 5289403.93,
+      "execution_2027_03_due_hours": 41293.61,
+      "execution_2027_03_ending_deferred_hours": 0,
+      "execution_2027_03_ending_deferred_revenue": 0,
+      "execution_2027_03_liquidated_damages": 0,
+      "execution_2027_03_release_status": "Capacity cleared",
+      "execution_2027_04_available_hours": 44281.8,
+      "execution_2027_04_capacity_utilization": 1,
+      "execution_2027_04_completed_gross_profit": 1438105.16,
+      "execution_2027_04_completed_hours": 44281.8,
+      "execution_2027_04_completed_revenue": 5774304.24,
+      "execution_2027_04_due_hours": 57128,
+      "execution_2027_04_ending_deferred_hours": 12846.2,
+      "execution_2027_04_ending_deferred_revenue": 1609281.9,
+      "execution_2027_04_liquidated_damages": 0,
+      "execution_2027_04_release_status": "Portfolio resequencing required",
+      "execution_2027_05_available_hours": 45616,
+      "execution_2027_05_capacity_utilization": 1,
+      "execution_2027_05_completed_gross_profit": 1519282.46,
+      "execution_2027_05_completed_hours": 45616,
+      "execution_2027_05_completed_revenue": 6000612.37,
+      "execution_2027_05_due_hours": 85808.57,
+      "execution_2027_05_ending_deferred_hours": 40192.57,
+      "execution_2027_05_ending_deferred_revenue": 5086437.87,
+      "execution_2027_05_liquidated_damages": 19552.82,
+      "execution_2027_05_release_status": "Portfolio resequencing required",
+      "execution_2027_06_available_hours": 45929.6,
+      "execution_2027_06_capacity_utilization": 1,
+      "execution_2027_06_completed_gross_profit": 1483247.87,
+      "execution_2027_06_completed_hours": 45929.6,
+      "execution_2027_06_completed_revenue": 5976030.92,
+      "execution_2027_06_due_hours": 128989.34,
+      "execution_2027_06_ending_deferred_hours": 83059.74,
+      "execution_2027_06_ending_deferred_revenue": 10682357.5,
+      "execution_2027_06_liquidated_damages": 60673.68,
+      "execution_2027_06_release_status": "Portfolio resequencing required",
+      "execution_p_3101_completed_gross_profit": 2016000,
+      "execution_p_3101_completed_hours": 71186.44,
+      "execution_p_3101_completed_revenue": 8400000,
+      "execution_p_3101_contract_gross_margin": 0.24,
+      "execution_p_3101_customer_delivery_priority": 1,
+      "execution_p_3101_ending_deferred_hours": 0,
+      "execution_p_3101_ending_deferred_revenue": 0,
+      "execution_p_3101_liquidated_damages": 0,
+      "execution_p_3101_monthly_liquidated_damages_rate": 0.006,
+      "execution_p_3101_net_gross_profit_after_damages": 2016000,
+      "execution_p_3101_release_status": "Capacity cleared",
+      "execution_p_3101_signed_backlog": 8400000,
+      "execution_p_3107_completed_gross_profit": 1518000,
+      "execution_p_3107_completed_hours": 54761.9,
+      "execution_p_3107_completed_revenue": 6900000,
+      "execution_p_3107_contract_gross_margin": 0.22,
+      "execution_p_3107_customer_delivery_priority": 2,
+      "execution_p_3107_ending_deferred_hours": 0,
+      "execution_p_3107_ending_deferred_revenue": 0,
+      "execution_p_3107_liquidated_damages": 0,
+      "execution_p_3107_monthly_liquidated_damages_rate": 0.008,
+      "execution_p_3107_net_gross_profit_after_damages": 1518000,
+      "execution_p_3107_release_status": "Capacity cleared",
+      "execution_p_3107_signed_backlog": 6900000,
+      "execution_p_3114_completed_gross_profit": 1512000,
+      "execution_p_3114_completed_hours": 42424.24,
+      "execution_p_3114_completed_revenue": 5600000,
+      "execution_p_3114_contract_gross_margin": 0.27,
+      "execution_p_3114_customer_delivery_priority": 1,
+      "execution_p_3114_ending_deferred_hours": 0,
+      "execution_p_3114_ending_deferred_revenue": 0,
+      "execution_p_3114_liquidated_damages": 0,
+      "execution_p_3114_monthly_liquidated_damages_rate": 0.007,
+      "execution_p_3114_net_gross_profit_after_damages": 1512000,
+      "execution_p_3114_release_status": "Capacity cleared",
+      "execution_p_3114_signed_backlog": 5600000,
+      "execution_p_3122_completed_gross_profit": 438072.19,
+      "execution_p_3122_completed_hours": 18253.01,
+      "execution_p_3122_completed_revenue": 2190360.96,
+      "execution_p_3122_contract_gross_margin": 0.2,
+      "execution_p_3122_customer_delivery_priority": 3,
+      "execution_p_3122_ending_deferred_hours": 21330.33,
+      "execution_p_3122_ending_deferred_revenue": 2559639.04,
+      "execution_p_3122_liquidated_damages": 17264.21,
+      "execution_p_3122_monthly_liquidated_damages_rate": 0.01,
+      "execution_p_3122_net_gross_profit_after_damages": 420807.98,
+      "execution_p_3122_release_status": "Executive decision required",
+      "execution_p_3122_signed_backlog": 4750000,
+      "execution_p_3130_completed_gross_profit": 1800000,
+      "execution_p_3130_completed_hours": 52173.91,
+      "execution_p_3130_completed_revenue": 7200000,
+      "execution_p_3130_contract_gross_margin": 0.25,
+      "execution_p_3130_customer_delivery_priority": 2,
+      "execution_p_3130_ending_deferred_hours": 0,
+      "execution_p_3130_ending_deferred_revenue": 0,
+      "execution_p_3130_liquidated_damages": 0,
+      "execution_p_3130_monthly_liquidated_damages_rate": 0.009,
+      "execution_p_3130_net_gross_profit_after_damages": 1800000,
+      "execution_p_3130_release_status": "Capacity cleared",
+      "execution_p_3130_signed_backlog": 7200000,
+      "execution_p_3138_completed_gross_profit": 140400,
+      "execution_p_3138_completed_hours": 6240,
+      "execution_p_3138_completed_revenue": 780000,
+      "execution_p_3138_contract_gross_margin": 0.18,
+      "execution_p_3138_customer_delivery_priority": 4,
+      "execution_p_3138_ending_deferred_hours": 24960,
+      "execution_p_3138_ending_deferred_revenue": 3120000,
+      "execution_p_3138_liquidated_damages": 31200,
+      "execution_p_3138_monthly_liquidated_damages_rate": 0.012,
+      "execution_p_3138_net_gross_profit_after_damages": 109200,
+      "execution_p_3138_release_status": "Executive decision required",
+      "execution_p_3138_signed_backlog": 3900000,
+      "execution_p_3145_completed_gross_profit": 854711.65,
+      "execution_p_3145_completed_hours": 20326.08,
+      "execution_p_3145_completed_revenue": 2947281.54,
+      "execution_p_3145_contract_gross_margin": 0.29,
+      "execution_p_3145_customer_delivery_priority": 3,
+      "execution_p_3145_ending_deferred_hours": 14846.33,
+      "execution_p_3145_ending_deferred_revenue": 2152718.46,
+      "execution_p_3145_liquidated_damages": 5162.29,
+      "execution_p_3145_monthly_liquidated_damages_rate": 0.011,
+      "execution_p_3145_net_gross_profit_after_damages": 849549.36,
+      "execution_p_3145_release_status": "Executive decision required",
+      "execution_p_3145_signed_backlog": 5100000,
+      "execution_p_3152_completed_gross_profit": 0,
+      "execution_p_3152_completed_hours": 0,
+      "execution_p_3152_completed_revenue": 0,
+      "execution_p_3152_contract_gross_margin": 0.17,
+      "execution_p_3152_customer_delivery_priority": 4,
+      "execution_p_3152_ending_deferred_hours": 21923.08,
+      "execution_p_3152_ending_deferred_revenue": 2850000,
+      "execution_p_3152_liquidated_damages": 26600,
+      "execution_p_3152_monthly_liquidated_damages_rate": 0.014,
+      "execution_p_3152_net_gross_profit_after_damages": -26600,
+      "execution_p_3152_release_status": "Executive decision required",
+      "execution_p_3152_signed_backlog": 2850000,
+      "execution_portfolio_completed_gross_profit": 8279183.84,
+      "execution_portfolio_completed_revenue": 34017642.5,
+      "execution_portfolio_ending_deferred_hours": 83059.74,
+      "execution_portfolio_ending_deferred_revenue": 10682357.5,
+      "execution_portfolio_highest_priority_deferred_project": "P-3145",
+      "execution_portfolio_liquidated_damages": 80226.5,
+      "execution_portfolio_net_gross_profit_after_damages": 8198957.34,
+      "execution_portfolio_release_status": "Executive portfolio decision required",
+      "execution_portfolio_revenue_check_delta": 0,
+      "executive_recovery_decision": "Hold for executive recovery plan",
+      "executive_recovery_deferred_gross_profit_at_risk": 2182316.16,
+      "executive_recovery_deferred_revenue_at_risk": 10682357.5,
+      "executive_recovery_execution_net_gp_after_damages": 8198957.34,
+      "executive_recovery_gross_commitment_gp_after_remediation": 8564585.52,
+      "executive_recovery_gross_commitment_shortfall": 365628.18,
+      "executive_recovery_highest_priority_deferred_project": "P-3145",
+      "executive_recovery_liquidated_damages": 80226.5,
+      "executive_recovery_probability_plan_gp_after_remediation": 8090767.01,
+      "executive_recovery_probability_plan_variance": 108190.33,
+      "executive_recovery_release_condition": "No deferred priority hours and gross-commitment GP shortfall cured",
+      "executive_recovery_required_action": "Recover or rephase deferred priority backlog before release",
+      "executive_recovery_required_recovery": 365628.18,
       "first_constrained_month": "2027-03",
-      "maximum_capacity_shortfall_hours": 42005.16
+      "fy27_available_hours": 467617.6,
+      "fy27_backlog_revenue_burn": 41902500,
+      "fy27_required_hours": 327497.86,
+      "gross_commitment_2026_07_base_capacity_shortfall": 0,
+      "gross_commitment_2026_07_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_07_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_07_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_07_incremental_remediation_cost": 0,
+      "gross_commitment_2026_07_required_hours": 912.65,
+      "gross_commitment_2026_07_revenue_burn": 107692.31,
+      "gross_commitment_2026_07_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_07_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2026_08_base_capacity_shortfall": 0,
+      "gross_commitment_2026_08_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_08_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_08_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_08_incremental_remediation_cost": 0,
+      "gross_commitment_2026_08_required_hours": 2655.02,
+      "gross_commitment_2026_08_revenue_burn": 319930.07,
+      "gross_commitment_2026_08_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_08_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2026_09_base_capacity_shortfall": 0,
+      "gross_commitment_2026_09_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_09_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_09_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_09_incremental_remediation_cost": 0,
+      "gross_commitment_2026_09_required_hours": 4397.39,
+      "gross_commitment_2026_09_revenue_burn": 532167.83,
+      "gross_commitment_2026_09_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_09_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2026_10_base_capacity_shortfall": 0,
+      "gross_commitment_2026_10_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_10_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_10_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_10_incremental_remediation_cost": 0,
+      "gross_commitment_2026_10_required_hours": 7082.53,
+      "gross_commitment_2026_10_revenue_burn": 868850.04,
+      "gross_commitment_2026_10_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_10_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2026_11_base_capacity_shortfall": 0,
+      "gross_commitment_2026_11_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_11_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_11_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_11_incremental_remediation_cost": 0,
+      "gross_commitment_2026_11_required_hours": 9767.66,
+      "gross_commitment_2026_11_revenue_burn": 1205532.25,
+      "gross_commitment_2026_11_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_11_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2026_12_base_capacity_shortfall": 0,
+      "gross_commitment_2026_12_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2026_12_contingent_subcontract_deployed": 0,
+      "gross_commitment_2026_12_emergency_overtime_deployed": 0,
+      "gross_commitment_2026_12_incremental_remediation_cost": 0,
+      "gross_commitment_2026_12_required_hours": 13866.48,
+      "gross_commitment_2026_12_revenue_burn": 1711857.31,
+      "gross_commitment_2026_12_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2026_12_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2027_01_base_capacity_shortfall": 0,
+      "gross_commitment_2027_01_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2027_01_contingent_subcontract_deployed": 0,
+      "gross_commitment_2027_01_emergency_overtime_deployed": 0,
+      "gross_commitment_2027_01_incremental_remediation_cost": 0,
+      "gross_commitment_2027_01_required_hours": 20449.78,
+      "gross_commitment_2027_01_revenue_burn": 2561039.52,
+      "gross_commitment_2027_01_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2027_01_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2027_02_base_capacity_shortfall": 0,
+      "gross_commitment_2027_02_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2027_02_contingent_subcontract_deployed": 0,
+      "gross_commitment_2027_02_emergency_overtime_deployed": 0,
+      "gross_commitment_2027_02_incremental_remediation_cost": 0,
+      "gross_commitment_2027_02_required_hours": 29113.07,
+      "gross_commitment_2027_02_revenue_burn": 3670221.72,
+      "gross_commitment_2027_02_shortfall_after_emergency_overtime": 0,
+      "gross_commitment_2027_02_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2027_03_base_capacity_shortfall": 2666.61,
+      "gross_commitment_2027_03_capacity_release_status": "Capacity cleared",
+      "gross_commitment_2027_03_contingent_subcontract_deployed": 1317.01,
+      "gross_commitment_2027_03_emergency_overtime_deployed": 1349.6,
+      "gross_commitment_2027_03_incremental_remediation_cost": 221984.48,
+      "gross_commitment_2027_03_required_hours": 41293.61,
+      "gross_commitment_2027_03_revenue_burn": 5289403.93,
+      "gross_commitment_2027_03_shortfall_after_emergency_overtime": 1317.01,
+      "gross_commitment_2027_03_unresolved_capacity_shortfall": 0,
+      "gross_commitment_2027_04_base_capacity_shortfall": 18207,
+      "gross_commitment_2027_04_capacity_release_status": "Executive sequencing required",
+      "gross_commitment_2027_04_contingent_subcontract_deployed": 4000,
+      "gross_commitment_2027_04_emergency_overtime_deployed": 1360.8,
+      "gross_commitment_2027_04_incremental_remediation_cost": 557834,
+      "gross_commitment_2027_04_required_hours": 57128,
+      "gross_commitment_2027_04_revenue_burn": 7383586.14,
+      "gross_commitment_2027_04_shortfall_after_emergency_overtime": 16846.2,
+      "gross_commitment_2027_04_unresolved_capacity_shortfall": 12846.2,
+      "gross_commitment_2027_05_base_capacity_shortfall": 32718.38,
+      "gross_commitment_2027_05_capacity_release_status": "Executive sequencing required",
+      "gross_commitment_2027_05_contingent_subcontract_deployed": 4000,
+      "gross_commitment_2027_05_emergency_overtime_deployed": 1372,
+      "gross_commitment_2027_05_incremental_remediation_cost": 558310,
+      "gross_commitment_2027_05_required_hours": 72962.38,
+      "gross_commitment_2027_05_revenue_burn": 9477768.34,
+      "gross_commitment_2027_05_shortfall_after_emergency_overtime": 31346.38,
+      "gross_commitment_2027_05_unresolved_capacity_shortfall": 27346.38,
+      "gross_commitment_2027_06_base_capacity_shortfall": 48250.36,
+      "gross_commitment_2027_06_capacity_release_status": "Executive sequencing required",
+      "gross_commitment_2027_06_contingent_subcontract_deployed": 4000,
+      "gross_commitment_2027_06_emergency_overtime_deployed": 1383.2,
+      "gross_commitment_2027_06_incremental_remediation_cost": 558786,
+      "gross_commitment_2027_06_required_hours": 88796.76,
+      "gross_commitment_2027_06_revenue_burn": 11571950.55,
+      "gross_commitment_2027_06_shortfall_after_emergency_overtime": 46867.16,
+      "gross_commitment_2027_06_unresolved_capacity_shortfall": 42867.16,
+      "gross_commitment_first_constrained_month": "2027-03",
+      "gross_commitment_maximum_capacity_shortfall_hours": 48250.36,
+      "gross_commitment_release_status": "Executive sequencing required",
+      "gross_commitment_remediation_cost": 1896914.48,
+      "gross_commitment_remediation_cost_variance_to_probability_plan": 220381.49,
+      "gross_commitment_required_hours": 348425.32,
+      "gross_commitment_required_hours_variance_to_probability_plan": 20927.47,
+      "gross_commitment_revenue_burn": 44700000,
+      "gross_commitment_revenue_variance_to_probability_plan": 2797500,
+      "gross_commitment_unresolved_hours": 83059.74,
+      "gross_commitment_unresolved_hours_variance_to_probability_plan": 15119.3,
+      "maximum_capacity_shortfall_hours": 42005.16,
+      "probability_plan_remediation_cost": 1676532.99,
+      "probability_plan_unresolved_hours": 67940.44,
+      "release_bridge_2026_07_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_07_execution_net_gross_profit_after_damages": 25846.15,
+      "release_bridge_2026_07_gross_commitment_gross_profit_after_remediation": 25846.15,
+      "release_bridge_2026_07_gross_commitment_gross_profit_before_remediation": 25846.15,
+      "release_bridge_2026_07_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_07_incremental_gross_profit_after_remediation": 0,
+      "release_bridge_2026_07_management_release_status": "Capacity cleared",
+      "release_bridge_2026_07_probability_plan_gross_profit_after_remediation": 25846.15,
+      "release_bridge_2026_07_probability_plan_gross_profit_before_remediation": 25846.15,
+      "release_bridge_2026_07_probability_plan_remediation_cost": 0,
+      "release_bridge_2026_08_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_08_execution_net_gross_profit_after_damages": 74692.31,
+      "release_bridge_2026_08_gross_commitment_gross_profit_after_remediation": 74692.31,
+      "release_bridge_2026_08_gross_commitment_gross_profit_before_remediation": 74692.31,
+      "release_bridge_2026_08_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_08_incremental_gross_profit_after_remediation": 1150,
+      "release_bridge_2026_08_management_release_status": "Capacity cleared",
+      "release_bridge_2026_08_probability_plan_gross_profit_after_remediation": 73542.31,
+      "release_bridge_2026_08_probability_plan_gross_profit_before_remediation": 73542.31,
+      "release_bridge_2026_08_probability_plan_remediation_cost": 0,
+      "release_bridge_2026_09_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_09_execution_net_gross_profit_after_damages": 123538.46,
+      "release_bridge_2026_09_gross_commitment_gross_profit_after_remediation": 123538.46,
+      "release_bridge_2026_09_gross_commitment_gross_profit_before_remediation": 123538.46,
+      "release_bridge_2026_09_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_09_incremental_gross_profit_after_remediation": 2300,
+      "release_bridge_2026_09_management_release_status": "Capacity cleared",
+      "release_bridge_2026_09_probability_plan_gross_profit_after_remediation": 121238.46,
+      "release_bridge_2026_09_probability_plan_gross_profit_before_remediation": 121238.46,
+      "release_bridge_2026_09_probability_plan_remediation_cost": 0,
+      "release_bridge_2026_10_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_10_execution_net_gross_profit_after_damages": 205984.62,
+      "release_bridge_2026_10_gross_commitment_gross_profit_after_remediation": 205984.62,
+      "release_bridge_2026_10_gross_commitment_gross_profit_before_remediation": 205984.62,
+      "release_bridge_2026_10_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_10_incremental_gross_profit_after_remediation": 3450,
+      "release_bridge_2026_10_management_release_status": "Capacity cleared",
+      "release_bridge_2026_10_probability_plan_gross_profit_after_remediation": 202534.62,
+      "release_bridge_2026_10_probability_plan_gross_profit_before_remediation": 202534.62,
+      "release_bridge_2026_10_probability_plan_remediation_cost": 0,
+      "release_bridge_2026_11_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_11_execution_net_gross_profit_after_damages": 288430.77,
+      "release_bridge_2026_11_gross_commitment_gross_profit_after_remediation": 288430.77,
+      "release_bridge_2026_11_gross_commitment_gross_profit_before_remediation": 288430.77,
+      "release_bridge_2026_11_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_11_incremental_gross_profit_after_remediation": 4600,
+      "release_bridge_2026_11_management_release_status": "Capacity cleared",
+      "release_bridge_2026_11_probability_plan_gross_profit_after_remediation": 283830.77,
+      "release_bridge_2026_11_probability_plan_gross_profit_before_remediation": 283830.77,
+      "release_bridge_2026_11_probability_plan_remediation_cost": 0,
+      "release_bridge_2026_12_deferred_revenue_at_risk": 0,
+      "release_bridge_2026_12_execution_net_gross_profit_after_damages": 404805.49,
+      "release_bridge_2026_12_gross_commitment_gross_profit_after_remediation": 404805.49,
+      "release_bridge_2026_12_gross_commitment_gross_profit_before_remediation": 404805.49,
+      "release_bridge_2026_12_gross_commitment_remediation_cost": 0,
+      "release_bridge_2026_12_incremental_gross_profit_after_remediation": 10839.29,
+      "release_bridge_2026_12_management_release_status": "Capacity cleared",
+      "release_bridge_2026_12_probability_plan_gross_profit_after_remediation": 393966.21,
+      "release_bridge_2026_12_probability_plan_gross_profit_before_remediation": 393966.21,
+      "release_bridge_2026_12_probability_plan_remediation_cost": 0,
+      "release_bridge_2027_01_deferred_revenue_at_risk": 0,
+      "release_bridge_2027_01_execution_net_gross_profit_after_damages": 606894.51,
+      "release_bridge_2027_01_gross_commitment_gross_profit_after_remediation": 606894.51,
+      "release_bridge_2027_01_gross_commitment_gross_profit_before_remediation": 606894.51,
+      "release_bridge_2027_01_gross_commitment_remediation_cost": 0,
+      "release_bridge_2027_01_incremental_gross_profit_after_remediation": 25650,
+      "release_bridge_2027_01_management_release_status": "Capacity cleared",
+      "release_bridge_2027_01_probability_plan_gross_profit_after_remediation": 581244.51,
+      "release_bridge_2027_01_probability_plan_gross_profit_before_remediation": 581244.51,
+      "release_bridge_2027_01_probability_plan_remediation_cost": 0,
+      "release_bridge_2027_02_deferred_revenue_at_risk": 0,
+      "release_bridge_2027_02_execution_net_gross_profit_after_damages": 855783.52,
+      "release_bridge_2027_02_gross_commitment_gross_profit_after_remediation": 855783.52,
+      "release_bridge_2027_02_gross_commitment_gross_profit_before_remediation": 855783.52,
+      "release_bridge_2027_02_gross_commitment_remediation_cost": 0,
+      "release_bridge_2027_02_incremental_gross_profit_after_remediation": 40460.71,
+      "release_bridge_2027_02_management_release_status": "Capacity cleared",
+      "release_bridge_2027_02_probability_plan_gross_profit_after_remediation": 815322.8,
+      "release_bridge_2027_02_probability_plan_gross_profit_before_remediation": 815322.8,
+      "release_bridge_2027_02_probability_plan_remediation_cost": 0,
+      "release_bridge_2027_03_deferred_revenue_at_risk": 0,
+      "release_bridge_2027_03_execution_net_gross_profit_after_damages": 1252572.53,
+      "release_bridge_2027_03_gross_commitment_gross_profit_after_remediation": 1030588.05,
+      "release_bridge_2027_03_gross_commitment_gross_profit_before_remediation": 1252572.53,
+      "release_bridge_2027_03_gross_commitment_remediation_cost": 221984.48,
+      "release_bridge_2027_03_incremental_gross_profit_after_remediation": -135530.06,
+      "release_bridge_2027_03_management_release_status": "Capacity cleared",
+      "release_bridge_2027_03_probability_plan_gross_profit_after_remediation": 1166118.11,
+      "release_bridge_2027_03_probability_plan_gross_profit_before_remediation": 1167721.1,
+      "release_bridge_2027_03_probability_plan_remediation_cost": 1602.99,
+      "release_bridge_2027_04_deferred_revenue_at_risk": 1609281.9,
+      "release_bridge_2027_04_execution_net_gross_profit_after_damages": 1438105.16,
+      "release_bridge_2027_04_gross_commitment_gross_profit_after_remediation": 1172277.54,
+      "release_bridge_2027_04_gross_commitment_gross_profit_before_remediation": 1730111.54,
+      "release_bridge_2027_04_gross_commitment_remediation_cost": 557834,
+      "release_bridge_2027_04_incremental_gross_profit_after_remediation": 129242.14,
+      "release_bridge_2027_04_management_release_status": "Portfolio resequencing required",
+      "release_bridge_2027_04_probability_plan_gross_profit_after_remediation": 1043035.4,
+      "release_bridge_2027_04_probability_plan_gross_profit_before_remediation": 1600869.4,
+      "release_bridge_2027_04_probability_plan_remediation_cost": 557834,
+      "release_bridge_2027_05_deferred_revenue_at_risk": 5086437.87,
+      "release_bridge_2027_05_execution_net_gross_profit_after_damages": 1499729.64,
+      "release_bridge_2027_05_gross_commitment_gross_profit_after_remediation": 1649340.55,
+      "release_bridge_2027_05_gross_commitment_gross_profit_before_remediation": 2207650.55,
+      "release_bridge_2027_05_gross_commitment_remediation_cost": 558310,
+      "release_bridge_2027_05_incremental_gross_profit_after_remediation": 173632.86,
+      "release_bridge_2027_05_management_release_status": "Portfolio resequencing required",
+      "release_bridge_2027_05_probability_plan_gross_profit_after_remediation": 1475707.69,
+      "release_bridge_2027_05_probability_plan_gross_profit_before_remediation": 2034017.69,
+      "release_bridge_2027_05_probability_plan_remediation_cost": 558310,
+      "release_bridge_2027_06_deferred_revenue_at_risk": 10682357.5,
+      "release_bridge_2027_06_execution_net_gross_profit_after_damages": 1422574.19,
+      "release_bridge_2027_06_gross_commitment_gross_profit_after_remediation": 2126403.56,
+      "release_bridge_2027_06_gross_commitment_gross_profit_before_remediation": 2685189.56,
+      "release_bridge_2027_06_gross_commitment_remediation_cost": 558786,
+      "release_bridge_2027_06_incremental_gross_profit_after_remediation": 218023.57,
+      "release_bridge_2027_06_management_release_status": "Portfolio resequencing required",
+      "release_bridge_2027_06_probability_plan_gross_profit_after_remediation": 1908379.99,
+      "release_bridge_2027_06_probability_plan_gross_profit_before_remediation": 2467165.99,
+      "release_bridge_2027_06_probability_plan_remediation_cost": 558786,
+      "release_bridge_deferred_revenue_at_risk": 10682357.5,
+      "release_bridge_execution_net_gross_profit_after_damages": 8198957.34,
+      "release_bridge_gross_commitment_gross_profit_after_remediation": 8564585.52,
+      "release_bridge_management_decision": "Hold for executive portfolio sequencing",
+      "release_bridge_probability_plan_gross_profit_after_remediation": 8090767.01,
+      "signed_backlog": 44700000
+    },
+    "artifact": {
+      "edit": true,
+      "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
+      "type": "xlsx"
     },
     "criteria": [
       {
-        "id": "structure__sheet_contract_backlog",
+        "category": "structure",
         "description": "Required worksheet 'Contract Backlog' is present",
+        "id": "structure__sheet_contract_backlog",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Contract Backlog"
+        "sheet": "Contract Backlog",
+        "weight": 1
       },
       {
-        "id": "structure__sheet_capacity_inputs",
+        "category": "structure",
         "description": "Required worksheet 'Capacity Inputs' is present",
+        "id": "structure__sheet_capacity_inputs",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Capacity Inputs"
+        "sheet": "Capacity Inputs",
+        "weight": 1
       },
       {
-        "id": "structure__sheet_revenue_burn",
+        "category": "structure",
+        "description": "Required worksheet 'Execution Authority' is present",
+        "id": "structure__sheet_execution_authority",
+        "kind": "xlsx_sheet_present",
+        "semantic": false,
+        "sheet": "Execution Authority",
+        "weight": 1
+      },
+      {
+        "category": "structure",
         "description": "Required worksheet 'Revenue Burn' is present",
+        "id": "structure__sheet_revenue_burn",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Revenue Burn"
+        "sheet": "Revenue Burn",
+        "weight": 1
       },
       {
-        "id": "structure__sheet_labor_capacity",
+        "category": "structure",
         "description": "Required worksheet 'Labor Capacity' is present",
+        "id": "structure__sheet_labor_capacity",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Labor Capacity"
+        "sheet": "Labor Capacity",
+        "weight": 1
       },
       {
-        "id": "structure__sheet_gap_analysis",
+        "category": "structure",
         "description": "Required worksheet 'Gap Analysis' is present",
+        "id": "structure__sheet_gap_analysis",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Gap Analysis"
+        "sheet": "Gap Analysis",
+        "weight": 1
       },
       {
-        "id": "structure__sheet_checks",
+        "category": "structure",
+        "description": "Required worksheet 'Project Execution' is present",
+        "id": "structure__sheet_project_execution",
+        "kind": "xlsx_sheet_present",
+        "semantic": false,
+        "sheet": "Project Execution",
+        "weight": 1
+      },
+      {
+        "category": "structure",
         "description": "Required worksheet 'Checks' is present",
+        "id": "structure__sheet_checks",
         "kind": "xlsx_sheet_present",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "sheet": "Checks"
+        "sheet": "Checks",
+        "weight": 1
       },
       {
-        "id": "structure__preserve_contract_backlog",
+        "category": "integrity",
         "description": "Protected source worksheet 'Contract Backlog' remains unchanged",
+        "id": "structure__preserve_contract_backlog",
         "kind": "xlsx_sheet_preserved",
-        "category": "integrity",
-        "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0,
-        "sheet": "Contract Backlog"
+        "sheet": "Contract Backlog",
+        "weight": 10
       },
       {
-        "id": "structure__preserve_capacity_inputs",
+        "category": "integrity",
         "description": "Protected source worksheet 'Capacity Inputs' remains unchanged",
+        "id": "structure__preserve_capacity_inputs",
         "kind": "xlsx_sheet_preserved",
+        "semantic": false,
+        "sheet": "Capacity Inputs",
+        "weight": 10
+      },
+      {
         "category": "integrity",
-        "weight": 10,
+        "description": "Protected source worksheet 'Execution Authority' remains unchanged",
+        "id": "structure__preserve_execution_authority",
+        "kind": "xlsx_sheet_preserved",
         "semantic": false,
-        "failure_cap": 0.0,
-        "sheet": "Capacity Inputs"
+        "sheet": "Execution Authority",
+        "weight": 10
       },
       {
-        "id": "model_integrity__formula_graph",
-        "description": "The model contains at least 140 substantive formulas",
-        "kind": "xlsx_formula_count",
-        "category": "auditability",
-        "weight": 5,
-        "semantic": false,
-        "failure_cap": 0.69,
-        "min_formulas": 140
-      },
-      {
-        "id": "model_integrity__no_errors",
+        "category": "integrity",
         "description": "The submitted workbook contains no spreadsheet error values",
+        "id": "model_integrity__no_errors",
         "kind": "xlsx_no_errors",
-        "category": "integrity",
-        "weight": 10,
         "semantic": false,
-        "failure_cap": 0.0
+        "weight": 10
       },
       {
-        "id": "formula_lineage__headline_signed_backlog",
+        "category": "auditability",
         "description": "Headline output 'signed_backlog' is formula-driven from workbook references",
+        "headline_label": "signed_backlog",
+        "id": "formula_lineage__headline_signed_backlog",
         "kind": "xlsx_headline_formula",
-        "category": "auditability",
-        "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
-        "headline_label": "signed_backlog"
+        "weight": 5
       },
       {
-        "id": "formula_lineage__headline_fy27_backlog_revenue_burn",
+        "category": "auditability",
         "description": "Headline output 'fy27_backlog_revenue_burn' is formula-driven from workbook references",
+        "headline_label": "fy27_backlog_revenue_burn",
+        "id": "formula_lineage__headline_fy27_backlog_revenue_burn",
         "kind": "xlsx_headline_formula",
-        "category": "auditability",
-        "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
-        "headline_label": "fy27_backlog_revenue_burn"
+        "weight": 5
       },
       {
-        "id": "formula_lineage__headline_first_constrained_month",
+        "category": "auditability",
+        "description": "Headline output 'fy27_required_hours' is formula-driven from workbook references",
+        "headline_label": "fy27_required_hours",
+        "id": "formula_lineage__headline_fy27_required_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'fy27_available_hours' is formula-driven from workbook references",
+        "headline_label": "fy27_available_hours",
+        "id": "formula_lineage__headline_fy27_available_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'constrained_month_count' is formula-driven from workbook references",
+        "headline_label": "constrained_month_count",
+        "id": "formula_lineage__headline_constrained_month_count",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
         "description": "Headline output 'first_constrained_month' is formula-driven from workbook references",
+        "headline_label": "first_constrained_month",
+        "id": "formula_lineage__headline_first_constrained_month",
         "kind": "xlsx_headline_formula",
-        "category": "auditability",
-        "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
-        "headline_label": "first_constrained_month"
+        "weight": 5
       },
       {
-        "id": "formula_lineage__headline_maximum_capacity_shortfall_hours",
+        "category": "auditability",
         "description": "Headline output 'maximum_capacity_shortfall_hours' is formula-driven from workbook references",
+        "headline_label": "maximum_capacity_shortfall_hours",
+        "id": "formula_lineage__headline_maximum_capacity_shortfall_hours",
         "kind": "xlsx_headline_formula",
-        "category": "auditability",
-        "weight": 5,
         "semantic": false,
-        "failure_cap": 0.69,
-        "headline_label": "maximum_capacity_shortfall_hours"
+        "weight": 5
       },
       {
-        "id": "formula_lineage__formula_sheet_revenue_burn",
+        "category": "auditability",
+        "description": "Headline output 'probability_plan_unresolved_hours' is formula-driven from workbook references",
+        "headline_label": "probability_plan_unresolved_hours",
+        "id": "formula_lineage__headline_probability_plan_unresolved_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'probability_plan_remediation_cost' is formula-driven from workbook references",
+        "headline_label": "probability_plan_remediation_cost",
+        "id": "formula_lineage__headline_probability_plan_remediation_cost",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_revenue_burn' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_revenue_burn",
+        "id": "formula_lineage__headline_gross_commitment_revenue_burn",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_required_hours' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_required_hours",
+        "id": "formula_lineage__headline_gross_commitment_required_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_first_constrained_month' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_first_constrained_month",
+        "id": "formula_lineage__headline_gross_commitment_first_constrained_month",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_maximum_capacity_shortfall_hours' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_maximum_capacity_shortfall_hours",
+        "id": "formula_lineage__headline_gross_commitment_maximum_capacity_shortfall_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_unresolved_hours' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_unresolved_hours",
+        "id": "formula_lineage__headline_gross_commitment_unresolved_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_remediation_cost' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_remediation_cost",
+        "id": "formula_lineage__headline_gross_commitment_remediation_cost",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_revenue_variance_to_probability_plan' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_revenue_variance_to_probability_plan",
+        "id": "formula_lineage__headline_gross_commitment_revenue_variance_to_probability_plan",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_required_hours_variance_to_probability_plan' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_required_hours_variance_to_probability_plan",
+        "id": "formula_lineage__headline_gross_commitment_required_hours_variance_to_probability_plan",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_unresolved_hours_variance_to_probability_plan' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_unresolved_hours_variance_to_probability_plan",
+        "id": "formula_lineage__headline_gross_commitment_unresolved_hours_variance_to_probability_plan",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_remediation_cost_variance_to_probability_plan' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_remediation_cost_variance_to_probability_plan",
+        "id": "formula_lineage__headline_gross_commitment_remediation_cost_variance_to_probability_plan",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'gross_commitment_release_status' is formula-driven from workbook references",
+        "headline_label": "gross_commitment_release_status",
+        "id": "formula_lineage__headline_gross_commitment_release_status",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'controlling_capacity_case' is formula-driven from workbook references",
+        "headline_label": "controlling_capacity_case",
+        "id": "formula_lineage__headline_controlling_capacity_case",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_completed_revenue' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_completed_revenue",
+        "id": "formula_lineage__headline_execution_portfolio_completed_revenue",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_ending_deferred_revenue' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_ending_deferred_revenue",
+        "id": "formula_lineage__headline_execution_portfolio_ending_deferred_revenue",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_revenue_check_delta' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_revenue_check_delta",
+        "id": "formula_lineage__headline_execution_portfolio_revenue_check_delta",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_ending_deferred_hours' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_ending_deferred_hours",
+        "id": "formula_lineage__headline_execution_portfolio_ending_deferred_hours",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_completed_gross_profit' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_completed_gross_profit",
+        "id": "formula_lineage__headline_execution_portfolio_completed_gross_profit",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_liquidated_damages' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_liquidated_damages",
+        "id": "formula_lineage__headline_execution_portfolio_liquidated_damages",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_net_gross_profit_after_damages' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_net_gross_profit_after_damages",
+        "id": "formula_lineage__headline_execution_portfolio_net_gross_profit_after_damages",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_highest_priority_deferred_project' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_highest_priority_deferred_project",
+        "id": "formula_lineage__headline_execution_portfolio_highest_priority_deferred_project",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'execution_portfolio_release_status' is formula-driven from workbook references",
+        "headline_label": "execution_portfolio_release_status",
+        "id": "formula_lineage__headline_execution_portfolio_release_status",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'release_bridge_probability_plan_gross_profit_after_remediation' is formula-driven from workbook references",
+        "headline_label": "release_bridge_probability_plan_gross_profit_after_remediation",
+        "id": "formula_lineage__headline_release_bridge_probability_plan_gross_profit_after_remediation",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'release_bridge_gross_commitment_gross_profit_after_remediation' is formula-driven from workbook references",
+        "headline_label": "release_bridge_gross_commitment_gross_profit_after_remediation",
+        "id": "formula_lineage__headline_release_bridge_gross_commitment_gross_profit_after_remediation",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'release_bridge_execution_net_gross_profit_after_damages' is formula-driven from workbook references",
+        "headline_label": "release_bridge_execution_net_gross_profit_after_damages",
+        "id": "formula_lineage__headline_release_bridge_execution_net_gross_profit_after_damages",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'release_bridge_deferred_revenue_at_risk' is formula-driven from workbook references",
+        "headline_label": "release_bridge_deferred_revenue_at_risk",
+        "id": "formula_lineage__headline_release_bridge_deferred_revenue_at_risk",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'release_bridge_management_decision' is formula-driven from workbook references",
+        "headline_label": "release_bridge_management_decision",
+        "id": "formula_lineage__headline_release_bridge_management_decision",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_probability_plan_gp_after_remediation' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_probability_plan_gp_after_remediation",
+        "id": "formula_lineage__headline_executive_recovery_probability_plan_gp_after_remediation",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_gross_commitment_gp_after_remediation' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_gross_commitment_gp_after_remediation",
+        "id": "formula_lineage__headline_executive_recovery_gross_commitment_gp_after_remediation",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_execution_net_gp_after_damages' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_execution_net_gp_after_damages",
+        "id": "formula_lineage__headline_executive_recovery_execution_net_gp_after_damages",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_gross_commitment_shortfall' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_gross_commitment_shortfall",
+        "id": "formula_lineage__headline_executive_recovery_gross_commitment_shortfall",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_deferred_revenue_at_risk' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_deferred_revenue_at_risk",
+        "id": "formula_lineage__headline_executive_recovery_deferred_revenue_at_risk",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_deferred_gross_profit_at_risk' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_deferred_gross_profit_at_risk",
+        "id": "formula_lineage__headline_executive_recovery_deferred_gross_profit_at_risk",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_liquidated_damages' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_liquidated_damages",
+        "id": "formula_lineage__headline_executive_recovery_liquidated_damages",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_required_recovery' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_required_recovery",
+        "id": "formula_lineage__headline_executive_recovery_required_recovery",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_highest_priority_deferred_project' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_highest_priority_deferred_project",
+        "id": "formula_lineage__headline_executive_recovery_highest_priority_deferred_project",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
+        "description": "Headline output 'executive_recovery_decision' is formula-driven from workbook references",
+        "headline_label": "executive_recovery_decision",
+        "id": "formula_lineage__headline_executive_recovery_decision",
+        "kind": "xlsx_headline_formula",
+        "semantic": false,
+        "weight": 5
+      },
+      {
+        "category": "auditability",
         "description": "Required model worksheet 'Revenue Burn' contains formulas",
+        "id": "formula_lineage__formula_sheet_revenue_burn",
         "kind": "xlsx_formula_sheet",
-        "category": "auditability",
-        "weight": 3,
         "semantic": false,
-        "sheet": "Revenue Burn"
+        "sheet": "Revenue Burn",
+        "weight": 3
       },
       {
-        "id": "formula_lineage__formula_sheet_labor_capacity",
+        "category": "auditability",
         "description": "Required model worksheet 'Labor Capacity' contains formulas",
+        "id": "formula_lineage__formula_sheet_labor_capacity",
         "kind": "xlsx_formula_sheet",
-        "category": "auditability",
-        "weight": 3,
         "semantic": false,
-        "sheet": "Labor Capacity"
+        "sheet": "Labor Capacity",
+        "weight": 3
       },
       {
-        "id": "formula_lineage__formula_sheet_gap_analysis",
+        "category": "auditability",
         "description": "Required model worksheet 'Gap Analysis' contains formulas",
+        "id": "formula_lineage__formula_sheet_gap_analysis",
         "kind": "xlsx_formula_sheet",
-        "category": "auditability",
-        "weight": 3,
         "semantic": false,
-        "sheet": "Gap Analysis"
+        "sheet": "Gap Analysis",
+        "weight": 3
       },
       {
-        "id": "formula_lineage__formula_sheet_checks",
+        "category": "auditability",
+        "description": "Required model worksheet 'Project Execution' contains formulas",
+        "id": "formula_lineage__formula_sheet_project_execution",
+        "kind": "xlsx_formula_sheet",
+        "semantic": false,
+        "sheet": "Project Execution",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
         "description": "Required model worksheet 'Checks' contains formulas",
+        "id": "formula_lineage__formula_sheet_checks",
         "kind": "xlsx_formula_sheet",
-        "category": "auditability",
-        "weight": 3,
         "semantic": false,
-        "sheet": "Checks"
+        "sheet": "Checks",
+        "weight": 3
       },
       {
-        "id": "formula_lineage__cross_sheet",
-        "description": "The model contains at least 30 cross-sheet formulas",
-        "kind": "xlsx_cross_sheet_formulas",
         "category": "auditability",
-        "weight": 5,
+        "description": "Material calculations on worksheet 'Revenue Burn' are linked to supporting schedule 'Contract Backlog'",
+        "id": "formula_lineage__link_revenue_burn_from_contract_backlog",
+        "kind": "xlsx_sheet_lineage",
         "semantic": false,
-        "failure_cap": 0.69,
-        "min_cross_sheet_formulas": 30
+        "source_sheet": "Contract Backlog",
+        "target_sheet": "Revenue Burn",
+        "weight": 3
       },
       {
-        "id": "headline_values__signed_backlog",
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Labor Capacity' are linked to supporting schedule 'Capacity Inputs'",
+        "id": "formula_lineage__link_labor_capacity_from_capacity_inputs",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Capacity Inputs",
+        "target_sheet": "Labor Capacity",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Gap Analysis' are linked to supporting schedule 'Revenue Burn'",
+        "id": "formula_lineage__link_gap_analysis_from_revenue_burn",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Revenue Burn",
+        "target_sheet": "Gap Analysis",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Gap Analysis' are linked to supporting schedule 'Labor Capacity'",
+        "id": "formula_lineage__link_gap_analysis_from_labor_capacity",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Labor Capacity",
+        "target_sheet": "Gap Analysis",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Project Execution' are linked to supporting schedule 'Gap Analysis'",
+        "id": "formula_lineage__link_project_execution_from_gap_analysis",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Gap Analysis",
+        "target_sheet": "Project Execution",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Project Execution' are linked to supporting schedule 'Execution Authority'",
+        "id": "formula_lineage__link_project_execution_from_execution_authority",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Execution Authority",
+        "target_sheet": "Project Execution",
+        "weight": 3
+      },
+      {
+        "category": "auditability",
+        "description": "Material calculations on worksheet 'Checks' are linked to supporting schedule 'Project Execution'",
+        "id": "formula_lineage__link_checks_from_project_execution",
+        "kind": "xlsx_sheet_lineage",
+        "semantic": false,
+        "source_sheet": "Project Execution",
+        "target_sheet": "Checks",
+        "weight": 3
+      },
+      {
+        "category": "core_finance",
         "description": "Every required headline output is labeled and correct: `signed_backlog` is correctly labeled and associated",
+        "id": "headline_values__signed_backlog",
         "kind": "xlsx_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "signed_backlog": 44700000.0
-        }
+          "signed_backlog": 44700000
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__fy27_backlog_revenue_burn",
+        "category": "core_finance",
         "description": "Every required headline output is labeled and correct: `fy27_backlog_revenue_burn` is correctly labeled and associated",
+        "id": "headline_values__fy27_backlog_revenue_burn",
         "kind": "xlsx_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "fy27_backlog_revenue_burn": 41902500.0
-        }
+          "fy27_backlog_revenue_burn": 41902500
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__first_constrained_month",
-        "description": "Every required headline output is labeled and correct: `first_constrained_month` is correctly labeled and associated",
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `fy27_required_hours` is correctly labeled and associated",
+        "id": "headline_values__fy27_required_hours",
         "kind": "xlsx_label_values",
+        "label_values": {
+          "fy27_required_hours": 327497.86
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
         "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
+        "description": "Every required headline output is labeled and correct: `fy27_available_hours` is correctly labeled and associated",
+        "id": "headline_values__fy27_available_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "fy27_available_hours": 467617.6
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `constrained_month_count` is correctly labeled and associated",
+        "id": "headline_values__constrained_month_count",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "constrained_month_count": 4
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `first_constrained_month` is correctly labeled and associated",
+        "id": "headline_values__first_constrained_month",
+        "kind": "xlsx_label_values",
         "label_values": {
           "first_constrained_month": "2027-03"
-        }
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__maximum_capacity_shortfall_hours",
-        "description": "Every required headline output is labeled and correct: `maximum_capacity_shortfall_hours` is correctly labeled and associated",
-        "kind": "xlsx_label_values",
         "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
+        "description": "Every required headline output is labeled and correct: `maximum_capacity_shortfall_hours` is correctly labeled and associated",
+        "id": "headline_values__maximum_capacity_shortfall_hours",
+        "kind": "xlsx_label_values",
         "label_values": {
           "maximum_capacity_shortfall_hours": 42005.16
-        }
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "model_content__burn_curve",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'burn curve'",
-        "kind": "artifact_tokens",
-        "category": "auditability",
-        "weight": 3,
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `probability_plan_unresolved_hours` is correctly labeled and associated",
+        "id": "headline_values__probability_plan_unresolved_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "probability_plan_unresolved_hours": 67940.44
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `probability_plan_remediation_cost` is correctly labeled and associated",
+        "id": "headline_values__probability_plan_remediation_cost",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "probability_plan_remediation_cost": 1676532.99
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_revenue_burn` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_revenue_burn",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_revenue_burn": 44700000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_required_hours` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_required_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_required_hours": 348425.32
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_first_constrained_month` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_first_constrained_month",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_first_constrained_month": "2027-03"
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_maximum_capacity_shortfall_hours` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_maximum_capacity_shortfall_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_maximum_capacity_shortfall_hours": 48250.36
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_unresolved_hours` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_unresolved_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_unresolved_hours": 83059.74
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_remediation_cost` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_remediation_cost",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_remediation_cost": 1896914.48
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_revenue_variance_to_probability_plan` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_revenue_variance_to_probability_plan",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_revenue_variance_to_probability_plan": 2797500
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_required_hours_variance_to_probability_plan` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_required_hours_variance_to_probability_plan",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_required_hours_variance_to_probability_plan": 20927.47
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_unresolved_hours_variance_to_probability_plan` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_unresolved_hours_variance_to_probability_plan",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_unresolved_hours_variance_to_probability_plan": 15119.3
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_remediation_cost_variance_to_probability_plan` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_remediation_cost_variance_to_probability_plan",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_remediation_cost_variance_to_probability_plan": 220381.49
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `gross_commitment_release_status` is correctly labeled and associated",
+        "id": "headline_values__gross_commitment_release_status",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "gross_commitment_release_status": "Executive sequencing required"
+        },
         "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `controlling_capacity_case` is correctly labeled and associated",
+        "id": "headline_values__controlling_capacity_case",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "controlling_capacity_case": "Gross commitment"
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_completed_revenue` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_completed_revenue",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_completed_revenue": 34017642.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_ending_deferred_revenue` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_ending_deferred_revenue",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_ending_deferred_revenue": 10682357.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_revenue_check_delta` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_revenue_check_delta",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_revenue_check_delta": 0
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_ending_deferred_hours` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_ending_deferred_hours",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_ending_deferred_hours": 83059.74
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_completed_gross_profit` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_completed_gross_profit",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_completed_gross_profit": 8279183.84
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_liquidated_damages` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_liquidated_damages",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_liquidated_damages": 80226.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_net_gross_profit_after_damages` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_net_gross_profit_after_damages",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_net_gross_profit_after_damages": 8198957.34
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_highest_priority_deferred_project` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_highest_priority_deferred_project",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_highest_priority_deferred_project": "P-3145"
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `execution_portfolio_release_status` is correctly labeled and associated",
+        "id": "headline_values__execution_portfolio_release_status",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "execution_portfolio_release_status": "Executive portfolio decision required"
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `release_bridge_probability_plan_gross_profit_after_remediation` is correctly labeled and associated",
+        "id": "headline_values__release_bridge_probability_plan_gross_profit_after_remediation",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "release_bridge_probability_plan_gross_profit_after_remediation": 8090767.01
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `release_bridge_gross_commitment_gross_profit_after_remediation` is correctly labeled and associated",
+        "id": "headline_values__release_bridge_gross_commitment_gross_profit_after_remediation",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "release_bridge_gross_commitment_gross_profit_after_remediation": 8564585.52
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `release_bridge_execution_net_gross_profit_after_damages` is correctly labeled and associated",
+        "id": "headline_values__release_bridge_execution_net_gross_profit_after_damages",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "release_bridge_execution_net_gross_profit_after_damages": 8198957.34
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `release_bridge_deferred_revenue_at_risk` is correctly labeled and associated",
+        "id": "headline_values__release_bridge_deferred_revenue_at_risk",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "release_bridge_deferred_revenue_at_risk": 10682357.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `release_bridge_management_decision` is correctly labeled and associated",
+        "id": "headline_values__release_bridge_management_decision",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "release_bridge_management_decision": "Hold for executive portfolio sequencing"
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_probability_plan_gp_after_remediation` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_probability_plan_gp_after_remediation",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_probability_plan_gp_after_remediation": 8090767.01
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_gross_commitment_gp_after_remediation` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_gross_commitment_gp_after_remediation",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_gross_commitment_gp_after_remediation": 8564585.52
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_execution_net_gp_after_damages` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_execution_net_gp_after_damages",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_execution_net_gp_after_damages": 8198957.34
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_gross_commitment_shortfall` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_gross_commitment_shortfall",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_gross_commitment_shortfall": 365628.18
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_deferred_revenue_at_risk` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_deferred_revenue_at_risk",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_deferred_revenue_at_risk": 10682357.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_deferred_gross_profit_at_risk` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_deferred_gross_profit_at_risk",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_deferred_gross_profit_at_risk": 2182316.16
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_liquidated_damages` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_liquidated_damages",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_liquidated_damages": 80226.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_required_recovery` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_required_recovery",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_required_recovery": 365628.18
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_highest_priority_deferred_project` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_highest_priority_deferred_project",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_highest_priority_deferred_project": "P-3145"
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "Every required headline output is labeled and correct: `executive_recovery_decision` is correctly labeled and associated",
+        "id": "headline_values__executive_recovery_decision",
+        "kind": "xlsx_label_values",
+        "label_values": {
+          "executive_recovery_decision": "Hold for executive recovery plan"
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "auditability",
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'burn curve'",
+        "id": "model_content__burn_curve",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "burn curve"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__required_hours",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'required hours'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'required hours'",
+        "id": "model_content__required_hours",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "required hours"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__available_hours",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'available hours'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'available hours'",
+        "id": "model_content__available_hours",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "available hours"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__overtime",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'overtime'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'overtime'",
+        "id": "model_content__overtime",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "overtime"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__subcontract",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'subcontract'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'subcontract'",
+        "id": "model_content__subcontract",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "subcontract"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__capacity_gap",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'capacity gap'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'capacity gap'",
+        "id": "model_content__capacity_gap",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "capacity gap"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "model_content__model_status",
-        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
-        "kind": "artifact_tokens",
         "category": "auditability",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook includes the analysis schedules and decision controls needed for the assignment: the artifact substantively addresses 'model status'",
+        "id": "model_content__model_status",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "model status"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__contractor_accounting_mcp",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'contractor accounting mcp'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
-        "semantic": true,
-        "tokens": [
-          "contractor accounting mcp"
-        ]
-      },
-      {
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
         "id": "sources__controller_tied",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'controller-tied'",
         "kind": "artifact_tokens",
-        "category": "provenance",
-        "weight": 3,
         "semantic": true,
         "tokens": [
           "controller-tied"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__management_correspondence",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'management correspondence'",
+        "id": "sources__management_correspondence",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "management correspondence"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__policy",
-        "description": "The workbook documents current and prior source versions, management correspondence, policy authority, and required MCP reconciliation: the artifact substantively addresses 'policy'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The workbook documents controlling source versions, management correspondence, policy authority, and any required MCP reconciliation: the artifact substantively addresses 'policy'",
+        "id": "sources__policy",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "policy"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__source",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'source'",
+        "id": "controls__source",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "source"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__period",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'period'",
+        "id": "controls__period",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "period"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__scenario",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'scenario'",
+        "id": "controls__scenario",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "scenario"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__unit",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'unit'",
+        "id": "controls__unit",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "unit"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__version",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'version'",
+        "id": "controls__version",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "version"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__check",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'check'",
+        "id": "controls__check",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "check"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__model_status",
-        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
-        "semantic": true,
+        "description": "The workbook exposes source, period, analytical basis, units, version, and model status: the artifact substantively addresses 'model status'",
+        "id": "controls__model_status",
+        "kind": "artifact_tokens",
+        "semantic": false,
         "tokens": [
           "model status"
-        ]
+        ],
+        "weight": 3
       }
     ],
-    "artifact": {
-      "path": "Shared/Finance/FP&A/Backlog/FY27 backlog burn and capacity - WORKING.xlsx",
-      "type": "xlsx",
-      "edit": true
-    },
     "rubric_schema_version": 3
   },
   "task_036": {
@@ -11835,302 +13415,1022 @@
   },
   "task_068": {
     "answer": {
-      "june_revenue": 4703220.0,
+      "additional_revenue_decline_to_update_trigger": 650532.8,
+      "approved_mitigation_conversion": 0.62,
+      "collections_timing_cash_impact": 360000,
+      "combined_stress_ebitda": 2811475.35,
+      "construction_gross_profit_impact": 410000,
+      "construction_q2_adjusted_ebitda": 725759.1,
+      "construction_q2_adjusted_ebitda_variance_to_plan": -98045.7,
+      "construction_q2_approved_plan_adjusted_ebitda": 823804.8,
+      "construction_q2_approved_plan_revenue": 7163520,
+      "construction_q2_revenue": 7316120,
+      "construction_q2_revenue_variance_to_plan": 152600,
+      "controls_mix_impact": 95000,
+      "controls_q2_adjusted_ebitda": 305604.78,
+      "controls_q2_adjusted_ebitda_variance_to_plan": -5496.66,
+      "controls_q2_approved_plan_adjusted_ebitda": 311101.44,
+      "controls_q2_approved_plan_revenue": 2046720,
+      "controls_q2_revenue": 2090320,
+      "controls_q2_revenue_variance_to_plan": 43600,
+      "ebitda_guidance_high": 4250000,
+      "ebitda_guidance_low": 3000000,
+      "ebitda_shortfall_to_guidance_low": 188524.65,
+      "executable_ebitda_mitigation": 489800,
+      "fixed_charge_coverage": 1.97397188,
+      "funded_debt": 1111666.5,
+      "guidance_release_status": "Maintain with heightened monitoring",
+      "guidance_update_required": false,
+      "guidance_update_trigger": 2750000,
+      "identified_ebitda_action_pool": 790000,
       "june_ebitda": 615933.69,
-      "q2_revenue": 13064500.0,
-      "q2_ebitda": 1661281.82,
-      "q2_free_cash_flow": 1650000.0,
-      "latest_full_year_revenue_outlook": 50800000.0
+      "june_revenue": 4703220,
+      "largest_downside_driver": "Copper escalation",
+      "latest_full_year_revenue_outlook": 50800000,
+      "lender_leverage": 0.17878168,
+      "ltm_adjusted_ebitda": 6218011.41,
+      "maximum_revolver": 5350000,
+      "minimum_guidance_update_headroom": 250000,
+      "post_mitigation_combined_stress_ebitda": 3301275.35,
+      "post_mitigation_headroom_to_guidance_low": 301275.35,
+      "posted_ytd_revenue": 24650000,
+      "q2_adjusted_ebitda": 1661281.82,
+      "q2_adjusted_ebitda_variance_to_plan": -111177.7,
+      "q2_approved_plan_adjusted_ebitda": 1772459.52,
+      "q2_approved_plan_revenue": 12792000,
+      "q2_capital_expenditure": 1820000,
+      "q2_free_cash_flow": 1650000,
+      "q2_free_cash_flow_plan": 2550000,
+      "q2_free_cash_flow_variance_to_plan": -900000,
+      "q2_operating_cash_flow": 3470000,
+      "q2_organic_growth": 0.10432314,
+      "q2_posted_ytd_revenue_reconciliation_check": 0,
+      "q2_posted_ytd_revenue_share": 0.53,
+      "q2_revenue": 13064500,
+      "q2_revenue_variance_to_plan": 272500,
+      "q2_unrestricted_cash": 3240000,
+      "remaining_fy26_revenue_outlook": 26150000,
+      "revenue_guidance_high": 55000000,
+      "revenue_guidance_low": 52000000,
+      "service_labor_productivity_impact": 285000,
+      "service_q2_adjusted_ebitda": 629917.93,
+      "service_q2_adjusted_ebitda_variance_to_plan": -7635.35,
+      "service_q2_approved_plan_adjusted_ebitda": 637553.28,
+      "service_q2_approved_plan_revenue": 3581760,
+      "service_q2_revenue": 3658060,
+      "service_q2_revenue_variance_to_plan": 76300,
+      "signed_backlog": 54600000,
+      "signed_backlog_coverage_of_remaining_outlook": 2.08795411
+    },
+    "artifact": {
+      "edit": true,
+      "path": "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx",
+      "type": "pptx"
     },
     "criteria": [
       {
-        "id": "preservation__slide_count",
+        "category": "structure",
         "description": "The presentation has the required slide count",
+        "exact_slides": 9,
+        "id": "preservation__slide_count",
         "kind": "pptx_slide_count",
-        "category": "structure",
-        "weight": 1,
         "semantic": false,
-        "exact_slides": 9
+        "weight": 1
       },
       {
-        "id": "preservation__title",
-        "description": "The presentation contains the required title concept 'June executive performance review'",
-        "kind": "pptx_title",
         "category": "structure",
-        "weight": 1,
+        "description": "The presentation contains the required title concept 'June executive performance review'",
+        "id": "preservation__title",
+        "kind": "pptx_title",
         "semantic": true,
-        "title_token": "June executive performance review"
+        "title_token": "June executive performance review",
+        "weight": 1
       },
       {
-        "id": "headline_values__june_revenue",
+        "category": "core_finance",
         "description": "All executive headline figures are correct: `june_revenue` is correctly labeled and associated",
+        "id": "headline_values__june_revenue",
         "kind": "artifact_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "june_revenue": 4703220.0
-        }
+          "june_revenue": 4703220
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__june_ebitda",
-        "description": "All executive headline figures are correct: `june_ebitda` is correctly labeled and associated",
-        "kind": "artifact_label_values",
         "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
+        "description": "All executive headline figures are correct: `june_ebitda` is correctly labeled and associated",
+        "id": "headline_values__june_ebitda",
+        "kind": "artifact_label_values",
         "label_values": {
           "june_ebitda": 615933.69
-        }
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__q2_revenue",
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `identified_ebitda_action_pool` is correctly labeled and associated",
+        "id": "headline_values__identified_ebitda_action_pool",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "identified_ebitda_action_pool": 790000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `approved_mitigation_conversion` is correctly labeled and associated",
+        "id": "headline_values__approved_mitigation_conversion",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "approved_mitigation_conversion": 0.62
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `executable_ebitda_mitigation` is correctly labeled and associated",
+        "id": "headline_values__executable_ebitda_mitigation",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "executable_ebitda_mitigation": 489800
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `post_mitigation_combined_stress_ebitda` is correctly labeled and associated",
+        "id": "headline_values__post_mitigation_combined_stress_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "post_mitigation_combined_stress_ebitda": 3301275.35
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `post_mitigation_headroom_to_guidance_low` is correctly labeled and associated",
+        "id": "headline_values__post_mitigation_headroom_to_guidance_low",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "post_mitigation_headroom_to_guidance_low": 301275.35
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `minimum_guidance_update_headroom` is correctly labeled and associated",
+        "id": "headline_values__minimum_guidance_update_headroom",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "minimum_guidance_update_headroom": 250000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `guidance_update_trigger` is correctly labeled and associated",
+        "id": "headline_values__guidance_update_trigger",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "guidance_update_trigger": 2750000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "All executive headline figures are correct: `guidance_release_status` is correctly labeled and associated",
+        "id": "headline_values__guidance_release_status",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "guidance_release_status": "Maintain with heightened monitoring"
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `posted_ytd_revenue` is correctly labeled and associated",
+        "id": "headline_values__posted_ytd_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "posted_ytd_revenue": 24650000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_posted_ytd_revenue_share` is correctly labeled and associated",
+        "id": "headline_values__q2_posted_ytd_revenue_share",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_posted_ytd_revenue_share": 0.53
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_posted_ytd_revenue_reconciliation_check` is correctly labeled and associated",
+        "id": "headline_values__q2_posted_ytd_revenue_reconciliation_check",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_posted_ytd_revenue_reconciliation_check": 0
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
         "description": "All executive headline figures are correct: `q2_revenue` is correctly labeled and associated",
+        "id": "headline_values__q2_revenue",
         "kind": "artifact_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "q2_revenue": 13064500.0
-        }
+          "q2_revenue": 13064500
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__q2_ebitda",
-        "description": "All executive headline figures are correct: `q2_ebitda` is correctly labeled and associated",
-        "kind": "artifact_label_values",
         "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
+        "description": "All executive headline figures are correct: `q2_approved_plan_revenue` is correctly labeled and associated",
+        "id": "headline_values__q2_approved_plan_revenue",
+        "kind": "artifact_label_values",
         "label_values": {
-          "q2_ebitda": 1661281.82
-        }
+          "q2_approved_plan_revenue": 12792000
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__q2_free_cash_flow",
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_revenue_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__q2_revenue_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_revenue_variance_to_plan": 272500
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_organic_growth` is correctly labeled and associated",
+        "id": "headline_values__q2_organic_growth",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_organic_growth": 0.10432314
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__q2_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_adjusted_ebitda": 1661281.82
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__q2_approved_plan_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_approved_plan_adjusted_ebitda": 1772459.52
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__q2_adjusted_ebitda_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_adjusted_ebitda_variance_to_plan": -111177.7
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_gross_profit_impact` is correctly labeled and associated",
+        "id": "headline_values__construction_gross_profit_impact",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_gross_profit_impact": 410000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_labor_productivity_impact` is correctly labeled and associated",
+        "id": "headline_values__service_labor_productivity_impact",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_labor_productivity_impact": 285000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_mix_impact` is correctly labeled and associated",
+        "id": "headline_values__controls_mix_impact",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_mix_impact": 95000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_operating_cash_flow` is correctly labeled and associated",
+        "id": "headline_values__q2_operating_cash_flow",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_operating_cash_flow": 3470000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_capital_expenditure` is correctly labeled and associated",
+        "id": "headline_values__q2_capital_expenditure",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_capital_expenditure": 1820000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
         "description": "All executive headline figures are correct: `q2_free_cash_flow` is correctly labeled and associated",
+        "id": "headline_values__q2_free_cash_flow",
         "kind": "artifact_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "q2_free_cash_flow": 1650000.0
-        }
+          "q2_free_cash_flow": 1650000
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "headline_values__latest_full_year_revenue_outlook",
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_free_cash_flow_plan` is correctly labeled and associated",
+        "id": "headline_values__q2_free_cash_flow_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_free_cash_flow_plan": 2550000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_free_cash_flow_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__q2_free_cash_flow_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_free_cash_flow_variance_to_plan": -900000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `collections_timing_cash_impact` is correctly labeled and associated",
+        "id": "headline_values__collections_timing_cash_impact",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "collections_timing_cash_impact": 360000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `maximum_revolver` is correctly labeled and associated",
+        "id": "headline_values__maximum_revolver",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "maximum_revolver": 5350000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
         "description": "All executive headline figures are correct: `latest_full_year_revenue_outlook` is correctly labeled and associated",
+        "id": "headline_values__latest_full_year_revenue_outlook",
         "kind": "artifact_label_values",
-        "category": "core_finance",
-        "weight": 10,
-        "semantic": true,
         "label_values": {
-          "latest_full_year_revenue_outlook": 50800000.0
-        }
+          "latest_full_year_revenue_outlook": 50800000
+        },
+        "semantic": false,
+        "weight": 10
       },
       {
-        "id": "narrative__executive_summary",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'executive summary'",
-        "kind": "artifact_tokens",
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `ltm_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__ltm_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "ltm_adjusted_ebitda": 6218011.41
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `funded_debt` is correctly labeled and associated",
+        "id": "headline_values__funded_debt",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "funded_debt": 1111666.5
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `lender_leverage` is correctly labeled and associated",
+        "id": "headline_values__lender_leverage",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "lender_leverage": 0.17878168
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `fixed_charge_coverage` is correctly labeled and associated",
+        "id": "headline_values__fixed_charge_coverage",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "fixed_charge_coverage": 1.97397188
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `revenue_guidance_low` is correctly labeled and associated",
+        "id": "headline_values__revenue_guidance_low",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "revenue_guidance_low": 52000000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `revenue_guidance_high` is correctly labeled and associated",
+        "id": "headline_values__revenue_guidance_high",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "revenue_guidance_high": 55000000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `ebitda_guidance_low` is correctly labeled and associated",
+        "id": "headline_values__ebitda_guidance_low",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "ebitda_guidance_low": 3000000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `ebitda_guidance_high` is correctly labeled and associated",
+        "id": "headline_values__ebitda_guidance_high",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "ebitda_guidance_high": 4250000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `largest_downside_driver` is correctly labeled and associated",
+        "id": "headline_values__largest_downside_driver",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "largest_downside_driver": "Copper escalation"
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `combined_stress_ebitda` is correctly labeled and associated",
+        "id": "headline_values__combined_stress_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "combined_stress_ebitda": 2811475.35
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `ebitda_shortfall_to_guidance_low` is correctly labeled and associated",
+        "id": "headline_values__ebitda_shortfall_to_guidance_low",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "ebitda_shortfall_to_guidance_low": 188524.65
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `additional_revenue_decline_to_update_trigger` is correctly labeled and associated",
+        "id": "headline_values__additional_revenue_decline_to_update_trigger",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "additional_revenue_decline_to_update_trigger": 650532.8
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "decision",
+        "description": "All executive headline figures are correct: `guidance_update_required` is correctly labeled and associated",
+        "id": "headline_values__guidance_update_required",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "guidance_update_required": false
+        },
+        "semantic": true,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_revenue` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_revenue": 7316120
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_approved_plan_revenue` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_approved_plan_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_approved_plan_revenue": 7163520
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_revenue_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_revenue_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_revenue_variance_to_plan": 152600
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_adjusted_ebitda": 725759.1
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_approved_plan_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_approved_plan_adjusted_ebitda": 823804.8
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `construction_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__construction_q2_adjusted_ebitda_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "construction_q2_adjusted_ebitda_variance_to_plan": -98045.7
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_revenue` is correctly labeled and associated",
+        "id": "headline_values__service_q2_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_revenue": 3658060
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_approved_plan_revenue` is correctly labeled and associated",
+        "id": "headline_values__service_q2_approved_plan_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_approved_plan_revenue": 3581760
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_revenue_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__service_q2_revenue_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_revenue_variance_to_plan": 76300
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__service_q2_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_adjusted_ebitda": 629917.93
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__service_q2_approved_plan_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_approved_plan_adjusted_ebitda": 637553.28
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `service_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__service_q2_adjusted_ebitda_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "service_q2_adjusted_ebitda_variance_to_plan": -7635.35
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_revenue` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_revenue": 2090320
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_approved_plan_revenue` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_approved_plan_revenue",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_approved_plan_revenue": 2046720
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_revenue_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_revenue_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_revenue_variance_to_plan": 43600
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_adjusted_ebitda": 305604.78
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_approved_plan_adjusted_ebitda` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_approved_plan_adjusted_ebitda",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_approved_plan_adjusted_ebitda": 311101.44
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `controls_q2_adjusted_ebitda_variance_to_plan` is correctly labeled and associated",
+        "id": "headline_values__controls_q2_adjusted_ebitda_variance_to_plan",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "controls_q2_adjusted_ebitda_variance_to_plan": -5496.66
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `q2_unrestricted_cash` is correctly labeled and associated",
+        "id": "headline_values__q2_unrestricted_cash",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "q2_unrestricted_cash": 3240000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `signed_backlog` is correctly labeled and associated",
+        "id": "headline_values__signed_backlog",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "signed_backlog": 54600000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `remaining_fy26_revenue_outlook` is correctly labeled and associated",
+        "id": "headline_values__remaining_fy26_revenue_outlook",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "remaining_fy26_revenue_outlook": 26150000
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
+        "category": "core_finance",
+        "description": "All executive headline figures are correct: `signed_backlog_coverage_of_remaining_outlook` is correctly labeled and associated",
+        "id": "headline_values__signed_backlog_coverage_of_remaining_outlook",
+        "kind": "artifact_label_values",
+        "label_values": {
+          "signed_backlog_coverage_of_remaining_outlook": 2.08795411
+        },
+        "semantic": false,
+        "weight": 10
+      },
+      {
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'executive summary'",
+        "id": "narrative__executive_summary",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "executive summary"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__revenue",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'revenue'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'revenue'",
+        "id": "narrative__revenue",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "revenue"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__ebitda",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'ebitda'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'ebitda'",
+        "id": "narrative__ebitda",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "ebitda"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__cash",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'cash'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'cash'",
+        "id": "narrative__cash",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "cash"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__backlog",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'backlog'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'backlog'",
+        "id": "narrative__backlog",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "backlog"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__outlook",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'outlook'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'outlook'",
+        "id": "narrative__outlook",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "outlook"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__risk",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'risk'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'risk'",
+        "id": "narrative__risk",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "risk"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__owner",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'owner'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'owner'",
+        "id": "narrative__owner",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "owner"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "narrative__action",
-        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'action'",
-        "kind": "artifact_tokens",
         "category": "decision_quality",
-        "weight": 5,
+        "description": "The deck contains a coherent performance story, outlook, risks, and owner actions: the artifact substantively addresses 'action'",
+        "id": "narrative__action",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "action"
-        ]
+        ],
+        "weight": 5
       },
       {
-        "id": "sources__contractor_accounting_mcp",
-        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'contractor accounting mcp'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'contractor accounting mcp'",
+        "id": "sources__contractor_accounting_mcp",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "contractor accounting mcp"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__controller_tied",
-        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'controller-tied'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'controller-tied'",
+        "id": "sources__controller_tied",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "controller-tied"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__management_correspondence",
-        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'management correspondence'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'management correspondence'",
+        "id": "sources__management_correspondence",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "management correspondence"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "sources__policy",
-        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'policy'",
-        "kind": "artifact_tokens",
         "category": "provenance",
-        "weight": 3,
+        "description": "The final tie-out identifies the controller-tied book, management correspondence, policy authority, and MCP source: the artifact substantively addresses 'policy'",
+        "id": "sources__policy",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "policy"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__numerical_tie_out",
-        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'numerical tie out'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
+        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'numerical tie out'",
+        "id": "controls__numerical_tie_out",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "numerical tie out"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__revenue_bridge",
-        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'revenue bridge'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
+        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'revenue bridge'",
+        "id": "controls__revenue_bridge",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "revenue bridge"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__ebitda_bridge",
-        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'ebitda bridge'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
+        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'ebitda bridge'",
+        "id": "controls__ebitda_bridge",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "ebitda bridge"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__cash_roll_forward",
-        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'cash roll forward'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
+        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'cash roll forward'",
+        "id": "controls__cash_roll_forward",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "cash roll forward"
-        ]
+        ],
+        "weight": 3
       },
       {
-        "id": "controls__latest_forecast",
-        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'latest forecast'",
-        "kind": "artifact_tokens",
         "category": "controls",
-        "weight": 3,
+        "description": "The final slide contains numerical revenue, EBITDA, cash, and latest-forecast tie-outs: the artifact substantively addresses 'latest forecast'",
+        "id": "controls__latest_forecast",
+        "kind": "artifact_tokens",
         "semantic": true,
         "tokens": [
           "latest forecast"
-        ]
+        ],
+        "weight": 3
       }
     ],
-    "artifact": {
-      "path": "Shared/Finance/Reporting/2026/06 June/June executive performance review - WORKING.pptx",
-      "type": "pptx",
-      "edit": true
-    },
     "rubric_schema_version": 3
   },
   "task_069": {
